@@ -1,0 +1,75 @@
+{
+  "groups": [
+    {
+      "id": "style",
+      "label": "Visual style",
+      "tags": [
+        { "id": "editorial", "label": "Editorial" },
+        { "id": "brutalist", "label": "Brutalist" },
+        { "id": "playful", "label": "Playful" },
+        { "id": "minimal", "label": "Minimal" },
+        { "id": "maximalist", "label": "Maximalist" },
+        { "id": "retro-futurist", "label": "Retro-futurist" },
+        { "id": "organic", "label": "Organic" },
+        { "id": "skeuomorphic", "label": "Skeuomorphic" }
+      ]
+    },
+    {
+      "id": "tone",
+      "label": "Tone",
+      "tags": [
+        { "id": "warm", "label": "Warm" },
+        { "id": "quiet", "label": "Quiet" },
+        { "id": "luxurious", "label": "Luxurious" },
+        { "id": "energetic", "label": "Energetic" },
+        { "id": "curious", "label": "Curious" },
+        { "id": "technical", "label": "Technical" }
+      ]
+    },
+    {
+      "id": "layout",
+      "label": "Layout",
+      "tags": [
+        { "id": "hero-led", "label": "Hero-led" },
+        { "id": "asymmetric", "label": "Asymmetric" },
+        { "id": "grid-system", "label": "Grid system" },
+        { "id": "oversized-type", "label": "Oversized type" },
+        { "id": "layered", "label": "Layered" },
+        { "id": "immersive", "label": "Immersive" }
+      ]
+    },
+    {
+      "id": "color",
+      "label": "Color",
+      "tags": [
+        { "id": "monochrome", "label": "Monochrome" },
+        { "id": "high-contrast", "label": "High contrast" },
+        { "id": "pastel", "label": "Pastel" },
+        { "id": "earthy", "label": "Earthy" },
+        { "id": "primary-pop", "label": "Primary pop" },
+        { "id": "dark-mode", "label": "Dark mode" }
+      ]
+    },
+    {
+      "id": "type",
+      "label": "Typography",
+      "tags": [
+        { "id": "serif", "label": "Serif" },
+        { "id": "display-type", "label": "Display type" },
+        { "id": "grotesk", "label": "Grotesk" },
+        { "id": "expressive-type", "label": "Expressive type" }
+      ]
+    },
+    {
+      "id": "source",
+      "label": "Source",
+      "tags": [
+        { "id": "dribbble", "label": "Dribbble" },
+        { "id": "pinterest", "label": "Pinterest" },
+        { "id": "craftwork", "label": "Craftwork" },
+        { "id": "landing-love", "label": "Landing Love" },
+        { "id": "sasspo", "label": "Sasspo" }
+      ]
+    }
+  ]
+}
