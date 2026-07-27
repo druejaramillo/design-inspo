@@ -106,7 +106,7 @@ async function analyzeWithOpenAI(mediaPath: string, taxonomy: Taxonomy): Promise
     method: "POST",
     headers: { authorization: `Bearer ${apiKey}`, "content-type": "application/json" },
     body: JSON.stringify({
-      model: process.env.OPENAI_VISION_MODEL ?? "gpt-4.1-mini",
+      model: process.env.OPENAI_VISION_MODEL ?? "gpt-5.6-luna",
       response_format: { type: "json_object" },
       messages: [
         { role: "system", content: "You are a precise design analyst. Reply with valid JSON only." },
