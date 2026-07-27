@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-443d6916",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Editorial Chicago Transit Campaign",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/14803099/file/original-6d1d64057ad135b74acc165d79083f65.png?resize=752x&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/14803099/file/original-6d1d64057ad135b74acc165d79083f65.png?resize=752x&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:40:44.630Z",
-  "updatedAt": "2026-07-27T04:40:44.630Z",
+  "updatedAt": "2026-07-27T07:16:41.831Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-443d6916.webp",
     "width": 752,
@@ -17,6 +17,76 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:16:41.829Z",
+    "title": "Editorial Chicago Transit Campaign",
+    "palette": [
+      {
+        "hex": "#F7F7F5",
+        "role": "background"
+      },
+      {
+        "hex": "#171817",
+        "role": "primary dark"
+      },
+      {
+        "hex": "#31485C",
+        "role": "hero image shadow"
+      },
+      {
+        "hex": "#B8C6C6",
+        "role": "cool accent"
+      },
+      {
+        "hex": "#D8D6CC",
+        "role": "secondary surface"
+      }
+    ],
+    "style": [
+      "editorial",
+      "minimal",
+      "urban",
+      "image-led",
+      "polished"
+    ],
+    "tone": [
+      "calm",
+      "metropolitan",
+      "informative",
+      "confident"
+    ],
+    "layout": [
+      "modular cards",
+      "asymmetric columns",
+      "stacked sections",
+      "rounded containers"
+    ],
+    "typography": [
+      "large italic serif display",
+      "clean sans-serif body",
+      "uppercase micro-labels",
+      "high-contrast scale"
+    ],
+    "uiMotifs": [
+      "pill-shaped buttons",
+      "segmented navigation",
+      "metric cards",
+      "image tile grid",
+      "soft rounded corners"
+    ],
+    "notes": "A restrained urban campaign interface combines large Chicago photography with a crisp white card system, compact navigation, metrics, and categorized content. The contrast between editorial serif display type and functional sans-serif UI creates a polished, approachable presentation.",
+    "suggestedTagIds": [
+      "editorial",
+      "minimal",
+      "hero-led",
+      "grid-system",
+      "serif",
+      "grotesk"
+    ],
+    "heroPrompt": "Wide editorial cityscape photograph at blue hour, viewed from an elevated downtown perspective, with a dense cluster of modern skyscrapers under dramatic blue-gray clouds. Cool steel, slate, and muted amber tones, subtle atmospheric haze, crisp architectural detail, and a cinematic but realistic documentary feel. Compose the skyline with strong verticals and open sky for generous headline space, using soft contrast and restrained color grading suitable for a refined urban advertising landing page. No text, logos, signage, or recognizable brands."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

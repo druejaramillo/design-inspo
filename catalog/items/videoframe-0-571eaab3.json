@@ -1,12 +1,12 @@
 {
   "id": "videoframe-0-571eaab3",
-  "title": "videoframe_0",
+  "title": "Dark Futurist Learning Dashboard",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T04:41:08.374Z",
-  "updatedAt": "2026-07-27T04:41:08.374Z",
+  "updatedAt": "2026-07-27T07:17:16.012Z",
   "media": {
     "path": "catalog/media/videoframe-0-571eaab3.webp",
     "width": 1600,
@@ -14,6 +14,81 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:17:16.011Z",
+    "title": "Dark Futurist Learning Dashboard",
+    "palette": [
+      {
+        "hex": "#101010",
+        "role": "background"
+      },
+      {
+        "hex": "#242424",
+        "role": "charcoal surface"
+      },
+      {
+        "hex": "#F2F2F2",
+        "role": "primary text"
+      },
+      {
+        "hex": "#B7FF4A",
+        "role": "accent CTA"
+      },
+      {
+        "hex": "#12D9D5",
+        "role": "secondary accent"
+      },
+      {
+        "hex": "#F48C9A",
+        "role": "card accent"
+      }
+    ],
+    "style": [
+      "retro-futurist",
+      "technical",
+      "hero-led",
+      "layered",
+      "high-contrast"
+    ],
+    "tone": [
+      "focused",
+      "energetic",
+      "curious",
+      "immersive"
+    ],
+    "layout": [
+      "asymmetric",
+      "oversized hero area",
+      "floating cards",
+      "rounded container",
+      "depth-stacked composition"
+    ],
+    "typography": [
+      "grotesk",
+      "oversized type",
+      "display-type",
+      "high-contrast hierarchy"
+    ],
+    "uiMotifs": [
+      "neon pill buttons",
+      "tilted course cards",
+      "3D orbital interface object",
+      "avatar cluster",
+      "glowing metric indicator"
+    ],
+    "notes": "A dark educational landing page combines a monumental headline with a polished futuristic 3D object and colorful floating course cards. Rock-like monochrome texture, rounded framing, neon accents, and layered depth create a tactile sci-fi presentation.",
+    "suggestedTagIds": [
+      "retro-futurist",
+      "technical",
+      "hero-led",
+      "asymmetric",
+      "oversized-type",
+      "dark-mode"
+    ],
+    "heroPrompt": "Create a cinematic 3D hero visual for a futuristic learning platform: a compact spherical training device with a translucent shell, precision mechanical ribs, glowing cyan core, lime indicator lights, and subtle holographic interface markings. Place it floating against a deep charcoal background with soft amber atmospheric light, crisp metallic reflections, and restrained sci-fi detailing. Compose the object large on the right side with generous negative space on the left for headline typography; use a premium product-render aesthetic, dramatic rim lighting, and no logos, brands, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

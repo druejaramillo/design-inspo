@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T07:12:10.150Z",
+  "generatedAt": "2026-07-27T07:18:10.675Z",
   "items": [
     {
       "id": "seiste-657e8385",
@@ -1362,7 +1362,7 @@
     },
     {
       "id": "untitled-from-cdn-dribbble-com-4ce425a1",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Minimal Calendar Service Landing Page",
       "sourceUrl": "https://cdn.dribbble.com/userupload/3720347/file/original-4912c11e36963d07299a3b696a533039.png?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:42:10.934Z",
@@ -1375,13 +1375,84 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T07:18:10.674Z",
+        "title": "Minimal Calendar Service Landing Page",
+        "palette": [
+          {
+            "hex": "#FFFFFF",
+            "role": "page background"
+          },
+          {
+            "hex": "#0A0A0A",
+            "role": "primary text"
+          },
+          {
+            "hex": "#999999",
+            "role": "outer backdrop"
+          },
+          {
+            "hex": "#C5E0D9",
+            "role": "mint accent"
+          },
+          {
+            "hex": "#D5B4E4",
+            "role": "lavender accent"
+          },
+          {
+            "hex": "#E7D3B8",
+            "role": "warm photo tone"
+          }
+        ],
+        "style": [
+          "minimal",
+          "high-contrast",
+          "editorial",
+          "playful"
+        ],
+        "tone": [
+          "calm",
+          "confident",
+          "approachable",
+          "productive"
+        ],
+        "layout": [
+          "centered hero",
+          "compact navigation",
+          "bottom card collage",
+          "layered composition"
+        ],
+        "typography": [
+          "oversized grotesk",
+          "bold display type",
+          "tight line spacing",
+          "small utility labels"
+        ],
+        "uiMotifs": [
+          "rounded scheduling cards",
+          "calendar day tabs",
+          "availability status panels",
+          "photo-and-interface collage"
+        ],
+        "notes": "A restrained white landing page uses oversized black typography and generous spacing to establish a clear visual hierarchy. The lower section adds personality through rounded calendar interfaces, muted pastel cards, and lifestyle photography arranged as a compact collage.",
+        "suggestedTagIds": [
+          "minimal",
+          "high-contrast",
+          "grid-system",
+          "oversized-type",
+          "grotesk",
+          "layered"
+        ],
+        "heroPrompt": null
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-34f1f320",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Neon Cloud Security Landing Page",
       "sourceUrl": "https://cdn.dribbble.com/userupload/40432124/file/original-2090f7f1fab4a606caea3e72f7312c80.png?resize=1468x1101&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:42:01.548Z",
@@ -1394,13 +1465,80 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T07:17:48.533Z",
+        "title": "Neon Cloud Security Landing Page",
+        "palette": [
+          {
+            "hex": "#050B27",
+            "role": "background"
+          },
+          {
+            "hex": "#172556",
+            "role": "surface"
+          },
+          {
+            "hex": "#3D5BFF",
+            "role": "accent"
+          },
+          {
+            "hex": "#8D78FF",
+            "role": "highlight"
+          },
+          {
+            "hex": "#E8795E",
+            "role": "ambient glow"
+          }
+        ],
+        "style": [
+          "polished 3D illustration",
+          "futuristic SaaS",
+          "neon-lit",
+          "high-tech"
+        ],
+        "tone": [
+          "secure",
+          "confident",
+          "technical",
+          "premium"
+        ],
+        "layout": [
+          "hero-led composition",
+          "centered content frame",
+          "structured vertical sections",
+          "modular card grid"
+        ],
+        "typography": [
+          "bold grotesk headings",
+          "compact sans-serif labels",
+          "high-contrast hierarchy",
+          "small uppercase eyebrows"
+        ],
+        "uiMotifs": [
+          "isometric infrastructure scenes",
+          "glowing gradient buttons",
+          "outlined feature cards",
+          "dark glassmorphic surfaces"
+        ],
+        "notes": "A dark navy landing page pairs bold white typography with electric blue and violet 3D security imagery. The long-form layout uses generous spacing, modular feature cards, customer-logo bands, and subtle magenta ambient lighting for depth.",
+        "suggestedTagIds": [
+          "technical",
+          "hero-led",
+          "dark-mode",
+          "high-contrast",
+          "layered",
+          "grid-system"
+        ],
+        "heroPrompt": "Create an original isometric 3D hero illustration for a cybersecurity SaaS landing page: a glowing cobalt cloud hovering above stacked dark graphite server blocks, with a shield emblem, padlock, network nodes, small globe, and luminous blue connection lines. Use polished beveled geometry, soft neon rim lighting, subtle violet highlights, deep navy background, cinematic shadows, and a premium futuristic enterprise aesthetic. No text, logos, brand marks, or characters."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "videoframe-0-571eaab3",
-      "title": "videoframe_0",
+      "title": "Dark Futurist Learning Dashboard",
       "sourceUrl": null,
       "sourceDomain": null,
       "importedAt": "2026-07-27T04:41:08.374Z",
@@ -1411,13 +1549,87 @@
         "format": "webp"
       },
       "manualTagIds": [],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T07:17:16.011Z",
+        "title": "Dark Futurist Learning Dashboard",
+        "palette": [
+          {
+            "hex": "#101010",
+            "role": "background"
+          },
+          {
+            "hex": "#242424",
+            "role": "charcoal surface"
+          },
+          {
+            "hex": "#F2F2F2",
+            "role": "primary text"
+          },
+          {
+            "hex": "#B7FF4A",
+            "role": "accent CTA"
+          },
+          {
+            "hex": "#12D9D5",
+            "role": "secondary accent"
+          },
+          {
+            "hex": "#F48C9A",
+            "role": "card accent"
+          }
+        ],
+        "style": [
+          "retro-futurist",
+          "technical",
+          "hero-led",
+          "layered",
+          "high-contrast"
+        ],
+        "tone": [
+          "focused",
+          "energetic",
+          "curious",
+          "immersive"
+        ],
+        "layout": [
+          "asymmetric",
+          "oversized hero area",
+          "floating cards",
+          "rounded container",
+          "depth-stacked composition"
+        ],
+        "typography": [
+          "grotesk",
+          "oversized type",
+          "display-type",
+          "high-contrast hierarchy"
+        ],
+        "uiMotifs": [
+          "neon pill buttons",
+          "tilted course cards",
+          "3D orbital interface object",
+          "avatar cluster",
+          "glowing metric indicator"
+        ],
+        "notes": "A dark educational landing page combines a monumental headline with a polished futuristic 3D object and colorful floating course cards. Rock-like monochrome texture, rounded framing, neon accents, and layered depth create a tactile sci-fi presentation.",
+        "suggestedTagIds": [
+          "retro-futurist",
+          "technical",
+          "hero-led",
+          "asymmetric",
+          "oversized-type",
+          "dark-mode"
+        ],
+        "heroPrompt": "Create a cinematic 3D hero visual for a futuristic learning platform: a compact spherical training device with a translucent shell, precision mechanical ribs, glowing cyan core, lime indicator lights, and subtle holographic interface markings. Place it floating against a deep charcoal background with soft amber atmospheric light, crisp metallic reflections, and restrained sci-fi detailing. Compose the object large on the right side with generous negative space on the left for headline typography; use a premium product-render aesthetic, dramatic rim lighting, and no logos, brands, or readable text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-443d6916",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Editorial Chicago Transit Campaign",
       "sourceUrl": "https://cdn.dribbble.com/userupload/14803099/file/original-6d1d64057ad135b74acc165d79083f65.png?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:40:44.630Z",
@@ -1430,13 +1642,82 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T07:16:41.829Z",
+        "title": "Editorial Chicago Transit Campaign",
+        "palette": [
+          {
+            "hex": "#F7F7F5",
+            "role": "background"
+          },
+          {
+            "hex": "#171817",
+            "role": "primary dark"
+          },
+          {
+            "hex": "#31485C",
+            "role": "hero image shadow"
+          },
+          {
+            "hex": "#B8C6C6",
+            "role": "cool accent"
+          },
+          {
+            "hex": "#D8D6CC",
+            "role": "secondary surface"
+          }
+        ],
+        "style": [
+          "editorial",
+          "minimal",
+          "urban",
+          "image-led",
+          "polished"
+        ],
+        "tone": [
+          "calm",
+          "metropolitan",
+          "informative",
+          "confident"
+        ],
+        "layout": [
+          "modular cards",
+          "asymmetric columns",
+          "stacked sections",
+          "rounded containers"
+        ],
+        "typography": [
+          "large italic serif display",
+          "clean sans-serif body",
+          "uppercase micro-labels",
+          "high-contrast scale"
+        ],
+        "uiMotifs": [
+          "pill-shaped buttons",
+          "segmented navigation",
+          "metric cards",
+          "image tile grid",
+          "soft rounded corners"
+        ],
+        "notes": "A restrained urban campaign interface combines large Chicago photography with a crisp white card system, compact navigation, metrics, and categorized content. The contrast between editorial serif display type and functional sans-serif UI creates a polished, approachable presentation.",
+        "suggestedTagIds": [
+          "editorial",
+          "minimal",
+          "hero-led",
+          "grid-system",
+          "serif",
+          "grotesk"
+        ],
+        "heroPrompt": "Wide editorial cityscape photograph at blue hour, viewed from an elevated downtown perspective, with a dense cluster of modern skyscrapers under dramatic blue-gray clouds. Cool steel, slate, and muted amber tones, subtle atmospheric haze, crisp architectural detail, and a cinematic but realistic documentary feel. Compose the skyline with strong verticals and open sky for generous headline space, using soft contrast and restrained color grading suitable for a refined urban advertising landing page. No text, logos, signage, or recognizable brands."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-ee46526f",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Industrial Logistics Editorial Landing Page",
       "sourceUrl": "https://cdn.dribbble.com/userupload/37446677/file/original-ac66a15496fee4eecbf31795b509cf22.png?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:40:33.064Z",
@@ -1449,8 +1730,75 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T07:16:01.032Z",
+        "title": "Industrial Logistics Editorial Landing Page",
+        "palette": [
+          {
+            "hex": "#F4F4F1",
+            "role": "background"
+          },
+          {
+            "hex": "#9DA196",
+            "role": "ambient backdrop"
+          },
+          {
+            "hex": "#1D1D1B",
+            "role": "text"
+          },
+          {
+            "hex": "#365441",
+            "role": "hero image accent"
+          },
+          {
+            "hex": "#D87A28",
+            "role": "secondary image accent"
+          }
+        ],
+        "style": [
+          "editorial",
+          "industrial",
+          "minimal",
+          "image-led"
+        ],
+        "tone": [
+          "confident",
+          "technical",
+          "reliable",
+          "structured"
+        ],
+        "layout": [
+          "layered browser mockups",
+          "asymmetric composition",
+          "modular card grid",
+          "hero-led"
+        ],
+        "typography": [
+          "oversized grotesk headlines",
+          "compact sans-serif navigation",
+          "strong weight contrast",
+          "restrained labeling"
+        ],
+        "uiMotifs": [
+          "rounded image cards",
+          "black pill buttons",
+          "thin dividers",
+          "small utility icons"
+        ],
+        "notes": "A clean logistics-focused landing page combines oversized black typography with large container photography and a muted gray-green canvas. Overlapping page previews, modular service cards, and restrained controls create a polished industrial editorial direction.",
+        "suggestedTagIds": [
+          "editorial",
+          "minimal",
+          "technical",
+          "hero-led",
+          "asymmetric",
+          "grid-system"
+        ],
+        "heroPrompt": "Create a wide editorial hero photograph for a modern logistics website: stacked intermodal shipping containers filling the frame, dominant deep forest-green container in front, pale gray and white containers layered behind, soft overcast daylight, subtle realistic wear and corrugated metal texture, crisp architectural perspective, muted neutral surroundings, premium commercial photography, ample negative space near the upper left for headline placement, no readable text, no logos, no brand marks."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {

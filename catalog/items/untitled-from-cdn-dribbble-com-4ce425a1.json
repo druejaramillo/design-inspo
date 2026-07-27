@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-4ce425a1",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Minimal Calendar Service Landing Page",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/3720347/file/original-4912c11e36963d07299a3b696a533039.png?resize=752x&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/3720347/file/original-4912c11e36963d07299a3b696a533039.png?resize=752x&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:42:10.934Z",
-  "updatedAt": "2026-07-27T04:42:10.934Z",
+  "updatedAt": "2026-07-27T07:18:10.675Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-4ce425a1.webp",
     "width": 752,
@@ -17,6 +17,78 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:18:10.674Z",
+    "title": "Minimal Calendar Service Landing Page",
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "page background"
+      },
+      {
+        "hex": "#0A0A0A",
+        "role": "primary text"
+      },
+      {
+        "hex": "#999999",
+        "role": "outer backdrop"
+      },
+      {
+        "hex": "#C5E0D9",
+        "role": "mint accent"
+      },
+      {
+        "hex": "#D5B4E4",
+        "role": "lavender accent"
+      },
+      {
+        "hex": "#E7D3B8",
+        "role": "warm photo tone"
+      }
+    ],
+    "style": [
+      "minimal",
+      "high-contrast",
+      "editorial",
+      "playful"
+    ],
+    "tone": [
+      "calm",
+      "confident",
+      "approachable",
+      "productive"
+    ],
+    "layout": [
+      "centered hero",
+      "compact navigation",
+      "bottom card collage",
+      "layered composition"
+    ],
+    "typography": [
+      "oversized grotesk",
+      "bold display type",
+      "tight line spacing",
+      "small utility labels"
+    ],
+    "uiMotifs": [
+      "rounded scheduling cards",
+      "calendar day tabs",
+      "availability status panels",
+      "photo-and-interface collage"
+    ],
+    "notes": "A restrained white landing page uses oversized black typography and generous spacing to establish a clear visual hierarchy. The lower section adds personality through rounded calendar interfaces, muted pastel cards, and lifestyle photography arranged as a compact collage.",
+    "suggestedTagIds": [
+      "minimal",
+      "high-contrast",
+      "grid-system",
+      "oversized-type",
+      "grotesk",
+      "layered"
+    ],
+    "heroPrompt": null
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

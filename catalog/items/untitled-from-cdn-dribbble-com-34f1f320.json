@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-34f1f320",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Neon Cloud Security Landing Page",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/40432124/file/original-2090f7f1fab4a606caea3e72f7312c80.png?resize=1468x1101&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/40432124/file/original-2090f7f1fab4a606caea3e72f7312c80.png?resize=1468x1101&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:42:01.548Z",
-  "updatedAt": "2026-07-27T04:42:01.548Z",
+  "updatedAt": "2026-07-27T07:17:48.534Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-34f1f320.webp",
     "width": 1468,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:17:48.533Z",
+    "title": "Neon Cloud Security Landing Page",
+    "palette": [
+      {
+        "hex": "#050B27",
+        "role": "background"
+      },
+      {
+        "hex": "#172556",
+        "role": "surface"
+      },
+      {
+        "hex": "#3D5BFF",
+        "role": "accent"
+      },
+      {
+        "hex": "#8D78FF",
+        "role": "highlight"
+      },
+      {
+        "hex": "#E8795E",
+        "role": "ambient glow"
+      }
+    ],
+    "style": [
+      "polished 3D illustration",
+      "futuristic SaaS",
+      "neon-lit",
+      "high-tech"
+    ],
+    "tone": [
+      "secure",
+      "confident",
+      "technical",
+      "premium"
+    ],
+    "layout": [
+      "hero-led composition",
+      "centered content frame",
+      "structured vertical sections",
+      "modular card grid"
+    ],
+    "typography": [
+      "bold grotesk headings",
+      "compact sans-serif labels",
+      "high-contrast hierarchy",
+      "small uppercase eyebrows"
+    ],
+    "uiMotifs": [
+      "isometric infrastructure scenes",
+      "glowing gradient buttons",
+      "outlined feature cards",
+      "dark glassmorphic surfaces"
+    ],
+    "notes": "A dark navy landing page pairs bold white typography with electric blue and violet 3D security imagery. The long-form layout uses generous spacing, modular feature cards, customer-logo bands, and subtle magenta ambient lighting for depth.",
+    "suggestedTagIds": [
+      "technical",
+      "hero-led",
+      "dark-mode",
+      "high-contrast",
+      "layered",
+      "grid-system"
+    ],
+    "heroPrompt": "Create an original isometric 3D hero illustration for a cybersecurity SaaS landing page: a glowing cobalt cloud hovering above stacked dark graphite server blocks, with a shield emblem, padlock, network nodes, small globe, and luminous blue connection lines. Use polished beveled geometry, soft neon rim lighting, subtle violet highlights, deep navy background, cinematic shadows, and a premium futuristic enterprise aesthetic. No text, logos, brand marks, or characters."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }
