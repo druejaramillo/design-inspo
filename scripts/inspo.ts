@@ -101,7 +101,7 @@ async function main() {
     if (!item.media) throw new Error("This item needs an image before analysis.");
     const provider: AnalysisProvider = argumentsFor("--provider") === "openai" ? "openai" : "opencode";
     const analysis = await analyzeItem(item, join(paths.root, item.media.path), await getTaxonomy(), provider);
-    const updated = await writeItem({ ...item, analysis, analysisStatus: "ready", updatedAt: new Date().toISOString() });
+    const updated = await writeItem({ ...item, title: analysis.title, analysis, analysisStatus: "ready", updatedAt: new Date().toISOString() });
     await rebuildIndex();
     print(updated);
     return;

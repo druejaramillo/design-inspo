@@ -9,6 +9,7 @@ export const analysisSchema = z.object({
   version: z.literal(1),
   provider: z.enum(["opencode", "openai"]),
   analyzedAt: z.string().datetime(),
+  title: z.string().min(1).max(160),
   palette: z.array(paletteColorSchema).min(2).max(8),
   style: z.array(z.string().min(1)).max(12),
   tone: z.array(z.string().min(1)).max(8),

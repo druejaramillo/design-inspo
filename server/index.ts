@@ -125,6 +125,7 @@ app.post("/api/items/:id/analyze", async (request, response, next) => {
       const analysis = await analyzeItem(item, join(paths.root, item.media.path), await getTaxonomy(), provider);
       const updated = await writeItem({
         ...item,
+        title: analysis.title,
         analysis,
         analysisStatus: "ready",
         updatedAt: new Date().toISOString(),

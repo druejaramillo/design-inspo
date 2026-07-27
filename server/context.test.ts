@@ -18,6 +18,7 @@ const item = (id: string, tags: string[], palette = ["#112233", "#eeddcc"]): Cat
     version: 1,
     provider: "opencode",
     analyzedAt: "2026-01-01T00:00:00.000Z",
+    title: `Reference ${id}`,
     palette: palette.map((hex, index) => ({ hex, role: index ? "accent" : "background" })),
     style: ["editorial"],
     tone: ["warm"],

@@ -11,6 +11,7 @@ function analysisPrompt(taxonomy: Taxonomy) {
   const tags = taxonomy.groups.flatMap((group) => group.tags.map((tag) => `${tag.id} (${tag.label})`)).join(", ");
   return `Analyze this design inspiration image for a private design-reference catalog. Return ONLY one JSON object with this exact shape:
 {
+  "title": "a concise descriptive title for this reference",
   "palette": [{"hex":"#112233","role":"background"}],
   "style": ["short visual-style descriptors"],
   "tone": ["short tone descriptors"],
@@ -21,7 +22,7 @@ function analysisPrompt(taxonomy: Taxonomy) {
   "suggestedTagIds": ["only IDs from the allowed list"],
   "heroPrompt": "a detailed, original image-generation prompt for the hero visual, or null when no distinct hero image is visible"
 }
-Rules: provide 3-6 palette colors when possible, never invent unreadable text, never use brand names/logos/copyrighted characters in heroPrompt, and describe the visual techniques and composition instead. Allowed tag IDs: ${tags}.`;
+Rules: title the visual or design direction in 3-8 descriptive words. Prefer an original visual description over filenames, generic labels, marketing copy, or text you cannot read confidently. Provide 3-6 palette colors when possible, never invent unreadable text, never use brand names/logos/copyrighted characters in heroPrompt, and describe the visual techniques and composition instead. Allowed tag IDs: ${tags}.`;
 }
 
 function jsonFromText(text: string) {

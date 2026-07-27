@@ -27,7 +27,7 @@ Then open `http://localhost:8787`.
 1. Drag a screenshot/image into the page, or paste a public source URL.
 2. The app stores one JSON record in `catalog/items/` and a normalized WebP in `catalog/media/`.
 3. Add a few deliberate tags and private notes in the item panel.
-4. Run visual analysis with OpenCode, then use the generated palette, visual reading, and hero-image recreation prompt as a starting point.
+4. Run visual analysis with OpenCode. It gives the reference a concise descriptive title and generates palette, visual-reading, and hero-image recreation guidance.
 5. Filter the shelf and copy its direction into an AI coding task, or ask OpenCode to use a tag combination.
 
 The importer reads ordinary public page metadata (`og:image`, `og:title`, and similar). It does not bypass source-site restrictions. If a source does not permit a preview image fetch, the source link is saved and the UI asks for a screenshot.
