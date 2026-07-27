@@ -1,6 +1,8 @@
 node_modules/
 dist/
 bin/
+!bin/
+!bin/inspo.mjs
 .env
 .env.*
 *.tsbuildinfo

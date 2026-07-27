@@ -53,6 +53,14 @@ npm link
 # remove later: npm unlink -g design-inspiration
 ```
 
+Start the catalog from any directory:
+
+```sh
+inspo gui
+```
+
+This runs the repository's development server from the project root. Open `http://localhost:5173` in your browser.
+
 Useful commands (work from any directory; catalog stays in this repo):
 
 ```sh
