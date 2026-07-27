@@ -44,21 +44,32 @@ OPENAI_API_KEY=... npm run dev:server
 
 You can also put `OPENAI_API_KEY` and an optional `OPENAI_VISION_MODEL` in an uncommitted `.env` file. Browser code never receives this key.
 
+## CLI
+
+Install the `inspo` command on your PATH (from this repo, after `npm install`):
+
+```sh
+npm link
+# remove later: npm unlink -g design-inspiration
+```
+
+Useful commands (work from any directory; catalog stays in this repo):
+
+```sh
+inspo search --tags "editorial,warm"
+inspo context --tags "editorial,warm,serif"
+inspo context --tags "playful,primary-pop" --mode or
+inspo import /path/to/screenshot.png --title "Idea for the archive"
+inspo import https://example.com/reference
+inspo analyze item-id --provider opencode
+inspo validate
+```
+
+Override the catalog root with `INSPO_ROOT` if needed. In-repo `npm run inspo -- …` still works.
+
 ## Use from OpenCode
 
 The project skill at `.opencode/skills/inspiration-catalog/SKILL.md` tells OpenCode how to draw from the catalog. Restart OpenCode after pulling this project/configuration change so it discovers the new skill.
-
-Useful commands:
-
-```sh
-npm run inspo -- search --tags "editorial,warm"
-npm run inspo -- context --tags "editorial,warm,serif"
-npm run inspo -- context --tags "playful,primary-pop" --mode or
-npm run inspo -- import /path/to/screenshot.png --title "Idea for the archive"
-npm run inspo -- import https://example.com/reference
-npm run inspo -- analyze item-id --provider opencode
-npm run inspo -- validate
-```
 
 `context` returns a compact prompt fragment plus bounded reference paths and source URLs. An agent can inspect those local files when the task needs more than the summary.
 

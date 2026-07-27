@@ -2,6 +2,7 @@ import { randomUUID } from "node:crypto";
 import { mkdir, readFile, readdir, rename, unlink, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { basename, extname, join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 import {
   itemSchema,
@@ -12,7 +13,8 @@ import {
   type Taxonomy,
 } from "../shared/schema.js";
 
-const root = resolve(process.env.INSPO_ROOT ?? process.cwd());
+const packageRoot = resolve(fileURLToPath(new URL("..", import.meta.url)));
+const root = resolve(process.env.INSPO_ROOT ?? packageRoot);
 export const paths = {
   root,
   catalog: join(root, "catalog"),

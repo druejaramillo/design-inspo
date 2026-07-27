@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "bin": {
+    "inspo": "./bin/inspo.mjs"
+  },
   "scripts": {
     "prebuild": "tsx scripts/export-static.ts",
     "dev": "concurrently -k \"npm:dev:server\" \"npm:dev:web\"",

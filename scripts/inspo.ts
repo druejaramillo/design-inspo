@@ -22,11 +22,11 @@ function print(value: unknown) {
 
 function usage() {
   console.log(`Usage:
-  npm run inspo -- search --tags "editorial,warm" [--mode and|or]
-  npm run inspo -- context --tags "editorial,warm" [--mode and|or]
-  npm run inspo -- import <image-file-or-url> [--title "..."]
-  npm run inspo -- analyze <item-id> [--provider opencode|openai]
-  npm run inspo -- validate`);
+  inspo search --tags "editorial,warm" [--mode and|or]
+  inspo context --tags "editorial,warm" [--mode and|or]
+  inspo import <image-file-or-url> [--title "..."]
+  inspo analyze <item-id> [--provider opencode|openai]
+  inspo validate`);
 }
 
 async function importFile(file: string, title?: string) {
