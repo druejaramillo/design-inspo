@@ -1,13 +1,13 @@
 {
   "id": "consensys-7317dde1",
-  "title": "Consensys",
+  "title": "Neon Prism Finance Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/consensys",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/a42e9ec5-c99a-43e5-aa46-d8203a5f5bce/con-en-y-.io_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:58:19.014Z",
-  "updatedAt": "2026-07-27T04:58:19.014Z",
+  "updatedAt": "2026-07-27T14:30:45.676Z",
   "media": {
     "path": "catalog/media/consensys-7317dde1.webp",
     "width": 2200,
@@ -17,6 +17,75 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:30:45.673Z",
+    "title": "Neon Prism Finance Landing Page",
+    "palette": [
+      {
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "hex": "#C5FF3D",
+        "role": "accent"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "headline text"
+      },
+      {
+        "hex": "#4B18FF",
+        "role": "cool glow"
+      },
+      {
+        "hex": "#E9008C",
+        "role": "warm glow"
+      }
+    ],
+    "style": [
+      "dark-mode",
+      "retro-futurist",
+      "maximalist",
+      "layered",
+      "hero-led"
+    ],
+    "tone": [
+      "energetic",
+      "technical",
+      "futuristic",
+      "bold"
+    ],
+    "layout": [
+      "asymmetric",
+      "oversized-type",
+      "immersive",
+      "floating navigation"
+    ],
+    "typography": [
+      "grotesk",
+      "display-type",
+      "oversized type",
+      "high-contrast"
+    ],
+    "uiMotifs": [
+      "pill navigation",
+      "neon lime buttons",
+      "outlined secondary button",
+      "translucent geometric forms"
+    ],
+    "notes": "A near-black canvas pairs oversized white and acid-lime headlines with luminous magenta-blue geometric prisms sweeping through the hero area. The composition balances sparse navigation and controls on the left with a large layered visual field and supporting copy anchored low on the right.",
+    "suggestedTagIds": [
+      "retro-futurist",
+      "maximalist",
+      "energetic",
+      "technical",
+      "hero-led",
+      "asymmetric"
+    ],
+    "heroPrompt": "Create an abstract hero visual for a futuristic technology website: several large translucent geometric prisms and folded glass-like planes overlap diagonally across a deep black background. Use intense electric blue, violet, magenta, and subtle cyan edge lighting, with glossy refractions, soft bloom, and sharp luminous contours. Keep the forms asymmetric, spacious, and partially cropped by the frame, leaving clear negative space on the left for large typography. No text, logos, symbols, people, or recognizable objects."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

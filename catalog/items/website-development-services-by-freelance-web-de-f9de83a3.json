@@ -1,13 +1,13 @@
 {
   "id": "website-development-services-by-freelance-web-de-f9de83a3",
-  "title": "Website development services by freelance web developers | Fiverr | Info page design, Website design ideas layout, Travel websites design",
+  "title": "Atmospheric Tokyo Travel Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/3448137209756827/",
   "sourceImageUrl": "https://i.pinimg.com/736x/78/08/4c/78084cbc246fba79b7baa7d0b2f1c42c.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:48:54.066Z",
-  "updatedAt": "2026-07-27T04:48:54.066Z",
+  "updatedAt": "2026-07-27T14:41:19.918Z",
   "media": {
     "path": "catalog/media/website-development-services-by-freelance-web-de-f9de83a3.webp",
     "width": 564,
@@ -17,6 +17,79 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:41:19.917Z",
+    "title": "Atmospheric Tokyo Travel Landing Page",
+    "palette": [
+      {
+        "hex": "#18232B",
+        "role": "background"
+      },
+      {
+        "hex": "#33434B",
+        "role": "secondary background"
+      },
+      {
+        "hex": "#8D7260",
+        "role": "earthy accent"
+      },
+      {
+        "hex": "#EDEDED",
+        "role": "text"
+      },
+      {
+        "hex": "#D86A3A",
+        "role": "highlight"
+      },
+      {
+        "hex": "#765A9B",
+        "role": "ambient accent"
+      }
+    ],
+    "style": [
+      "cinematic",
+      "editorial",
+      "immersive",
+      "dark-mode",
+      "hero-led"
+    ],
+    "tone": [
+      "adventurous",
+      "mysterious",
+      "quiet",
+      "aspirational"
+    ],
+    "layout": [
+      "full-screen hero",
+      "layered image overlay",
+      "structured card grid",
+      "stacked editorial sections"
+    ],
+    "typography": [
+      "oversized display type",
+      "condensed grotesk",
+      "uppercase headings",
+      "small utility labels"
+    ],
+    "uiMotifs": [
+      "thin divider lines",
+      "numeric slide indicator",
+      "orange progress accent",
+      "minimal outline icons"
+    ],
+    "notes": "A dark travel landing page uses a moody torii-gate photograph as a full-bleed hero, with a gradient veil supporting oversized white title type and restrained navigation. Compact tour cards, fine rules, pagination numbers, and a cosmic mountain section create a cinematic editorial rhythm with orange and violet accents.",
+    "suggestedTagIds": [
+      "editorial",
+      "hero-led",
+      "dark-mode",
+      "immersive",
+      "grid-system",
+      "oversized-type"
+    ],
+    "heroPrompt": "Cinematic full-bleed travel hero photograph of a large weathered vermilion torii gate standing in calm dark water beneath heavy storm clouds, distant low mountains fading into mist, subdued blue-charcoal color grading, subtle warm red-brown wood texture, deep shadows, atmospheric haze, centered architectural composition with generous negative space for large white editorial typography, refined luxury travel campaign art direction, no logos, no readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

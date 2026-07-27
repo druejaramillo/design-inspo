@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-22daa547",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Warm Abstract SaaS Landing Page",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/33278478/file/original-bd9cc77ab4c107526c413b642fb8a2b3.png?resize=752x&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/33278478/file/original-bd9cc77ab4c107526c413b642fb8a2b3.png?resize=752x&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:44:02.755Z",
-  "updatedAt": "2026-07-27T04:44:02.755Z",
+  "updatedAt": "2026-07-27T14:38:41.981Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-22daa547.webp",
     "width": 752,
@@ -17,6 +17,81 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:38:41.979Z",
+    "title": "Warm Abstract SaaS Landing Page",
+    "palette": [
+      {
+        "hex": "#FAFAF6",
+        "role": "background"
+      },
+      {
+        "hex": "#1E1E1E",
+        "role": "primary text"
+      },
+      {
+        "hex": "#F4F0D8",
+        "role": "soft surface"
+      },
+      {
+        "hex": "#FFB58A",
+        "role": "accent gradient"
+      },
+      {
+        "hex": "#F5F56C",
+        "role": "highlight"
+      }
+    ],
+    "style": [
+      "minimal",
+      "warm",
+      "organic",
+      "technical",
+      "layered"
+    ],
+    "tone": [
+      "confident",
+      "approachable",
+      "calm",
+      "optimistic"
+    ],
+    "layout": [
+      "airy navigation",
+      "oversized headline",
+      "split hero content",
+      "wide visual panel",
+      "structured feature grid"
+    ],
+    "typography": [
+      "grotesk",
+      "oversized type",
+      "bold headline",
+      "compact utility labels"
+    ],
+    "uiMotifs": [
+      "floating dashboard cards",
+      "soft rounded corners",
+      "thin orange line art",
+      "toggle controls",
+      "circular status indicators"
+    ],
+    "notes": "A spacious SaaS landing page pairs a large black grotesk headline with a warm abstract hero panel and lightweight interface overlays. Cream surfaces, peach-to-yellow gradients, thin red-orange gestures, and restrained feature columns create a polished but approachable technical direction.",
+    "suggestedTagIds": [
+      "minimal",
+      "warm",
+      "organic",
+      "technical",
+      "hero-led",
+      "layered",
+      "grid-system",
+      "oversized-type",
+      "grotesk",
+      "landing-love"
+    ],
+    "heroPrompt": "Create a wide abstract SaaS hero visual on a pale cream background: a soft peach, orange, and lemon-yellow gradient field with translucent geometric facets, crossed by delicate hand-drawn red-orange looping lines. Layer two or three floating white analytics cards at the upper right, with subtle shadows, circular progress indicators, tiny unreadable interface marks, and pill toggles. Use rounded corners, generous negative space, refined editorial polish, and a clean modern product-design aesthetic. No logos, brand names, readable text, or people."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

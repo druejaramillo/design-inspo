@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T07:25:42.254Z",
+  "generatedAt": "2026-07-27T14:45:43.724Z",
   "items": [
     {
       "id": "seiste-657e8385",
@@ -875,7 +875,7 @@
     },
     {
       "id": "air-inc-7964fb20",
-      "title": "Air Inc",
+      "title": "Translucent Tubes Against Blue Sky",
       "sourceUrl": "https://craftwork.design/curated/website/air-inc",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T05:01:49.326Z",
@@ -888,13 +888,80 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:24:40.975Z",
+        "title": "Translucent Tubes Against Blue Sky",
+        "palette": [
+          {
+            "hex": "#1686F2",
+            "role": "sky background"
+          },
+          {
+            "hex": "#B9DFFF",
+            "role": "soft atmospheric blue"
+          },
+          {
+            "hex": "#F4FAFF",
+            "role": "cloud highlights"
+          },
+          {
+            "hex": "#9ED8FF",
+            "role": "glass translucency"
+          },
+          {
+            "hex": "#0874C9",
+            "role": "interface accent"
+          }
+        ],
+        "style": [
+          "dreamlike 3D",
+          "translucent",
+          "soft-focus",
+          "playful"
+        ],
+        "tone": [
+          "airy",
+          "optimistic",
+          "curious",
+          "energetic"
+        ],
+        "layout": [
+          "full-bleed hero",
+          "centered navigation",
+          "foreground framing",
+          "fixed bottom banner"
+        ],
+        "typography": [
+          "clean sans-serif",
+          "light weight",
+          "small navigation labels",
+          "underlined call to action"
+        ],
+        "uiMotifs": [
+          "outlined pill button",
+          "solid rounded button",
+          "floating theme toggle",
+          "bright announcement bar"
+        ],
+        "notes": "A saturated blue sky and soft clouds form an immersive backdrop for large translucent tubular forms that loop through the foreground. Minimal white navigation and bright blue utility elements preserve clarity while contrasting with the highly dimensional hero art.",
+        "suggestedTagIds": [
+          "hero-led",
+          "immersive",
+          "layered",
+          "playful",
+          "pastel",
+          "grid-system"
+        ],
+        "heroPrompt": "Create a wide cinematic website hero image with a vivid cobalt-to-sky-blue atmosphere filled with luminous white cumulus clouds. Place oversized translucent glass tubes and looping ribbon-like forms in the foreground, with smooth rounded bends, subtle cyan edge glow, internal refraction, soft reflections, and convincing depth. Use an airy surreal 3D render, gentle bloom, slightly hazy focus, and ample open sky near the top for interface navigation. Composition should feel optimistic, futuristic, playful, and immersive, with no text, logos, people, or recognizable branded objects."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "structured-money-f469473c",
-      "title": "Structured Money",
+      "title": "Editorial Mossland Bitcoin Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/structured-money",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T05:01:28.178Z",
@@ -907,13 +974,85 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:24:57.848Z",
+        "title": "Editorial Mossland Bitcoin Landing Page",
+        "palette": [
+          {
+            "hex": "#E8E6E4",
+            "role": "background"
+          },
+          {
+            "hex": "#050505",
+            "role": "type and accents"
+          },
+          {
+            "hex": "#7E882B",
+            "role": "moss landscape"
+          },
+          {
+            "hex": "#596313",
+            "role": "deep organic shadow"
+          },
+          {
+            "hex": "#C9E8E4",
+            "role": "water or horizon"
+          }
+        ],
+        "style": [
+          "editorial",
+          "minimal",
+          "organic",
+          "high-contrast",
+          "layered"
+        ],
+        "tone": [
+          "quiet",
+          "earthy",
+          "curious",
+          "luxurious"
+        ],
+        "layout": [
+          "centered hierarchy",
+          "oversized type",
+          "generous negative space",
+          "bottom-framed landscape"
+        ],
+        "typography": [
+          "high-contrast serif",
+          "oversized display type",
+          "italic emphasis",
+          "compact utility sans-serif"
+        ],
+        "uiMotifs": [
+          "pill-shaped black button",
+          "small corner wordmark",
+          "minimal metrics row",
+          "text-over-image layering"
+        ],
+        "notes": "A restrained editorial composition pairs a pale neutral field with enormous black serif lettering and a softly textured mossy landscape cropped along the bottom edge. Small utility text and a compact dark button create a sparse, premium financial landing-page direction.",
+        "suggestedTagIds": [
+          "editorial",
+          "minimal",
+          "organic",
+          "quiet",
+          "earthy",
+          "oversized-type",
+          "serif",
+          "display-type",
+          "hero-led",
+          "layered"
+        ],
+        "heroPrompt": "Create a wide editorial hero illustration with softly textured moss-covered hills rising from the lower corners and a thin pale blue-green horizon or water band near the bottom. Use a mostly empty warm gray-beige background, subtle grain, muted olive and moss greens, and soft natural contours. Keep the composition low and spacious so oversized black serif typography could sit above and partially overlap the landscape. No text, logos, interface elements, people, or recognizable brands."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "stripe-a57d1491",
-      "title": "Stripe",
+      "title": "Prismatic Ribbon Finance Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/stripe-2",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T05:01:20.919Z",
@@ -926,13 +1065,83 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:25:19.845Z",
+        "title": "Prismatic Ribbon Finance Landing Page",
+        "palette": [
+          {
+            "hex": "#FFFFFF",
+            "role": "background"
+          },
+          {
+            "hex": "#0D1B34",
+            "role": "primary text"
+          },
+          {
+            "hex": "#7582A1",
+            "role": "secondary text"
+          },
+          {
+            "hex": "#5639F5",
+            "role": "accent"
+          },
+          {
+            "hex": "#FF8A00",
+            "role": "warm gradient"
+          },
+          {
+            "hex": "#F25EAA",
+            "role": "highlight"
+          }
+        ],
+        "style": [
+          "minimal",
+          "hero-led",
+          "layered",
+          "high-contrast"
+        ],
+        "tone": [
+          "energetic",
+          "confident",
+          "technical"
+        ],
+        "layout": [
+          "asymmetric hero composition",
+          "structured grid system",
+          "large open whitespace",
+          "full-width logo strip"
+        ],
+        "typography": [
+          "grotesk sans-serif",
+          "oversized headline",
+          "high-weight hierarchy",
+          "muted supporting text"
+        ],
+        "uiMotifs": [
+          "gradient call-to-action buttons",
+          "outlined secondary button",
+          "compact navigation bar",
+          "abstract flowing ribbon artwork"
+        ],
+        "notes": "A clean, grid-based landing page pairs oversized dark typography with a vivid translucent ribbon sweeping through the right side of the hero. White space, restrained navigation, bright gradient accents, and a logo strip create a polished yet energetic financial-technology direction.",
+        "suggestedTagIds": [
+          "minimal",
+          "hero-led",
+          "asymmetric",
+          "grid-system",
+          "oversized-type",
+          "layered"
+        ],
+        "heroPrompt": "Create an abstract hero visual for a modern financial technology website: a large translucent ribbon or folded membrane sweeping diagonally from the upper center toward the lower right, with luminous gradients shifting through electric violet, cobalt, coral pink, orange, and soft blue. Use silky layered forms, subtle motion blur, fine diagonal striations, glowing edges, and a clean white background. Keep the left half mostly open for headline placement, with the artwork concentrated on the right. No text, logos, symbols, people, or recognizable brands; premium editorial web-art direction, crisp and spacious."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "topology-09ed7818",
-      "title": "Topology",
+      "title": "Pastel Contour Field",
       "sourceUrl": "https://craftwork.design/curated/website/topology",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T05:01:14.342Z",
@@ -945,13 +1154,80 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:25:37.962Z",
+        "title": "Pastel Contour Field",
+        "palette": [
+          {
+            "hex": "#D9D9D9",
+            "role": "background"
+          },
+          {
+            "hex": "#5D5B5A",
+            "role": "contour shadows"
+          },
+          {
+            "hex": "#73D9E6",
+            "role": "cyan accent"
+          },
+          {
+            "hex": "#D991B9",
+            "role": "pink accent"
+          },
+          {
+            "hex": "#D8C86A",
+            "role": "yellow-green accent"
+          }
+        ],
+        "style": [
+          "abstract",
+          "retro-futurist",
+          "layered",
+          "minimal"
+        ],
+        "tone": [
+          "curious",
+          "energetic",
+          "technical",
+          "immersive"
+        ],
+        "layout": [
+          "hero-led",
+          "asymmetric",
+          "full-bleed visual",
+          "anchored footer"
+        ],
+        "typography": [
+          "oversized type",
+          "grotesk",
+          "thin weight",
+          "high contrast scale"
+        ],
+        "uiMotifs": [
+          "sparse uppercase navigation",
+          "hairline dividers",
+          "corner brackets",
+          "scroll prompt"
+        ],
+        "notes": "Flowing concentric contours sweep diagonally across a pale field, shifting from grayscale relief into soft rainbow bands. Oversized white headline text anchors the lower left while compact navigation and footer details preserve a restrained editorial interface.",
+        "suggestedTagIds": [
+          "retro-futurist",
+          "minimal",
+          "hero-led",
+          "asymmetric",
+          "layered",
+          "oversized-type"
+        ],
+        "heroPrompt": "Create a full-bleed abstract hero visual of concentric, topographic contour bands flowing diagonally across the frame, like a soft 3D relief or warped field. Begin with pale gray and charcoal ridges in the center, transitioning toward translucent pastel cyan, coral pink, lavender, yellow, and mint near the upper edges. Use smooth blurred gradients, subtle depth, generous negative space in the lower left, and a refined experimental technology-art direction. No text, logos, people, or recognizable objects."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "new-layer-capital-981e5ec1",
-      "title": "New Layer Capital",
+      "title": "Fluorescent Layered Editorial Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/new-layer-capital",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T05:01:05.309Z",
@@ -964,13 +1240,90 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:25:55.438Z",
+        "title": "Fluorescent Layered Editorial Landing Page",
+        "palette": [
+          {
+            "hex": "#EC008C",
+            "role": "background"
+          },
+          {
+            "hex": "#F04A0B",
+            "role": "accent frame"
+          },
+          {
+            "hex": "#F39AB9",
+            "role": "layered landscape"
+          },
+          {
+            "hex": "#FF1681",
+            "role": "foreground landscape"
+          },
+          {
+            "hex": "#FFFFFF",
+            "role": "type and lines"
+          },
+          {
+            "hex": "#CBB0CF",
+            "role": "outer background"
+          }
+        ],
+        "style": [
+          "editorial",
+          "brutalist",
+          "maximalist",
+          "playful",
+          "high-contrast"
+        ],
+        "tone": [
+          "energetic",
+          "bold",
+          "futuristic",
+          "confident"
+        ],
+        "layout": [
+          "asymmetric framing",
+          "oversized headline",
+          "layered composition",
+          "strong grid alignment"
+        ],
+        "typography": [
+          "grotesk",
+          "display type",
+          "oversized type",
+          "expressive scale"
+        ],
+        "uiMotifs": [
+          "thin rule lines",
+          "corner labels",
+          "arrow-link controls",
+          "minimal hamburger icon",
+          "offset color borders"
+        ],
+        "notes": "A vivid magenta landing page uses oversized white typography, offset orange framing, and thin structural rules to create a high-impact editorial composition. A soft, abstract layered mountain form introduces organic depth while retaining the graphic, highly controlled art direction.",
+        "suggestedTagIds": [
+          "editorial",
+          "brutalist",
+          "energetic",
+          "hero-led",
+          "asymmetric",
+          "oversized-type",
+          "layered",
+          "high-contrast",
+          "primary-pop",
+          "display-type"
+        ],
+        "heroPrompt": "Abstract layered mountain landscape rendered as overlapping paper-cut and softly painted shapes, with broad undulating ridges in hot pink, coral, blush, and pale lavender. Use a flat saturated magenta field, subtle grain, simplified silhouettes, and a wide horizontal composition with the landscape concentrated across the lower half. Bold graphic poster aesthetic, clean edges mixed with gently rough torn contours, no text, no logos, no people."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "your-bana-e096f6ac",
-      "title": "Your Bana",
+      "title": "Kinetic Red Orange Editorial Poster",
       "sourceUrl": "https://craftwork.design/curated/website/your-bana",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T05:00:25.495Z",
@@ -983,13 +1336,88 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:26:53.806Z",
+        "title": "Kinetic Red Orange Editorial Poster",
+        "palette": [
+          {
+            "hex": "#000000",
+            "role": "background"
+          },
+          {
+            "hex": "#F0001B",
+            "role": "primary accent"
+          },
+          {
+            "hex": "#FF6200",
+            "role": "secondary accent"
+          },
+          {
+            "hex": "#D98C6D",
+            "role": "photographic warmth"
+          },
+          {
+            "hex": "#F2EFE8",
+            "role": "light text"
+          },
+          {
+            "hex": "#30343A",
+            "role": "dark interface detail"
+          }
+        ],
+        "style": [
+          "Brutalist editorial",
+          "High contrast",
+          "Kinetic photography",
+          "Minimal structure"
+        ],
+        "tone": [
+          "Energetic",
+          "Urban",
+          "Experimental",
+          "Bold"
+        ],
+        "layout": [
+          "Asymmetric split screen",
+          "Oversized headline block",
+          "Full-height hero image",
+          "Strong vertical divider"
+        ],
+        "typography": [
+          "Oversized display type",
+          "Geometric condensed letterforms",
+          "Expressive type",
+          "Small supporting sans-serif"
+        ],
+        "uiMotifs": [
+          "Hamburger menu icon",
+          "Outlined navigation controls",
+          "Thin divider rules",
+          "Monochrome utility marks"
+        ],
+        "notes": "The composition contrasts a rigid black poster field and sharply cropped red-orange typography with a blurred, motion-filled photographic panel. Sparse interface details and strong alignment create a contemporary editorial landing-page feel despite the intentionally raw, graphic treatment.",
+        "suggestedTagIds": [
+          "editorial",
+          "brutalist",
+          "energetic",
+          "asymmetric",
+          "oversized-type",
+          "high-contrast",
+          "display-type",
+          "hero-led",
+          "primary-pop",
+          "dark-mode"
+        ],
+        "heroPrompt": "A vertical editorial photograph of a city scene seen through rapid motion, featuring a softly blurred human face and architectural reflections, warm coral and terracotta skin tones, cream highlights, charcoal shadows, and hints of cool blue-green. Use long-exposure streaks, shallow focus, smeared horizontal movement, subtle film grain, and an imperfect analog texture. Compose the subject off-center with large areas of blurred negative space, cinematic side lighting, and a raw urban atmosphere. No readable text, logos, or identifiable brands."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "supercommon-systems-c0e0f39e",
-      "title": "Supercommon Systems",
+      "title": "Monochrome Instrument Panel Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/supercommon-systems",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T05:00:02.739Z",
@@ -1002,13 +1430,81 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:27:16.930Z",
+        "title": "Monochrome Instrument Panel Landing Page",
+        "palette": [
+          {
+            "hex": "#000000",
+            "role": "background"
+          },
+          {
+            "hex": "#151519",
+            "role": "device surface"
+          },
+          {
+            "hex": "#F2F2F2",
+            "role": "primary text"
+          },
+          {
+            "hex": "#1E86C8",
+            "role": "selection accent"
+          },
+          {
+            "hex": "#55585A",
+            "role": "secondary text"
+          }
+        ],
+        "style": [
+          "minimal",
+          "technical",
+          "monochrome",
+          "high-contrast"
+        ],
+        "tone": [
+          "quiet",
+          "precise",
+          "focused",
+          "curious"
+        ],
+        "layout": [
+          "centered hero",
+          "generous negative space",
+          "oversized device crop",
+          "restrained navigation"
+        ],
+        "typography": [
+          "thin grotesk",
+          "oversized headline",
+          "sentence-case labels",
+          "subtle utility text"
+        ],
+        "uiMotifs": [
+          "dot-matrix timer display",
+          "black rounded control panel",
+          "blue active-state accents",
+          "sparse system icons",
+          "white purchase button"
+        ],
+        "notes": "A near-black landing page uses a large cropped laptop mockup as the dominant visual, with a compact timer interface centered inside it. Thin light typography, muted utility labels, and small blue controls create a precise, instrument-like atmosphere.",
+        "suggestedTagIds": [
+          "minimal",
+          "technical",
+          "monochrome",
+          "high-contrast",
+          "dark-mode",
+          "hero-led"
+        ],
+        "heroPrompt": "Create a minimalist dark product-landing-page hero on a deep black background with generous negative space. Show a large cropped matte-black laptop emerging from the lower half, its screen displaying a compact rounded black timer panel with a white dot-matrix countdown, tiny gray controls, and one restrained electric-blue active state. Use delicate off-white grotesk typography, sparse utility icons, subtle screen reflections, and soft edge lighting. Center the interface and maintain a calm, highly precise, editorial composition. No readable brand names, logos, or recognizable software identities."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "oryzo-2528b06e",
-      "title": "Oryzo",
+      "title": "Warm Editorial Craft Workspace",
       "sourceUrl": "https://craftwork.design/curated/website/oryzo",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:59:55.398Z",
@@ -1021,13 +1517,86 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:27:36.380Z",
+        "title": "Warm Editorial Craft Workspace",
+        "palette": [
+          {
+            "hex": "#B47A4D",
+            "role": "wood background"
+          },
+          {
+            "hex": "#214B3A",
+            "role": "cutting mat"
+          },
+          {
+            "hex": "#C87532",
+            "role": "cork product"
+          },
+          {
+            "hex": "#F5E5D0",
+            "role": "typography"
+          },
+          {
+            "hex": "#6B452F",
+            "role": "shadows"
+          },
+          {
+            "hex": "#D99A57",
+            "role": "tool accents"
+          }
+        ],
+        "style": [
+          "editorial",
+          "craftwork",
+          "hero-led",
+          "layered",
+          "technical"
+        ],
+        "tone": [
+          "warm",
+          "earthy",
+          "curious",
+          "considered"
+        ],
+        "layout": [
+          "asymmetric",
+          "grid-system",
+          "top-down composition",
+          "split visual-text balance"
+        ],
+        "typography": [
+          "oversized-type",
+          "grotesk",
+          "bold display type",
+          "compact navigation labels"
+        ],
+        "uiMotifs": [
+          "vertical edge tab",
+          "translucent information panel",
+          "dotted divider",
+          "bottom scroll cue",
+          "floating video card"
+        ],
+        "notes": "A warm overhead still life combines a cork product with a green drafting mat, wood grain, and scattered workshop tools. Oversized cream typography and translucent panels create a confident editorial landing page over the tactile photographic background.",
+        "suggestedTagIds": [
+          "editorial",
+          "warm",
+          "earthy",
+          "hero-led",
+          "asymmetric",
+          "oversized-type"
+        ],
+        "heroPrompt": "Top-down editorial product photograph of a round natural cork coaster centered on a dark green gridded cutting mat, placed across a honey-toned wooden worktable. Include a white drafting pencil, metal paper clips, a sharpened wooden pencil, and an orange utility knife partially entering the frame. Use warm late-afternoon side lighting, soft shadows, tactile material detail, subtle film grain, balanced negative space, and a refined design-magazine art direction. No text, logos, labels, or branding."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "walrus-56e648fc",
-      "title": "Walrus",
+      "title": "Pixelated Black and Pastel Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/walrus-2",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:59:35.459Z",
@@ -1040,13 +1609,80 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:27:50.868Z",
+        "title": "Pixelated Black and Pastel Landing Page",
+        "palette": [
+          {
+            "hex": "#111111",
+            "role": "background"
+          },
+          {
+            "hex": "#FFFFFF",
+            "role": "text and surface"
+          },
+          {
+            "hex": "#C5A8FF",
+            "role": "lavender accent"
+          },
+          {
+            "hex": "#A9C7EE",
+            "role": "blue accent"
+          },
+          {
+            "hex": "#8DE5DB",
+            "role": "mint accent"
+          }
+        ],
+        "style": [
+          "minimal",
+          "brutalist",
+          "retro-futurist",
+          "technical"
+        ],
+        "tone": [
+          "bold",
+          "playful",
+          "confident",
+          "experimental"
+        ],
+        "layout": [
+          "hero-led",
+          "grid-system",
+          "high-contrast",
+          "structured"
+        ],
+        "typography": [
+          "oversized-type",
+          "display-type",
+          "expressive-type",
+          "pixelated"
+        ],
+        "uiMotifs": [
+          "black bordered navigation bar",
+          "pastel gradient announcement strip",
+          "square checkbox markers",
+          "external-link arrow buttons"
+        ],
+        "notes": "A stark black hero dominates the page with oversized white pixel-style lettering, balanced by a restrained white header and footer grid. Soft lavender-to-mint accents and compact utility navigation create a playful technical contrast against the severe monochrome structure.",
+        "suggestedTagIds": [
+          "brutalist",
+          "playful",
+          "retro-futurist",
+          "hero-led",
+          "grid-system",
+          "oversized-type"
+        ],
+        "heroPrompt": null
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "meter-7297969e",
-      "title": "Meter",
+      "title": "Floating White Network Hardware",
       "sourceUrl": "https://craftwork.design/curated/website/meter",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:59:28.607Z",
@@ -1059,13 +1695,82 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:28:09.748Z",
+        "title": "Floating White Network Hardware",
+        "palette": [
+          {
+            "hex": "#EEF0F8",
+            "role": "background"
+          },
+          {
+            "hex": "#FFFFFF",
+            "role": "hardware"
+          },
+          {
+            "hex": "#5268C8",
+            "role": "accent"
+          },
+          {
+            "hex": "#252D56",
+            "role": "headline"
+          },
+          {
+            "hex": "#BFC6DA",
+            "role": "secondary text"
+          }
+        ],
+        "style": [
+          "minimal",
+          "technical",
+          "product-led",
+          "airy"
+        ],
+        "tone": [
+          "quiet",
+          "precise",
+          "confident",
+          "modern"
+        ],
+        "layout": [
+          "asymmetric",
+          "hero-led",
+          "spacious",
+          "layered product field"
+        ],
+        "typography": [
+          "grotesk",
+          "oversized-type",
+          "high-contrast weights",
+          "left-aligned"
+        ],
+        "uiMotifs": [
+          "pill announcement banner",
+          "rounded primary button",
+          "subtle carousel indicator",
+          "muted partner-logo row"
+        ],
+        "notes": "A pale lavender-gray canvas stages white networking devices as floating, softly shadowed objects across the upper field. Large two-weight blue and navy sans-serif typography anchors the lower-left, supported by restrained navigation and rounded interface controls.",
+        "suggestedTagIds": [
+          "minimal",
+          "technical",
+          "quiet",
+          "hero-led",
+          "asymmetric",
+          "oversized-type",
+          "grotesk",
+          "landing-love"
+        ],
+        "heroPrompt": "A wide premium technology landing-page hero on a very pale lavender-gray background, featuring an asymmetric arrangement of clean white enterprise networking devices—thin rack units, compact rounded access points, and small antenna-equipped modules—floating at varied scales with soft diffused shadows. Use bright studio lighting, subtle three-quarter perspectives, generous negative space, and a refined blue-violet accent palette. Keep the composition airy and editorial, with the products concentrated across the upper and right areas while leaving open space in the lower left for headline placement. No logos, branding, labels, or readable text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "day-dream-player-9cdc879b",
-      "title": "Day Dream Player",
+      "title": "Cinematic Orange-Black Audio Hero",
       "sourceUrl": "https://craftwork.design/curated/website/day-dream-player",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:59:22.631Z",
@@ -1078,13 +1783,82 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:28:58.609Z",
+        "title": "Cinematic Orange-Black Audio Hero",
+        "palette": [
+          {
+            "hex": "#080808",
+            "role": "background"
+          },
+          {
+            "hex": "#1B1C1E",
+            "role": "product shadow"
+          },
+          {
+            "hex": "#F4774D",
+            "role": "accent lighting"
+          },
+          {
+            "hex": "#B83227",
+            "role": "glow"
+          },
+          {
+            "hex": "#F1F1F1",
+            "role": "headline"
+          }
+        ],
+        "style": [
+          "retro-futurist",
+          "cinematic product render",
+          "high contrast",
+          "layered",
+          "immersive"
+        ],
+        "tone": [
+          "energetic",
+          "luxurious",
+          "dramatic",
+          "technical"
+        ],
+        "layout": [
+          "hero-led",
+          "centered focal object",
+          "layered depth",
+          "bottom navigation",
+          "asymmetric edge detail"
+        ],
+        "typography": [
+          "grotesk",
+          "oversized display type",
+          "high-contrast white text",
+          "translucent background lettering"
+        ],
+        "uiMotifs": [
+          "pill-shaped navigation",
+          "red vertical side badge",
+          "soft glow effects",
+          "minimal line separators"
+        ],
+        "notes": "A large black audio device dominates the frame, modeled with glossy surfaces and warm orange-red rim lighting against a nearly black background. Centered white messaging overlays the product while oversized translucent lettering and compact navigation create depth and a cinematic landing-page composition.",
+        "suggestedTagIds": [
+          "retro-futurist",
+          "hero-led",
+          "layered",
+          "immersive",
+          "high-contrast",
+          "dark-mode"
+        ],
+        "heroPrompt": "Create a cinematic close-up hero image of a futuristic black wearable audio device with broad rounded forms, glossy and satin materials, and subtle copper-orange accents. Use a low three-quarter perspective with the device filling most of the frame, deep black surroundings, warm red-orange rim lighting, soft bloom, reflective highlights, and atmospheric haze. Add layered shadows and a faint horizontal red light streak near the bottom, leaving clear darker space toward the center for headline overlay. Premium industrial design, dramatic studio rendering, high contrast, no text, no logos, no brand marks."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "helio-cloud-3413f7ce",
-      "title": "Helio Cloud",
+      "title": "Cloudscape Computing Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/helio-cloud",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:59:14.149Z",
@@ -1097,13 +1871,84 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:29:15.420Z",
+        "title": "Cloudscape Computing Landing Page",
+        "palette": [
+          {
+            "hex": "#79B5D2",
+            "role": "sky background"
+          },
+          {
+            "hex": "#DDECEF",
+            "role": "light atmospheric gradient"
+          },
+          {
+            "hex": "#F1F0E9",
+            "role": "cloud forms"
+          },
+          {
+            "hex": "#E6DCC5",
+            "role": "warm lower background"
+          },
+          {
+            "hex": "#F68A1F",
+            "role": "accent buttons"
+          },
+          {
+            "hex": "#0B2D4A",
+            "role": "primary text"
+          }
+        ],
+        "style": [
+          "minimal",
+          "pastel",
+          "organic",
+          "layered"
+        ],
+        "tone": [
+          "calm",
+          "optimistic",
+          "curious",
+          "technical"
+        ],
+        "layout": [
+          "centered hero",
+          "generous whitespace",
+          "stacked cloud foreground",
+          "simple top navigation"
+        ],
+        "typography": [
+          "oversized type",
+          "bold grotesk",
+          "center-aligned headings",
+          "compact supporting text"
+        ],
+        "uiMotifs": [
+          "pill-shaped buttons",
+          "soft atmospheric gradients",
+          "rounded cloud silhouettes",
+          "subtle star-like speckles"
+        ],
+        "notes": "A centered landing-page hero uses oversized dark navy typography against a pale blue sky gradient, with orange calls-to-action providing focused contrast. Layered cream cloud silhouettes and understated investor marks create a playful, airy visual metaphor for cloud computing.",
+        "suggestedTagIds": [
+          "minimal",
+          "pastel",
+          "organic",
+          "hero-led",
+          "oversized-type",
+          "layered"
+        ],
+        "heroPrompt": "Create a wide, airy editorial hero background for a cloud-computing website: a soft blue-to-cream vertical sky gradient with a subtle glowing center, sparse tiny atmospheric speckles, and large overlapping rounded white cloud silhouettes rising from the bottom edge. Keep the central upper area open for dark headline text and navigation. Use clean vector-like shapes, gentle translucency, restrained contrast, polished contemporary art direction, and no text, logos, people, or recognizable branding."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "integrated-biosciences-df12ecc7",
-      "title": "Integrated Biosciences",
+      "title": "Layered Botanical Fluid Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/integrated-biosciences",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:58:58.154Z",
@@ -1116,13 +1961,82 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:29:30.189Z",
+        "title": "Layered Botanical Fluid Landing Page",
+        "palette": [
+          {
+            "hex": "#08291E",
+            "role": "deep green background"
+          },
+          {
+            "hex": "#A7C9B3",
+            "role": "misty sage highlight"
+          },
+          {
+            "hex": "#B69B78",
+            "role": "warm bronze accent"
+          },
+          {
+            "hex": "#F3F4ED",
+            "role": "light text and navigation"
+          },
+          {
+            "hex": "#C9F878",
+            "role": "lime call-to-action accent"
+          }
+        ],
+        "style": [
+          "organic",
+          "minimal",
+          "immersive",
+          "layered"
+        ],
+        "tone": [
+          "calm",
+          "futuristic",
+          "premium",
+          "curious"
+        ],
+        "layout": [
+          "hero-led",
+          "asymmetric",
+          "full-bleed composition",
+          "floating navigation"
+        ],
+        "typography": [
+          "oversized type",
+          "grotesk",
+          "high-contrast",
+          "restrained supporting copy"
+        ],
+        "uiMotifs": [
+          "pill-shaped navigation",
+          "dark rounded buttons",
+          "lime square arrow button",
+          "subtle rounded page frame"
+        ],
+        "notes": "The page pairs oversized white sans-serif typography with an abstract, softly blurred composition of translucent green and bronze forms. Strong contrast, generous negative space, and restrained pill controls create a polished, science-forward atmosphere.",
+        "suggestedTagIds": [
+          "organic",
+          "minimal",
+          "hero-led",
+          "oversized-type",
+          "layered",
+          "immersive",
+          "grotesk",
+          "landing-love"
+        ],
+        "heroPrompt": "Create an abstract macro hero image for a premium scientific technology website: large translucent organic ribbons and curved membrane-like forms sweeping diagonally across the frame, layered in deep forest green, muted sage, smoky black, and warm bronze. Use soft studio lighting, shallow depth of field, diffused highlights, subtle refraction, atmospheric blur, and a luxurious editorial art direction. Keep the upper-left and central areas visually calm enough for large white headline overlay, with no text, logos, symbols, people, or recognizable objects."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "park-photos-f161fe24",
-      "title": "Park Photos",
+      "title": "Misty Coastal Park Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/park-photos",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:58:40.272Z",
@@ -1135,13 +2049,83 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:29:46.565Z",
+        "title": "Misty Coastal Park Landing Page",
+        "palette": [
+          {
+            "hex": "#171713",
+            "role": "foreground foliage"
+          },
+          {
+            "hex": "#37484A",
+            "role": "ocean"
+          },
+          {
+            "hex": "#77766A",
+            "role": "hazy sky"
+          },
+          {
+            "hex": "#A37745",
+            "role": "warm highlights"
+          },
+          {
+            "hex": "#F3F1E8",
+            "role": "typography and controls"
+          }
+        ],
+        "style": [
+          "editorial",
+          "minimal",
+          "organic",
+          "cinematic"
+        ],
+        "tone": [
+          "quiet",
+          "earthy",
+          "curious",
+          "immersive"
+        ],
+        "layout": [
+          "hero-led",
+          "centered composition",
+          "full-bleed image",
+          "layered foreground framing"
+        ],
+        "typography": [
+          "serif",
+          "display-type",
+          "oversized-type"
+        ],
+        "uiMotifs": [
+          "pill-shaped call-to-action",
+          "small peripheral metadata",
+          "minimal navigation indicators"
+        ],
+        "notes": "A full-screen coastal landscape is framed by softly blurred, dark evergreen branches, creating depth around centered white editorial typography. Muted natural colors, generous negative space, restrained controls, and subtle metadata create a calm exploratory atmosphere.",
+        "suggestedTagIds": [
+          "editorial",
+          "minimal",
+          "organic",
+          "quiet",
+          "earthy",
+          "hero-led",
+          "layered",
+          "immersive",
+          "serif",
+          "display-type",
+          "oversized-type"
+        ],
+        "heroPrompt": "A cinematic full-bleed photograph of a rugged coastal inlet viewed through softly blurred sculptural evergreen branches in the foreground, with calm deep blue-green water, distant hazy cliffs, and a pale overcast sky. Use subdued olive, charcoal, slate, and warm ochre tones, gentle film grain, low contrast, atmospheric haze, and shallow depth of field. Keep the central horizon and middle of the image relatively open and uncluttered for overlay placement, while asymmetrical foliage frames the left and right edges. Quiet, contemplative, premium editorial art direction; no text, logos, signs, or identifiable branding."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "defined-9a484af6",
-      "title": "Defined",
+      "title": "Electric Halftone Intelligence Field",
       "sourceUrl": "https://craftwork.design/curated/website/defined",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:58:26.423Z",
@@ -1154,13 +2138,87 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:30:09.185Z",
+        "title": "Electric Halftone Intelligence Field",
+        "palette": [
+          {
+            "hex": "#000000",
+            "role": "background"
+          },
+          {
+            "hex": "#1261E8",
+            "role": "electric blue"
+          },
+          {
+            "hex": "#12D6D0",
+            "role": "cyan accent"
+          },
+          {
+            "hex": "#A9F000",
+            "role": "lime highlight"
+          },
+          {
+            "hex": "#EF0BD6",
+            "role": "magenta accent"
+          },
+          {
+            "hex": "#FF8A00",
+            "role": "orange accent"
+          }
+        ],
+        "style": [
+          "halftone mosaic",
+          "abstract data visualization",
+          "neon gradient",
+          "dense dot matrix"
+        ],
+        "tone": [
+          "energetic",
+          "futuristic",
+          "curious",
+          "technical"
+        ],
+        "layout": [
+          "central negative space",
+          "full-bleed backdrop",
+          "radial framing",
+          "symmetrical balance",
+          "persistent header bar"
+        ],
+        "typography": [
+          "white grotesk sans-serif",
+          "centered multiline headline",
+          "large display scale",
+          "high contrast",
+          "selective text dimming"
+        ],
+        "uiMotifs": [
+          "minimal black header",
+          "compact grid icon",
+          "pixel-dot texture",
+          "navigation chrome",
+          "wordmark lockup"
+        ],
+        "notes": "A black central field is framed by dense, multicolored circular halftone forms that resemble a glowing data landscape or abstract globe. Large centered white typography creates a calm focal point against the highly saturated, technically rendered backdrop.",
+        "suggestedTagIds": [
+          "retro-futurist",
+          "energetic",
+          "technical",
+          "hero-led",
+          "grid-system",
+          "dark-mode"
+        ],
+        "heroPrompt": "Create a wide cinematic abstract hero visual on a pure black background, built from thousands of evenly spaced circular halftone dots. Arrange luminous regions like a fragmented digital globe or flowing data field around a large empty black center, using electric blue, cyan, lime, yellow, orange, magenta, and violet gradients. Vary dot density to create soft fades, glowing contours, and layered depth while preserving a crisp geometric grid. Keep the composition balanced and immersive, with strong negative space in the middle for later typography. No logos, symbols, interface text, or recognizable objects."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "consensys-7317dde1",
-      "title": "Consensys",
+      "title": "Neon Prism Finance Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/consensys",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:58:19.014Z",
@@ -1173,13 +2231,81 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:30:45.673Z",
+        "title": "Neon Prism Finance Landing Page",
+        "palette": [
+          {
+            "hex": "#111111",
+            "role": "background"
+          },
+          {
+            "hex": "#C5FF3D",
+            "role": "accent"
+          },
+          {
+            "hex": "#F7F7F7",
+            "role": "headline text"
+          },
+          {
+            "hex": "#4B18FF",
+            "role": "cool glow"
+          },
+          {
+            "hex": "#E9008C",
+            "role": "warm glow"
+          }
+        ],
+        "style": [
+          "dark-mode",
+          "retro-futurist",
+          "maximalist",
+          "layered",
+          "hero-led"
+        ],
+        "tone": [
+          "energetic",
+          "technical",
+          "futuristic",
+          "bold"
+        ],
+        "layout": [
+          "asymmetric",
+          "oversized-type",
+          "immersive",
+          "floating navigation"
+        ],
+        "typography": [
+          "grotesk",
+          "display-type",
+          "oversized type",
+          "high-contrast"
+        ],
+        "uiMotifs": [
+          "pill navigation",
+          "neon lime buttons",
+          "outlined secondary button",
+          "translucent geometric forms"
+        ],
+        "notes": "A near-black canvas pairs oversized white and acid-lime headlines with luminous magenta-blue geometric prisms sweeping through the hero area. The composition balances sparse navigation and controls on the left with a large layered visual field and supporting copy anchored low on the right.",
+        "suggestedTagIds": [
+          "retro-futurist",
+          "maximalist",
+          "energetic",
+          "technical",
+          "hero-led",
+          "asymmetric"
+        ],
+        "heroPrompt": "Create an abstract hero visual for a futuristic technology website: several large translucent geometric prisms and folded glass-like planes overlap diagonally across a deep black background. Use intense electric blue, violet, magenta, and subtle cyan edge lighting, with glossy refractions, soft bloom, and sharp luminous contours. Keep the forms asymmetric, spacious, and partially cropped by the frame, leaving clear negative space on the left for large typography. No text, logos, symbols, people, or recognizable objects."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "interfere-d4bc06e4",
-      "title": "Interfere",
+      "title": "Playful Floating Paper Ephemera",
       "sourceUrl": "https://craftwork.design/curated/website/interfere",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:58:08.918Z",
@@ -1192,13 +2318,86 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:30:58.049Z",
+        "title": "Playful Floating Paper Ephemera",
+        "palette": [
+          {
+            "hex": "#F8F8F3",
+            "role": "background"
+          },
+          {
+            "hex": "#D7C67B",
+            "role": "muted yellow"
+          },
+          {
+            "hex": "#2D78A5",
+            "role": "accent blue"
+          },
+          {
+            "hex": "#C98868",
+            "role": "warm terracotta"
+          },
+          {
+            "hex": "#B7A9D8",
+            "role": "soft lavender"
+          },
+          {
+            "hex": "#3C624F",
+            "role": "deep green"
+          }
+        ],
+        "style": [
+          "playful",
+          "collage-like",
+          "handcrafted",
+          "pastel",
+          "maximalist"
+        ],
+        "tone": [
+          "curious",
+          "lighthearted",
+          "warm",
+          "informal"
+        ],
+        "layout": [
+          "asymmetric",
+          "sparse field",
+          "floating elements",
+          "layered collage"
+        ],
+        "typography": [
+          "bold sans-serif",
+          "casual sans-serif",
+          "mixed scale",
+          "handwritten accents"
+        ],
+        "uiMotifs": [
+          "paper tags",
+          "ticket shapes",
+          "stamps",
+          "receipts",
+          "cut-paper silhouettes"
+        ],
+        "notes": "A pale dotted canvas is scattered with colorful paper-like labels, tickets, badges, receipts, and small illustrated objects. Irregular silhouettes, soft shadows, varied orientations, and restrained pastel colors create a tactile scrapbook mood with playful editorial energy.",
+        "suggestedTagIds": [
+          "playful",
+          "layered",
+          "asymmetric",
+          "pastel",
+          "craftwork",
+          "maximalist"
+        ],
+        "heroPrompt": null
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "novu-f299dce0",
-      "title": "Novu",
+      "title": "Blue Portrait Conversational Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/novu",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:58:00.723Z",
@@ -1211,13 +2410,81 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:31:12.814Z",
+        "title": "Blue Portrait Conversational Landing Page",
+        "palette": [
+          {
+            "hex": "#456D9F",
+            "role": "background"
+          },
+          {
+            "hex": "#B6C794",
+            "role": "accent object"
+          },
+          {
+            "hex": "#8F83A7",
+            "role": "secondary accent"
+          },
+          {
+            "hex": "#D18E70",
+            "role": "skin tone"
+          },
+          {
+            "hex": "#F8F7F2",
+            "role": "text"
+          }
+        ],
+        "style": [
+          "hero-led",
+          "photographic",
+          "softly editorial",
+          "contemporary",
+          "immersive"
+        ],
+        "tone": [
+          "friendly",
+          "human",
+          "calm",
+          "optimistic"
+        ],
+        "layout": [
+          "full-bleed hero",
+          "centered content overlay",
+          "layered foreground subject",
+          "strong visual hierarchy"
+        ],
+        "typography": [
+          "large thin sans-serif",
+          "oversized display type",
+          "high-contrast white text",
+          "centered text block"
+        ],
+        "uiMotifs": [
+          "translucent pill navigation",
+          "black app-store CTA",
+          "rounded white button",
+          "subtle dark image gradient"
+        ],
+        "notes": "A full-screen portrait photograph dominates the composition, with centered oversized white messaging layered over the subject and a darkened lower gradient for legibility. The restrained pill-shaped navigation and rounded download buttons create a polished, approachable product-landing direction.",
+        "suggestedTagIds": [
+          "hero-led",
+          "immersive",
+          "oversized-type",
+          "layered",
+          "grotesk",
+          "landing-love"
+        ],
+        "heroPrompt": "Create a full-bleed editorial lifestyle photograph for a modern mobile app landing page: a smiling young woman with auburn hair holds a pale green smartphone close to the camera, wearing a chunky lavender knit sweater, against a clear muted blue sky. Use intimate low-angle framing, warm natural sunlight, shallow depth of field, rich skin texture, and a candid joyful expression. Leave clean negative space near the center for white headline typography, with a subtle darkening gradient toward the bottom. No logos, brands, readable text, or interface elements."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "mindmarket-c6c1cffc",
-      "title": "Mindmarket",
+      "title": "Lime Green Human Connection",
       "sourceUrl": "https://craftwork.design/curated/website/mindmarket",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:57:36.913Z",
@@ -1230,13 +2497,85 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:31:27.620Z",
+        "title": "Lime Green Human Connection",
+        "palette": [
+          {
+            "hex": "#8ED45D",
+            "role": "background"
+          },
+          {
+            "hex": "#252525",
+            "role": "primary text"
+          },
+          {
+            "hex": "#FFFFFF",
+            "role": "navigation panels"
+          },
+          {
+            "hex": "#FF6B61",
+            "role": "coral clothing"
+          },
+          {
+            "hex": "#299BEF",
+            "role": "blue accents"
+          },
+          {
+            "hex": "#FFE300",
+            "role": "yellow accents"
+          }
+        ],
+        "style": [
+          "playful",
+          "bold",
+          "illustrative",
+          "color-blocked",
+          "contemporary"
+        ],
+        "tone": [
+          "energetic",
+          "optimistic",
+          "human",
+          "curious"
+        ],
+        "layout": [
+          "hero-led",
+          "centered composition",
+          "oversized type",
+          "layered illustration"
+        ],
+        "typography": [
+          "grotesk",
+          "oversized display type",
+          "heavy weight",
+          "tight line spacing"
+        ],
+        "uiMotifs": [
+          "rounded white navigation cards",
+          "pill-shaped controls",
+          "circular menu button",
+          "flat character illustration"
+        ],
+        "notes": "A vivid lime background supports oversized charcoal headline typography and a colorful flat illustration of interconnected human figures. Rounded white navigation containers and restrained interface details create a polished contrast with the expressive, hand-drawn hero artwork.",
+        "suggestedTagIds": [
+          "playful",
+          "energetic",
+          "curious",
+          "hero-led",
+          "oversized-type",
+          "layered"
+        ],
+        "heroPrompt": "Create a bold flat vector illustration for a contemporary consulting website hero: a playful group of diverse abstract human figures leaning and reaching across one another in a loose diagonal cluster, with oversized hands, expressive faces, colorful clothing, and small floating accent shapes. Use thick dark outlines, simplified organic forms, bright coral, cobalt blue, sunny yellow, lavender, and cream against a solid lime-green background. Crop the figures near the lower edge, leaving generous open space above for headline placement. Clean screen-print-like color blocks, minimal shading, joyful collaborative energy, no text, no logos, no brand marks."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "tesoro-9aa4ae86",
-      "title": "Tesoro",
+      "title": "Playful Mustard Reward Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/tesoro",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:57:19.543Z",
@@ -1249,13 +2588,85 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:31:45.403Z",
+        "title": "Playful Mustard Reward Landing Page",
+        "palette": [
+          {
+            "hex": "#ECAF16",
+            "role": "dominant background"
+          },
+          {
+            "hex": "#202020",
+            "role": "contrast panel"
+          },
+          {
+            "hex": "#FFF8F0",
+            "role": "headline and body text"
+          },
+          {
+            "hex": "#E98700",
+            "role": "accent detail"
+          },
+          {
+            "hex": "#A8A8A8",
+            "role": "metallic button detail"
+          }
+        ],
+        "style": [
+          "playful",
+          "3D illustration",
+          "high contrast",
+          "bold editorial",
+          "landing-page focused"
+        ],
+        "tone": [
+          "energetic",
+          "optimistic",
+          "friendly",
+          "confident"
+        ],
+        "layout": [
+          "asymmetric composition",
+          "hero-led",
+          "oversized type",
+          "diagonal color field"
+        ],
+        "typography": [
+          "heavy grotesk",
+          "display-scale lettering",
+          "tight line spacing",
+          "high-impact headline"
+        ],
+        "uiMotifs": [
+          "pill-shaped navigation buttons",
+          "warm translucent controls",
+          "rounded corners",
+          "minimal utility navigation"
+        ],
+        "notes": "A saturated mustard field dominates the composition, interrupted by a dark diagonal wedge and a floating 3D thumbs-up hand with an orange cuff. Oversized cream typography anchors the lower edge while compact pill navigation creates a polished, energetic landing-page hierarchy.",
+        "suggestedTagIds": [
+          "playful",
+          "warm",
+          "energetic",
+          "hero-led",
+          "asymmetric",
+          "oversized-type",
+          "high-contrast",
+          "primary-pop",
+          "grotesk",
+          "landing-love"
+        ],
+        "heroPrompt": "Create a polished 3D hero illustration of a stylized thumbs-up hand floating diagonally across a saturated mustard-yellow field. Give the hand a soft ivory sculpted form, rounded fingers, subtle ambient occlusion, and a vivid orange cuff with a small metallic button. Use smooth toy-like materials, soft directional lighting, gentle shadows, and a clean premium startup-art direction. Compose the hand in the upper-right area with generous negative space on the left and a dark charcoal geometric wedge entering from the lower-left. No text, logos, watermarks, or interface elements."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "general-intelligence-company-2c4e783c",
-      "title": "General Intelligence Company",
+      "title": "Botanical Skyline in Spring Light",
       "sourceUrl": "https://craftwork.design/curated/website/general-intelligence-company",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:57:09.387Z",
@@ -1268,13 +2679,84 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:32:36.572Z",
+        "title": "Botanical Skyline in Spring Light",
+        "palette": [
+          {
+            "hex": "#31B3EB",
+            "role": "sky background"
+          },
+          {
+            "hex": "#F4A9C0",
+            "role": "blossom accents"
+          },
+          {
+            "hex": "#A7D957",
+            "role": "foliage highlights"
+          },
+          {
+            "hex": "#374D66",
+            "role": "glass and shadows"
+          },
+          {
+            "hex": "#F4F0DF",
+            "role": "architectural highlights"
+          }
+        ],
+        "style": [
+          "illustrated cityscape",
+          "botanical framing",
+          "soft-glass interface",
+          "cinematic hero composition"
+        ],
+        "tone": [
+          "optimistic",
+          "whimsical",
+          "fresh",
+          "aspirational"
+        ],
+        "layout": [
+          "full-bleed hero image",
+          "centered top navigation",
+          "lower-left translucent content card",
+          "asymmetrical natural framing"
+        ],
+        "typography": [
+          "high-contrast serif display",
+          "small sans-serif utility text",
+          "large centered headline",
+          "white type over imagery"
+        ],
+        "uiMotifs": [
+          "frosted glass capsule nav",
+          "rounded translucent panel",
+          "subtle pill CTA",
+          "circular arrow affordances"
+        ],
+        "notes": "A vivid illustrated skyline is softened by flowering branches and lush foreground foliage, creating an immersive spring atmosphere. Translucent glass panels and restrained white typography add a polished editorial-tech layer without competing with the hero image.",
+        "suggestedTagIds": [
+          "organic",
+          "playful",
+          "pastel",
+          "hero-led",
+          "layered",
+          "immersive",
+          "serif",
+          "display-type",
+          "asymmetric",
+          "landing-love"
+        ],
+        "heroPrompt": "Create a full-bleed editorial landing-page hero illustration of a dense modern city skyline beneath a luminous cyan-blue sky, framed by flowering branches entering from the upper corners and abundant pink blossoms and lime-green foliage along the lower edge. Mix ornate historic architecture with sleek glass towers, using soft painterly detail, bright spring sunlight, gentle atmospheric haze, and a polished contemporary color grade. Leave clear negative space in the upper center for a headline and the lower left for a translucent rounded content panel. No logos, brands, or legible text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "more-nutrition-69d0eb2b",
-      "title": "More Nutrition",
+      "title": "Soft Green Protein Matcha Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/more-nutrition",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:57:00.138Z",
@@ -1287,13 +2769,80 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:32:51.004Z",
+        "title": "Soft Green Protein Matcha Landing Page",
+        "palette": [
+          {
+            "hex": "#ABC69B",
+            "role": "background"
+          },
+          {
+            "hex": "#07571C",
+            "role": "primary text"
+          },
+          {
+            "hex": "#F5F7ED",
+            "role": "contrast text and buttons"
+          },
+          {
+            "hex": "#9AB78B",
+            "role": "secondary controls"
+          },
+          {
+            "hex": "#7D8550",
+            "role": "product accent"
+          }
+        ],
+        "style": [
+          "bold editorial",
+          "organic wellness",
+          "high-impact branding",
+          "playful contemporary"
+        ],
+        "tone": [
+          "fresh",
+          "confident",
+          "natural",
+          "energetic"
+        ],
+        "layout": [
+          "hero-led composition",
+          "oversized central logotype",
+          "asymmetric product placement",
+          "layered circular framing"
+        ],
+        "typography": [
+          "oversized grotesk display type",
+          "heavy condensed headlines",
+          "handwritten annotation",
+          "high-contrast scale hierarchy"
+        ],
+        "uiMotifs": [
+          "pill-shaped navigation",
+          "circular statistic badges",
+          "arrow-in-circle buttons",
+          "soft monochromatic palette"
+        ],
+        "notes": "A pale botanical-green field supports oversized dark-green lettering, compact pill navigation, and a large angled product cup framed by a white arc. Handwritten callouts, stacked benefit badges, and tightly packed headline blocks combine editorial polish with approachable wellness packaging.",
+        "suggestedTagIds": [
+          "editorial",
+          "organic",
+          "energetic",
+          "hero-led",
+          "asymmetric",
+          "oversized-type"
+        ],
+        "heroPrompt": "Create a polished wellness landing-page hero visual on a pale sage-green background: a chilled olive-green matcha protein drink in a tall paper cup with a white lid, angled slightly and cropped near the lower center. Add a bold white circular arc behind the cup, soft studio lighting, subtle condensation, and clean product-render realism. Use dark forest-green geometric accents and generous negative space, with no readable text, logos, brand marks, or people."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "primora-af2afddf",
-      "title": "Primora",
+      "title": "Dark Grid Editorial Landing Page",
       "sourceUrl": "https://craftwork.design/curated/website/primora",
       "sourceDomain": "craftwork.design",
       "importedAt": "2026-07-27T04:56:20.384Z",
@@ -1306,13 +2855,82 @@
       "manualTagIds": [
         "craftwork"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:33:06.800Z",
+        "title": "Dark Grid Editorial Landing Page",
+        "palette": [
+          {
+            "hex": "#100E12",
+            "role": "background"
+          },
+          {
+            "hex": "#F3F1F3",
+            "role": "primary text"
+          },
+          {
+            "hex": "#28242B",
+            "role": "grid lines"
+          },
+          {
+            "hex": "#5B1AB4",
+            "role": "accent purple"
+          },
+          {
+            "hex": "#E86B58",
+            "role": "accent coral"
+          }
+        ],
+        "style": [
+          "dark editorial",
+          "technical",
+          "minimal",
+          "high-contrast",
+          "data-driven"
+        ],
+        "tone": [
+          "confident",
+          "serious",
+          "futuristic",
+          "precise"
+        ],
+        "layout": [
+          "centered hero",
+          "symmetrical composition",
+          "modular grid",
+          "full-width chart footer"
+        ],
+        "typography": [
+          "oversized serif display",
+          "restrained sans-serif navigation",
+          "high-contrast hierarchy",
+          "centered multiline headline"
+        ],
+        "uiMotifs": [
+          "fine construction grid",
+          "colored grid-point markers",
+          "pill-shaped call-to-action",
+          "compact navigation bar",
+          "candlestick chart visualization"
+        ],
+        "notes": "A near-black landing page uses a precise grid, oversized white serif headline, and restrained gray supporting text to create an editorial yet technical feel. Purple and coral accents appear in grid markers, the CTA icon, and a blurred candlestick chart along the lower edge.",
+        "suggestedTagIds": [
+          "technical",
+          "grid-system",
+          "oversized-type",
+          "serif",
+          "dark-mode",
+          "high-contrast"
+        ],
+        "heroPrompt": null
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "dota2-on-behance-kreatives-webdesign-ideen-f-r-p-5198c1a7",
-      "title": "Dota2 on Behance | Kreatives webdesign, Ideen für präsentationen, Webseiten inspiration",
+      "title": "Torn-Paper Dark Fantasy Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/315463148920617187/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:56:06.096Z",
@@ -1325,13 +2943,83 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:33:22.805Z",
+        "title": "Torn-Paper Dark Fantasy Landing Page",
+        "palette": [
+          {
+            "hex": "#11151B",
+            "role": "background"
+          },
+          {
+            "hex": "#F1F0EC",
+            "role": "paper field"
+          },
+          {
+            "hex": "#752D2C",
+            "role": "accent"
+          },
+          {
+            "hex": "#A45432",
+            "role": "warm highlight"
+          },
+          {
+            "hex": "#67686A",
+            "role": "secondary text"
+          }
+        ],
+        "style": [
+          "dark fantasy",
+          "editorial collage",
+          "maximalist",
+          "textured",
+          "cinematic"
+        ],
+        "tone": [
+          "dramatic",
+          "ominous",
+          "energetic",
+          "immersive"
+        ],
+        "layout": [
+          "asymmetric vertical flow",
+          "hero-led composition",
+          "layered sections",
+          "torn-edge transitions",
+          "editorial grid"
+        ],
+        "typography": [
+          "high-contrast serif",
+          "oversized display type",
+          "condensed sans-serif",
+          "small utility labels"
+        ],
+        "uiMotifs": [
+          "ink-black organic cutouts",
+          "red information panels",
+          "thin divider rules",
+          "floating section markers",
+          "image-text overlays"
+        ],
+        "notes": "A tall editorial page combines cinematic fantasy artwork with torn black-paper silhouettes against a warm off-white textured background. Oversized serif headings, restrained red panels, fine rules, and small metadata create a highly layered but controlled vertical narrative.",
+        "suggestedTagIds": [
+          "editorial",
+          "maximalist",
+          "hero-led",
+          "asymmetric",
+          "layered",
+          "high-contrast"
+        ],
+        "heroPrompt": "A cinematic dark-fantasy armored warrior emerging from torn black paper and smoke, centered within a tall editorial composition. Use dramatic rim lighting, charcoal and near-black armor, deep crimson accents, ember-orange highlights, painterly texture, and sharp sculptural silhouettes. Surround the figure with irregular ink-wash edges and fragments of distressed paper over an off-white textured background, leaving generous negative space for typography. Refined art-direction mood, high contrast, premium game concept art, vertical poster format, no logos, no readable text, no recognizable copyrighted characters."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-design-ef028071",
-      "title": "Pin on Design",
+      "title": "Dark Celestial Editorial Interface",
       "sourceUrl": "https://www.pinterest.com/pin/15270086237638300/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:55:51.678Z",
@@ -1344,13 +3032,92 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:33:35.925Z",
+        "title": "Dark Celestial Editorial Interface",
+        "palette": [
+          {
+            "hex": "#050505",
+            "role": "background"
+          },
+          {
+            "hex": "#1A1A1A",
+            "role": "surface"
+          },
+          {
+            "hex": "#D6D6D2",
+            "role": "text"
+          },
+          {
+            "hex": "#F2C400",
+            "role": "accent"
+          },
+          {
+            "hex": "#777777",
+            "role": "secondary text"
+          }
+        ],
+        "style": [
+          "editorial",
+          "dark-mode",
+          "retro-futurist",
+          "immersive",
+          "technical"
+        ],
+        "tone": [
+          "curious",
+          "mysterious",
+          "exploratory",
+          "cinematic"
+        ],
+        "layout": [
+          "asymmetric",
+          "grid-system",
+          "layered",
+          "modular",
+          "image-led"
+        ],
+        "typography": [
+          "grotesk",
+          "oversized-type",
+          "display-type",
+          "high-contrast"
+        ],
+        "uiMotifs": [
+          "thin grid lines",
+          "yellow utility accents",
+          "dark translucent panels",
+          "planetary imagery",
+          "dense article cards"
+        ],
+        "notes": "A black editorial system combines oversized white headlines, fine modular grids, textured surfaces, and dramatic space photography. Small yellow accents, narrow metadata, and layered page mockups create a technical yet cinematic exploration aesthetic.",
+        "suggestedTagIds": [
+          "editorial",
+          "dark-mode",
+          "retro-futurist",
+          "technical",
+          "hero-led",
+          "asymmetric",
+          "grid-system",
+          "oversized-type",
+          "layered",
+          "immersive",
+          "monochrome",
+          "high-contrast",
+          "grotesk",
+          "display-type",
+          "curious"
+        ],
+        "heroPrompt": "A cinematic close-up of a partially illuminated cratered moon emerging from deep black space, its rim catching cool silver light and subtle blue-gray atmospheric haze. Use a nearly monochrome palette with faint granular texture, soft film grain, and a large area of negative space for editorial typography. Compose the celestial body off-center within a precise modular grid feeling, with high contrast, restrained highlights, and an exploratory scientific mood. No text, logos, interface elements, or recognizable branding."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-web-design-c051735b",
-      "title": "Pin on Web Design",
+      "title": "Organic Tea Editorial Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/224968943882056159/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:55:11.859Z",
@@ -1363,13 +3130,80 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:34:16.029Z",
+        "title": "Organic Tea Editorial Landing Page",
+        "palette": [
+          {
+            "hex": "#F5F1EC",
+            "role": "background"
+          },
+          {
+            "hex": "#292929",
+            "role": "primary text"
+          },
+          {
+            "hex": "#FFC83D",
+            "role": "accent"
+          },
+          {
+            "hex": "#D9D7D1",
+            "role": "soft overlay"
+          },
+          {
+            "hex": "#78905A",
+            "role": "natural accent"
+          }
+        ],
+        "style": [
+          "editorial",
+          "organic",
+          "minimal",
+          "product-focused"
+        ],
+        "tone": [
+          "warm",
+          "quiet",
+          "curious"
+        ],
+        "layout": [
+          "long-form landing page",
+          "asymmetric composition",
+          "layered product collage",
+          "oversized section typography"
+        ],
+        "typography": [
+          "bold grotesk display type",
+          "light sans-serif body copy",
+          "oversized uppercase headlines",
+          "high-contrast scale"
+        ],
+        "uiMotifs": [
+          "yellow curved pathway",
+          "floating product photography",
+          "thin outlined product frame",
+          "lime pill buttons",
+          "ingredient still lifes"
+        ],
+        "notes": "A warm off-white page combines oversized charcoal and yellow typography with botanical tea photography, product mockups, and generous vertical spacing. The composition uses a loose editorial grid, overlapping imagery, and a sweeping yellow curve to connect product, flavor, and customization sections.",
+        "suggestedTagIds": [
+          "editorial",
+          "organic",
+          "minimal",
+          "warm",
+          "asymmetric",
+          "oversized-type"
+        ],
+        "heroPrompt": "Create a tall editorial wellness landing-page hero for an organic tea product, using a warm ivory background, bold oversized charcoal sans-serif typography, and a bright saffron-yellow accent. Arrange a white ceramic teapot, loose tea, green leaves, almonds, and dried citrus in a clean overhead still life with soft shadows, partially overlapping a thin black outlined product frame. Add subtle translucent oversized lettering behind the objects, generous negative space, delicate gray microcopy placeholders, and a refined asymmetrical magazine layout. Avoid logos, brand names, and legible marketing text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-9c7dbf03",
-      "title": "Pin on Седжвро промо",
+      "title": "Ember Glow SaaS Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/3307399722086531/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:54:52.180Z",
@@ -1382,13 +3216,83 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:34:30.373Z",
+        "title": "Ember Glow SaaS Landing Page",
+        "palette": [
+          {
+            "hex": "#100904",
+            "role": "background"
+          },
+          {
+            "hex": "#221207",
+            "role": "surface"
+          },
+          {
+            "hex": "#FF6A1A",
+            "role": "accent glow"
+          },
+          {
+            "hex": "#8C3B16",
+            "role": "secondary accent"
+          },
+          {
+            "hex": "#EEE4D3",
+            "role": "text"
+          }
+        ],
+        "style": [
+          "dark luxury",
+          "high contrast",
+          "polished SaaS",
+          "glow-driven",
+          "conversion-focused"
+        ],
+        "tone": [
+          "warm",
+          "energetic",
+          "confident",
+          "premium"
+        ],
+        "layout": [
+          "long-form landing page",
+          "structured grid",
+          "centered sections",
+          "card-based modules",
+          "clear vertical rhythm"
+        ],
+        "typography": [
+          "clean grotesk",
+          "large concise headlines",
+          "high-contrast hierarchy",
+          "compact supporting text"
+        ],
+        "uiMotifs": [
+          "orange edge lighting",
+          "rounded dark cards",
+          "glowing borders",
+          "pill buttons",
+          "soft radial gradients"
+        ],
+        "notes": "A dark, vertically structured SaaS landing page uses near-black brown surfaces, vivid orange illumination, and warm off-white type to create a premium technical feel. Repeated cards, pricing panels, testimonial blocks, FAQ rows, and glowing calls to action establish a clear conversion-oriented rhythm.",
+        "suggestedTagIds": [
+          "dark-mode",
+          "warm",
+          "luxurious",
+          "high-contrast",
+          "grid-system",
+          "layered"
+        ],
+        "heroPrompt": null
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "ui-ux-projects-photos-videos-logos-illustrations-734b2979",
-      "title": "Ui Ux Projects: Photos, Videos, Logos, Illustrations and Branding | Web design ideas website, Landing page design website, Website design purple",
+      "title": "Surreal Indigo Mountain Adventure Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/347410558777811809/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:54:43.812Z",
@@ -1401,13 +3305,82 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:34:46.343Z",
+        "title": "Surreal Indigo Mountain Adventure Landing Page",
+        "palette": [
+          {
+            "hex": "#0B0B4F",
+            "role": "background"
+          },
+          {
+            "hex": "#F46B21",
+            "role": "illustration highlights"
+          },
+          {
+            "hex": "#5A4CC5",
+            "role": "cards and panels"
+          },
+          {
+            "hex": "#F2F0E8",
+            "role": "primary text"
+          },
+          {
+            "hex": "#B8334A",
+            "role": "accent"
+          }
+        ],
+        "style": [
+          "illustrated editorial",
+          "surreal landscape",
+          "high-contrast",
+          "layered",
+          "immersive"
+        ],
+        "tone": [
+          "adventurous",
+          "curious",
+          "dramatic",
+          "energetic"
+        ],
+        "layout": [
+          "hero-led",
+          "stacked sections",
+          "three-card grid",
+          "asymmetric gallery"
+        ],
+        "typography": [
+          "oversized display type",
+          "geometric sans-serif",
+          "uppercase headline",
+          "compact editorial labels"
+        ],
+        "uiMotifs": [
+          "thin navigation rules",
+          "numbered activity cards",
+          "bright CTA buttons",
+          "image-and-detail gallery panel",
+          "small progress indicators"
+        ],
+        "notes": "A dark indigo travel interface uses vivid orange-purple landscape artwork as its dominant visual language, with wildlife silhouettes and atmospheric depth creating an immersive hero. Repeated horizontal rules, numbered cards, compact metadata, and offset gallery panels give the long page a structured editorial rhythm.",
+        "suggestedTagIds": [
+          "hero-led",
+          "immersive",
+          "layered",
+          "grid-system",
+          "oversized-type",
+          "dark-mode"
+        ],
+        "heroPrompt": "Create a wide cinematic digital illustration for an adventure travel landing page: towering orange-red mountain peaks beneath dense lavender storm clouds, a reflective alpine lake, dark pine silhouettes, and two small bear silhouettes on rocky foreground terrain. Use bold flat-shaded forms, painterly texture, dramatic atmospheric perspective, deep indigo shadows, saturated coral highlights, and a centered composition with generous dark negative space for large white typography. No text, logos, or branding."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-beauty-websites-i-love-f38337cf",
-      "title": "Pin on Beauty Websites I Love",
+      "title": "Warm Botanical Beauty Editorial",
       "sourceUrl": "https://www.pinterest.com/pin/524880531596435729/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:54:38.563Z",
@@ -1420,13 +3393,90 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:35:00.043Z",
+        "title": "Warm Botanical Beauty Editorial",
+        "palette": [
+          {
+            "hex": "#F1F0EB",
+            "role": "background"
+          },
+          {
+            "hex": "#A66F52",
+            "role": "skin and image warmth"
+          },
+          {
+            "hex": "#8A9783",
+            "role": "muted botanical accent"
+          },
+          {
+            "hex": "#292A22",
+            "role": "text"
+          },
+          {
+            "hex": "#B9824D",
+            "role": "product amber"
+          }
+        ],
+        "style": [
+          "editorial",
+          "organic",
+          "minimal",
+          "luxurious"
+        ],
+        "tone": [
+          "warm",
+          "quiet",
+          "natural",
+          "refined"
+        ],
+        "layout": [
+          "hero-led",
+          "grid-system",
+          "layered",
+          "asymmetric"
+        ],
+        "typography": [
+          "oversized-type",
+          "display-type",
+          "serif",
+          "grotesk"
+        ],
+        "uiMotifs": [
+          "translucent rounded navigation bar",
+          "pill-shaped buttons",
+          "editorial image blocks",
+          "product cutouts with soft shadows"
+        ],
+        "notes": "A tall skincare landing page combines a close-up facial hero with oversized serif lettering and restrained product photography. Warm neutrals, muted green accents, generous spacing, and offset image panels create a calm premium editorial direction.",
+        "suggestedTagIds": [
+          "editorial",
+          "minimal",
+          "organic",
+          "warm",
+          "quiet",
+          "luxurious",
+          "hero-led",
+          "grid-system",
+          "oversized-type",
+          "layered",
+          "earthy",
+          "serif",
+          "display-type",
+          "grotesk",
+          "landing-love",
+          "pinterest"
+        ],
+        "heroPrompt": "Extreme close-up editorial beauty photograph of a calm human face focused on one hazel-green eye, warm sunlit skin with natural texture, soft amber and terracotta shadows, intimate cropped composition, subtle translucent glass-like interface overlay near the top, premium botanical skincare campaign mood, cinematic directional light, tactile analog grain, sophisticated neutral color grading, no text, no logos, no packaging, no watermark."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "behance-portfolio-cv-graphic-design-digital-mark-eff46df4",
-      "title": "Behance에서의 Portfolio | CV | Graphic Design | Digital Marketing | Portfolio design layouts, Layout web, Branding",
+      "title": "Editorial Portfolio in Forest Green",
       "sourceUrl": "https://www.pinterest.com/pin/19703317113233473/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:54:27.503Z",
@@ -1439,13 +3489,86 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:35:13.246Z",
+        "title": "Editorial Portfolio in Forest Green",
+        "palette": [
+          {
+            "hex": "#2D4B35",
+            "role": "deep green background"
+          },
+          {
+            "hex": "#F3EBDD",
+            "role": "warm cream background"
+          },
+          {
+            "hex": "#FFB313",
+            "role": "accent yellow"
+          },
+          {
+            "hex": "#BB6D38",
+            "role": "burnt orange panel"
+          },
+          {
+            "hex": "#050505",
+            "role": "black contrast"
+          }
+        ],
+        "style": [
+          "editorial",
+          "layered",
+          "high-contrast",
+          "expressive-type",
+          "playful"
+        ],
+        "tone": [
+          "warm",
+          "energetic",
+          "curious",
+          "confident"
+        ],
+        "layout": [
+          "asymmetric composition",
+          "split-screen sections",
+          "overlapping cards",
+          "scroll-led landing page"
+        ],
+        "typography": [
+          "oversized display serif",
+          "outlined display lettering",
+          "expressive serif headings",
+          "compact sans-serif body copy"
+        ],
+        "uiMotifs": [
+          "pill-shaped buttons",
+          "starburst accents",
+          "floating scroll badge",
+          "rounded skill tags",
+          "portrait information card"
+        ],
+        "notes": "The design combines forest green, cream, orange, yellow, and black with oversized serif typography, outlined lettering, cropped photography, and overlapping content blocks. Its portfolio structure uses strong section transitions, playful badges, decorative starbursts, and a dense editorial resume layout.",
+        "suggestedTagIds": [
+          "editorial",
+          "playful",
+          "warm",
+          "energetic",
+          "asymmetric",
+          "oversized-type",
+          "layered",
+          "hero-led",
+          "serif",
+          "display-type"
+        ],
+        "heroPrompt": "Editorial portfolio hero composition featuring a softly blurred side-profile portrait of a young creative professional with dark hair, cropped inside a burnt-orange rectangular panel against a deep forest-green background. Add oversized cream high-contrast serif lettering partially overlapping the portrait, thin outlined decorative letterforms, small golden starburst accents, and a bold black lower band. Warm analog texture, sophisticated art-direction, sharp geometric blocks, asymmetrical layout, no logos, no readable text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "reinventa-tu-web-profesional-sin-errores-ideas-p-2ada9a9e",
-      "title": "Reinventa tu web profesional sin errores | Ideas para paginas web, Diseño web moderno, Diseño de interfaz de usuario",
+      "title": "Deep Ocean Immersive Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/6966574421808303/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:54:09.785Z",
@@ -1458,13 +3581,80 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:39:58.636Z",
+        "title": "Deep Ocean Immersive Landing Page",
+        "palette": [
+          {
+            "hex": "#020914",
+            "role": "background"
+          },
+          {
+            "hex": "#06284A",
+            "role": "deep-water surface"
+          },
+          {
+            "hex": "#0878C9",
+            "role": "luminous blue accent"
+          },
+          {
+            "hex": "#6BCDF2",
+            "role": "underwater glow"
+          },
+          {
+            "hex": "#F4F8FA",
+            "role": "typography and contrast"
+          }
+        ],
+        "style": [
+          "immersive",
+          "maximalist",
+          "organic",
+          "hero-led"
+        ],
+        "tone": [
+          "mysterious",
+          "curious",
+          "energetic",
+          "cinematic"
+        ],
+        "layout": [
+          "long-form vertical scroll",
+          "centered hero composition",
+          "stacked content sections",
+          "card-based navigation"
+        ],
+        "typography": [
+          "oversized display type",
+          "clean grotesk",
+          "high-contrast white type",
+          "compact micro-labels"
+        ],
+        "uiMotifs": [
+          "glowing circular scroll control",
+          "glassmorphic rounded panels",
+          "layered image cards",
+          "soft luminous borders"
+        ],
+        "notes": "A dark underwater landing page uses vivid blue photography, beams of light, marine life, and coral textures to create a cinematic sense of depth. Oversized white headlines, translucent rounded cards, and centered sections organize the dense visual atmosphere into a polished editorial narrative.",
+        "suggestedTagIds": [
+          "hero-led",
+          "immersive",
+          "dark-mode",
+          "oversized-type",
+          "layered",
+          "organic"
+        ],
+        "heroPrompt": "Create a cinematic underwater hero image for a vertical editorial website: deep navy ocean darkness, brilliant cobalt-blue shafts of light descending from the surface, a translucent jellyfish drifting on the right, distant schools of fish, textured coral reef and a small starfish emerging from the lower foreground. Use rich volumetric lighting, suspended particles, subtle cyan highlights, strong central negative space for oversized typography, and a premium photographic art direction. No text, logos, interface elements, or recognizable brands."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-matt-ui-1b0f2b55",
-      "title": "Pin on Matt ui",
+      "title": "Dark Tumbler Product Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/2814818512619087/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:53:47.524Z",
@@ -1477,13 +3667,80 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:40:27.566Z",
+        "title": "Dark Tumbler Product Landing Page",
+        "palette": [
+          {
+            "hex": "#20242D",
+            "role": "background"
+          },
+          {
+            "hex": "#2B2F38",
+            "role": "surface"
+          },
+          {
+            "hex": "#101216",
+            "role": "product"
+          },
+          {
+            "hex": "#F26A3D",
+            "role": "accent"
+          },
+          {
+            "hex": "#F1E5CF",
+            "role": "type"
+          }
+        ],
+        "style": [
+          "minimal",
+          "editorial",
+          "high-contrast",
+          "product-focused"
+        ],
+        "tone": [
+          "quiet",
+          "technical",
+          "confident",
+          "moody"
+        ],
+        "layout": [
+          "grid-system",
+          "hero-led",
+          "asymmetric",
+          "layered"
+        ],
+        "typography": [
+          "grotesk",
+          "display-type",
+          "oversized-type",
+          "bold"
+        ],
+        "uiMotifs": [
+          "dark-mode",
+          "thin outlined controls",
+          "orange progress accent",
+          "subtle translucent panels"
+        ],
+        "notes": "A restrained dark landing-page composition centers a matte black tumbler against oversized, low-contrast background lettering and a vivid orange circular accent. Cream display typography, small utility labels, and translucent information panels create a polished editorial product-study feel.",
+        "suggestedTagIds": [
+          "minimal",
+          "dark-mode",
+          "high-contrast",
+          "hero-led",
+          "grid-system",
+          "grotesk"
+        ],
+        "heroPrompt": "Create a moody editorial product hero featuring a matte-black insulated tumbler with a lid and straw, standing slightly right of center against a deep charcoal background. Add a large, partially obscured orange-red outlined circle behind the product, subtle oversized tonal lettering in the background, and soft directional lighting that reveals the tumbler’s curved silhouette. Use restrained cream typography-like blocks and faint translucent interface panels around the composition, with no legible words, logos, or branding. High contrast, minimal grid-based art direction, cinematic shadows, premium product photography."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-daedd8f0",
-      "title": "Pin on 디자인",
+      "title": "Dark Classical Philosophy Editorial",
       "sourceUrl": "https://www.pinterest.com/pin/1266706141228081/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:53:35.383Z",
@@ -1496,13 +3753,83 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:41:04.842Z",
+        "title": "Dark Classical Philosophy Editorial",
+        "palette": [
+          {
+            "hex": "#07101E",
+            "role": "background"
+          },
+          {
+            "hex": "#132033",
+            "role": "panel shading"
+          },
+          {
+            "hex": "#D7D9DF",
+            "role": "marble and type"
+          },
+          {
+            "hex": "#B47724",
+            "role": "gold accent"
+          },
+          {
+            "hex": "#687384",
+            "role": "secondary text"
+          }
+        ],
+        "style": [
+          "editorial",
+          "classical",
+          "cinematic",
+          "luxurious",
+          "immersive"
+        ],
+        "tone": [
+          "contemplative",
+          "scholarly",
+          "dramatic",
+          "refined"
+        ],
+        "layout": [
+          "long-form vertical scroll",
+          "asymmetric grid",
+          "hero-led composition",
+          "sectional storytelling",
+          "thin structural rules"
+        ],
+        "typography": [
+          "oversized serif display type",
+          "refined serif body copy",
+          "high-contrast lettering",
+          "hierarchical editorial scale"
+        ],
+        "uiMotifs": [
+          "minimal pill buttons",
+          "circular arrow controls",
+          "fine divider lines",
+          "philosopher profile cards",
+          "small utility navigation"
+        ],
+        "notes": "A deep navy editorial interface combines monumental marble sculptures with oversized serif headlines, restrained white typography, and selective metallic-gold highlights. Thin vertical and curved rules organize the long page into immersive sections while maintaining a museum-like, scholarly atmosphere.",
+        "suggestedTagIds": [
+          "editorial",
+          "hero-led",
+          "grid-system",
+          "oversized-type",
+          "dark-mode",
+          "serif"
+        ],
+        "heroPrompt": "A monumental grayscale marble philosopher bust centered against a deep midnight-blue background, dramatic studio lighting, sculptural folds and weathered stone texture, with a small glowing amber-gold geometric ember embedded near the chest. High-contrast museum editorial art direction, subtle grain, cool shadows, refined negative space, elegant composition, no readable text, no logos, no recognizable historical figure."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-software-styles-acc3b3f9",
-      "title": "Pin on Software styles",
+      "title": "Futuristic Villa Property Showcase",
       "sourceUrl": "https://www.pinterest.com/pin/2814818513141225/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:53:28.972Z",
@@ -1515,13 +3842,85 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:41:39.814Z",
+        "title": "Futuristic Villa Property Showcase",
+        "palette": [
+          {
+            "hex": "#EDE8E2",
+            "role": "background"
+          },
+          {
+            "hex": "#B8D8F0",
+            "role": "sky"
+          },
+          {
+            "hex": "#8BA7D4",
+            "role": "interface blue"
+          },
+          {
+            "hex": "#F18F61",
+            "role": "warm lighting"
+          },
+          {
+            "hex": "#34216F",
+            "role": "accent"
+          },
+          {
+            "hex": "#2B2927",
+            "role": "text"
+          }
+        ],
+        "style": [
+          "futuristic",
+          "editorial",
+          "rounded",
+          "atmospheric",
+          "high-end"
+        ],
+        "tone": [
+          "aspirational",
+          "serene",
+          "luxurious",
+          "optimistic"
+        ],
+        "layout": [
+          "centered rounded showcase",
+          "layered floating cards",
+          "asymmetric overlays",
+          "poster-like framing"
+        ],
+        "typography": [
+          "oversized sans-serif headline",
+          "thin grotesk labels",
+          "microcopy hierarchy",
+          "high-contrast scale"
+        ],
+        "uiMotifs": [
+          "pill-shaped controls",
+          "floating icon sidebar",
+          "soft rounded cards",
+          "circular action buttons",
+          "property detail panel"
+        ],
+        "notes": "A dreamy architectural hero image is framed inside a large rounded interface, with translucent blue overlays and warm interior lighting creating strong depth. The surrounding monochrome mountain backdrop and restrained interface controls give the composition an editorial, premium real-estate feel.",
+        "suggestedTagIds": [
+          "retro-futurist",
+          "luxurious",
+          "hero-led",
+          "layered",
+          "oversized-type"
+        ],
+        "heroPrompt": "A cinematic editorial photograph of a futuristic desert villa at blue hour, featuring smooth organic architecture, sweeping tubular terraces, panoramic glass walls, and warm amber interior lighting. Frame the residence in a wide landscape composition with pale blue sky, soft distant mountains, and a quiet sandy foreground. Emphasize rounded forms, reflective glass, atmospheric haze, refined luxury, and a cool blue-to-warm-orange color contrast. Clean architectural photography, premium real-estate art direction, no people, no text, no logos."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "super-hello-colorful-one-page-website-design-web-52c890e2",
-      "title": "Super Hello - Colorful One Page Website Design | Website landing pages, One page landing page, Design sites",
+      "title": "Playful Retro Robot Agency Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/120823202500319670/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:53:12.809Z",
@@ -1534,13 +3933,80 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:42:12.241Z",
+        "title": "Playful Retro Robot Agency Landing Page",
+        "palette": [
+          {
+            "hex": "#E987DD",
+            "role": "hero background"
+          },
+          {
+            "hex": "#FFD34F",
+            "role": "section background"
+          },
+          {
+            "hex": "#0D090B",
+            "role": "navigation and text"
+          },
+          {
+            "hex": "#FFF7DE",
+            "role": "card background"
+          },
+          {
+            "hex": "#F17817",
+            "role": "accent"
+          }
+        ],
+        "style": [
+          "playful",
+          "retro-futurist",
+          "illustrative",
+          "maximalist"
+        ],
+        "tone": [
+          "energetic",
+          "curious",
+          "warm",
+          "whimsical"
+        ],
+        "layout": [
+          "hero-led",
+          "stacked sections",
+          "centered content blocks",
+          "wavy section transition"
+        ],
+        "typography": [
+          "oversized display type",
+          "bold grotesk",
+          "high-contrast hierarchy",
+          "compact body copy"
+        ],
+        "uiMotifs": [
+          "outlined cartoon robots",
+          "retro control panels",
+          "rounded cards",
+          "bright primary-color accents"
+        ],
+        "notes": "A vivid one-page agency layout pairs oversized white lettering with detailed cartoon robots, flat color fields, and thick dark outlines. The yellow content section uses a centered process heading, three rounded cards, and small character illustrations to create a friendly, highly illustrated rhythm.",
+        "suggestedTagIds": [
+          "playful",
+          "retro-futurist",
+          "maximalist",
+          "warm",
+          "energetic",
+          "hero-led"
+        ],
+        "heroPrompt": "Create a bright editorial landing-page hero illustration for a playful design studio: a large friendly retro-futurist robot standing on the right, assembled from chunky pink, orange, teal, and cream panels with visible bolts, screens, antennae, and thick black comic outlines. Leave generous open space on the left for oversized white headline typography. Use a vivid bubblegum-pink background, flat vector colors, subtle grain, whimsical proportions, and crisp screen-print-like shading. No logos, brand names, or readable text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-web-ui-e7b2046a",
-      "title": "Pin on web/ui",
+      "title": "Red Jellyfish AI Studio Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/31525266137895345/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:53:03.078Z",
@@ -1553,13 +4019,82 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:42:43.982Z",
+        "title": "Red Jellyfish AI Studio Landing Page",
+        "palette": [
+          {
+            "hex": "#050505",
+            "role": "background"
+          },
+          {
+            "hex": "#E51B23",
+            "role": "accent"
+          },
+          {
+            "hex": "#1C1C1E",
+            "role": "surface"
+          },
+          {
+            "hex": "#F2F2F2",
+            "role": "primary text"
+          },
+          {
+            "hex": "#77777B",
+            "role": "secondary text"
+          }
+        ],
+        "style": [
+          "dark futuristic",
+          "high-contrast",
+          "immersive",
+          "editorial",
+          "layered"
+        ],
+        "tone": [
+          "energetic",
+          "technical",
+          "confident",
+          "dramatic"
+        ],
+        "layout": [
+          "asymmetric hero composition",
+          "modular card grid",
+          "long-form landing page",
+          "strong vertical rhythm"
+        ],
+        "typography": [
+          "oversized grotesk headlines",
+          "compact sans-serif labels",
+          "high-contrast text hierarchy",
+          "minimal typographic ornament"
+        ],
+        "uiMotifs": [
+          "rounded glass-like cards",
+          "red glow accents",
+          "floating metric panels",
+          "pill-shaped navigation",
+          "thin luminous borders"
+        ],
+        "notes": "A near-black landing page uses a vivid translucent red jellyfish as the central visual anchor, with white oversized type and compact red highlights creating strong contrast. Rounded metric cards, floating panels, thin borders, and stacked content sections create a polished, immersive AI-studio presentation.",
+        "suggestedTagIds": [
+          "hero-led",
+          "dark-mode",
+          "high-contrast",
+          "energetic",
+          "technical",
+          "layered"
+        ],
+        "heroPrompt": "A highly detailed translucent jellyfish floating in deep black water, illuminated from within by intense crimson and scarlet bioluminescence. Long delicate tentacles trail downward with wispy motion, while the bell glows with soft volumetric light, subtle reflections, and atmospheric red particles. Center the subject slightly right of frame, leaving generous dark negative space on the left for headline placement. Premium futuristic art direction, cinematic contrast, glossy organic textures, near-black background, restrained red color palette, photorealistic macro composition, no text, logos, interface elements, or watermark."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "dise-a-una-landing-page-optimizada-para-tus-obje-29b8c9d9",
-      "title": "Diseña una landing page optimizada para tus objetivos. | Web page design inspiration, Landing page design inspiration layout, Web design creative",
+      "title": "Dark Neon Editorial Agency Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/138978338508728187/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:52:54.241Z",
@@ -1572,13 +4107,87 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:43:13.765Z",
+        "title": "Dark Neon Editorial Agency Landing Page",
+        "palette": [
+          {
+            "hex": "#071016",
+            "role": "background"
+          },
+          {
+            "hex": "#12202B",
+            "role": "section bands"
+          },
+          {
+            "hex": "#39FF14",
+            "role": "accent"
+          },
+          {
+            "hex": "#F3F5F4",
+            "role": "primary text"
+          },
+          {
+            "hex": "#526D7D",
+            "role": "muted blue-gray"
+          }
+        ],
+        "style": [
+          "editorial",
+          "brutalist",
+          "immersive",
+          "high-contrast"
+        ],
+        "tone": [
+          "technical",
+          "energetic",
+          "confident",
+          "cinematic"
+        ],
+        "layout": [
+          "grid-system",
+          "layered",
+          "asymmetric",
+          "oversized-type"
+        ],
+        "typography": [
+          "grotesk",
+          "display-type",
+          "oversized-type",
+          "bold condensed"
+        ],
+        "uiMotifs": [
+          "numbered section dividers",
+          "neon outlined callouts",
+          "dark image overlays",
+          "modular service grid"
+        ],
+        "notes": "A tall agency landing page uses dark architectural photography, oversized white numerals, and vivid green accents to create a cinematic editorial rhythm. Strong horizontal bands, dense text blocks, and outlined panels balance the large imagery with a structured, high-impact presentation.",
+        "suggestedTagIds": [
+          "editorial",
+          "brutalist",
+          "technical",
+          "hero-led",
+          "grid-system",
+          "oversized-type",
+          "layered",
+          "immersive",
+          "high-contrast",
+          "dark-mode",
+          "display-type",
+          "grotesk",
+          "energetic"
+        ],
+        "heroPrompt": "Cinematic upward-looking photograph between towering modern buildings, viewed from street level, with dramatic converging lines and deep charcoal shadows. Use a cool blue-black monochrome grade, subtle grain, high contrast, and a small atmospheric opening of cloudy sky in the center. Compose the architecture to leave a clean central area for bold editorial headline overlay, with no visible logos, signage, or readable text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "romantische-idee-n-webdesign-inspiratie-47d7c6ba",
-      "title": "Romantische ideeën | Webdesign inspiratie",
+      "title": "Nocturnal Gradient Academy Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/2885187256639360/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:52:40.908Z",
@@ -1591,13 +4200,84 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:43:41.434Z",
+        "title": "Nocturnal Gradient Academy Landing Page",
+        "palette": [
+          {
+            "hex": "#080A18",
+            "role": "background"
+          },
+          {
+            "hex": "#17172A",
+            "role": "surface"
+          },
+          {
+            "hex": "#5A2454",
+            "role": "violet glow"
+          },
+          {
+            "hex": "#D4777B",
+            "role": "coral glow"
+          },
+          {
+            "hex": "#078A95",
+            "role": "teal glow"
+          },
+          {
+            "hex": "#F2F1F3",
+            "role": "text"
+          }
+        ],
+        "style": [
+          "immersive",
+          "minimal",
+          "layered",
+          "high-contrast"
+        ],
+        "tone": [
+          "aspirational",
+          "premium",
+          "focused",
+          "energetic"
+        ],
+        "layout": [
+          "centered hero",
+          "full-width sections",
+          "modular card grid",
+          "generous vertical spacing"
+        ],
+        "typography": [
+          "oversized grotesk",
+          "thin display lettering",
+          "compact uppercase labels",
+          "highly legible sans-serif"
+        ],
+        "uiMotifs": [
+          "soft atmospheric gradients",
+          "translucent dark cards",
+          "outlined pill buttons",
+          "faceted glass-like objects"
+        ],
+        "notes": "A dark academy landing page uses a centered oversized headline over a deep navy canvas with blurred coral, violet, and teal light fields. Structured information cards and sparse navigation create a polished, immersive editorial rhythm, while translucent panels and geometric objects add depth.",
+        "suggestedTagIds": [
+          "dark-mode",
+          "immersive",
+          "oversized-type",
+          "grid-system",
+          "layered",
+          "landing-love"
+        ],
+        "heroPrompt": null
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "p-gina-de-aterrizaje-efectiva-modern-website-bac-1a7f123c",
-      "title": "Página de aterrizaje efectiva. | Modern website background design, Innovative website design inspiration, Glass effect website",
+      "title": "Neon Organic Consulting Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/4011087181606120/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:52:33.652Z",
@@ -1610,13 +4290,87 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:44:12.296Z",
+        "title": "Neon Organic Consulting Landing Page",
+        "palette": [
+          {
+            "hex": "#050506",
+            "role": "background"
+          },
+          {
+            "hex": "#2B0048",
+            "role": "deep violet glow"
+          },
+          {
+            "hex": "#5B1BFF",
+            "role": "electric purple"
+          },
+          {
+            "hex": "#FF2DD1",
+            "role": "magenta accent"
+          },
+          {
+            "hex": "#F6F3FF",
+            "role": "primary text"
+          }
+        ],
+        "style": [
+          "organic",
+          "maximalist",
+          "immersive",
+          "high-contrast"
+        ],
+        "tone": [
+          "energetic",
+          "luxurious",
+          "futuristic"
+        ],
+        "layout": [
+          "hero-led",
+          "asymmetric",
+          "layered",
+          "grid-system"
+        ],
+        "typography": [
+          "oversized-type",
+          "display-type",
+          "grotesk",
+          "expressive-type"
+        ],
+        "uiMotifs": [
+          "pill-shaped navigation",
+          "circular scroll badge",
+          "micro arrow controls",
+          "glowing 3D fluid forms"
+        ],
+        "notes": "A near-black landing page pairs oversized white display typography with vivid, iridescent liquid forms that dominate the composition. Sparse navigation, outlined section lettering, and small circular controls create a polished editorial-tech atmosphere with strong depth and contrast.",
+        "suggestedTagIds": [
+          "organic",
+          "maximalist",
+          "energetic",
+          "luxurious",
+          "hero-led",
+          "asymmetric",
+          "layered",
+          "immersive",
+          "high-contrast",
+          "dark-mode",
+          "oversized-type",
+          "display-type",
+          "grotesk",
+          "landing-love"
+        ],
+        "heroPrompt": "Create a dramatic abstract hero visual for a premium digital consultancy website: a large flowing 3D liquid sculpture floating on the right side, with smooth folded surfaces, translucent glossy material, and vivid gradients of electric violet, cobalt blue, hot magenta, and subtle cyan highlights. Set it against a nearly black background with a soft purple atmospheric glow, leaving generous negative space on the left for headline text. Use cinematic rim lighting, polished reflections, organic asymmetry, and a sleek futuristic editorial art direction. No text, logos, symbols, or recognizable objects."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-ppt-bd57d077",
-      "title": "Pin on ppt",
+      "title": "Warm Coffee Editorial Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/6966574421808261/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:51:38.039Z",
@@ -1629,13 +4383,83 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:44:42.674Z",
+        "title": "Warm Coffee Editorial Landing Page",
+        "palette": [
+          {
+            "hex": "#3B211B",
+            "role": "espresso background"
+          },
+          {
+            "hex": "#5A3427",
+            "role": "layered brown surfaces"
+          },
+          {
+            "hex": "#E6D3A5",
+            "role": "cream typography and cups"
+          },
+          {
+            "hex": "#79C5B8",
+            "role": "mint action accents"
+          },
+          {
+            "hex": "#B96D32",
+            "role": "coffee and splash highlights"
+          }
+        ],
+        "style": [
+          "warm editorial",
+          "immersive product-led",
+          "layered",
+          "photorealistic",
+          "earthy"
+        ],
+        "tone": [
+          "inviting",
+          "indulgent",
+          "crafted",
+          "comforting"
+        ],
+        "layout": [
+          "long-form landing page",
+          "asymmetric hero split",
+          "card-based product grid",
+          "centered product feature",
+          "stacked content sections"
+        ],
+        "typography": [
+          "bold rounded display type",
+          "large headline hierarchy",
+          "soft sans-serif body copy",
+          "high-contrast cream text"
+        ],
+        "uiMotifs": [
+          "translucent rounded navigation",
+          "mint pill buttons",
+          "floating product cards",
+          "small rating badges",
+          "oversized photographic cutouts"
+        ],
+        "notes": "A dark coffee-brown page uses dramatic cup photography, floating beans, and creamy typography to create a rich, tactile café atmosphere. Rounded translucent panels, mint controls, and repeated product cards soften the editorial composition and add a contemporary ecommerce layer.",
+        "suggestedTagIds": [
+          "warm",
+          "organic",
+          "hero-led",
+          "layered",
+          "earthy",
+          "landing-love"
+        ],
+        "heroPrompt": "Create a photorealistic editorial hero image for a premium coffee landing page: two takeaway coffee cups in the foreground, one dark and one creamy, with a dramatic arc of rich coffee splashing behind them and suspended coffee droplets. Use warm espresso-brown shadows, caramel highlights, cream paper textures, and subtle mint accents. Compose the cups on the right side with generous dark negative space on the left for headline placement. Soft studio lighting, tactile condensation and cup texture, cinematic depth of field, polished commercial food photography, no text, logos, or branding."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-identidade-lumin-ria-1c16946f",
-      "title": "Pin on identidade luminária",
+      "title": "Experimental Red and Black Editorial Interface",
       "sourceUrl": "https://www.pinterest.com/pin/2744449769634106/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:51:25.923Z",
@@ -1648,13 +4472,82 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:45:12.801Z",
+        "title": "Experimental Red and Black Editorial Interface",
+        "palette": [
+          {
+            "hex": "#F4F4F2",
+            "role": "background"
+          },
+          {
+            "hex": "#090909",
+            "role": "text and framing"
+          },
+          {
+            "hex": "#FF482F",
+            "role": "accent block"
+          },
+          {
+            "hex": "#8A8A86",
+            "role": "neutral detail"
+          },
+          {
+            "hex": "#B8B8B2",
+            "role": "soft shadow"
+          }
+        ],
+        "style": [
+          "minimal",
+          "editorial",
+          "brutalist",
+          "high-contrast",
+          "technical"
+        ],
+        "tone": [
+          "energetic",
+          "curious",
+          "experimental",
+          "assertive"
+        ],
+        "layout": [
+          "asymmetric composition",
+          "responsive device mockups",
+          "oversized focal imagery",
+          "thin framed containers"
+        ],
+        "typography": [
+          "grotesk",
+          "oversized display type",
+          "condensed numerals",
+          "tight uppercase microcopy"
+        ],
+        "uiMotifs": [
+          "thick rounded black borders",
+          "orange rectangular panels",
+          "vertical labels",
+          "minimal arrow controls",
+          "floating product imagery"
+        ],
+        "notes": "The design combines a sparse off-white canvas with oversized black typography, vivid red-orange blocks, and sharply cropped fashion imagery. Its desktop and mobile compositions use strong framing, asymmetry, tiny navigation labels, and generous negative space to create an art-directed digital exhibition feel.",
+        "suggestedTagIds": [
+          "editorial",
+          "brutalist",
+          "minimal",
+          "energetic",
+          "technical",
+          "hero-led"
+        ],
+        "heroPrompt": "Create an editorial fashion-art hero image of a masked figure wearing a structured red utility jacket, dark gloves, and a gray bucket hat, shown from the back and slightly cropped at the torso. Use stark studio lighting, a pale gray-white background, a vivid red horizontal rectangle behind the figure, deep black shadows, and a clean high-fashion experimental mood. Compose it for a minimalist digital landing page with generous negative space and sharp geometric contrast; no text, logos, or recognizable brands."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-design-73c97e4a",
-      "title": "Pin on Design",
+      "title": "Editorial Comic Art Portfolio Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/172122017009117610/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:51:13.070Z",
@@ -1667,13 +4560,80 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:45:43.721Z",
+        "title": "Editorial Comic Art Portfolio Landing Page",
+        "palette": [
+          {
+            "hex": "#F5F1EA",
+            "role": "background"
+          },
+          {
+            "hex": "#A51C18",
+            "role": "accent"
+          },
+          {
+            "hex": "#191817",
+            "role": "ink"
+          },
+          {
+            "hex": "#D9D2C8",
+            "role": "secondary background"
+          },
+          {
+            "hex": "#6D6861",
+            "role": "muted text"
+          }
+        ],
+        "style": [
+          "editorial",
+          "ornamental",
+          "illustrative",
+          "high-contrast"
+        ],
+        "tone": [
+          "dramatic",
+          "crafted",
+          "cinematic",
+          "confident"
+        ],
+        "layout": [
+          "hero-led",
+          "structured grid",
+          "layered sections",
+          "asymmetric imagery"
+        ],
+        "typography": [
+          "serif display type",
+          "small grotesk labels",
+          "oversized headlines",
+          "tight uppercase navigation"
+        ],
+        "uiMotifs": [
+          "fine decorative borders",
+          "diamond separators",
+          "outlined buttons",
+          "process-step iconography"
+        ],
+        "notes": "An ivory editorial layout combines deep red accents, black ink illustration, ornamental rules, and carefully aligned portfolio grids. The composition balances a large fantasy illustration with process diagrams, featured work cards, and restrained navigation.",
+        "suggestedTagIds": [
+          "editorial",
+          "hero-led",
+          "grid-system",
+          "layered",
+          "high-contrast",
+          "serif"
+        ],
+        "heroPrompt": "A dramatic editorial hero illustration for a comic artist portfolio: a solitary armored fantasy warrior shown in three-quarter view, head bowed, windswept dark hair, layered black cloak and intricate metal armor, standing before a large muted crimson sun with distant gothic architecture and flying birds. Render with expressive hand-inked linework, dense crosshatching, distressed brush textures, splattered edges, and cinematic rim light. Use an ivory paper background with generous negative space on the left for typography; refined red, charcoal, and warm gray palette; sophisticated print-poster composition, no logos, no readable text, no existing characters."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "wordpress-minimal-theme-website-templates-themef-cb15eb33",
-      "title": "WordPress Minimal Theme Website Templates | ThemeForest | Plans de conception web, Webshop design, Webdesign inspiration",
+      "title": "Seasonal Double-Exposure Portrait Slider",
       "sourceUrl": "https://www.pinterest.com/pin/1618549864576586/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:50:20.740Z",
@@ -1686,13 +4646,87 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:39:44.324Z",
+        "title": "Seasonal Double-Exposure Portrait Slider",
+        "palette": [
+          {
+            "hex": "#F3F2EE",
+            "role": "background"
+          },
+          {
+            "hex": "#171719",
+            "role": "text"
+          },
+          {
+            "hex": "#71858A",
+            "role": "cool landscape tones"
+          },
+          {
+            "hex": "#B38B5C",
+            "role": "warm landscape tones"
+          },
+          {
+            "hex": "#C9C5BA",
+            "role": "muted neutral accents"
+          }
+        ],
+        "style": [
+          "Editorial",
+          "Minimal",
+          "Layered",
+          "Organic",
+          "Hero-led"
+        ],
+        "tone": [
+          "Quiet",
+          "Curious",
+          "Atmospheric",
+          "Reflective"
+        ],
+        "layout": [
+          "Asymmetric split composition",
+          "Portrait-led hero imagery",
+          "Right-aligned content block",
+          "Thin top navigation",
+          "Stacked seasonal variations"
+        ],
+        "typography": [
+          "Oversized uppercase display type",
+          "Delicate script accent",
+          "Small uppercase navigation",
+          "Light grotesk body copy"
+        ],
+        "uiMotifs": [
+          "Full-bleed slider treatment",
+          "Minimal arrow controls",
+          "Fine divider rules",
+          "Sparse pagination indicator",
+          "Double-exposure imagery"
+        ],
+        "notes": "Each seasonal composition pairs a large profile portrait with a softly blended landscape, leaving generous pale negative space for content. The restrained navigation, oversized seasonal heading, and subtle controls create an editorial portfolio-slider feel.",
+        "suggestedTagIds": [
+          "editorial",
+          "minimal",
+          "organic",
+          "quiet",
+          "hero-led",
+          "asymmetric",
+          "layered",
+          "oversized-type",
+          "display-type",
+          "grid-system"
+        ],
+        "heroPrompt": "Create an elegant editorial hero image on a warm off-white background: a large side-profile portrait positioned left of center, seamlessly double-exposed with a serene natural landscape of mountains, water, grasses, and translucent trees. Use soft photographic blending, faint grain, washed pastel neutrals, muted slate blue, dusty green, and warm ochre accents. Preserve generous empty space on the right for headline placement, with a calm asymmetric composition, refined art direction, subtle atmospheric haze, and no text, logos, interface elements, or watermarks."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "visual-design-website-web-design-ideas-creative--ada7ac3e",
-      "title": "Visual design website | Web design ideas creative, Travel website ui, Website design inspiration",
+      "title": "Dark Immersive Travel Explorer",
       "sourceUrl": "https://www.pinterest.com/pin/1407443630703416/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:49:38.761Z",
@@ -1705,13 +4739,80 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:40:12.029Z",
+        "title": "Dark Immersive Travel Explorer",
+        "palette": [
+          {
+            "hex": "#050606",
+            "role": "background"
+          },
+          {
+            "hex": "#1E2926",
+            "role": "forest shadow"
+          },
+          {
+            "hex": "#55D5D2",
+            "role": "accent"
+          },
+          {
+            "hex": "#71858A",
+            "role": "muted image tone"
+          },
+          {
+            "hex": "#D8DDD5",
+            "role": "text"
+          }
+        ],
+        "style": [
+          "cinematic",
+          "immersive",
+          "nature-driven",
+          "high-contrast"
+        ],
+        "tone": [
+          "adventurous",
+          "serene",
+          "mysterious",
+          "aspirational"
+        ],
+        "layout": [
+          "full-bleed hero",
+          "stacked sections",
+          "asymmetric image collage",
+          "card-based gallery"
+        ],
+        "typography": [
+          "oversized geometric sans",
+          "uppercase display headings",
+          "small condensed navigation",
+          "high-contrast scale"
+        ],
+        "uiMotifs": [
+          "numbered hero pagination",
+          "play-button overlays",
+          "thin divider lines",
+          "dark translucent image treatments"
+        ],
+        "notes": "A dark travel landing page uses dramatic mountain, forest, lake, and waterfall photography with cyan accents to create a cinematic sense of exploration. Large left-aligned headings, compact utility navigation, tour cards, and layered video thumbnails establish a structured but editorial composition.",
+        "suggestedTagIds": [
+          "organic",
+          "hero-led",
+          "immersive",
+          "dark-mode",
+          "high-contrast",
+          "display-type"
+        ],
+        "heroPrompt": "Cinematic wide-angle landscape photograph of a turquoise alpine lake surrounded by rugged misty mountains and dark evergreen forest, viewed from behind a lone seated traveler on a rocky overlook. Moody overcast light, deep charcoal shadows, subtle atmospheric haze, rich natural textures, subdued earthy greens and slate blues, with a clear open area on the left for large headline text. Premium travel editorial art direction, dramatic but serene, no logos, no readable text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-things-i-like-to-look-at-design-ideas-ac421313",
-      "title": "Pin on Things I like to look at//design ideas",
+      "title": "Botanical Earth-Tone Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/1055599908928943/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:49:29.439Z",
@@ -1724,13 +4825,81 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:40:48.971Z",
+        "title": "Botanical Earth-Tone Landing Page",
+        "palette": [
+          {
+            "hex": "#1F746A",
+            "role": "primary background"
+          },
+          {
+            "hex": "#123F38",
+            "role": "deep green"
+          },
+          {
+            "hex": "#8D5038",
+            "role": "terracotta accent"
+          },
+          {
+            "hex": "#6F976C",
+            "role": "sage surface"
+          },
+          {
+            "hex": "#F1D0A2",
+            "role": "warm highlight"
+          }
+        ],
+        "style": [
+          "organic",
+          "tactile",
+          "softly dimensional",
+          "nature-inspired"
+        ],
+        "tone": [
+          "calm",
+          "warm",
+          "grounded",
+          "inviting"
+        ],
+        "layout": [
+          "hero-led",
+          "stacked sections",
+          "modular card grid",
+          "centered content"
+        ],
+        "typography": [
+          "bold rounded display type",
+          "clean sans-serif",
+          "high-legibility hierarchy",
+          "small supporting text"
+        ],
+        "uiMotifs": [
+          "rounded cards",
+          "soft shadows",
+          "botanical line icons",
+          "long-shadow icon treatments",
+          "textured surfaces"
+        ],
+        "notes": "A tall landing-page composition pairs a leafy botanical hero with a structured grid of rounded feature cards. Deep greens, muted browns, sage tones, grain, and soft shadows create a warm natural interface with strong tactile depth.",
+        "suggestedTagIds": [
+          "organic",
+          "warm",
+          "earthy",
+          "hero-led",
+          "grid-system",
+          "layered"
+        ],
+        "heroPrompt": "Create a vertical editorial landing-page hero featuring overlapping botanical leaves with detailed veins, arranged against a split background of deep teal green and muted terracotta brown. Use soft directional lighting, subtle paper grain, gentle shadows, and a refined earthy palette of forest green, sage, clay, and warm cream. Keep generous negative space on the left for headline placement, with the foliage concentrated on the right and lower edge. Contemporary art direction, tactile material detail, polished product-design presentation, no logos, no readable text, no people."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "website-development-services-by-freelance-web-de-f9de83a3",
-      "title": "Website development services by freelance web developers | Fiverr | Info page design, Website design ideas layout, Travel websites design",
+      "title": "Atmospheric Tokyo Travel Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/3448137209756827/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:48:54.066Z",
@@ -1743,13 +4912,85 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:41:19.917Z",
+        "title": "Atmospheric Tokyo Travel Landing Page",
+        "palette": [
+          {
+            "hex": "#18232B",
+            "role": "background"
+          },
+          {
+            "hex": "#33434B",
+            "role": "secondary background"
+          },
+          {
+            "hex": "#8D7260",
+            "role": "earthy accent"
+          },
+          {
+            "hex": "#EDEDED",
+            "role": "text"
+          },
+          {
+            "hex": "#D86A3A",
+            "role": "highlight"
+          },
+          {
+            "hex": "#765A9B",
+            "role": "ambient accent"
+          }
+        ],
+        "style": [
+          "cinematic",
+          "editorial",
+          "immersive",
+          "dark-mode",
+          "hero-led"
+        ],
+        "tone": [
+          "adventurous",
+          "mysterious",
+          "quiet",
+          "aspirational"
+        ],
+        "layout": [
+          "full-screen hero",
+          "layered image overlay",
+          "structured card grid",
+          "stacked editorial sections"
+        ],
+        "typography": [
+          "oversized display type",
+          "condensed grotesk",
+          "uppercase headings",
+          "small utility labels"
+        ],
+        "uiMotifs": [
+          "thin divider lines",
+          "numeric slide indicator",
+          "orange progress accent",
+          "minimal outline icons"
+        ],
+        "notes": "A dark travel landing page uses a moody torii-gate photograph as a full-bleed hero, with a gradient veil supporting oversized white title type and restrained navigation. Compact tour cards, fine rules, pagination numbers, and a cosmic mountain section create a cinematic editorial rhythm with orange and violet accents.",
+        "suggestedTagIds": [
+          "editorial",
+          "hero-led",
+          "dark-mode",
+          "immersive",
+          "grid-system",
+          "oversized-type"
+        ],
+        "heroPrompt": "Cinematic full-bleed travel hero photograph of a large weathered vermilion torii gate standing in calm dark water beneath heavy storm clouds, distant low mountains fading into mist, subdued blue-charcoal color grading, subtle warm red-brown wood texture, deep shadows, atmospheric haze, centered architectural composition with generous negative space for large white editorial typography, refined luxury travel campaign art direction, no logos, no readable text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-plantillas-y-dise-o-web-rms-36d7050c",
-      "title": "Pin on Plantillas y Diseño Web RMS",
+      "title": "Moody Mountain Editorial Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/211174973732072/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:48:34.109Z",
@@ -1762,13 +5003,88 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:41:55.753Z",
+        "title": "Moody Mountain Editorial Landing Page",
+        "palette": [
+          {
+            "hex": "#081E28",
+            "role": "background"
+          },
+          {
+            "hex": "#E9EDE8",
+            "role": "primary text"
+          },
+          {
+            "hex": "#78958B",
+            "role": "misty landscape"
+          },
+          {
+            "hex": "#4F765D",
+            "role": "vegetation"
+          },
+          {
+            "hex": "#D7C88D",
+            "role": "accent"
+          }
+        ],
+        "style": [
+          "editorial",
+          "immersive",
+          "hero-led",
+          "earthy",
+          "cinematic"
+        ],
+        "tone": [
+          "adventurous",
+          "quiet",
+          "contemplative",
+          "premium"
+        ],
+        "layout": [
+          "asymmetric",
+          "long-scroll narrative",
+          "alternating image-text sections",
+          "strong visual hierarchy"
+        ],
+        "typography": [
+          "serif display type",
+          "small uppercase labels",
+          "fine sans-serif utility text",
+          "oversized numerals"
+        ],
+        "uiMotifs": [
+          "vertical social links",
+          "minimal top navigation",
+          "section pagination",
+          "arrow prompts",
+          "framed landscape photography"
+        ],
+        "notes": "A full-bleed mountain photograph establishes an immersive opening, followed by alternating editorial content blocks on a deep blue-green background. Large translucent section numbers, restrained cream accents, and high-contrast serif headlines create a cinematic outdoor guide aesthetic.",
+        "suggestedTagIds": [
+          "editorial",
+          "organic",
+          "quiet",
+          "hero-led",
+          "asymmetric",
+          "immersive",
+          "earthy",
+          "dark-mode",
+          "serif",
+          "display-type",
+          "oversized-type",
+          "landing-love"
+        ],
+        "heroPrompt": "A cinematic editorial travel photograph of a lone hiker standing on a lush alpine ridge above a vast rugged mountain valley, layered peaks fading into cool mist, dramatic overcast sky with soft breaks of light, muted teal and forest-green color grading, subtle atmospheric haze, wide panoramic composition with generous darker negative space for overlaid typography, premium outdoor magazine art direction, natural realistic photography."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "pin-on-70cd06ce",
-      "title": "Pin on Быстрое сохранение",
+      "title": "Monochrome Editorial Fashion Landing Page",
       "sourceUrl": "https://www.pinterest.com/pin/422281212886225/",
       "sourceDomain": "pinterest.com",
       "importedAt": "2026-07-27T04:48:13.998Z",
@@ -1781,13 +5097,82 @@
       "manualTagIds": [
         "pinterest"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:42:28.994Z",
+        "title": "Monochrome Editorial Fashion Landing Page",
+        "palette": [
+          {
+            "hex": "#F1F0EC",
+            "role": "warm off-white background"
+          },
+          {
+            "hex": "#0A0A0A",
+            "role": "primary text and bands"
+          },
+          {
+            "hex": "#B8B6B1",
+            "role": "monochrome image midtone"
+          },
+          {
+            "hex": "#6F6D68",
+            "role": "secondary gray"
+          },
+          {
+            "hex": "#FFFFFF",
+            "role": "highlight and contrast"
+          }
+        ],
+        "style": [
+          "editorial",
+          "minimal",
+          "monochrome",
+          "hero-led",
+          "high-contrast"
+        ],
+        "tone": [
+          "quiet",
+          "confident",
+          "contemporary",
+          "refined"
+        ],
+        "layout": [
+          "full-width hero",
+          "oversized type",
+          "horizontal category rail",
+          "modular product grid"
+        ],
+        "typography": [
+          "bold grotesk",
+          "display-scale lettering",
+          "wide tracking",
+          "compact utility labels"
+        ],
+        "uiMotifs": [
+          "thin-line icons",
+          "underlined text links",
+          "black announcement bar",
+          "image-led category cards",
+          "outlined call-to-action buttons"
+        ],
+        "notes": "A restrained fashion storefront pairs grayscale photography with oversized black lettering and generous off-white space. The page uses strong horizontal bands, concise navigation, service-benefit icons, and a structured product grid to create an editorial but highly usable experience.",
+        "suggestedTagIds": [
+          "editorial",
+          "minimal",
+          "hero-led",
+          "monochrome",
+          "high-contrast",
+          "oversized-type"
+        ],
+        "heroPrompt": "Create a high-fashion editorial homepage hero in a restrained monochrome palette: a full-body male model walking left to right in an oversized charcoal trench coat, loose dark trousers, sneakers, and a cap. Place him against a warm pale-gray studio background with soft directional shadows, overlapping enormous abstract black geometric letterforms behind the figure, and ample negative space around the composition. Use crisp commercial fashion photography, subtle film grain, controlled contrast, and a calm premium mood. No logos, brand names, readable text, or watermarks."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-cee06bc7",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Playful Pet Joy Landing Page",
       "sourceUrl": "https://cdn.dribbble.com/userupload/48503167/file/3c2c25e07dc4c2ad2b0d65c26fa15b78.jpg?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:48:01.500Z",
@@ -1800,13 +5185,80 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:42:59.774Z",
+        "title": "Playful Pet Joy Landing Page",
+        "palette": [
+          {
+            "hex": "#1D0803",
+            "role": "espresso background"
+          },
+          {
+            "hex": "#F29AD8",
+            "role": "playful accent"
+          },
+          {
+            "hex": "#E8FF21",
+            "role": "action highlight"
+          },
+          {
+            "hex": "#F8F6F0",
+            "role": "soft contrast"
+          },
+          {
+            "hex": "#258ED0",
+            "role": "sky-blue framing"
+          }
+        ],
+        "style": [
+          "playful",
+          "high-contrast",
+          "editorial",
+          "layered"
+        ],
+        "tone": [
+          "joyful",
+          "warm",
+          "energetic",
+          "curious"
+        ],
+        "layout": [
+          "centered landing page",
+          "oversized headline",
+          "tilted image card",
+          "scalloped lower edge"
+        ],
+        "typography": [
+          "bold condensed display type",
+          "oversized uppercase",
+          "high-contrast color emphasis",
+          "compact navigation text"
+        ],
+        "uiMotifs": [
+          "lime call-to-action button",
+          "dark rounded navigation bar",
+          "hand-drawn arrow accents",
+          "pet-themed collage details"
+        ],
+        "notes": "A dark espresso landing page uses oversized white and pink typography, playful pet illustrations, and a bright lime action button to create an energetic focal point. A tilted pink photo card with a person and small dog anchors the lower section against rounded cream shapes and a sky-blue photographic backdrop.",
+        "suggestedTagIds": [
+          "playful",
+          "warm",
+          "energetic",
+          "hero-led",
+          "oversized-type",
+          "layered"
+        ],
+        "heroPrompt": "Create an original editorial-style hero image for a joyful pet-care landing page: a smiling young woman in a mustard knit sweater and pale lavender beanie cuddling a small fluffy dog, framed as a slightly tilted portrait card with a vivid pink background. Use warm natural lighting, crisp cutout-like edges, tactile collage energy, expressive poses, and a clean composition that leaves room for oversized headline text above. No logos, brand names, or readable text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-9ff70f4f",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Warm Editorial Appliance Shop",
       "sourceUrl": "https://cdn.dribbble.com/userupload/48502596/file/c923267f17633d0def6bf633cedf80d7.png?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:47:43.150Z",
@@ -1819,13 +5271,81 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:43:26.904Z",
+        "title": "Warm Editorial Appliance Shop",
+        "palette": [
+          {
+            "hex": "#F5F1E9",
+            "role": "warm background"
+          },
+          {
+            "hex": "#171717",
+            "role": "primary text"
+          },
+          {
+            "hex": "#8EDB6A",
+            "role": "accent green"
+          },
+          {
+            "hex": "#FFFFFF",
+            "role": "card surface"
+          },
+          {
+            "hex": "#C8C3B8",
+            "role": "secondary neutral"
+          }
+        ],
+        "style": [
+          "minimal",
+          "editorial",
+          "product-focused",
+          "grid-system"
+        ],
+        "tone": [
+          "warm",
+          "quiet",
+          "trustworthy",
+          "modern"
+        ],
+        "layout": [
+          "hero-led",
+          "structured grid",
+          "split content sections",
+          "layered product cards"
+        ],
+        "typography": [
+          "grotesk",
+          "bold headline hierarchy",
+          "compact navigation labels",
+          "high-contrast sizing"
+        ],
+        "uiMotifs": [
+          "rounded image containers",
+          "pill-shaped buttons",
+          "category chips",
+          "thin dividers",
+          "airy whitespace"
+        ],
+        "notes": "A warm off-white appliance storefront pairs a large lifestyle hero image with dense but orderly product grids and recommendation cards. Black grotesk typography, restrained borders, rounded corners, and a small green accent create a polished editorial-commerce direction.",
+        "suggestedTagIds": [
+          "minimal",
+          "warm",
+          "quiet",
+          "hero-led",
+          "grid-system",
+          "grotesk"
+        ],
+        "heroPrompt": "Wide editorial e-commerce hero image for a premium home-appliance collection: a sunlit contemporary kitchen or utility room with matte black refrigerators, front-loading washers, a compact espresso machine, countertop appliances, and a slim vacuum arranged cleanly along a warm stone counter. Soft morning light enters from the side, casting architectural shadows across beige walls and natural wood details. Photorealistic product styling, restrained neutral palette, generous negative space, subtle luxury, no people, no visible text, no logos, no brand marks."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-9730b9b5",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Obsidian AI Music Experience",
       "sourceUrl": "https://cdn.dribbble.com/userupload/48509031/file/137e7bb2901d4fe9ede55806d143988b.png?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:47:35.748Z",
@@ -1838,13 +5358,80 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:43:56.269Z",
+        "title": "Obsidian AI Music Experience",
+        "palette": [
+          {
+            "hex": "#050505",
+            "role": "background"
+          },
+          {
+            "hex": "#17100C",
+            "role": "surface"
+          },
+          {
+            "hex": "#E66A1F",
+            "role": "accent"
+          },
+          {
+            "hex": "#D8D4CF",
+            "role": "primary text"
+          },
+          {
+            "hex": "#6E665E",
+            "role": "secondary text"
+          }
+        ],
+        "style": [
+          "futuristic",
+          "cinematic",
+          "immersive",
+          "high-contrast"
+        ],
+        "tone": [
+          "energetic",
+          "technical",
+          "mysterious",
+          "premium"
+        ],
+        "layout": [
+          "asymmetric split composition",
+          "hero-led",
+          "long-scroll sections",
+          "layered content"
+        ],
+        "typography": [
+          "oversized display type",
+          "modern grotesk",
+          "high-contrast sizing",
+          "compact micro-labels"
+        ],
+        "uiMotifs": [
+          "audio waveform visualizations",
+          "glowing orange controls",
+          "floating data panels",
+          "dark translucent cards"
+        ],
+        "notes": "A near-black music-technology landing page pairs an oversized portrait hero with warm orange waveform graphics and sparse interface panels. The long vertical composition uses large white typography, fine technical labels, and glowing accents to create a cinematic, premium atmosphere.",
+        "suggestedTagIds": [
+          "dark-mode",
+          "hero-led",
+          "asymmetric",
+          "immersive",
+          "high-contrast",
+          "technical"
+        ],
+        "heroPrompt": "Cinematic 3D portrait of a futuristic music producer wearing oversized studio headphones, centered against a pure black background, face lit with soft cool silver light and subtle warm orange rim lighting, realistic skin and metallic fabric textures, calm intense expression, faint amber audio-wave glow behind the shoulders, premium editorial art direction, dramatic shadows, clean negative space, no text, no logos, no watermark."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-fe521aa6",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Saturated Orange Fashion Editorial",
       "sourceUrl": "https://cdn.dribbble.com/userupload/48503548/file/15e2e3542664760ca5deaf6a8812b532.png?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:47:29.466Z",
@@ -1857,13 +5444,89 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:44:28.019Z",
+        "title": "Saturated Orange Fashion Editorial",
+        "palette": [
+          {
+            "hex": "#FF5A00",
+            "role": "dominant background"
+          },
+          {
+            "hex": "#FF9B37",
+            "role": "warm accent"
+          },
+          {
+            "hex": "#FFF4E3",
+            "role": "headline text"
+          },
+          {
+            "hex": "#6C1606",
+            "role": "deep contrast"
+          },
+          {
+            "hex": "#F7C32E",
+            "role": "highlight"
+          }
+        ],
+        "style": [
+          "editorial",
+          "maximalist",
+          "hero-led",
+          "layered",
+          "dribbble"
+        ],
+        "tone": [
+          "energetic",
+          "warm",
+          "luxurious",
+          "playful"
+        ],
+        "layout": [
+          "asymmetric",
+          "grid-system",
+          "oversized-type",
+          "immersive"
+        ],
+        "typography": [
+          "bold uppercase grotesk",
+          "oversized display type",
+          "condensed letterforms",
+          "tight spacing"
+        ],
+        "uiMotifs": [
+          "rounded media tiles",
+          "floating product cards",
+          "compact navigation",
+          "pill-shaped controls"
+        ],
+        "notes": "A saturated orange landing page pairs an oversized white headline with a central fashion portrait and supporting product imagery. Layered cards, warm color blocking, and rounded controls create a vivid editorial-commerce composition.",
+        "suggestedTagIds": [
+          "editorial",
+          "maximalist",
+          "warm",
+          "energetic",
+          "hero-led",
+          "asymmetric",
+          "grid-system",
+          "oversized-type",
+          "layered",
+          "high-contrast",
+          "display-type",
+          "grotesk",
+          "dribbble",
+          "landing-love"
+        ],
+        "heroPrompt": "Create a vivid editorial fashion portrait for a clothing landing page: a stylish young model wearing a wide-brim orange hat, reflective sunglasses, and a richly patterned tropical shirt, framed from the chest up against a saturated orange-to-golden background. Use hard midday light, bold complementary colors, subtle foreground blur, crisp central focus, and a confident upward gaze. Compose the subject vertically in the center with enough clean negative space around the edges for oversized white typography. No logos, words, or brand marks."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-fe48c95a",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Dark Orange Motion Studio",
       "sourceUrl": "https://cdn.dribbble.com/userupload/48503113/file/7db2e7f4a08e797ba04b9f36b5c67fcf.png?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:47:22.345Z",
@@ -1876,13 +5539,85 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:44:58.539Z",
+        "title": "Dark Orange Motion Studio",
+        "palette": [
+          {
+            "hex": "#080909",
+            "role": "background"
+          },
+          {
+            "hex": "#F45A1A",
+            "role": "accent"
+          },
+          {
+            "hex": "#F5F3EC",
+            "role": "text"
+          },
+          {
+            "hex": "#6B5143",
+            "role": "image shadow"
+          },
+          {
+            "hex": "#242323",
+            "role": "surface"
+          }
+        ],
+        "style": [
+          "cinematic",
+          "editorial",
+          "high-contrast",
+          "immersive",
+          "contemporary"
+        ],
+        "tone": [
+          "energetic",
+          "bold",
+          "dramatic",
+          "warm"
+        ],
+        "layout": [
+          "asymmetric",
+          "modular sections",
+          "split-screen hero",
+          "long scrolling page",
+          "strong footer grid"
+        ],
+        "typography": [
+          "oversized grotesk",
+          "vertical display type",
+          "condensed labels",
+          "high-contrast hierarchy"
+        ],
+        "uiMotifs": [
+          "orange glow accents",
+          "rounded outline buttons",
+          "testimonial cards",
+          "accordion FAQ rows",
+          "large project statistics"
+        ],
+        "notes": "A near-black portfolio layout uses fiery orange imagery and restrained off-white typography to create a cinematic, motion-focused direction. Oversized vertical lettering, asymmetrical content blocks, and repeated card modules give the long page a confident editorial rhythm.",
+        "suggestedTagIds": [
+          "warm",
+          "energetic",
+          "dark-mode",
+          "high-contrast",
+          "hero-led",
+          "asymmetric",
+          "grid-system",
+          "oversized-type"
+        ],
+        "heroPrompt": "Cinematic abstract motion-design hero image for a creative studio website: a close-up camera lens or sculptural optical object emerging from deep black shadows, illuminated by large soft orange and amber practical lights, subtle smoky atmosphere, dramatic shallow depth of field, glossy highlights, rich contrast, centered subject with generous dark negative space for overlay text, premium editorial art direction, tactile film grain, widescreen composition, no text, no logos, no people."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "videoframe-0-163bea29",
-      "title": "videoframe_0",
+      "title": "Monochrome Portfolio Clarity",
       "sourceUrl": null,
       "sourceDomain": null,
       "importedAt": "2026-07-27T04:47:13.322Z",
@@ -1893,13 +5628,80 @@
         "format": "webp"
       },
       "manualTagIds": [],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:45:26.315Z",
+        "title": "Monochrome Portfolio Clarity",
+        "palette": [
+          {
+            "hex": "#0A0A0A",
+            "role": "background"
+          },
+          {
+            "hex": "#171717",
+            "role": "surface"
+          },
+          {
+            "hex": "#F5F5F5",
+            "role": "primary text"
+          },
+          {
+            "hex": "#A7A7A7",
+            "role": "secondary text"
+          },
+          {
+            "hex": "#6D6D6D",
+            "role": "muted accent"
+          }
+        ],
+        "style": [
+          "minimal",
+          "monochrome",
+          "luxurious",
+          "technical"
+        ],
+        "tone": [
+          "quiet",
+          "confident",
+          "precise",
+          "trustworthy"
+        ],
+        "layout": [
+          "asymmetric split-screen",
+          "hero-led",
+          "grid-system",
+          "layered"
+        ],
+        "typography": [
+          "oversized-type",
+          "grotesk",
+          "high-contrast",
+          "display-type"
+        ],
+        "uiMotifs": [
+          "dark translucent data cards",
+          "rounded dashboard panels",
+          "thin chart lines",
+          "subtle grain texture"
+        ],
+        "notes": "A near-black landing page pairs an oversized centered headline with a narrow grayscale product visualization on the right. Soft gradients, translucent cards, restrained navigation, and sparse white controls create a premium financial-technology atmosphere.",
+        "suggestedTagIds": [
+          "minimal",
+          "monochrome",
+          "dark-mode",
+          "high-contrast",
+          "hero-led",
+          "asymmetric"
+        ],
+        "heroPrompt": "Create a tall monochrome financial dashboard visual on a near-black background, with a soft silver-to-charcoal vertical gradient and subtle film grain. Layer two large rounded translucent glass cards containing abstract allocation percentages, a simple thin line chart, tiny geometric indicators, and short unreadable placeholder marks. Use diffuse edge lighting, gentle blur, restrained white and gray tones, strong negative space, and premium editorial art direction. No logos, brand names, recognizable interfaces, or legible text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-83738663",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Soft SaaS Scheduler Landing Page",
       "sourceUrl": "https://cdn.dribbble.com/userupload/48504258/file/b8f70d60b38ee3bd1fa439ec3d7d66e8.png?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:46:58.259Z",
@@ -1912,13 +5714,85 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:37:20.176Z",
+        "title": "Soft SaaS Scheduler Landing Page",
+        "palette": [
+          {
+            "hex": "#F8F8F5",
+            "role": "background"
+          },
+          {
+            "hex": "#191918",
+            "role": "primary text"
+          },
+          {
+            "hex": "#E86F45",
+            "role": "accent"
+          },
+          {
+            "hex": "#D9D5EE",
+            "role": "lavender field"
+          },
+          {
+            "hex": "#E9CEC3",
+            "role": "peach field"
+          },
+          {
+            "hex": "#F3CF70",
+            "role": "highlight"
+          }
+        ],
+        "style": [
+          "minimal",
+          "editorial",
+          "soft geometric",
+          "polished SaaS"
+        ],
+        "tone": [
+          "calm",
+          "approachable",
+          "efficient",
+          "trustworthy"
+        ],
+        "layout": [
+          "asymmetric showcase",
+          "modular grid",
+          "stacked product sections",
+          "generous whitespace"
+        ],
+        "typography": [
+          "grotesk",
+          "large centered headlines",
+          "high-contrast sizing",
+          "compact navigation labels"
+        ],
+        "uiMotifs": [
+          "floating dashboard mockups",
+          "rounded cards",
+          "soft pastel panels",
+          "calendar interface previews",
+          "social-proof logo rows"
+        ],
+        "notes": "A clean productivity landing page combines oversized black headlines with restrained orange emphasis and floating interface previews. Pale lavender and peach framing panels add warmth while maintaining a spacious, highly structured presentation.",
+        "suggestedTagIds": [
+          "minimal",
+          "warm",
+          "quiet",
+          "grid-system",
+          "grotesk",
+          "landing-love"
+        ],
+        "heroPrompt": null
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-cadae4a7",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Neon Virtual Reality Landing Page",
       "sourceUrl": "https://cdn.dribbble.com/userupload/40466634/file/original-9e31f5e2576c7b47f23683dea8a5c541.png?resize=1468x1101&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:45:08.461Z",
@@ -1931,13 +5805,91 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:37:34.086Z",
+        "title": "Neon Virtual Reality Landing Page",
+        "palette": [
+          {
+            "hex": "#08060D",
+            "role": "background"
+          },
+          {
+            "hex": "#4B075F",
+            "role": "ambient purple"
+          },
+          {
+            "hex": "#D414D8",
+            "role": "magenta accent"
+          },
+          {
+            "hex": "#246BFF",
+            "role": "electric blue accent"
+          },
+          {
+            "hex": "#F4F1F7",
+            "role": "primary text"
+          }
+        ],
+        "style": [
+          "retro-futurist",
+          "maximalist",
+          "immersive",
+          "high-contrast",
+          "hero-led"
+        ],
+        "tone": [
+          "energetic",
+          "technical",
+          "curious",
+          "futuristic"
+        ],
+        "layout": [
+          "asymmetric",
+          "layered",
+          "hero-focused",
+          "sidebar navigation",
+          "floating visual"
+        ],
+        "typography": [
+          "display-type",
+          "expressive-type",
+          "oversized-type",
+          "geometric lettering"
+        ],
+        "uiMotifs": [
+          "neon gradients",
+          "glowing 3D orb",
+          "floating geometric fragments",
+          "dark navigation chrome",
+          "video preview card"
+        ],
+        "notes": "A black interface is framed by saturated purple atmosphere, with a large luminous spherical 3D object dominating the right side and angular display typography anchoring the left. Thin dividers, compact navigation, a gradient call-to-action, and a translucent media card create a polished futuristic product-landing composition.",
+        "suggestedTagIds": [
+          "retro-futurist",
+          "maximalist",
+          "energetic",
+          "technical",
+          "hero-led",
+          "asymmetric",
+          "layered",
+          "immersive",
+          "high-contrast",
+          "dark-mode",
+          "display-type",
+          "expressive-type",
+          "dribbble",
+          "landing-love"
+        ],
+        "heroPrompt": "Create a futuristic 3D hero visual on a deep black background: a large abstract spherical core made of concentric luminous segmented rings, glowing electric blue, violet, and hot magenta from within. Surround it with irregular transparent black polygonal shells and a few thin orbital bands, with subtle reflections, volumetric bloom, floating angular fragments, and soft purple atmospheric haze. Compose the orb large on the right with ample dark negative space on the left for interface copy. High-contrast cinematic product render, polished sci-fi landing-page art direction, no text, logos, or recognizable characters."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-9812547e",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Luminous Teal Finance Landing Page",
       "sourceUrl": "https://cdn.dribbble.com/userupload/13029431/file/original-722640a42367340e7cafd7f0938ae0f7.jpg?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:44:33.551Z",
@@ -1950,13 +5902,83 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:37:48.284Z",
+        "title": "Luminous Teal Finance Landing Page",
+        "palette": [
+          {
+            "hex": "#07594F",
+            "role": "background"
+          },
+          {
+            "hex": "#003D39",
+            "role": "panels"
+          },
+          {
+            "hex": "#E9FF68",
+            "role": "accent"
+          },
+          {
+            "hex": "#9CCB48",
+            "role": "secondary accent"
+          },
+          {
+            "hex": "#D9F4E2",
+            "role": "text"
+          }
+        ],
+        "style": [
+          "dark editorial SaaS",
+          "organic 3D abstraction",
+          "high-contrast",
+          "layered",
+          "polished"
+        ],
+        "tone": [
+          "confident",
+          "optimistic",
+          "technical",
+          "approachable"
+        ],
+        "layout": [
+          "asymmetric split composition",
+          "modular card grid",
+          "large hero panel",
+          "section stacking",
+          "anchored content blocks"
+        ],
+        "typography": [
+          "clean grotesk",
+          "large sentence-case headlines",
+          "compact navigation text",
+          "highly legible body copy"
+        ],
+        "uiMotifs": [
+          "neon lime call-to-action panels",
+          "rounded dashboard cards",
+          "glass-like overlays",
+          "transaction tables",
+          "soft gradient illustrations"
+        ],
+        "notes": "A deep teal interface is energized by fluorescent lime accents, abstract dimensional forms, and tightly arranged dashboard modules. Large pale headlines contrast with compact utility text, while rounded cards and layered panels create a refined fintech landing-page direction.",
+        "suggestedTagIds": [
+          "technical",
+          "hero-led",
+          "asymmetric",
+          "layered",
+          "dark-mode",
+          "grotesk"
+        ],
+        "heroPrompt": "Create an abstract editorial hero visual for a modern finance software landing page: deep forest-teal background, oversized smooth organic forms and looping ribbons in electric chartreuse and muted green, subtle grain, soft directional lighting, dimensional 3D surfaces, and scattered tiny lime specks. Compose it as a bold cropped graphic with strong diagonal movement and generous negative space for white headline text. Sophisticated, optimistic, premium SaaS art direction; no words, logos, icons, devices, or recognizable branding."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "videoframe-0-be51e0fe",
-      "title": "videoframe_0",
+      "title": "Hand-Drawn Paris Editorial Spread",
       "sourceUrl": null,
       "sourceDomain": null,
       "importedAt": "2026-07-27T04:44:23.381Z",
@@ -1967,13 +5989,80 @@
         "format": "webp"
       },
       "manualTagIds": [],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:38:04.454Z",
+        "title": "Hand-Drawn Paris Editorial Spread",
+        "palette": [
+          {
+            "hex": "#F4C27A",
+            "role": "background"
+          },
+          {
+            "hex": "#171313",
+            "role": "linework and type"
+          },
+          {
+            "hex": "#4E8663",
+            "role": "foliage"
+          },
+          {
+            "hex": "#C96C3D",
+            "role": "accent illustration"
+          },
+          {
+            "hex": "#332436",
+            "role": "deep shadow"
+          }
+        ],
+        "style": [
+          "editorial illustration",
+          "hand-drawn linework",
+          "vintage travel-poster",
+          "craft-focused"
+        ],
+        "tone": [
+          "warm",
+          "curious",
+          "nostalgic",
+          "cultural"
+        ],
+        "layout": [
+          "asymmetric split-screen",
+          "hero-led illustration",
+          "generous negative space",
+          "layered foreground framing"
+        ],
+        "typography": [
+          "high-contrast serif",
+          "oversized display type",
+          "centered headline",
+          "small uppercase navigation"
+        ],
+        "uiMotifs": [
+          "minimal text navigation",
+          "index link",
+          "illustrated landmark icon",
+          "ornamental line details"
+        ],
+        "notes": "A warm ochre editorial layout pairs a detailed architectural illustration with a spacious text panel, using dark ink outlines and muted botanical accents. The composition feels like a refined cultural magazine or travel feature, balancing historic atmosphere with playful handmade details.",
+        "suggestedTagIds": [
+          "editorial",
+          "playful",
+          "warm",
+          "hero-led",
+          "asymmetric",
+          "serif"
+        ],
+        "heroPrompt": "A richly hand-drawn editorial illustration of a grand domed European cathedral viewed from a landscaped terrace, rendered with fine black ink outlines, subtle crosshatching, and screen-printed texture. Use a warm ochre and peach background, muted sage trees, deep plum shadows, and small terracotta accents. Frame the lower edge with layered garden foliage, curved railings, steps, and ornamental foreground shapes. Flat poster-like color fields, vintage cultural travel-journal mood, no readable text, no logos, no brand marks."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-22daa547",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Warm Abstract SaaS Landing Page",
       "sourceUrl": "https://cdn.dribbble.com/userupload/33278478/file/original-bd9cc77ab4c107526c413b642fb8a2b3.png?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:44:02.755Z",
@@ -1986,13 +6075,87 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:38:41.979Z",
+        "title": "Warm Abstract SaaS Landing Page",
+        "palette": [
+          {
+            "hex": "#FAFAF6",
+            "role": "background"
+          },
+          {
+            "hex": "#1E1E1E",
+            "role": "primary text"
+          },
+          {
+            "hex": "#F4F0D8",
+            "role": "soft surface"
+          },
+          {
+            "hex": "#FFB58A",
+            "role": "accent gradient"
+          },
+          {
+            "hex": "#F5F56C",
+            "role": "highlight"
+          }
+        ],
+        "style": [
+          "minimal",
+          "warm",
+          "organic",
+          "technical",
+          "layered"
+        ],
+        "tone": [
+          "confident",
+          "approachable",
+          "calm",
+          "optimistic"
+        ],
+        "layout": [
+          "airy navigation",
+          "oversized headline",
+          "split hero content",
+          "wide visual panel",
+          "structured feature grid"
+        ],
+        "typography": [
+          "grotesk",
+          "oversized type",
+          "bold headline",
+          "compact utility labels"
+        ],
+        "uiMotifs": [
+          "floating dashboard cards",
+          "soft rounded corners",
+          "thin orange line art",
+          "toggle controls",
+          "circular status indicators"
+        ],
+        "notes": "A spacious SaaS landing page pairs a large black grotesk headline with a warm abstract hero panel and lightweight interface overlays. Cream surfaces, peach-to-yellow gradients, thin red-orange gestures, and restrained feature columns create a polished but approachable technical direction.",
+        "suggestedTagIds": [
+          "minimal",
+          "warm",
+          "organic",
+          "technical",
+          "hero-led",
+          "layered",
+          "grid-system",
+          "oversized-type",
+          "grotesk",
+          "landing-love"
+        ],
+        "heroPrompt": "Create a wide abstract SaaS hero visual on a pale cream background: a soft peach, orange, and lemon-yellow gradient field with translucent geometric facets, crossed by delicate hand-drawn red-orange looping lines. Layer two or three floating white analytics cards at the upper right, with subtle shadows, circular progress indicators, tiny unreadable interface marks, and pill toggles. Use rounded corners, generous negative space, refined editorial polish, and a clean modern product-design aesthetic. No logos, brand names, readable text, or people."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "videoframe-66-fbc9c15c",
-      "title": "videoframe_66",
+      "title": "Neon Mechanical Portal Interface",
       "sourceUrl": null,
       "sourceDomain": null,
       "importedAt": "2026-07-27T04:43:51.629Z",
@@ -2003,13 +6166,87 @@
         "format": "webp"
       },
       "manualTagIds": [],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:39:17.769Z",
+        "title": "Neon Mechanical Portal Interface",
+        "palette": [
+          {
+            "hex": "#050A10",
+            "role": "background"
+          },
+          {
+            "hex": "#13222C",
+            "role": "secondary background"
+          },
+          {
+            "hex": "#F4F3F1",
+            "role": "text and highlights"
+          },
+          {
+            "hex": "#F59B35",
+            "role": "warm accent"
+          },
+          {
+            "hex": "#157FE5",
+            "role": "electric accent"
+          },
+          {
+            "hex": "#53545D",
+            "role": "metallic structure"
+          }
+        ],
+        "style": [
+          "retro-futurist",
+          "technical",
+          "hero-led",
+          "layered",
+          "high-contrast"
+        ],
+        "tone": [
+          "energetic",
+          "immersive",
+          "precise",
+          "industrial"
+        ],
+        "layout": [
+          "asymmetric composition",
+          "central oversized hero",
+          "sparse navigation header",
+          "overlapping text and imagery",
+          "directional framing elements"
+        ],
+        "typography": [
+          "bold grotesk",
+          "oversized display type",
+          "high-contrast white and orange emphasis",
+          "compact uppercase navigation"
+        ],
+        "uiMotifs": [
+          "chevron arrows",
+          "thin progress bars",
+          "orbital line graphics",
+          "micro-dotted indicators",
+          "circular status controls"
+        ],
+        "notes": "A large metallic oval mechanism dominates the composition, combining realistic industrial detailing with glowing orange rings and blue graphic accents. Sparse interface controls, directional arrows, and oversized sans-serif typography create a cinematic technology landing page with strong depth and motion.",
+        "suggestedTagIds": [
+          "retro-futurist",
+          "technical",
+          "hero-led",
+          "asymmetric",
+          "layered",
+          "dark-mode"
+        ],
+        "heroPrompt": "Create a cinematic hero visual of a massive futuristic mechanical oval portal centered slightly left on a nearly black blue background. Use layered gunmetal armor, exposed bolts, precision machinery, and concentric inner rings emitting a vivid amber-orange glow. Add restrained electric-blue geometric accents behind the structure, subtle atmospheric shadows, directional chevrons, tiny interface markers, and a thin horizontal progress line. High-detail industrial rendering, dramatic contrast, clean negative space on the right for typography, premium technology editorial art direction, no logos, no brand marks, no readable text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "videoframe-0-465e8465",
-      "title": "videoframe_0",
+      "title": "Monochrome Controller Showcase",
       "sourceUrl": null,
       "sourceDomain": null,
       "importedAt": "2026-07-27T04:43:21.403Z",
@@ -2020,13 +6257,86 @@
         "format": "webp"
       },
       "manualTagIds": [],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:38:26.785Z",
+        "title": "Monochrome Controller Showcase",
+        "palette": [
+          {
+            "hex": "#050505",
+            "role": "background"
+          },
+          {
+            "hex": "#151515",
+            "role": "product shadows"
+          },
+          {
+            "hex": "#858585",
+            "role": "borders"
+          },
+          {
+            "hex": "#F2F2F2",
+            "role": "primary text"
+          },
+          {
+            "hex": "#C7F23A",
+            "role": "accent"
+          },
+          {
+            "hex": "#292929",
+            "role": "background texture"
+          }
+        ],
+        "style": [
+          "minimal",
+          "technical",
+          "retro-futurist",
+          "editorial",
+          "hero-led"
+        ],
+        "tone": [
+          "dark",
+          "precise",
+          "premium",
+          "immersive"
+        ],
+        "layout": [
+          "centered product hero",
+          "framed content panel",
+          "asymmetric information blocks",
+          "layered background texture"
+        ],
+        "typography": [
+          "monospace labels",
+          "condensed uppercase navigation",
+          "large lightweight numerals",
+          "clean grotesk body text"
+        ],
+        "uiMotifs": [
+          "thin outlined containers",
+          "lime indicator rings",
+          "colon-prefixed labels",
+          "technical specifications",
+          "loading-progress marker"
+        ],
+        "notes": "A dark product landing page uses a nearly black field, faint wave-like texture, and a centered outlined panel to spotlight a black handheld controller. Sparse white typography, oversized specifications, lime accents, and precise dividers create a high-contrast futuristic interface.",
+        "suggestedTagIds": [
+          "minimal",
+          "technical",
+          "retro-futurist",
+          "hero-led",
+          "grid-system",
+          "dark-mode"
+        ],
+        "heroPrompt": "A high-end black handheld mobile gaming controller floating against a near-black background, shown in a three-quarter view with subtle edge lighting, soft graphite surfaces, and two small acid-lime illuminated rings around the analog sticks. Add faint woven wave textures receding into darkness, restrained cinematic contrast, generous negative space, and a premium technology editorial aesthetic. No logos, brand marks, or readable text."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "videoframe-0-99d24646",
-      "title": "videoframe_0",
+      "title": "Dark Maximalist Finance Dashboard Landing Page",
       "sourceUrl": null,
       "sourceDomain": null,
       "importedAt": "2026-07-27T04:42:47.799Z",
@@ -2037,13 +6347,87 @@
         "format": "webp"
       },
       "manualTagIds": [],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:38:59.018Z",
+        "title": "Dark Maximalist Finance Dashboard Landing Page",
+        "palette": [
+          {
+            "hex": "#1D1D1D",
+            "role": "background"
+          },
+          {
+            "hex": "#F7F7F5",
+            "role": "primary text"
+          },
+          {
+            "hex": "#FFD21F",
+            "role": "accent"
+          },
+          {
+            "hex": "#6A5364",
+            "role": "secondary accent"
+          },
+          {
+            "hex": "#5B4AAD",
+            "role": "tertiary accent"
+          },
+          {
+            "hex": "#4A744A",
+            "role": "category accent"
+          }
+        ],
+        "style": [
+          "maximalist",
+          "editorial",
+          "layered",
+          "high-contrast",
+          "hero-led"
+        ],
+        "tone": [
+          "energetic",
+          "playful",
+          "confident",
+          "technical"
+        ],
+        "layout": [
+          "asymmetric composition",
+          "oversized central interface",
+          "floating peripheral cards",
+          "deep visual layering",
+          "strong focal hierarchy"
+        ],
+        "typography": [
+          "oversized display type",
+          "bold grotesk",
+          "uppercase headlines",
+          "high-contrast sizing"
+        ],
+        "uiMotifs": [
+          "dark-mode dashboard",
+          "translucent glass panels",
+          "rounded data cards",
+          "floating utility icons",
+          "bright accent buttons"
+        ],
+        "notes": "A dark landing page centers a tilted, translucent finance dashboard surrounded by floating cards, QR-like graphics, portraits, and decorative symbols. Oversized white typography and vivid yellow accents create a playful, high-energy contrast against the dense layered composition.",
+        "suggestedTagIds": [
+          "maximalist",
+          "dark-mode",
+          "hero-led",
+          "asymmetric",
+          "layered",
+          "oversized-type"
+        ],
+        "heroPrompt": "A cinematic hero visual for a modern finance and lifestyle app: a large translucent glass dashboard window floats at a slight angle in the center, showing abstract charts, transaction rows, colorful category cards, and soft interface glow without readable text. Surround it with scattered rounded utility cards, a tilted black-and-white square code graphic, small circular icons, cropped portrait circles, and a jagged yellow starburst. Use a nearly black textured background, subtle reflections, soft shadows, smoky glass effects, white and yellow highlights, and a dense asymmetric editorial collage. High contrast, premium 3D interface mockup, energetic art direction."
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-eeb9d597",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Soft Gradient Interface Mockup",
       "sourceUrl": "https://cdn.dribbble.com/userupload/17757067/file/original-43959027edd3b53310a27fa4a052a6db.png?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:42:24.755Z",
@@ -2056,8 +6440,76 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending",
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T14:39:28.678Z",
+        "title": "Soft Gradient Interface Mockup",
+        "palette": [
+          {
+            "hex": "#F2F2F2",
+            "role": "background"
+          },
+          {
+            "hex": "#FFFFFF",
+            "role": "panels"
+          },
+          {
+            "hex": "#D9D9D9",
+            "role": "shadows and borders"
+          },
+          {
+            "hex": "#477FE8",
+            "role": "accent"
+          },
+          {
+            "hex": "#F29A91",
+            "role": "gradient highlight"
+          }
+        ],
+        "style": [
+          "minimal",
+          "soft skeuomorphic",
+          "rounded",
+          "dimensional"
+        ],
+        "tone": [
+          "quiet",
+          "curious",
+          "friendly",
+          "polished"
+        ],
+        "layout": [
+          "layered cards",
+          "centered composition",
+          "floating panels",
+          "subtle depth"
+        ],
+        "typography": [
+          "small grotesk",
+          "compact labels",
+          "bold interface headings"
+        ],
+        "uiMotifs": [
+          "search bar",
+          "sparkle action button",
+          "checklist card",
+          "soft gradient thumbnails"
+        ],
+        "notes": "A pale, low-contrast interface composition uses rounded white cards, diffuse shadows, and subtle blue-coral gradients to create depth. The centered stack of overlapping panels feels like a polished product landing-page preview with gentle dimensionality.",
+        "suggestedTagIds": [
+          "minimal",
+          "skeuomorphic",
+          "quiet",
+          "curious",
+          "layered",
+          "pastel",
+          "grid-system",
+          "landing-love"
+        ],
+        "heroPrompt": null
+      },
+      "analysisStatus": "ready",
       "analysisError": null
     },
     {

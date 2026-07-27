@@ -1,13 +1,13 @@
 {
   "id": "romantische-idee-n-webdesign-inspiratie-47d7c6ba",
-  "title": "Romantische ideeën | Webdesign inspiratie",
+  "title": "Nocturnal Gradient Academy Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/2885187256639360/",
   "sourceImageUrl": "https://i.pinimg.com/736x/af/38/ee/af38ee3fb4f709e35e5b8f965c4b4c8b.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:52:40.908Z",
-  "updatedAt": "2026-07-27T04:52:40.908Z",
+  "updatedAt": "2026-07-27T14:43:41.437Z",
   "media": {
     "path": "catalog/media/romantische-idee-n-webdesign-inspiratie-47d7c6ba.webp",
     "width": 736,
@@ -17,6 +17,78 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:43:41.434Z",
+    "title": "Nocturnal Gradient Academy Landing Page",
+    "palette": [
+      {
+        "hex": "#080A18",
+        "role": "background"
+      },
+      {
+        "hex": "#17172A",
+        "role": "surface"
+      },
+      {
+        "hex": "#5A2454",
+        "role": "violet glow"
+      },
+      {
+        "hex": "#D4777B",
+        "role": "coral glow"
+      },
+      {
+        "hex": "#078A95",
+        "role": "teal glow"
+      },
+      {
+        "hex": "#F2F1F3",
+        "role": "text"
+      }
+    ],
+    "style": [
+      "immersive",
+      "minimal",
+      "layered",
+      "high-contrast"
+    ],
+    "tone": [
+      "aspirational",
+      "premium",
+      "focused",
+      "energetic"
+    ],
+    "layout": [
+      "centered hero",
+      "full-width sections",
+      "modular card grid",
+      "generous vertical spacing"
+    ],
+    "typography": [
+      "oversized grotesk",
+      "thin display lettering",
+      "compact uppercase labels",
+      "highly legible sans-serif"
+    ],
+    "uiMotifs": [
+      "soft atmospheric gradients",
+      "translucent dark cards",
+      "outlined pill buttons",
+      "faceted glass-like objects"
+    ],
+    "notes": "A dark academy landing page uses a centered oversized headline over a deep navy canvas with blurred coral, violet, and teal light fields. Structured information cards and sparse navigation create a polished, immersive editorial rhythm, while translucent panels and geometric objects add depth.",
+    "suggestedTagIds": [
+      "dark-mode",
+      "immersive",
+      "oversized-type",
+      "grid-system",
+      "layered",
+      "landing-love"
+    ],
+    "heroPrompt": null
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

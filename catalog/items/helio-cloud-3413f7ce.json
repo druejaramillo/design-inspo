@@ -1,13 +1,13 @@
 {
   "id": "helio-cloud-3413f7ce",
-  "title": "Helio Cloud",
+  "title": "Cloudscape Computing Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/helio-cloud",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/feae5f8c-ded1-4cb0-8598-32ffea4c60b7/helio.cloud_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:59:14.149Z",
-  "updatedAt": "2026-07-27T04:59:14.149Z",
+  "updatedAt": "2026-07-27T14:29:15.424Z",
   "media": {
     "path": "catalog/media/helio-cloud-3413f7ce.webp",
     "width": 2200,
@@ -17,6 +17,78 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:29:15.420Z",
+    "title": "Cloudscape Computing Landing Page",
+    "palette": [
+      {
+        "hex": "#79B5D2",
+        "role": "sky background"
+      },
+      {
+        "hex": "#DDECEF",
+        "role": "light atmospheric gradient"
+      },
+      {
+        "hex": "#F1F0E9",
+        "role": "cloud forms"
+      },
+      {
+        "hex": "#E6DCC5",
+        "role": "warm lower background"
+      },
+      {
+        "hex": "#F68A1F",
+        "role": "accent buttons"
+      },
+      {
+        "hex": "#0B2D4A",
+        "role": "primary text"
+      }
+    ],
+    "style": [
+      "minimal",
+      "pastel",
+      "organic",
+      "layered"
+    ],
+    "tone": [
+      "calm",
+      "optimistic",
+      "curious",
+      "technical"
+    ],
+    "layout": [
+      "centered hero",
+      "generous whitespace",
+      "stacked cloud foreground",
+      "simple top navigation"
+    ],
+    "typography": [
+      "oversized type",
+      "bold grotesk",
+      "center-aligned headings",
+      "compact supporting text"
+    ],
+    "uiMotifs": [
+      "pill-shaped buttons",
+      "soft atmospheric gradients",
+      "rounded cloud silhouettes",
+      "subtle star-like speckles"
+    ],
+    "notes": "A centered landing-page hero uses oversized dark navy typography against a pale blue sky gradient, with orange calls-to-action providing focused contrast. Layered cream cloud silhouettes and understated investor marks create a playful, airy visual metaphor for cloud computing.",
+    "suggestedTagIds": [
+      "minimal",
+      "pastel",
+      "organic",
+      "hero-led",
+      "oversized-type",
+      "layered"
+    ],
+    "heroPrompt": "Create a wide, airy editorial hero background for a cloud-computing website: a soft blue-to-cream vertical sky gradient with a subtle glowing center, sparse tiny atmospheric speckles, and large overlapping rounded white cloud silhouettes rising from the bottom edge. Keep the central upper area open for dark headline text and navigation. Use clean vector-like shapes, gentle translucency, restrained contrast, polished contemporary art direction, and no text, logos, people, or recognizable branding."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

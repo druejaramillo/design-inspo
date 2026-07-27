@@ -1,13 +1,13 @@
 {
   "id": "dota2-on-behance-kreatives-webdesign-ideen-f-r-p-5198c1a7",
-  "title": "Dota2 on Behance | Kreatives webdesign, Ideen für präsentationen, Webseiten inspiration",
+  "title": "Torn-Paper Dark Fantasy Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/315463148920617187/",
   "sourceImageUrl": "https://i.pinimg.com/736x/46/48/e6/4648e62651613c34bb05e47b8decea85.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:56:06.096Z",
-  "updatedAt": "2026-07-27T04:56:06.096Z",
+  "updatedAt": "2026-07-27T14:33:22.809Z",
   "media": {
     "path": "catalog/media/dota2-on-behance-kreatives-webdesign-ideen-f-r-p-5198c1a7.webp",
     "width": 736,
@@ -17,6 +17,77 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:33:22.805Z",
+    "title": "Torn-Paper Dark Fantasy Landing Page",
+    "palette": [
+      {
+        "hex": "#11151B",
+        "role": "background"
+      },
+      {
+        "hex": "#F1F0EC",
+        "role": "paper field"
+      },
+      {
+        "hex": "#752D2C",
+        "role": "accent"
+      },
+      {
+        "hex": "#A45432",
+        "role": "warm highlight"
+      },
+      {
+        "hex": "#67686A",
+        "role": "secondary text"
+      }
+    ],
+    "style": [
+      "dark fantasy",
+      "editorial collage",
+      "maximalist",
+      "textured",
+      "cinematic"
+    ],
+    "tone": [
+      "dramatic",
+      "ominous",
+      "energetic",
+      "immersive"
+    ],
+    "layout": [
+      "asymmetric vertical flow",
+      "hero-led composition",
+      "layered sections",
+      "torn-edge transitions",
+      "editorial grid"
+    ],
+    "typography": [
+      "high-contrast serif",
+      "oversized display type",
+      "condensed sans-serif",
+      "small utility labels"
+    ],
+    "uiMotifs": [
+      "ink-black organic cutouts",
+      "red information panels",
+      "thin divider rules",
+      "floating section markers",
+      "image-text overlays"
+    ],
+    "notes": "A tall editorial page combines cinematic fantasy artwork with torn black-paper silhouettes against a warm off-white textured background. Oversized serif headings, restrained red panels, fine rules, and small metadata create a highly layered but controlled vertical narrative.",
+    "suggestedTagIds": [
+      "editorial",
+      "maximalist",
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "high-contrast"
+    ],
+    "heroPrompt": "A cinematic dark-fantasy armored warrior emerging from torn black paper and smoke, centered within a tall editorial composition. Use dramatic rim lighting, charcoal and near-black armor, deep crimson accents, ember-orange highlights, painterly texture, and sharp sculptural silhouettes. Surround the figure with irregular ink-wash edges and fragments of distressed paper over an off-white textured background, leaving generous negative space for typography. Refined art-direction mood, high contrast, premium game concept art, vertical poster format, no logos, no readable text, no recognizable copyrighted characters."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

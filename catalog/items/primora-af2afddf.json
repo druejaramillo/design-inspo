@@ -1,13 +1,13 @@
 {
   "id": "primora-af2afddf",
-  "title": "Primora",
+  "title": "Dark Grid Editorial Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/primora",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/b573c4af-9e7f-473c-b8d8-768a9c4a2541/primora.xyz_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:56:20.384Z",
-  "updatedAt": "2026-07-27T04:56:20.384Z",
+  "updatedAt": "2026-07-27T14:33:06.803Z",
   "media": {
     "path": "catalog/media/primora-af2afddf.webp",
     "width": 2200,
@@ -17,6 +17,76 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:33:06.800Z",
+    "title": "Dark Grid Editorial Landing Page",
+    "palette": [
+      {
+        "hex": "#100E12",
+        "role": "background"
+      },
+      {
+        "hex": "#F3F1F3",
+        "role": "primary text"
+      },
+      {
+        "hex": "#28242B",
+        "role": "grid lines"
+      },
+      {
+        "hex": "#5B1AB4",
+        "role": "accent purple"
+      },
+      {
+        "hex": "#E86B58",
+        "role": "accent coral"
+      }
+    ],
+    "style": [
+      "dark editorial",
+      "technical",
+      "minimal",
+      "high-contrast",
+      "data-driven"
+    ],
+    "tone": [
+      "confident",
+      "serious",
+      "futuristic",
+      "precise"
+    ],
+    "layout": [
+      "centered hero",
+      "symmetrical composition",
+      "modular grid",
+      "full-width chart footer"
+    ],
+    "typography": [
+      "oversized serif display",
+      "restrained sans-serif navigation",
+      "high-contrast hierarchy",
+      "centered multiline headline"
+    ],
+    "uiMotifs": [
+      "fine construction grid",
+      "colored grid-point markers",
+      "pill-shaped call-to-action",
+      "compact navigation bar",
+      "candlestick chart visualization"
+    ],
+    "notes": "A near-black landing page uses a precise grid, oversized white serif headline, and restrained gray supporting text to create an editorial yet technical feel. Purple and coral accents appear in grid markers, the CTA icon, and a blurred candlestick chart along the lower edge.",
+    "suggestedTagIds": [
+      "technical",
+      "grid-system",
+      "oversized-type",
+      "serif",
+      "dark-mode",
+      "high-contrast"
+    ],
+    "heroPrompt": null
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

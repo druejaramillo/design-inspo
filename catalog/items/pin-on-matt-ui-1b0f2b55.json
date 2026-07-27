@@ -1,13 +1,13 @@
 {
   "id": "pin-on-matt-ui-1b0f2b55",
-  "title": "Pin on Matt ui",
+  "title": "Dark Tumbler Product Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/2814818512619087/",
   "sourceImageUrl": "https://i.pinimg.com/736x/35/24/fc/3524fca307a66983f3a0885beec571d5.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:53:47.524Z",
-  "updatedAt": "2026-07-27T04:53:47.524Z",
+  "updatedAt": "2026-07-27T14:40:27.567Z",
   "media": {
     "path": "catalog/media/pin-on-matt-ui-1b0f2b55.webp",
     "width": 736,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:40:27.566Z",
+    "title": "Dark Tumbler Product Landing Page",
+    "palette": [
+      {
+        "hex": "#20242D",
+        "role": "background"
+      },
+      {
+        "hex": "#2B2F38",
+        "role": "surface"
+      },
+      {
+        "hex": "#101216",
+        "role": "product"
+      },
+      {
+        "hex": "#F26A3D",
+        "role": "accent"
+      },
+      {
+        "hex": "#F1E5CF",
+        "role": "type"
+      }
+    ],
+    "style": [
+      "minimal",
+      "editorial",
+      "high-contrast",
+      "product-focused"
+    ],
+    "tone": [
+      "quiet",
+      "technical",
+      "confident",
+      "moody"
+    ],
+    "layout": [
+      "grid-system",
+      "hero-led",
+      "asymmetric",
+      "layered"
+    ],
+    "typography": [
+      "grotesk",
+      "display-type",
+      "oversized-type",
+      "bold"
+    ],
+    "uiMotifs": [
+      "dark-mode",
+      "thin outlined controls",
+      "orange progress accent",
+      "subtle translucent panels"
+    ],
+    "notes": "A restrained dark landing-page composition centers a matte black tumbler against oversized, low-contrast background lettering and a vivid orange circular accent. Cream display typography, small utility labels, and translucent information panels create a polished editorial product-study feel.",
+    "suggestedTagIds": [
+      "minimal",
+      "dark-mode",
+      "high-contrast",
+      "hero-led",
+      "grid-system",
+      "grotesk"
+    ],
+    "heroPrompt": "Create a moody editorial product hero featuring a matte-black insulated tumbler with a lid and straw, standing slightly right of center against a deep charcoal background. Add a large, partially obscured orange-red outlined circle behind the product, subtle oversized tonal lettering in the background, and soft directional lighting that reveals the tumbler’s curved silhouette. Use restrained cream typography-like blocks and faint translucent interface panels around the composition, with no legible words, logos, or branding. High contrast, minimal grid-based art direction, cinematic shadows, premium product photography."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

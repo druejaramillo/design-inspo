@@ -1,13 +1,13 @@
 {
   "id": "general-intelligence-company-2c4e783c",
-  "title": "General Intelligence Company",
+  "title": "Botanical Skyline in Spring Light",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/general-intelligence-company",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/0b898281-d2b0-4c3b-8c33-b19e3d619e02/www.generalintelligencecompany.com_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:57:09.387Z",
-  "updatedAt": "2026-07-27T04:57:09.387Z",
+  "updatedAt": "2026-07-27T14:32:36.574Z",
   "media": {
     "path": "catalog/media/general-intelligence-company-2c4e783c.webp",
     "width": 2200,
@@ -17,6 +17,78 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:32:36.572Z",
+    "title": "Botanical Skyline in Spring Light",
+    "palette": [
+      {
+        "hex": "#31B3EB",
+        "role": "sky background"
+      },
+      {
+        "hex": "#F4A9C0",
+        "role": "blossom accents"
+      },
+      {
+        "hex": "#A7D957",
+        "role": "foliage highlights"
+      },
+      {
+        "hex": "#374D66",
+        "role": "glass and shadows"
+      },
+      {
+        "hex": "#F4F0DF",
+        "role": "architectural highlights"
+      }
+    ],
+    "style": [
+      "illustrated cityscape",
+      "botanical framing",
+      "soft-glass interface",
+      "cinematic hero composition"
+    ],
+    "tone": [
+      "optimistic",
+      "whimsical",
+      "fresh",
+      "aspirational"
+    ],
+    "layout": [
+      "full-bleed hero image",
+      "centered top navigation",
+      "lower-left translucent content card",
+      "asymmetrical natural framing"
+    ],
+    "typography": [
+      "high-contrast serif display",
+      "small sans-serif utility text",
+      "large centered headline",
+      "white type over imagery"
+    ],
+    "uiMotifs": [
+      "frosted glass capsule nav",
+      "rounded translucent panel",
+      "subtle pill CTA",
+      "circular arrow affordances"
+    ],
+    "notes": "A vivid illustrated skyline is softened by flowering branches and lush foreground foliage, creating an immersive spring atmosphere. Translucent glass panels and restrained white typography add a polished editorial-tech layer without competing with the hero image.",
+    "suggestedTagIds": [
+      "organic",
+      "playful",
+      "pastel",
+      "hero-led",
+      "layered",
+      "immersive",
+      "serif",
+      "display-type",
+      "asymmetric",
+      "landing-love"
+    ],
+    "heroPrompt": "Create a full-bleed editorial landing-page hero illustration of a dense modern city skyline beneath a luminous cyan-blue sky, framed by flowering branches entering from the upper corners and abundant pink blossoms and lime-green foliage along the lower edge. Mix ornate historic architecture with sleek glass towers, using soft painterly detail, bright spring sunlight, gentle atmospheric haze, and a polished contemporary color grade. Leave clear negative space in the upper center for a headline and the lower left for a translucent rounded content panel. No logos, brands, or legible text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

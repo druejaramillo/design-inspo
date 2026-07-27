@@ -1,13 +1,13 @@
 {
   "id": "pin-on-web-design-c051735b",
-  "title": "Pin on Web Design",
+  "title": "Organic Tea Editorial Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/224968943882056159/",
   "sourceImageUrl": "https://i.pinimg.com/736x/1a/cf/65/1acf651bfadcd5cc602467330a371b66.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:55:11.859Z",
-  "updatedAt": "2026-07-27T04:55:11.859Z",
+  "updatedAt": "2026-07-27T14:34:16.030Z",
   "media": {
     "path": "catalog/media/pin-on-web-design-c051735b.webp",
     "width": 564,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:34:16.029Z",
+    "title": "Organic Tea Editorial Landing Page",
+    "palette": [
+      {
+        "hex": "#F5F1EC",
+        "role": "background"
+      },
+      {
+        "hex": "#292929",
+        "role": "primary text"
+      },
+      {
+        "hex": "#FFC83D",
+        "role": "accent"
+      },
+      {
+        "hex": "#D9D7D1",
+        "role": "soft overlay"
+      },
+      {
+        "hex": "#78905A",
+        "role": "natural accent"
+      }
+    ],
+    "style": [
+      "editorial",
+      "organic",
+      "minimal",
+      "product-focused"
+    ],
+    "tone": [
+      "warm",
+      "quiet",
+      "curious"
+    ],
+    "layout": [
+      "long-form landing page",
+      "asymmetric composition",
+      "layered product collage",
+      "oversized section typography"
+    ],
+    "typography": [
+      "bold grotesk display type",
+      "light sans-serif body copy",
+      "oversized uppercase headlines",
+      "high-contrast scale"
+    ],
+    "uiMotifs": [
+      "yellow curved pathway",
+      "floating product photography",
+      "thin outlined product frame",
+      "lime pill buttons",
+      "ingredient still lifes"
+    ],
+    "notes": "A warm off-white page combines oversized charcoal and yellow typography with botanical tea photography, product mockups, and generous vertical spacing. The composition uses a loose editorial grid, overlapping imagery, and a sweeping yellow curve to connect product, flavor, and customization sections.",
+    "suggestedTagIds": [
+      "editorial",
+      "organic",
+      "minimal",
+      "warm",
+      "asymmetric",
+      "oversized-type"
+    ],
+    "heroPrompt": "Create a tall editorial wellness landing-page hero for an organic tea product, using a warm ivory background, bold oversized charcoal sans-serif typography, and a bright saffron-yellow accent. Arrange a white ceramic teapot, loose tea, green leaves, almonds, and dried citrus in a clean overhead still life with soft shadows, partially overlapping a thin black outlined product frame. Add subtle translucent oversized lettering behind the objects, generous negative space, delicate gray microcopy placeholders, and a refined asymmetrical magazine layout. Avoid logos, brand names, and legible marketing text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

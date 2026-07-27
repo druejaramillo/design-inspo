@@ -1,13 +1,13 @@
 {
   "id": "integrated-biosciences-df12ecc7",
-  "title": "Integrated Biosciences",
+  "title": "Layered Botanical Fluid Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/integrated-biosciences",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/24492320-623b-4a66-955a-cb5ab9df8af5/integratedbio-cience-.com_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:58:58.154Z",
-  "updatedAt": "2026-07-27T04:58:58.154Z",
+  "updatedAt": "2026-07-27T14:29:30.191Z",
   "media": {
     "path": "catalog/media/integrated-biosciences-df12ecc7.webp",
     "width": 2200,
@@ -17,6 +17,76 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:29:30.189Z",
+    "title": "Layered Botanical Fluid Landing Page",
+    "palette": [
+      {
+        "hex": "#08291E",
+        "role": "deep green background"
+      },
+      {
+        "hex": "#A7C9B3",
+        "role": "misty sage highlight"
+      },
+      {
+        "hex": "#B69B78",
+        "role": "warm bronze accent"
+      },
+      {
+        "hex": "#F3F4ED",
+        "role": "light text and navigation"
+      },
+      {
+        "hex": "#C9F878",
+        "role": "lime call-to-action accent"
+      }
+    ],
+    "style": [
+      "organic",
+      "minimal",
+      "immersive",
+      "layered"
+    ],
+    "tone": [
+      "calm",
+      "futuristic",
+      "premium",
+      "curious"
+    ],
+    "layout": [
+      "hero-led",
+      "asymmetric",
+      "full-bleed composition",
+      "floating navigation"
+    ],
+    "typography": [
+      "oversized type",
+      "grotesk",
+      "high-contrast",
+      "restrained supporting copy"
+    ],
+    "uiMotifs": [
+      "pill-shaped navigation",
+      "dark rounded buttons",
+      "lime square arrow button",
+      "subtle rounded page frame"
+    ],
+    "notes": "The page pairs oversized white sans-serif typography with an abstract, softly blurred composition of translucent green and bronze forms. Strong contrast, generous negative space, and restrained pill controls create a polished, science-forward atmosphere.",
+    "suggestedTagIds": [
+      "organic",
+      "minimal",
+      "hero-led",
+      "oversized-type",
+      "layered",
+      "immersive",
+      "grotesk",
+      "landing-love"
+    ],
+    "heroPrompt": "Create an abstract macro hero image for a premium scientific technology website: large translucent organic ribbons and curved membrane-like forms sweeping diagonally across the frame, layered in deep forest green, muted sage, smoky black, and warm bronze. Use soft studio lighting, shallow depth of field, diffused highlights, subtle refraction, atmospheric blur, and a luxurious editorial art direction. Keep the upper-left and central areas visually calm enough for large white headline overlay, with no text, logos, symbols, people, or recognizable objects."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

@@ -1,12 +1,12 @@
 {
   "id": "videoframe-66-fbc9c15c",
-  "title": "videoframe_66",
+  "title": "Neon Mechanical Portal Interface",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T04:43:51.629Z",
-  "updatedAt": "2026-07-27T04:43:51.629Z",
+  "updatedAt": "2026-07-27T14:39:17.771Z",
   "media": {
     "path": "catalog/media/videoframe-66-fbc9c15c.webp",
     "width": 1600,
@@ -14,6 +14,81 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:39:17.769Z",
+    "title": "Neon Mechanical Portal Interface",
+    "palette": [
+      {
+        "hex": "#050A10",
+        "role": "background"
+      },
+      {
+        "hex": "#13222C",
+        "role": "secondary background"
+      },
+      {
+        "hex": "#F4F3F1",
+        "role": "text and highlights"
+      },
+      {
+        "hex": "#F59B35",
+        "role": "warm accent"
+      },
+      {
+        "hex": "#157FE5",
+        "role": "electric accent"
+      },
+      {
+        "hex": "#53545D",
+        "role": "metallic structure"
+      }
+    ],
+    "style": [
+      "retro-futurist",
+      "technical",
+      "hero-led",
+      "layered",
+      "high-contrast"
+    ],
+    "tone": [
+      "energetic",
+      "immersive",
+      "precise",
+      "industrial"
+    ],
+    "layout": [
+      "asymmetric composition",
+      "central oversized hero",
+      "sparse navigation header",
+      "overlapping text and imagery",
+      "directional framing elements"
+    ],
+    "typography": [
+      "bold grotesk",
+      "oversized display type",
+      "high-contrast white and orange emphasis",
+      "compact uppercase navigation"
+    ],
+    "uiMotifs": [
+      "chevron arrows",
+      "thin progress bars",
+      "orbital line graphics",
+      "micro-dotted indicators",
+      "circular status controls"
+    ],
+    "notes": "A large metallic oval mechanism dominates the composition, combining realistic industrial detailing with glowing orange rings and blue graphic accents. Sparse interface controls, directional arrows, and oversized sans-serif typography create a cinematic technology landing page with strong depth and motion.",
+    "suggestedTagIds": [
+      "retro-futurist",
+      "technical",
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "dark-mode"
+    ],
+    "heroPrompt": "Create a cinematic hero visual of a massive futuristic mechanical oval portal centered slightly left on a nearly black blue background. Use layered gunmetal armor, exposed bolts, precision machinery, and concentric inner rings emitting a vivid amber-orange glow. Add restrained electric-blue geometric accents behind the structure, subtle atmospheric shadows, directional chevrons, tiny interface markers, and a thin horizontal progress line. High-detail industrial rendering, dramatic contrast, clean negative space on the right for typography, premium technology editorial art direction, no logos, no brand marks, no readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

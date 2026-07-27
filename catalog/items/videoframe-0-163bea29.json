@@ -1,12 +1,12 @@
 {
   "id": "videoframe-0-163bea29",
-  "title": "videoframe_0",
+  "title": "Monochrome Portfolio Clarity",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T04:47:13.322Z",
-  "updatedAt": "2026-07-27T04:47:13.322Z",
+  "updatedAt": "2026-07-27T14:45:26.317Z",
   "media": {
     "path": "catalog/media/videoframe-0-163bea29.webp",
     "width": 1800,
@@ -14,6 +14,74 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:45:26.315Z",
+    "title": "Monochrome Portfolio Clarity",
+    "palette": [
+      {
+        "hex": "#0A0A0A",
+        "role": "background"
+      },
+      {
+        "hex": "#171717",
+        "role": "surface"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "primary text"
+      },
+      {
+        "hex": "#A7A7A7",
+        "role": "secondary text"
+      },
+      {
+        "hex": "#6D6D6D",
+        "role": "muted accent"
+      }
+    ],
+    "style": [
+      "minimal",
+      "monochrome",
+      "luxurious",
+      "technical"
+    ],
+    "tone": [
+      "quiet",
+      "confident",
+      "precise",
+      "trustworthy"
+    ],
+    "layout": [
+      "asymmetric split-screen",
+      "hero-led",
+      "grid-system",
+      "layered"
+    ],
+    "typography": [
+      "oversized-type",
+      "grotesk",
+      "high-contrast",
+      "display-type"
+    ],
+    "uiMotifs": [
+      "dark translucent data cards",
+      "rounded dashboard panels",
+      "thin chart lines",
+      "subtle grain texture"
+    ],
+    "notes": "A near-black landing page pairs an oversized centered headline with a narrow grayscale product visualization on the right. Soft gradients, translucent cards, restrained navigation, and sparse white controls create a premium financial-technology atmosphere.",
+    "suggestedTagIds": [
+      "minimal",
+      "monochrome",
+      "dark-mode",
+      "high-contrast",
+      "hero-led",
+      "asymmetric"
+    ],
+    "heroPrompt": "Create a tall monochrome financial dashboard visual on a near-black background, with a soft silver-to-charcoal vertical gradient and subtle film grain. Layer two large rounded translucent glass cards containing abstract allocation percentages, a simple thin line chart, tiny geometric indicators, and short unreadable placeholder marks. Use diffuse edge lighting, gentle blur, restrained white and gray tones, strong negative space, and premium editorial art direction. No logos, brand names, recognizable interfaces, or legible text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

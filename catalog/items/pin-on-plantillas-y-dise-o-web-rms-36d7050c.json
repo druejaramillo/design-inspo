@@ -1,13 +1,13 @@
 {
   "id": "pin-on-plantillas-y-dise-o-web-rms-36d7050c",
-  "title": "Pin on Plantillas y Diseño Web RMS",
+  "title": "Moody Mountain Editorial Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/211174973732072/",
   "sourceImageUrl": "https://i.pinimg.com/736x/d2/43/0c/d2430c7a2b9300e369ab9a2a47cb37d7.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:48:34.109Z",
-  "updatedAt": "2026-07-27T04:48:34.109Z",
+  "updatedAt": "2026-07-27T14:41:55.755Z",
   "media": {
     "path": "catalog/media/pin-on-plantillas-y-dise-o-web-rms-36d7050c.webp",
     "width": 736,
@@ -17,6 +17,82 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:41:55.753Z",
+    "title": "Moody Mountain Editorial Landing Page",
+    "palette": [
+      {
+        "hex": "#081E28",
+        "role": "background"
+      },
+      {
+        "hex": "#E9EDE8",
+        "role": "primary text"
+      },
+      {
+        "hex": "#78958B",
+        "role": "misty landscape"
+      },
+      {
+        "hex": "#4F765D",
+        "role": "vegetation"
+      },
+      {
+        "hex": "#D7C88D",
+        "role": "accent"
+      }
+    ],
+    "style": [
+      "editorial",
+      "immersive",
+      "hero-led",
+      "earthy",
+      "cinematic"
+    ],
+    "tone": [
+      "adventurous",
+      "quiet",
+      "contemplative",
+      "premium"
+    ],
+    "layout": [
+      "asymmetric",
+      "long-scroll narrative",
+      "alternating image-text sections",
+      "strong visual hierarchy"
+    ],
+    "typography": [
+      "serif display type",
+      "small uppercase labels",
+      "fine sans-serif utility text",
+      "oversized numerals"
+    ],
+    "uiMotifs": [
+      "vertical social links",
+      "minimal top navigation",
+      "section pagination",
+      "arrow prompts",
+      "framed landscape photography"
+    ],
+    "notes": "A full-bleed mountain photograph establishes an immersive opening, followed by alternating editorial content blocks on a deep blue-green background. Large translucent section numbers, restrained cream accents, and high-contrast serif headlines create a cinematic outdoor guide aesthetic.",
+    "suggestedTagIds": [
+      "editorial",
+      "organic",
+      "quiet",
+      "hero-led",
+      "asymmetric",
+      "immersive",
+      "earthy",
+      "dark-mode",
+      "serif",
+      "display-type",
+      "oversized-type",
+      "landing-love"
+    ],
+    "heroPrompt": "A cinematic editorial travel photograph of a lone hiker standing on a lush alpine ridge above a vast rugged mountain valley, layered peaks fading into cool mist, dramatic overcast sky with soft breaks of light, muted teal and forest-green color grading, subtle atmospheric haze, wide panoramic composition with generous darker negative space for overlaid typography, premium outdoor magazine art direction, natural realistic photography."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

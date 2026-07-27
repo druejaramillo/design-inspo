@@ -1,13 +1,13 @@
 {
   "id": "novu-f299dce0",
-  "title": "Novu",
+  "title": "Blue Portrait Conversational Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/novu",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/09802aaa-9dbe-4756-b34f-d285beb85177/www.withnovu.com_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:58:00.723Z",
-  "updatedAt": "2026-07-27T04:58:00.723Z",
+  "updatedAt": "2026-07-27T14:31:12.816Z",
   "media": {
     "path": "catalog/media/novu-f299dce0.webp",
     "width": 2200,
@@ -17,6 +17,75 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:31:12.814Z",
+    "title": "Blue Portrait Conversational Landing Page",
+    "palette": [
+      {
+        "hex": "#456D9F",
+        "role": "background"
+      },
+      {
+        "hex": "#B6C794",
+        "role": "accent object"
+      },
+      {
+        "hex": "#8F83A7",
+        "role": "secondary accent"
+      },
+      {
+        "hex": "#D18E70",
+        "role": "skin tone"
+      },
+      {
+        "hex": "#F8F7F2",
+        "role": "text"
+      }
+    ],
+    "style": [
+      "hero-led",
+      "photographic",
+      "softly editorial",
+      "contemporary",
+      "immersive"
+    ],
+    "tone": [
+      "friendly",
+      "human",
+      "calm",
+      "optimistic"
+    ],
+    "layout": [
+      "full-bleed hero",
+      "centered content overlay",
+      "layered foreground subject",
+      "strong visual hierarchy"
+    ],
+    "typography": [
+      "large thin sans-serif",
+      "oversized display type",
+      "high-contrast white text",
+      "centered text block"
+    ],
+    "uiMotifs": [
+      "translucent pill navigation",
+      "black app-store CTA",
+      "rounded white button",
+      "subtle dark image gradient"
+    ],
+    "notes": "A full-screen portrait photograph dominates the composition, with centered oversized white messaging layered over the subject and a darkened lower gradient for legibility. The restrained pill-shaped navigation and rounded download buttons create a polished, approachable product-landing direction.",
+    "suggestedTagIds": [
+      "hero-led",
+      "immersive",
+      "oversized-type",
+      "layered",
+      "grotesk",
+      "landing-love"
+    ],
+    "heroPrompt": "Create a full-bleed editorial lifestyle photograph for a modern mobile app landing page: a smiling young woman with auburn hair holds a pale green smartphone close to the camera, wearing a chunky lavender knit sweater, against a clear muted blue sky. Use intimate low-angle framing, warm natural sunlight, shallow depth of field, rich skin texture, and a candid joyful expression. Leave clean negative space near the center for white headline typography, with a subtle darkening gradient toward the bottom. No logos, brands, readable text, or interface elements."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

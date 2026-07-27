@@ -1,13 +1,13 @@
 {
   "id": "day-dream-player-9cdc879b",
-  "title": "Day Dream Player",
+  "title": "Cinematic Orange-Black Audio Hero",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/day-dream-player",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/e833a6d9-9ef5-49c6-a063-7bfde9ffa2ce-www.daydreamplayer.com_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:59:22.631Z",
-  "updatedAt": "2026-07-27T04:59:22.631Z",
+  "updatedAt": "2026-07-27T14:28:58.612Z",
   "media": {
     "path": "catalog/media/day-dream-player-9cdc879b.webp",
     "width": 2200,
@@ -17,6 +17,76 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:28:58.609Z",
+    "title": "Cinematic Orange-Black Audio Hero",
+    "palette": [
+      {
+        "hex": "#080808",
+        "role": "background"
+      },
+      {
+        "hex": "#1B1C1E",
+        "role": "product shadow"
+      },
+      {
+        "hex": "#F4774D",
+        "role": "accent lighting"
+      },
+      {
+        "hex": "#B83227",
+        "role": "glow"
+      },
+      {
+        "hex": "#F1F1F1",
+        "role": "headline"
+      }
+    ],
+    "style": [
+      "retro-futurist",
+      "cinematic product render",
+      "high contrast",
+      "layered",
+      "immersive"
+    ],
+    "tone": [
+      "energetic",
+      "luxurious",
+      "dramatic",
+      "technical"
+    ],
+    "layout": [
+      "hero-led",
+      "centered focal object",
+      "layered depth",
+      "bottom navigation",
+      "asymmetric edge detail"
+    ],
+    "typography": [
+      "grotesk",
+      "oversized display type",
+      "high-contrast white text",
+      "translucent background lettering"
+    ],
+    "uiMotifs": [
+      "pill-shaped navigation",
+      "red vertical side badge",
+      "soft glow effects",
+      "minimal line separators"
+    ],
+    "notes": "A large black audio device dominates the frame, modeled with glossy surfaces and warm orange-red rim lighting against a nearly black background. Centered white messaging overlays the product while oversized translucent lettering and compact navigation create depth and a cinematic landing-page composition.",
+    "suggestedTagIds": [
+      "retro-futurist",
+      "hero-led",
+      "layered",
+      "immersive",
+      "high-contrast",
+      "dark-mode"
+    ],
+    "heroPrompt": "Create a cinematic close-up hero image of a futuristic black wearable audio device with broad rounded forms, glossy and satin materials, and subtle copper-orange accents. Use a low three-quarter perspective with the device filling most of the frame, deep black surroundings, warm red-orange rim lighting, soft bloom, reflective highlights, and atmospheric haze. Add layered shadows and a faint horizontal red light streak near the bottom, leaving clear darker space toward the center for headline overlay. Premium industrial design, dramatic studio rendering, high contrast, no text, no logos, no brand marks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

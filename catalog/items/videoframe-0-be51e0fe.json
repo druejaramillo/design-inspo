@@ -1,12 +1,12 @@
 {
   "id": "videoframe-0-be51e0fe",
-  "title": "videoframe_0",
+  "title": "Hand-Drawn Paris Editorial Spread",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T04:44:23.381Z",
-  "updatedAt": "2026-07-27T04:44:23.381Z",
+  "updatedAt": "2026-07-27T14:38:04.458Z",
   "media": {
     "path": "catalog/media/videoframe-0-be51e0fe.webp",
     "width": 1600,
@@ -14,6 +14,74 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:38:04.454Z",
+    "title": "Hand-Drawn Paris Editorial Spread",
+    "palette": [
+      {
+        "hex": "#F4C27A",
+        "role": "background"
+      },
+      {
+        "hex": "#171313",
+        "role": "linework and type"
+      },
+      {
+        "hex": "#4E8663",
+        "role": "foliage"
+      },
+      {
+        "hex": "#C96C3D",
+        "role": "accent illustration"
+      },
+      {
+        "hex": "#332436",
+        "role": "deep shadow"
+      }
+    ],
+    "style": [
+      "editorial illustration",
+      "hand-drawn linework",
+      "vintage travel-poster",
+      "craft-focused"
+    ],
+    "tone": [
+      "warm",
+      "curious",
+      "nostalgic",
+      "cultural"
+    ],
+    "layout": [
+      "asymmetric split-screen",
+      "hero-led illustration",
+      "generous negative space",
+      "layered foreground framing"
+    ],
+    "typography": [
+      "high-contrast serif",
+      "oversized display type",
+      "centered headline",
+      "small uppercase navigation"
+    ],
+    "uiMotifs": [
+      "minimal text navigation",
+      "index link",
+      "illustrated landmark icon",
+      "ornamental line details"
+    ],
+    "notes": "A warm ochre editorial layout pairs a detailed architectural illustration with a spacious text panel, using dark ink outlines and muted botanical accents. The composition feels like a refined cultural magazine or travel feature, balancing historic atmosphere with playful handmade details.",
+    "suggestedTagIds": [
+      "editorial",
+      "playful",
+      "warm",
+      "hero-led",
+      "asymmetric",
+      "serif"
+    ],
+    "heroPrompt": "A richly hand-drawn editorial illustration of a grand domed European cathedral viewed from a landscaped terrace, rendered with fine black ink outlines, subtle crosshatching, and screen-printed texture. Use a warm ochre and peach background, muted sage trees, deep plum shadows, and small terracotta accents. Frame the lower edge with layered garden foliage, curved railings, steps, and ornamental foreground shapes. Flat poster-like color fields, vintage cultural travel-journal mood, no readable text, no logos, no brand marks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

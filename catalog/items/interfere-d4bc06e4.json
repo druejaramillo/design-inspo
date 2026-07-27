@@ -1,13 +1,13 @@
 {
   "id": "interfere-d4bc06e4",
-  "title": "Interfere",
+  "title": "Playful Floating Paper Ephemera",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/interfere",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/d48a7fbd-cf7b-4b2a-8393-31b41458f61b/feather.computer_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:58:08.918Z",
-  "updatedAt": "2026-07-27T04:58:08.918Z",
+  "updatedAt": "2026-07-27T14:30:58.050Z",
   "media": {
     "path": "catalog/media/interfere-d4bc06e4.webp",
     "width": 2200,
@@ -17,6 +17,80 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:30:58.049Z",
+    "title": "Playful Floating Paper Ephemera",
+    "palette": [
+      {
+        "hex": "#F8F8F3",
+        "role": "background"
+      },
+      {
+        "hex": "#D7C67B",
+        "role": "muted yellow"
+      },
+      {
+        "hex": "#2D78A5",
+        "role": "accent blue"
+      },
+      {
+        "hex": "#C98868",
+        "role": "warm terracotta"
+      },
+      {
+        "hex": "#B7A9D8",
+        "role": "soft lavender"
+      },
+      {
+        "hex": "#3C624F",
+        "role": "deep green"
+      }
+    ],
+    "style": [
+      "playful",
+      "collage-like",
+      "handcrafted",
+      "pastel",
+      "maximalist"
+    ],
+    "tone": [
+      "curious",
+      "lighthearted",
+      "warm",
+      "informal"
+    ],
+    "layout": [
+      "asymmetric",
+      "sparse field",
+      "floating elements",
+      "layered collage"
+    ],
+    "typography": [
+      "bold sans-serif",
+      "casual sans-serif",
+      "mixed scale",
+      "handwritten accents"
+    ],
+    "uiMotifs": [
+      "paper tags",
+      "ticket shapes",
+      "stamps",
+      "receipts",
+      "cut-paper silhouettes"
+    ],
+    "notes": "A pale dotted canvas is scattered with colorful paper-like labels, tickets, badges, receipts, and small illustrated objects. Irregular silhouettes, soft shadows, varied orientations, and restrained pastel colors create a tactile scrapbook mood with playful editorial energy.",
+    "suggestedTagIds": [
+      "playful",
+      "layered",
+      "asymmetric",
+      "pastel",
+      "craftwork",
+      "maximalist"
+    ],
+    "heroPrompt": null
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

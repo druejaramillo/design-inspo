@@ -1,12 +1,12 @@
 {
   "id": "videoframe-0-465e8465",
-  "title": "videoframe_0",
+  "title": "Monochrome Controller Showcase",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T04:43:21.403Z",
-  "updatedAt": "2026-07-27T04:43:21.403Z",
+  "updatedAt": "2026-07-27T14:38:26.788Z",
   "media": {
     "path": "catalog/media/videoframe-0-465e8465.webp",
     "width": 1600,
@@ -14,6 +14,80 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:38:26.785Z",
+    "title": "Monochrome Controller Showcase",
+    "palette": [
+      {
+        "hex": "#050505",
+        "role": "background"
+      },
+      {
+        "hex": "#151515",
+        "role": "product shadows"
+      },
+      {
+        "hex": "#858585",
+        "role": "borders"
+      },
+      {
+        "hex": "#F2F2F2",
+        "role": "primary text"
+      },
+      {
+        "hex": "#C7F23A",
+        "role": "accent"
+      },
+      {
+        "hex": "#292929",
+        "role": "background texture"
+      }
+    ],
+    "style": [
+      "minimal",
+      "technical",
+      "retro-futurist",
+      "editorial",
+      "hero-led"
+    ],
+    "tone": [
+      "dark",
+      "precise",
+      "premium",
+      "immersive"
+    ],
+    "layout": [
+      "centered product hero",
+      "framed content panel",
+      "asymmetric information blocks",
+      "layered background texture"
+    ],
+    "typography": [
+      "monospace labels",
+      "condensed uppercase navigation",
+      "large lightweight numerals",
+      "clean grotesk body text"
+    ],
+    "uiMotifs": [
+      "thin outlined containers",
+      "lime indicator rings",
+      "colon-prefixed labels",
+      "technical specifications",
+      "loading-progress marker"
+    ],
+    "notes": "A dark product landing page uses a nearly black field, faint wave-like texture, and a centered outlined panel to spotlight a black handheld controller. Sparse white typography, oversized specifications, lime accents, and precise dividers create a high-contrast futuristic interface.",
+    "suggestedTagIds": [
+      "minimal",
+      "technical",
+      "retro-futurist",
+      "hero-led",
+      "grid-system",
+      "dark-mode"
+    ],
+    "heroPrompt": "A high-end black handheld mobile gaming controller floating against a near-black background, shown in a three-quarter view with subtle edge lighting, soft graphite surfaces, and two small acid-lime illuminated rings around the analog sticks. Add faint woven wave textures receding into darkness, restrained cinematic contrast, generous negative space, and a premium technology editorial aesthetic. No logos, brand marks, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

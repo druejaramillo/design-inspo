@@ -1,13 +1,13 @@
 {
   "id": "pin-on-70cd06ce",
-  "title": "Pin on Быстрое сохранение",
+  "title": "Monochrome Editorial Fashion Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/422281212886225/",
   "sourceImageUrl": "https://i.pinimg.com/736x/ba/5a/b1/ba5ab13e7c1c06d05697ff377e4ea0bd.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:48:13.998Z",
-  "updatedAt": "2026-07-27T04:48:13.998Z",
+  "updatedAt": "2026-07-27T14:42:28.996Z",
   "media": {
     "path": "catalog/media/pin-on-70cd06ce.webp",
     "width": 736,
@@ -17,6 +17,76 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:42:28.994Z",
+    "title": "Monochrome Editorial Fashion Landing Page",
+    "palette": [
+      {
+        "hex": "#F1F0EC",
+        "role": "warm off-white background"
+      },
+      {
+        "hex": "#0A0A0A",
+        "role": "primary text and bands"
+      },
+      {
+        "hex": "#B8B6B1",
+        "role": "monochrome image midtone"
+      },
+      {
+        "hex": "#6F6D68",
+        "role": "secondary gray"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "highlight and contrast"
+      }
+    ],
+    "style": [
+      "editorial",
+      "minimal",
+      "monochrome",
+      "hero-led",
+      "high-contrast"
+    ],
+    "tone": [
+      "quiet",
+      "confident",
+      "contemporary",
+      "refined"
+    ],
+    "layout": [
+      "full-width hero",
+      "oversized type",
+      "horizontal category rail",
+      "modular product grid"
+    ],
+    "typography": [
+      "bold grotesk",
+      "display-scale lettering",
+      "wide tracking",
+      "compact utility labels"
+    ],
+    "uiMotifs": [
+      "thin-line icons",
+      "underlined text links",
+      "black announcement bar",
+      "image-led category cards",
+      "outlined call-to-action buttons"
+    ],
+    "notes": "A restrained fashion storefront pairs grayscale photography with oversized black lettering and generous off-white space. The page uses strong horizontal bands, concise navigation, service-benefit icons, and a structured product grid to create an editorial but highly usable experience.",
+    "suggestedTagIds": [
+      "editorial",
+      "minimal",
+      "hero-led",
+      "monochrome",
+      "high-contrast",
+      "oversized-type"
+    ],
+    "heroPrompt": "Create a high-fashion editorial homepage hero in a restrained monochrome palette: a full-body male model walking left to right in an oversized charcoal trench coat, loose dark trousers, sneakers, and a cap. Place him against a warm pale-gray studio background with soft directional shadows, overlapping enormous abstract black geometric letterforms behind the figure, and ample negative space around the composition. Use crisp commercial fashion photography, subtle film grain, controlled contrast, and a calm premium mood. No logos, brand names, readable text, or watermarks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

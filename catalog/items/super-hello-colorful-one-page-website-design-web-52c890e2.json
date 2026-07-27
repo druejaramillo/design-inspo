@@ -1,13 +1,13 @@
 {
   "id": "super-hello-colorful-one-page-website-design-web-52c890e2",
-  "title": "Super Hello - Colorful One Page Website Design | Website landing pages, One page landing page, Design sites",
+  "title": "Playful Retro Robot Agency Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/120823202500319670/",
   "sourceImageUrl": "https://i.pinimg.com/736x/bd/f7/f0/bdf7f0ad8aa2a9f02343cc4acaad1b53.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:53:12.809Z",
-  "updatedAt": "2026-07-27T04:53:12.809Z",
+  "updatedAt": "2026-07-27T14:42:12.245Z",
   "media": {
     "path": "catalog/media/super-hello-colorful-one-page-website-design-web-52c890e2.webp",
     "width": 564,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:42:12.241Z",
+    "title": "Playful Retro Robot Agency Landing Page",
+    "palette": [
+      {
+        "hex": "#E987DD",
+        "role": "hero background"
+      },
+      {
+        "hex": "#FFD34F",
+        "role": "section background"
+      },
+      {
+        "hex": "#0D090B",
+        "role": "navigation and text"
+      },
+      {
+        "hex": "#FFF7DE",
+        "role": "card background"
+      },
+      {
+        "hex": "#F17817",
+        "role": "accent"
+      }
+    ],
+    "style": [
+      "playful",
+      "retro-futurist",
+      "illustrative",
+      "maximalist"
+    ],
+    "tone": [
+      "energetic",
+      "curious",
+      "warm",
+      "whimsical"
+    ],
+    "layout": [
+      "hero-led",
+      "stacked sections",
+      "centered content blocks",
+      "wavy section transition"
+    ],
+    "typography": [
+      "oversized display type",
+      "bold grotesk",
+      "high-contrast hierarchy",
+      "compact body copy"
+    ],
+    "uiMotifs": [
+      "outlined cartoon robots",
+      "retro control panels",
+      "rounded cards",
+      "bright primary-color accents"
+    ],
+    "notes": "A vivid one-page agency layout pairs oversized white lettering with detailed cartoon robots, flat color fields, and thick dark outlines. The yellow content section uses a centered process heading, three rounded cards, and small character illustrations to create a friendly, highly illustrated rhythm.",
+    "suggestedTagIds": [
+      "playful",
+      "retro-futurist",
+      "maximalist",
+      "warm",
+      "energetic",
+      "hero-led"
+    ],
+    "heroPrompt": "Create a bright editorial landing-page hero illustration for a playful design studio: a large friendly retro-futurist robot standing on the right, assembled from chunky pink, orange, teal, and cream panels with visible bolts, screens, antennae, and thick black comic outlines. Leave generous open space on the left for oversized white headline typography. Use a vivid bubblegum-pink background, flat vector colors, subtle grain, whimsical proportions, and crisp screen-print-like shading. No logos, brand names, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

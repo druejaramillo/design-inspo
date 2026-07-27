@@ -1,13 +1,13 @@
 {
   "id": "defined-9a484af6",
-  "title": "Defined",
+  "title": "Electric Halftone Intelligence Field",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/defined",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/c8501af6-96c0-4f69-8fb9-be8d6bd48b8a/definedvc.com_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:58:26.423Z",
-  "updatedAt": "2026-07-27T04:58:26.423Z",
+  "updatedAt": "2026-07-27T14:30:09.188Z",
   "media": {
     "path": "catalog/media/defined-9a484af6.webp",
     "width": 2200,
@@ -17,6 +17,81 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:30:09.185Z",
+    "title": "Electric Halftone Intelligence Field",
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#1261E8",
+        "role": "electric blue"
+      },
+      {
+        "hex": "#12D6D0",
+        "role": "cyan accent"
+      },
+      {
+        "hex": "#A9F000",
+        "role": "lime highlight"
+      },
+      {
+        "hex": "#EF0BD6",
+        "role": "magenta accent"
+      },
+      {
+        "hex": "#FF8A00",
+        "role": "orange accent"
+      }
+    ],
+    "style": [
+      "halftone mosaic",
+      "abstract data visualization",
+      "neon gradient",
+      "dense dot matrix"
+    ],
+    "tone": [
+      "energetic",
+      "futuristic",
+      "curious",
+      "technical"
+    ],
+    "layout": [
+      "central negative space",
+      "full-bleed backdrop",
+      "radial framing",
+      "symmetrical balance",
+      "persistent header bar"
+    ],
+    "typography": [
+      "white grotesk sans-serif",
+      "centered multiline headline",
+      "large display scale",
+      "high contrast",
+      "selective text dimming"
+    ],
+    "uiMotifs": [
+      "minimal black header",
+      "compact grid icon",
+      "pixel-dot texture",
+      "navigation chrome",
+      "wordmark lockup"
+    ],
+    "notes": "A black central field is framed by dense, multicolored circular halftone forms that resemble a glowing data landscape or abstract globe. Large centered white typography creates a calm focal point against the highly saturated, technically rendered backdrop.",
+    "suggestedTagIds": [
+      "retro-futurist",
+      "energetic",
+      "technical",
+      "hero-led",
+      "grid-system",
+      "dark-mode"
+    ],
+    "heroPrompt": "Create a wide cinematic abstract hero visual on a pure black background, built from thousands of evenly spaced circular halftone dots. Arrange luminous regions like a fragmented digital globe or flowing data field around a large empty black center, using electric blue, cyan, lime, yellow, orange, magenta, and violet gradients. Vary dot density to create soft fades, glowing contours, and layered depth while preserving a crisp geometric grid. Keep the composition balanced and immersive, with strong negative space in the middle for later typography. No logos, symbols, interface text, or recognizable objects."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

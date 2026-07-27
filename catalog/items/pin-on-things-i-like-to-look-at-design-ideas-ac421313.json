@@ -1,13 +1,13 @@
 {
   "id": "pin-on-things-i-like-to-look-at-design-ideas-ac421313",
-  "title": "Pin on Things I like to look at//design ideas",
+  "title": "Botanical Earth-Tone Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/1055599908928943/",
   "sourceImageUrl": "https://i.pinimg.com/736x/24/8b/81/248b811e865878d904a4532ded6b024c.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:49:29.439Z",
-  "updatedAt": "2026-07-27T04:49:29.439Z",
+  "updatedAt": "2026-07-27T14:40:48.974Z",
   "media": {
     "path": "catalog/media/pin-on-things-i-like-to-look-at-design-ideas-ac421313.webp",
     "width": 736,
@@ -17,6 +17,75 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:40:48.971Z",
+    "title": "Botanical Earth-Tone Landing Page",
+    "palette": [
+      {
+        "hex": "#1F746A",
+        "role": "primary background"
+      },
+      {
+        "hex": "#123F38",
+        "role": "deep green"
+      },
+      {
+        "hex": "#8D5038",
+        "role": "terracotta accent"
+      },
+      {
+        "hex": "#6F976C",
+        "role": "sage surface"
+      },
+      {
+        "hex": "#F1D0A2",
+        "role": "warm highlight"
+      }
+    ],
+    "style": [
+      "organic",
+      "tactile",
+      "softly dimensional",
+      "nature-inspired"
+    ],
+    "tone": [
+      "calm",
+      "warm",
+      "grounded",
+      "inviting"
+    ],
+    "layout": [
+      "hero-led",
+      "stacked sections",
+      "modular card grid",
+      "centered content"
+    ],
+    "typography": [
+      "bold rounded display type",
+      "clean sans-serif",
+      "high-legibility hierarchy",
+      "small supporting text"
+    ],
+    "uiMotifs": [
+      "rounded cards",
+      "soft shadows",
+      "botanical line icons",
+      "long-shadow icon treatments",
+      "textured surfaces"
+    ],
+    "notes": "A tall landing-page composition pairs a leafy botanical hero with a structured grid of rounded feature cards. Deep greens, muted browns, sage tones, grain, and soft shadows create a warm natural interface with strong tactile depth.",
+    "suggestedTagIds": [
+      "organic",
+      "warm",
+      "earthy",
+      "hero-led",
+      "grid-system",
+      "layered"
+    ],
+    "heroPrompt": "Create a vertical editorial landing-page hero featuring overlapping botanical leaves with detailed veins, arranged against a split background of deep teal green and muted terracotta brown. Use soft directional lighting, subtle paper grain, gentle shadows, and a refined earthy palette of forest green, sage, clay, and warm cream. Keep generous negative space on the left for headline placement, with the foliage concentrated on the right and lower edge. Contemporary art direction, tactile material detail, polished product-design presentation, no logos, no readable text, no people."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

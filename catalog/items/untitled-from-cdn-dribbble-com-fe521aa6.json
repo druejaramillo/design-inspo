@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-fe521aa6",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Saturated Orange Fashion Editorial",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/48503548/file/15e2e3542664760ca5deaf6a8812b532.png?resize=752x&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/48503548/file/15e2e3542664760ca5deaf6a8812b532.png?resize=752x&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:47:29.466Z",
-  "updatedAt": "2026-07-27T04:47:29.466Z",
+  "updatedAt": "2026-07-27T14:44:28.021Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-fe521aa6.webp",
     "width": 752,
@@ -17,6 +17,83 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:44:28.019Z",
+    "title": "Saturated Orange Fashion Editorial",
+    "palette": [
+      {
+        "hex": "#FF5A00",
+        "role": "dominant background"
+      },
+      {
+        "hex": "#FF9B37",
+        "role": "warm accent"
+      },
+      {
+        "hex": "#FFF4E3",
+        "role": "headline text"
+      },
+      {
+        "hex": "#6C1606",
+        "role": "deep contrast"
+      },
+      {
+        "hex": "#F7C32E",
+        "role": "highlight"
+      }
+    ],
+    "style": [
+      "editorial",
+      "maximalist",
+      "hero-led",
+      "layered",
+      "dribbble"
+    ],
+    "tone": [
+      "energetic",
+      "warm",
+      "luxurious",
+      "playful"
+    ],
+    "layout": [
+      "asymmetric",
+      "grid-system",
+      "oversized-type",
+      "immersive"
+    ],
+    "typography": [
+      "bold uppercase grotesk",
+      "oversized display type",
+      "condensed letterforms",
+      "tight spacing"
+    ],
+    "uiMotifs": [
+      "rounded media tiles",
+      "floating product cards",
+      "compact navigation",
+      "pill-shaped controls"
+    ],
+    "notes": "A saturated orange landing page pairs an oversized white headline with a central fashion portrait and supporting product imagery. Layered cards, warm color blocking, and rounded controls create a vivid editorial-commerce composition.",
+    "suggestedTagIds": [
+      "editorial",
+      "maximalist",
+      "warm",
+      "energetic",
+      "hero-led",
+      "asymmetric",
+      "grid-system",
+      "oversized-type",
+      "layered",
+      "high-contrast",
+      "display-type",
+      "grotesk",
+      "dribbble",
+      "landing-love"
+    ],
+    "heroPrompt": "Create a vivid editorial fashion portrait for a clothing landing page: a stylish young model wearing a wide-brim orange hat, reflective sunglasses, and a richly patterned tropical shirt, framed from the chest up against a saturated orange-to-golden background. Use hard midday light, bold complementary colors, subtle foreground blur, crisp central focus, and a confident upward gaze. Compose the subject vertically in the center with enough clean negative space around the edges for oversized white typography. No logos, words, or brand marks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

@@ -1,13 +1,13 @@
 {
   "id": "mindmarket-c6c1cffc",
-  "title": "Mindmarket",
+  "title": "Lime Green Human Connection",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/mindmarket",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/f907bbd0-ef26-4ebe-9978-fbeae8076436/mindmarket.com_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:57:36.913Z",
-  "updatedAt": "2026-07-27T04:57:36.913Z",
+  "updatedAt": "2026-07-27T14:31:27.621Z",
   "media": {
     "path": "catalog/media/mindmarket-c6c1cffc.webp",
     "width": 2200,
@@ -17,6 +17,79 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:31:27.620Z",
+    "title": "Lime Green Human Connection",
+    "palette": [
+      {
+        "hex": "#8ED45D",
+        "role": "background"
+      },
+      {
+        "hex": "#252525",
+        "role": "primary text"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "navigation panels"
+      },
+      {
+        "hex": "#FF6B61",
+        "role": "coral clothing"
+      },
+      {
+        "hex": "#299BEF",
+        "role": "blue accents"
+      },
+      {
+        "hex": "#FFE300",
+        "role": "yellow accents"
+      }
+    ],
+    "style": [
+      "playful",
+      "bold",
+      "illustrative",
+      "color-blocked",
+      "contemporary"
+    ],
+    "tone": [
+      "energetic",
+      "optimistic",
+      "human",
+      "curious"
+    ],
+    "layout": [
+      "hero-led",
+      "centered composition",
+      "oversized type",
+      "layered illustration"
+    ],
+    "typography": [
+      "grotesk",
+      "oversized display type",
+      "heavy weight",
+      "tight line spacing"
+    ],
+    "uiMotifs": [
+      "rounded white navigation cards",
+      "pill-shaped controls",
+      "circular menu button",
+      "flat character illustration"
+    ],
+    "notes": "A vivid lime background supports oversized charcoal headline typography and a colorful flat illustration of interconnected human figures. Rounded white navigation containers and restrained interface details create a polished contrast with the expressive, hand-drawn hero artwork.",
+    "suggestedTagIds": [
+      "playful",
+      "energetic",
+      "curious",
+      "hero-led",
+      "oversized-type",
+      "layered"
+    ],
+    "heroPrompt": "Create a bold flat vector illustration for a contemporary consulting website hero: a playful group of diverse abstract human figures leaning and reaching across one another in a loose diagonal cluster, with oversized hands, expressive faces, colorful clothing, and small floating accent shapes. Use thick dark outlines, simplified organic forms, bright coral, cobalt blue, sunny yellow, lavender, and cream against a solid lime-green background. Crop the figures near the lower edge, leaving generous open space above for headline placement. Clean screen-print-like color blocks, minimal shading, joyful collaborative energy, no text, no logos, no brand marks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

@@ -1,13 +1,13 @@
 {
   "id": "meter-7297969e",
-  "title": "Meter",
+  "title": "Floating White Network Hardware",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/meter",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/c754df7e-9399-4220-8b1a-96af11d0bfb9-www.meter.com_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:59:28.607Z",
-  "updatedAt": "2026-07-27T04:59:28.607Z",
+  "updatedAt": "2026-07-27T14:28:09.751Z",
   "media": {
     "path": "catalog/media/meter-7297969e.webp",
     "width": 2200,
@@ -17,6 +17,76 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:28:09.748Z",
+    "title": "Floating White Network Hardware",
+    "palette": [
+      {
+        "hex": "#EEF0F8",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "hardware"
+      },
+      {
+        "hex": "#5268C8",
+        "role": "accent"
+      },
+      {
+        "hex": "#252D56",
+        "role": "headline"
+      },
+      {
+        "hex": "#BFC6DA",
+        "role": "secondary text"
+      }
+    ],
+    "style": [
+      "minimal",
+      "technical",
+      "product-led",
+      "airy"
+    ],
+    "tone": [
+      "quiet",
+      "precise",
+      "confident",
+      "modern"
+    ],
+    "layout": [
+      "asymmetric",
+      "hero-led",
+      "spacious",
+      "layered product field"
+    ],
+    "typography": [
+      "grotesk",
+      "oversized-type",
+      "high-contrast weights",
+      "left-aligned"
+    ],
+    "uiMotifs": [
+      "pill announcement banner",
+      "rounded primary button",
+      "subtle carousel indicator",
+      "muted partner-logo row"
+    ],
+    "notes": "A pale lavender-gray canvas stages white networking devices as floating, softly shadowed objects across the upper field. Large two-weight blue and navy sans-serif typography anchors the lower-left, supported by restrained navigation and rounded interface controls.",
+    "suggestedTagIds": [
+      "minimal",
+      "technical",
+      "quiet",
+      "hero-led",
+      "asymmetric",
+      "oversized-type",
+      "grotesk",
+      "landing-love"
+    ],
+    "heroPrompt": "A wide premium technology landing-page hero on a very pale lavender-gray background, featuring an asymmetric arrangement of clean white enterprise networking devices—thin rack units, compact rounded access points, and small antenna-equipped modules—floating at varied scales with soft diffused shadows. Use bright studio lighting, subtle three-quarter perspectives, generous negative space, and a refined blue-violet accent palette. Keep the composition airy and editorial, with the products concentrated across the upper and right areas while leaving open space in the lower left for headline placement. No logos, branding, labels, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

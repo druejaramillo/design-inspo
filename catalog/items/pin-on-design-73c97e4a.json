@@ -1,13 +1,13 @@
 {
   "id": "pin-on-design-73c97e4a",
-  "title": "Pin on Design",
+  "title": "Editorial Comic Art Portfolio Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/172122017009117610/",
   "sourceImageUrl": "https://i.pinimg.com/736x/2f/e1/05/2fe10556aba4df704214f5c0d36e5fdd.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:51:13.070Z",
-  "updatedAt": "2026-07-27T04:51:13.070Z",
+  "updatedAt": "2026-07-27T14:45:43.724Z",
   "media": {
     "path": "catalog/media/pin-on-design-73c97e4a.webp",
     "width": 736,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:45:43.721Z",
+    "title": "Editorial Comic Art Portfolio Landing Page",
+    "palette": [
+      {
+        "hex": "#F5F1EA",
+        "role": "background"
+      },
+      {
+        "hex": "#A51C18",
+        "role": "accent"
+      },
+      {
+        "hex": "#191817",
+        "role": "ink"
+      },
+      {
+        "hex": "#D9D2C8",
+        "role": "secondary background"
+      },
+      {
+        "hex": "#6D6861",
+        "role": "muted text"
+      }
+    ],
+    "style": [
+      "editorial",
+      "ornamental",
+      "illustrative",
+      "high-contrast"
+    ],
+    "tone": [
+      "dramatic",
+      "crafted",
+      "cinematic",
+      "confident"
+    ],
+    "layout": [
+      "hero-led",
+      "structured grid",
+      "layered sections",
+      "asymmetric imagery"
+    ],
+    "typography": [
+      "serif display type",
+      "small grotesk labels",
+      "oversized headlines",
+      "tight uppercase navigation"
+    ],
+    "uiMotifs": [
+      "fine decorative borders",
+      "diamond separators",
+      "outlined buttons",
+      "process-step iconography"
+    ],
+    "notes": "An ivory editorial layout combines deep red accents, black ink illustration, ornamental rules, and carefully aligned portfolio grids. The composition balances a large fantasy illustration with process diagrams, featured work cards, and restrained navigation.",
+    "suggestedTagIds": [
+      "editorial",
+      "hero-led",
+      "grid-system",
+      "layered",
+      "high-contrast",
+      "serif"
+    ],
+    "heroPrompt": "A dramatic editorial hero illustration for a comic artist portfolio: a solitary armored fantasy warrior shown in three-quarter view, head bowed, windswept dark hair, layered black cloak and intricate metal armor, standing before a large muted crimson sun with distant gothic architecture and flying birds. Render with expressive hand-inked linework, dense crosshatching, distressed brush textures, splattered edges, and cinematic rim light. Use an ivory paper background with generous negative space on the left for typography; refined red, charcoal, and warm gray palette; sophisticated print-poster composition, no logos, no readable text, no existing characters."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

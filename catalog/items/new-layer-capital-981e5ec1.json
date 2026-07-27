@@ -1,13 +1,13 @@
 {
   "id": "new-layer-capital-981e5ec1",
-  "title": "New Layer Capital",
+  "title": "Fluorescent Layered Editorial Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/new-layer-capital",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/06d24151-0d0c-4e49-b436-2756fadff775/nlc.oby-.agency_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T05:01:05.309Z",
-  "updatedAt": "2026-07-27T05:01:05.309Z",
+  "updatedAt": "2026-07-27T14:25:55.442Z",
   "media": {
     "path": "catalog/media/new-layer-capital-981e5ec1.webp",
     "width": 2200,
@@ -17,6 +17,84 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:25:55.438Z",
+    "title": "Fluorescent Layered Editorial Landing Page",
+    "palette": [
+      {
+        "hex": "#EC008C",
+        "role": "background"
+      },
+      {
+        "hex": "#F04A0B",
+        "role": "accent frame"
+      },
+      {
+        "hex": "#F39AB9",
+        "role": "layered landscape"
+      },
+      {
+        "hex": "#FF1681",
+        "role": "foreground landscape"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "type and lines"
+      },
+      {
+        "hex": "#CBB0CF",
+        "role": "outer background"
+      }
+    ],
+    "style": [
+      "editorial",
+      "brutalist",
+      "maximalist",
+      "playful",
+      "high-contrast"
+    ],
+    "tone": [
+      "energetic",
+      "bold",
+      "futuristic",
+      "confident"
+    ],
+    "layout": [
+      "asymmetric framing",
+      "oversized headline",
+      "layered composition",
+      "strong grid alignment"
+    ],
+    "typography": [
+      "grotesk",
+      "display type",
+      "oversized type",
+      "expressive scale"
+    ],
+    "uiMotifs": [
+      "thin rule lines",
+      "corner labels",
+      "arrow-link controls",
+      "minimal hamburger icon",
+      "offset color borders"
+    ],
+    "notes": "A vivid magenta landing page uses oversized white typography, offset orange framing, and thin structural rules to create a high-impact editorial composition. A soft, abstract layered mountain form introduces organic depth while retaining the graphic, highly controlled art direction.",
+    "suggestedTagIds": [
+      "editorial",
+      "brutalist",
+      "energetic",
+      "hero-led",
+      "asymmetric",
+      "oversized-type",
+      "layered",
+      "high-contrast",
+      "primary-pop",
+      "display-type"
+    ],
+    "heroPrompt": "Abstract layered mountain landscape rendered as overlapping paper-cut and softly painted shapes, with broad undulating ridges in hot pink, coral, blush, and pale lavender. Use a flat saturated magenta field, subtle grain, simplified silhouettes, and a wide horizontal composition with the landscape concentrated across the lower half. Bold graphic poster aesthetic, clean edges mixed with gently rough torn contours, no text, no logos, no people."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

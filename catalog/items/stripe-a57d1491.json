@@ -1,13 +1,13 @@
 {
   "id": "stripe-a57d1491",
-  "title": "Stripe",
+  "title": "Prismatic Ribbon Finance Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/stripe-2",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/38180a6f-1ed8-4728-a6ab-e39d039a0093/tripe.com_en-nl.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T05:01:20.919Z",
-  "updatedAt": "2026-07-27T05:01:20.919Z",
+  "updatedAt": "2026-07-27T14:25:19.849Z",
   "media": {
     "path": "catalog/media/stripe-a57d1491.webp",
     "width": 2200,
@@ -17,6 +17,77 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:25:19.845Z",
+    "title": "Prismatic Ribbon Finance Landing Page",
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#0D1B34",
+        "role": "primary text"
+      },
+      {
+        "hex": "#7582A1",
+        "role": "secondary text"
+      },
+      {
+        "hex": "#5639F5",
+        "role": "accent"
+      },
+      {
+        "hex": "#FF8A00",
+        "role": "warm gradient"
+      },
+      {
+        "hex": "#F25EAA",
+        "role": "highlight"
+      }
+    ],
+    "style": [
+      "minimal",
+      "hero-led",
+      "layered",
+      "high-contrast"
+    ],
+    "tone": [
+      "energetic",
+      "confident",
+      "technical"
+    ],
+    "layout": [
+      "asymmetric hero composition",
+      "structured grid system",
+      "large open whitespace",
+      "full-width logo strip"
+    ],
+    "typography": [
+      "grotesk sans-serif",
+      "oversized headline",
+      "high-weight hierarchy",
+      "muted supporting text"
+    ],
+    "uiMotifs": [
+      "gradient call-to-action buttons",
+      "outlined secondary button",
+      "compact navigation bar",
+      "abstract flowing ribbon artwork"
+    ],
+    "notes": "A clean, grid-based landing page pairs oversized dark typography with a vivid translucent ribbon sweeping through the right side of the hero. White space, restrained navigation, bright gradient accents, and a logo strip create a polished yet energetic financial-technology direction.",
+    "suggestedTagIds": [
+      "minimal",
+      "hero-led",
+      "asymmetric",
+      "grid-system",
+      "oversized-type",
+      "layered"
+    ],
+    "heroPrompt": "Create an abstract hero visual for a modern financial technology website: a large translucent ribbon or folded membrane sweeping diagonally from the upper center toward the lower right, with luminous gradients shifting through electric violet, cobalt, coral pink, orange, and soft blue. Use silky layered forms, subtle motion blur, fine diagonal striations, glowing edges, and a clean white background. Keep the left half mostly open for headline placement, with the artwork concentrated on the right. No text, logos, symbols, people, or recognizable brands; premium editorial web-art direction, crisp and spacious."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

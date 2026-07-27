@@ -1,13 +1,13 @@
 {
   "id": "behance-portfolio-cv-graphic-design-digital-mark-eff46df4",
-  "title": "Behance에서의 Portfolio | CV | Graphic Design | Digital Marketing | Portfolio design layouts, Layout web, Branding",
+  "title": "Editorial Portfolio in Forest Green",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/19703317113233473/",
   "sourceImageUrl": "https://i.pinimg.com/736x/00/8e/d3/008ed3ecc4859739a5c209dc36aa61a1.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:54:27.503Z",
-  "updatedAt": "2026-07-27T04:54:27.503Z",
+  "updatedAt": "2026-07-27T14:35:13.251Z",
   "media": {
     "path": "catalog/media/behance-portfolio-cv-graphic-design-digital-mark-eff46df4.webp",
     "width": 736,
@@ -17,6 +17,80 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:35:13.246Z",
+    "title": "Editorial Portfolio in Forest Green",
+    "palette": [
+      {
+        "hex": "#2D4B35",
+        "role": "deep green background"
+      },
+      {
+        "hex": "#F3EBDD",
+        "role": "warm cream background"
+      },
+      {
+        "hex": "#FFB313",
+        "role": "accent yellow"
+      },
+      {
+        "hex": "#BB6D38",
+        "role": "burnt orange panel"
+      },
+      {
+        "hex": "#050505",
+        "role": "black contrast"
+      }
+    ],
+    "style": [
+      "editorial",
+      "layered",
+      "high-contrast",
+      "expressive-type",
+      "playful"
+    ],
+    "tone": [
+      "warm",
+      "energetic",
+      "curious",
+      "confident"
+    ],
+    "layout": [
+      "asymmetric composition",
+      "split-screen sections",
+      "overlapping cards",
+      "scroll-led landing page"
+    ],
+    "typography": [
+      "oversized display serif",
+      "outlined display lettering",
+      "expressive serif headings",
+      "compact sans-serif body copy"
+    ],
+    "uiMotifs": [
+      "pill-shaped buttons",
+      "starburst accents",
+      "floating scroll badge",
+      "rounded skill tags",
+      "portrait information card"
+    ],
+    "notes": "The design combines forest green, cream, orange, yellow, and black with oversized serif typography, outlined lettering, cropped photography, and overlapping content blocks. Its portfolio structure uses strong section transitions, playful badges, decorative starbursts, and a dense editorial resume layout.",
+    "suggestedTagIds": [
+      "editorial",
+      "playful",
+      "warm",
+      "energetic",
+      "asymmetric",
+      "oversized-type",
+      "layered",
+      "hero-led",
+      "serif",
+      "display-type"
+    ],
+    "heroPrompt": "Editorial portfolio hero composition featuring a softly blurred side-profile portrait of a young creative professional with dark hair, cropped inside a burnt-orange rectangular panel against a deep forest-green background. Add oversized cream high-contrast serif lettering partially overlapping the portrait, thin outlined decorative letterforms, small golden starburst accents, and a bold black lower band. Warm analog texture, sophisticated art-direction, sharp geometric blocks, asymmetrical layout, no logos, no readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

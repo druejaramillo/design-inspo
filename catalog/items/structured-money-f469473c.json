@@ -1,13 +1,13 @@
 {
   "id": "structured-money-f469473c",
-  "title": "Structured Money",
+  "title": "Editorial Mossland Bitcoin Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/structured-money",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/c88a472b-0811-4cf6-bd8f-b7cf0428938d/www.-tructured.money_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T05:01:28.178Z",
-  "updatedAt": "2026-07-27T05:01:28.178Z",
+  "updatedAt": "2026-07-27T14:24:57.852Z",
   "media": {
     "path": "catalog/media/structured-money-f469473c.webp",
     "width": 2200,
@@ -17,6 +17,79 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:24:57.848Z",
+    "title": "Editorial Mossland Bitcoin Landing Page",
+    "palette": [
+      {
+        "hex": "#E8E6E4",
+        "role": "background"
+      },
+      {
+        "hex": "#050505",
+        "role": "type and accents"
+      },
+      {
+        "hex": "#7E882B",
+        "role": "moss landscape"
+      },
+      {
+        "hex": "#596313",
+        "role": "deep organic shadow"
+      },
+      {
+        "hex": "#C9E8E4",
+        "role": "water or horizon"
+      }
+    ],
+    "style": [
+      "editorial",
+      "minimal",
+      "organic",
+      "high-contrast",
+      "layered"
+    ],
+    "tone": [
+      "quiet",
+      "earthy",
+      "curious",
+      "luxurious"
+    ],
+    "layout": [
+      "centered hierarchy",
+      "oversized type",
+      "generous negative space",
+      "bottom-framed landscape"
+    ],
+    "typography": [
+      "high-contrast serif",
+      "oversized display type",
+      "italic emphasis",
+      "compact utility sans-serif"
+    ],
+    "uiMotifs": [
+      "pill-shaped black button",
+      "small corner wordmark",
+      "minimal metrics row",
+      "text-over-image layering"
+    ],
+    "notes": "A restrained editorial composition pairs a pale neutral field with enormous black serif lettering and a softly textured mossy landscape cropped along the bottom edge. Small utility text and a compact dark button create a sparse, premium financial landing-page direction.",
+    "suggestedTagIds": [
+      "editorial",
+      "minimal",
+      "organic",
+      "quiet",
+      "earthy",
+      "oversized-type",
+      "serif",
+      "display-type",
+      "hero-led",
+      "layered"
+    ],
+    "heroPrompt": "Create a wide editorial hero illustration with softly textured moss-covered hills rising from the lower corners and a thin pale blue-green horizon or water band near the bottom. Use a mostly empty warm gray-beige background, subtle grain, muted olive and moss greens, and soft natural contours. Keep the composition low and spacious so oversized black serif typography could sit above and partially overlap the landscape. No text, logos, interface elements, people, or recognizable brands."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

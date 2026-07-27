@@ -1,13 +1,13 @@
 {
   "id": "walrus-56e648fc",
-  "title": "Walrus",
+  "title": "Pixelated Black and Pastel Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/walrus-2",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/b2f54678-4c3a-48ee-8229-c594aa8fb9b9-Screenshot.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:59:35.459Z",
-  "updatedAt": "2026-07-27T04:59:35.459Z",
+  "updatedAt": "2026-07-27T14:27:50.872Z",
   "media": {
     "path": "catalog/media/walrus-56e648fc.webp",
     "width": 2200,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:27:50.868Z",
+    "title": "Pixelated Black and Pastel Landing Page",
+    "palette": [
+      {
+        "hex": "#111111",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "text and surface"
+      },
+      {
+        "hex": "#C5A8FF",
+        "role": "lavender accent"
+      },
+      {
+        "hex": "#A9C7EE",
+        "role": "blue accent"
+      },
+      {
+        "hex": "#8DE5DB",
+        "role": "mint accent"
+      }
+    ],
+    "style": [
+      "minimal",
+      "brutalist",
+      "retro-futurist",
+      "technical"
+    ],
+    "tone": [
+      "bold",
+      "playful",
+      "confident",
+      "experimental"
+    ],
+    "layout": [
+      "hero-led",
+      "grid-system",
+      "high-contrast",
+      "structured"
+    ],
+    "typography": [
+      "oversized-type",
+      "display-type",
+      "expressive-type",
+      "pixelated"
+    ],
+    "uiMotifs": [
+      "black bordered navigation bar",
+      "pastel gradient announcement strip",
+      "square checkbox markers",
+      "external-link arrow buttons"
+    ],
+    "notes": "A stark black hero dominates the page with oversized white pixel-style lettering, balanced by a restrained white header and footer grid. Soft lavender-to-mint accents and compact utility navigation create a playful technical contrast against the severe monochrome structure.",
+    "suggestedTagIds": [
+      "brutalist",
+      "playful",
+      "retro-futurist",
+      "hero-led",
+      "grid-system",
+      "oversized-type"
+    ],
+    "heroPrompt": null
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

@@ -1,13 +1,13 @@
 {
   "id": "oryzo-2528b06e",
-  "title": "Oryzo",
+  "title": "Warm Editorial Craft Workspace",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/oryzo",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/2a300536-a0ac-462e-8690-e3c56b478a98/oryzo.ai_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:59:55.398Z",
-  "updatedAt": "2026-07-27T04:59:55.398Z",
+  "updatedAt": "2026-07-27T14:27:36.383Z",
   "media": {
     "path": "catalog/media/oryzo-2528b06e.webp",
     "width": 2200,
@@ -17,6 +17,80 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:27:36.380Z",
+    "title": "Warm Editorial Craft Workspace",
+    "palette": [
+      {
+        "hex": "#B47A4D",
+        "role": "wood background"
+      },
+      {
+        "hex": "#214B3A",
+        "role": "cutting mat"
+      },
+      {
+        "hex": "#C87532",
+        "role": "cork product"
+      },
+      {
+        "hex": "#F5E5D0",
+        "role": "typography"
+      },
+      {
+        "hex": "#6B452F",
+        "role": "shadows"
+      },
+      {
+        "hex": "#D99A57",
+        "role": "tool accents"
+      }
+    ],
+    "style": [
+      "editorial",
+      "craftwork",
+      "hero-led",
+      "layered",
+      "technical"
+    ],
+    "tone": [
+      "warm",
+      "earthy",
+      "curious",
+      "considered"
+    ],
+    "layout": [
+      "asymmetric",
+      "grid-system",
+      "top-down composition",
+      "split visual-text balance"
+    ],
+    "typography": [
+      "oversized-type",
+      "grotesk",
+      "bold display type",
+      "compact navigation labels"
+    ],
+    "uiMotifs": [
+      "vertical edge tab",
+      "translucent information panel",
+      "dotted divider",
+      "bottom scroll cue",
+      "floating video card"
+    ],
+    "notes": "A warm overhead still life combines a cork product with a green drafting mat, wood grain, and scattered workshop tools. Oversized cream typography and translucent panels create a confident editorial landing page over the tactile photographic background.",
+    "suggestedTagIds": [
+      "editorial",
+      "warm",
+      "earthy",
+      "hero-led",
+      "asymmetric",
+      "oversized-type"
+    ],
+    "heroPrompt": "Top-down editorial product photograph of a round natural cork coaster centered on a dark green gridded cutting mat, placed across a honey-toned wooden worktable. Include a white drafting pencil, metal paper clips, a sharpened wooden pencil, and an orange utility knife partially entering the frame. Use warm late-afternoon side lighting, soft shadows, tactile material detail, subtle film grain, balanced negative space, and a refined design-magazine art direction. No text, logos, labels, or branding."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

@@ -1,13 +1,13 @@
 {
   "id": "p-gina-de-aterrizaje-efectiva-modern-website-bac-1a7f123c",
-  "title": "Página de aterrizaje efectiva. | Modern website background design, Innovative website design inspiration, Glass effect website",
+  "title": "Neon Organic Consulting Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/4011087181606120/",
   "sourceImageUrl": "https://i.pinimg.com/736x/a0/99/1e/a0991e4ab70886341d1a4fb8ec53f0a1.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:52:33.652Z",
-  "updatedAt": "2026-07-27T04:52:33.652Z",
+  "updatedAt": "2026-07-27T14:44:12.298Z",
   "media": {
     "path": "catalog/media/p-gina-de-aterrizaje-efectiva-modern-website-bac-1a7f123c.webp",
     "width": 736,
@@ -17,6 +17,81 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:44:12.296Z",
+    "title": "Neon Organic Consulting Landing Page",
+    "palette": [
+      {
+        "hex": "#050506",
+        "role": "background"
+      },
+      {
+        "hex": "#2B0048",
+        "role": "deep violet glow"
+      },
+      {
+        "hex": "#5B1BFF",
+        "role": "electric purple"
+      },
+      {
+        "hex": "#FF2DD1",
+        "role": "magenta accent"
+      },
+      {
+        "hex": "#F6F3FF",
+        "role": "primary text"
+      }
+    ],
+    "style": [
+      "organic",
+      "maximalist",
+      "immersive",
+      "high-contrast"
+    ],
+    "tone": [
+      "energetic",
+      "luxurious",
+      "futuristic"
+    ],
+    "layout": [
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "grid-system"
+    ],
+    "typography": [
+      "oversized-type",
+      "display-type",
+      "grotesk",
+      "expressive-type"
+    ],
+    "uiMotifs": [
+      "pill-shaped navigation",
+      "circular scroll badge",
+      "micro arrow controls",
+      "glowing 3D fluid forms"
+    ],
+    "notes": "A near-black landing page pairs oversized white display typography with vivid, iridescent liquid forms that dominate the composition. Sparse navigation, outlined section lettering, and small circular controls create a polished editorial-tech atmosphere with strong depth and contrast.",
+    "suggestedTagIds": [
+      "organic",
+      "maximalist",
+      "energetic",
+      "luxurious",
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "immersive",
+      "high-contrast",
+      "dark-mode",
+      "oversized-type",
+      "display-type",
+      "grotesk",
+      "landing-love"
+    ],
+    "heroPrompt": "Create a dramatic abstract hero visual for a premium digital consultancy website: a large flowing 3D liquid sculpture floating on the right side, with smooth folded surfaces, translucent glossy material, and vivid gradients of electric violet, cobalt blue, hot magenta, and subtle cyan highlights. Set it against a nearly black background with a soft purple atmospheric glow, leaving generous negative space on the left for headline text. Use cinematic rim lighting, polished reflections, organic asymmetry, and a sleek futuristic editorial art direction. No text, logos, symbols, or recognizable objects."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

@@ -1,13 +1,13 @@
 {
   "id": "visual-design-website-web-design-ideas-creative--ada7ac3e",
-  "title": "Visual design website | Web design ideas creative, Travel website ui, Website design inspiration",
+  "title": "Dark Immersive Travel Explorer",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/1407443630703416/",
   "sourceImageUrl": "https://i.pinimg.com/736x/6c/48/7e/6c487e8674e4adc995439c401d9bf3b4.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:49:38.761Z",
-  "updatedAt": "2026-07-27T04:49:38.761Z",
+  "updatedAt": "2026-07-27T14:40:12.030Z",
   "media": {
     "path": "catalog/media/visual-design-website-web-design-ideas-creative--ada7ac3e.webp",
     "width": 474,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:40:12.029Z",
+    "title": "Dark Immersive Travel Explorer",
+    "palette": [
+      {
+        "hex": "#050606",
+        "role": "background"
+      },
+      {
+        "hex": "#1E2926",
+        "role": "forest shadow"
+      },
+      {
+        "hex": "#55D5D2",
+        "role": "accent"
+      },
+      {
+        "hex": "#71858A",
+        "role": "muted image tone"
+      },
+      {
+        "hex": "#D8DDD5",
+        "role": "text"
+      }
+    ],
+    "style": [
+      "cinematic",
+      "immersive",
+      "nature-driven",
+      "high-contrast"
+    ],
+    "tone": [
+      "adventurous",
+      "serene",
+      "mysterious",
+      "aspirational"
+    ],
+    "layout": [
+      "full-bleed hero",
+      "stacked sections",
+      "asymmetric image collage",
+      "card-based gallery"
+    ],
+    "typography": [
+      "oversized geometric sans",
+      "uppercase display headings",
+      "small condensed navigation",
+      "high-contrast scale"
+    ],
+    "uiMotifs": [
+      "numbered hero pagination",
+      "play-button overlays",
+      "thin divider lines",
+      "dark translucent image treatments"
+    ],
+    "notes": "A dark travel landing page uses dramatic mountain, forest, lake, and waterfall photography with cyan accents to create a cinematic sense of exploration. Large left-aligned headings, compact utility navigation, tour cards, and layered video thumbnails establish a structured but editorial composition.",
+    "suggestedTagIds": [
+      "organic",
+      "hero-led",
+      "immersive",
+      "dark-mode",
+      "high-contrast",
+      "display-type"
+    ],
+    "heroPrompt": "Cinematic wide-angle landscape photograph of a turquoise alpine lake surrounded by rugged misty mountains and dark evergreen forest, viewed from behind a lone seated traveler on a rocky overlook. Moody overcast light, deep charcoal shadows, subtle atmospheric haze, rich natural textures, subdued earthy greens and slate blues, with a clear open area on the left for large headline text. Premium travel editorial art direction, dramatic but serene, no logos, no readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

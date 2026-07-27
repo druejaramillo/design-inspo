@@ -1,13 +1,13 @@
 {
   "id": "dise-a-una-landing-page-optimizada-para-tus-obje-29b8c9d9",
-  "title": "Diseña una landing page optimizada para tus objetivos. | Web page design inspiration, Landing page design inspiration layout, Web design creative",
+  "title": "Dark Neon Editorial Agency Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/138978338508728187/",
   "sourceImageUrl": "https://i.pinimg.com/736x/8b/a2/7f/8ba27fe4b56da93c509b7fe9aaf7b17a.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:52:54.241Z",
-  "updatedAt": "2026-07-27T04:52:54.241Z",
+  "updatedAt": "2026-07-27T14:43:13.767Z",
   "media": {
     "path": "catalog/media/dise-a-una-landing-page-optimizada-para-tus-obje-29b8c9d9.webp",
     "width": 736,
@@ -17,6 +17,81 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:43:13.765Z",
+    "title": "Dark Neon Editorial Agency Landing Page",
+    "palette": [
+      {
+        "hex": "#071016",
+        "role": "background"
+      },
+      {
+        "hex": "#12202B",
+        "role": "section bands"
+      },
+      {
+        "hex": "#39FF14",
+        "role": "accent"
+      },
+      {
+        "hex": "#F3F5F4",
+        "role": "primary text"
+      },
+      {
+        "hex": "#526D7D",
+        "role": "muted blue-gray"
+      }
+    ],
+    "style": [
+      "editorial",
+      "brutalist",
+      "immersive",
+      "high-contrast"
+    ],
+    "tone": [
+      "technical",
+      "energetic",
+      "confident",
+      "cinematic"
+    ],
+    "layout": [
+      "grid-system",
+      "layered",
+      "asymmetric",
+      "oversized-type"
+    ],
+    "typography": [
+      "grotesk",
+      "display-type",
+      "oversized-type",
+      "bold condensed"
+    ],
+    "uiMotifs": [
+      "numbered section dividers",
+      "neon outlined callouts",
+      "dark image overlays",
+      "modular service grid"
+    ],
+    "notes": "A tall agency landing page uses dark architectural photography, oversized white numerals, and vivid green accents to create a cinematic editorial rhythm. Strong horizontal bands, dense text blocks, and outlined panels balance the large imagery with a structured, high-impact presentation.",
+    "suggestedTagIds": [
+      "editorial",
+      "brutalist",
+      "technical",
+      "hero-led",
+      "grid-system",
+      "oversized-type",
+      "layered",
+      "immersive",
+      "high-contrast",
+      "dark-mode",
+      "display-type",
+      "grotesk",
+      "energetic"
+    ],
+    "heroPrompt": "Cinematic upward-looking photograph between towering modern buildings, viewed from street level, with dramatic converging lines and deep charcoal shadows. Use a cool blue-black monochrome grade, subtle grain, high contrast, and a small atmospheric opening of cloudy sky in the center. Compose the architecture to leave a clean central area for bold editorial headline overlay, with no visible logos, signage, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

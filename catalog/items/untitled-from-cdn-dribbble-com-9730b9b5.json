@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-9730b9b5",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Obsidian AI Music Experience",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/48509031/file/137e7bb2901d4fe9ede55806d143988b.png?resize=752x&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/48509031/file/137e7bb2901d4fe9ede55806d143988b.png?resize=752x&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:47:35.748Z",
-  "updatedAt": "2026-07-27T04:47:35.748Z",
+  "updatedAt": "2026-07-27T14:43:56.270Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-9730b9b5.webp",
     "width": 752,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:43:56.269Z",
+    "title": "Obsidian AI Music Experience",
+    "palette": [
+      {
+        "hex": "#050505",
+        "role": "background"
+      },
+      {
+        "hex": "#17100C",
+        "role": "surface"
+      },
+      {
+        "hex": "#E66A1F",
+        "role": "accent"
+      },
+      {
+        "hex": "#D8D4CF",
+        "role": "primary text"
+      },
+      {
+        "hex": "#6E665E",
+        "role": "secondary text"
+      }
+    ],
+    "style": [
+      "futuristic",
+      "cinematic",
+      "immersive",
+      "high-contrast"
+    ],
+    "tone": [
+      "energetic",
+      "technical",
+      "mysterious",
+      "premium"
+    ],
+    "layout": [
+      "asymmetric split composition",
+      "hero-led",
+      "long-scroll sections",
+      "layered content"
+    ],
+    "typography": [
+      "oversized display type",
+      "modern grotesk",
+      "high-contrast sizing",
+      "compact micro-labels"
+    ],
+    "uiMotifs": [
+      "audio waveform visualizations",
+      "glowing orange controls",
+      "floating data panels",
+      "dark translucent cards"
+    ],
+    "notes": "A near-black music-technology landing page pairs an oversized portrait hero with warm orange waveform graphics and sparse interface panels. The long vertical composition uses large white typography, fine technical labels, and glowing accents to create a cinematic, premium atmosphere.",
+    "suggestedTagIds": [
+      "dark-mode",
+      "hero-led",
+      "asymmetric",
+      "immersive",
+      "high-contrast",
+      "technical"
+    ],
+    "heroPrompt": "Cinematic 3D portrait of a futuristic music producer wearing oversized studio headphones, centered against a pure black background, face lit with soft cool silver light and subtle warm orange rim lighting, realistic skin and metallic fabric textures, calm intense expression, faint amber audio-wave glow behind the shoulders, premium editorial art direction, dramatic shadows, clean negative space, no text, no logos, no watermark."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

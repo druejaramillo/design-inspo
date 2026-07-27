@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-9812547e",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Luminous Teal Finance Landing Page",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/13029431/file/original-722640a42367340e7cafd7f0938ae0f7.jpg?resize=752x&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/13029431/file/original-722640a42367340e7cafd7f0938ae0f7.jpg?resize=752x&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:44:33.551Z",
-  "updatedAt": "2026-07-27T04:44:33.551Z",
+  "updatedAt": "2026-07-27T14:37:48.285Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-9812547e.webp",
     "width": 752,
@@ -17,6 +17,77 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:37:48.284Z",
+    "title": "Luminous Teal Finance Landing Page",
+    "palette": [
+      {
+        "hex": "#07594F",
+        "role": "background"
+      },
+      {
+        "hex": "#003D39",
+        "role": "panels"
+      },
+      {
+        "hex": "#E9FF68",
+        "role": "accent"
+      },
+      {
+        "hex": "#9CCB48",
+        "role": "secondary accent"
+      },
+      {
+        "hex": "#D9F4E2",
+        "role": "text"
+      }
+    ],
+    "style": [
+      "dark editorial SaaS",
+      "organic 3D abstraction",
+      "high-contrast",
+      "layered",
+      "polished"
+    ],
+    "tone": [
+      "confident",
+      "optimistic",
+      "technical",
+      "approachable"
+    ],
+    "layout": [
+      "asymmetric split composition",
+      "modular card grid",
+      "large hero panel",
+      "section stacking",
+      "anchored content blocks"
+    ],
+    "typography": [
+      "clean grotesk",
+      "large sentence-case headlines",
+      "compact navigation text",
+      "highly legible body copy"
+    ],
+    "uiMotifs": [
+      "neon lime call-to-action panels",
+      "rounded dashboard cards",
+      "glass-like overlays",
+      "transaction tables",
+      "soft gradient illustrations"
+    ],
+    "notes": "A deep teal interface is energized by fluorescent lime accents, abstract dimensional forms, and tightly arranged dashboard modules. Large pale headlines contrast with compact utility text, while rounded cards and layered panels create a refined fintech landing-page direction.",
+    "suggestedTagIds": [
+      "technical",
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "dark-mode",
+      "grotesk"
+    ],
+    "heroPrompt": "Create an abstract editorial hero visual for a modern finance software landing page: deep forest-teal background, oversized smooth organic forms and looping ribbons in electric chartreuse and muted green, subtle grain, soft directional lighting, dimensional 3D surfaces, and scattered tiny lime specks. Compose it as a bold cropped graphic with strong diagonal movement and generous negative space for white headline text. Sophisticated, optimistic, premium SaaS art direction; no words, logos, icons, devices, or recognizable branding."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

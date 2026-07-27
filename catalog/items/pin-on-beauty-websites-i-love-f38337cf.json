@@ -1,13 +1,13 @@
 {
   "id": "pin-on-beauty-websites-i-love-f38337cf",
-  "title": "Pin on Beauty Websites I Love",
+  "title": "Warm Botanical Beauty Editorial",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/524880531596435729/",
   "sourceImageUrl": "https://i.pinimg.com/736x/0d/df/b4/0ddfb46fd1847b93c125dc54e24e4406.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:54:38.563Z",
-  "updatedAt": "2026-07-27T04:54:38.563Z",
+  "updatedAt": "2026-07-27T14:35:00.045Z",
   "media": {
     "path": "catalog/media/pin-on-beauty-websites-i-love-f38337cf.webp",
     "width": 736,
@@ -17,6 +17,84 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:35:00.043Z",
+    "title": "Warm Botanical Beauty Editorial",
+    "palette": [
+      {
+        "hex": "#F1F0EB",
+        "role": "background"
+      },
+      {
+        "hex": "#A66F52",
+        "role": "skin and image warmth"
+      },
+      {
+        "hex": "#8A9783",
+        "role": "muted botanical accent"
+      },
+      {
+        "hex": "#292A22",
+        "role": "text"
+      },
+      {
+        "hex": "#B9824D",
+        "role": "product amber"
+      }
+    ],
+    "style": [
+      "editorial",
+      "organic",
+      "minimal",
+      "luxurious"
+    ],
+    "tone": [
+      "warm",
+      "quiet",
+      "natural",
+      "refined"
+    ],
+    "layout": [
+      "hero-led",
+      "grid-system",
+      "layered",
+      "asymmetric"
+    ],
+    "typography": [
+      "oversized-type",
+      "display-type",
+      "serif",
+      "grotesk"
+    ],
+    "uiMotifs": [
+      "translucent rounded navigation bar",
+      "pill-shaped buttons",
+      "editorial image blocks",
+      "product cutouts with soft shadows"
+    ],
+    "notes": "A tall skincare landing page combines a close-up facial hero with oversized serif lettering and restrained product photography. Warm neutrals, muted green accents, generous spacing, and offset image panels create a calm premium editorial direction.",
+    "suggestedTagIds": [
+      "editorial",
+      "minimal",
+      "organic",
+      "warm",
+      "quiet",
+      "luxurious",
+      "hero-led",
+      "grid-system",
+      "oversized-type",
+      "layered",
+      "earthy",
+      "serif",
+      "display-type",
+      "grotesk",
+      "landing-love",
+      "pinterest"
+    ],
+    "heroPrompt": "Extreme close-up editorial beauty photograph of a calm human face focused on one hazel-green eye, warm sunlit skin with natural texture, soft amber and terracotta shadows, intimate cropped composition, subtle translucent glass-like interface overlay near the top, premium botanical skincare campaign mood, cinematic directional light, tactile analog grain, sophisticated neutral color grading, no text, no logos, no packaging, no watermark."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

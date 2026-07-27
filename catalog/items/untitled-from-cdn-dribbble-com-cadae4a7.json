@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-cadae4a7",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Neon Virtual Reality Landing Page",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/40466634/file/original-9e31f5e2576c7b47f23683dea8a5c541.png?resize=1468x1101&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/40466634/file/original-9e31f5e2576c7b47f23683dea8a5c541.png?resize=1468x1101&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:45:08.461Z",
-  "updatedAt": "2026-07-27T04:45:08.461Z",
+  "updatedAt": "2026-07-27T14:37:34.088Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-cadae4a7.webp",
     "width": 1468,
@@ -17,6 +17,85 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:37:34.086Z",
+    "title": "Neon Virtual Reality Landing Page",
+    "palette": [
+      {
+        "hex": "#08060D",
+        "role": "background"
+      },
+      {
+        "hex": "#4B075F",
+        "role": "ambient purple"
+      },
+      {
+        "hex": "#D414D8",
+        "role": "magenta accent"
+      },
+      {
+        "hex": "#246BFF",
+        "role": "electric blue accent"
+      },
+      {
+        "hex": "#F4F1F7",
+        "role": "primary text"
+      }
+    ],
+    "style": [
+      "retro-futurist",
+      "maximalist",
+      "immersive",
+      "high-contrast",
+      "hero-led"
+    ],
+    "tone": [
+      "energetic",
+      "technical",
+      "curious",
+      "futuristic"
+    ],
+    "layout": [
+      "asymmetric",
+      "layered",
+      "hero-focused",
+      "sidebar navigation",
+      "floating visual"
+    ],
+    "typography": [
+      "display-type",
+      "expressive-type",
+      "oversized-type",
+      "geometric lettering"
+    ],
+    "uiMotifs": [
+      "neon gradients",
+      "glowing 3D orb",
+      "floating geometric fragments",
+      "dark navigation chrome",
+      "video preview card"
+    ],
+    "notes": "A black interface is framed by saturated purple atmosphere, with a large luminous spherical 3D object dominating the right side and angular display typography anchoring the left. Thin dividers, compact navigation, a gradient call-to-action, and a translucent media card create a polished futuristic product-landing composition.",
+    "suggestedTagIds": [
+      "retro-futurist",
+      "maximalist",
+      "energetic",
+      "technical",
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "immersive",
+      "high-contrast",
+      "dark-mode",
+      "display-type",
+      "expressive-type",
+      "dribbble",
+      "landing-love"
+    ],
+    "heroPrompt": "Create a futuristic 3D hero visual on a deep black background: a large abstract spherical core made of concentric luminous segmented rings, glowing electric blue, violet, and hot magenta from within. Surround it with irregular transparent black polygonal shells and a few thin orbital bands, with subtle reflections, volumetric bloom, floating angular fragments, and soft purple atmospheric haze. Compose the orb large on the right with ample dark negative space on the left for interface copy. High-contrast cinematic product render, polished sci-fi landing-page art direction, no text, logos, or recognizable characters."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

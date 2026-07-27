@@ -1,13 +1,13 @@
 {
   "id": "pin-on-software-styles-acc3b3f9",
-  "title": "Pin on Software styles",
+  "title": "Futuristic Villa Property Showcase",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/2814818513141225/",
   "sourceImageUrl": "https://i.pinimg.com/736x/42/49/0c/42490c88aec3cdb4f241aa8772717216.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:53:28.972Z",
-  "updatedAt": "2026-07-27T04:53:28.972Z",
+  "updatedAt": "2026-07-27T14:41:39.817Z",
   "media": {
     "path": "catalog/media/pin-on-software-styles-acc3b3f9.webp",
     "width": 736,
@@ -17,6 +17,79 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:41:39.814Z",
+    "title": "Futuristic Villa Property Showcase",
+    "palette": [
+      {
+        "hex": "#EDE8E2",
+        "role": "background"
+      },
+      {
+        "hex": "#B8D8F0",
+        "role": "sky"
+      },
+      {
+        "hex": "#8BA7D4",
+        "role": "interface blue"
+      },
+      {
+        "hex": "#F18F61",
+        "role": "warm lighting"
+      },
+      {
+        "hex": "#34216F",
+        "role": "accent"
+      },
+      {
+        "hex": "#2B2927",
+        "role": "text"
+      }
+    ],
+    "style": [
+      "futuristic",
+      "editorial",
+      "rounded",
+      "atmospheric",
+      "high-end"
+    ],
+    "tone": [
+      "aspirational",
+      "serene",
+      "luxurious",
+      "optimistic"
+    ],
+    "layout": [
+      "centered rounded showcase",
+      "layered floating cards",
+      "asymmetric overlays",
+      "poster-like framing"
+    ],
+    "typography": [
+      "oversized sans-serif headline",
+      "thin grotesk labels",
+      "microcopy hierarchy",
+      "high-contrast scale"
+    ],
+    "uiMotifs": [
+      "pill-shaped controls",
+      "floating icon sidebar",
+      "soft rounded cards",
+      "circular action buttons",
+      "property detail panel"
+    ],
+    "notes": "A dreamy architectural hero image is framed inside a large rounded interface, with translucent blue overlays and warm interior lighting creating strong depth. The surrounding monochrome mountain backdrop and restrained interface controls give the composition an editorial, premium real-estate feel.",
+    "suggestedTagIds": [
+      "retro-futurist",
+      "luxurious",
+      "hero-led",
+      "layered",
+      "oversized-type"
+    ],
+    "heroPrompt": "A cinematic editorial photograph of a futuristic desert villa at blue hour, featuring smooth organic architecture, sweeping tubular terraces, panoramic glass walls, and warm amber interior lighting. Frame the residence in a wide landscape composition with pale blue sky, soft distant mountains, and a quiet sandy foreground. Emphasize rounded forms, reflective glass, atmospheric haze, refined luxury, and a cool blue-to-warm-orange color contrast. Clean architectural photography, premium real-estate art direction, no people, no text, no logos."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

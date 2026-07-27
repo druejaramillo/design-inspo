@@ -1,13 +1,13 @@
 {
   "id": "pin-on-identidade-lumin-ria-1c16946f",
-  "title": "Pin on identidade luminária",
+  "title": "Experimental Red and Black Editorial Interface",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/2744449769634106/",
   "sourceImageUrl": "https://i.pinimg.com/736x/38/0c/cb/380ccbcc131bfd96687b52acbb50c8bf.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:51:25.923Z",
-  "updatedAt": "2026-07-27T04:51:25.923Z",
+  "updatedAt": "2026-07-27T14:45:12.803Z",
   "media": {
     "path": "catalog/media/pin-on-identidade-lumin-ria-1c16946f.webp",
     "width": 736,
@@ -17,6 +17,76 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:45:12.801Z",
+    "title": "Experimental Red and Black Editorial Interface",
+    "palette": [
+      {
+        "hex": "#F4F4F2",
+        "role": "background"
+      },
+      {
+        "hex": "#090909",
+        "role": "text and framing"
+      },
+      {
+        "hex": "#FF482F",
+        "role": "accent block"
+      },
+      {
+        "hex": "#8A8A86",
+        "role": "neutral detail"
+      },
+      {
+        "hex": "#B8B8B2",
+        "role": "soft shadow"
+      }
+    ],
+    "style": [
+      "minimal",
+      "editorial",
+      "brutalist",
+      "high-contrast",
+      "technical"
+    ],
+    "tone": [
+      "energetic",
+      "curious",
+      "experimental",
+      "assertive"
+    ],
+    "layout": [
+      "asymmetric composition",
+      "responsive device mockups",
+      "oversized focal imagery",
+      "thin framed containers"
+    ],
+    "typography": [
+      "grotesk",
+      "oversized display type",
+      "condensed numerals",
+      "tight uppercase microcopy"
+    ],
+    "uiMotifs": [
+      "thick rounded black borders",
+      "orange rectangular panels",
+      "vertical labels",
+      "minimal arrow controls",
+      "floating product imagery"
+    ],
+    "notes": "The design combines a sparse off-white canvas with oversized black typography, vivid red-orange blocks, and sharply cropped fashion imagery. Its desktop and mobile compositions use strong framing, asymmetry, tiny navigation labels, and generous negative space to create an art-directed digital exhibition feel.",
+    "suggestedTagIds": [
+      "editorial",
+      "brutalist",
+      "minimal",
+      "energetic",
+      "technical",
+      "hero-led"
+    ],
+    "heroPrompt": "Create an editorial fashion-art hero image of a masked figure wearing a structured red utility jacket, dark gloves, and a gray bucket hat, shown from the back and slightly cropped at the torso. Use stark studio lighting, a pale gray-white background, a vivid red horizontal rectangle behind the figure, deep black shadows, and a clean high-fashion experimental mood. Compose it for a minimalist digital landing page with generous negative space and sharp geometric contrast; no text, logos, or recognizable brands."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

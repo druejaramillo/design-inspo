@@ -1,13 +1,13 @@
 {
   "id": "topology-09ed7818",
-  "title": "Topology",
+  "title": "Pastel Contour Field",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/topology",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/5a5fafbd-d118-4aec-b079-7817f72f7d33/www.topology.vc_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T05:01:14.342Z",
-  "updatedAt": "2026-07-27T05:01:14.342Z",
+  "updatedAt": "2026-07-27T14:25:37.964Z",
   "media": {
     "path": "catalog/media/topology-09ed7818.webp",
     "width": 2200,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:25:37.962Z",
+    "title": "Pastel Contour Field",
+    "palette": [
+      {
+        "hex": "#D9D9D9",
+        "role": "background"
+      },
+      {
+        "hex": "#5D5B5A",
+        "role": "contour shadows"
+      },
+      {
+        "hex": "#73D9E6",
+        "role": "cyan accent"
+      },
+      {
+        "hex": "#D991B9",
+        "role": "pink accent"
+      },
+      {
+        "hex": "#D8C86A",
+        "role": "yellow-green accent"
+      }
+    ],
+    "style": [
+      "abstract",
+      "retro-futurist",
+      "layered",
+      "minimal"
+    ],
+    "tone": [
+      "curious",
+      "energetic",
+      "technical",
+      "immersive"
+    ],
+    "layout": [
+      "hero-led",
+      "asymmetric",
+      "full-bleed visual",
+      "anchored footer"
+    ],
+    "typography": [
+      "oversized type",
+      "grotesk",
+      "thin weight",
+      "high contrast scale"
+    ],
+    "uiMotifs": [
+      "sparse uppercase navigation",
+      "hairline dividers",
+      "corner brackets",
+      "scroll prompt"
+    ],
+    "notes": "Flowing concentric contours sweep diagonally across a pale field, shifting from grayscale relief into soft rainbow bands. Oversized white headline text anchors the lower left while compact navigation and footer details preserve a restrained editorial interface.",
+    "suggestedTagIds": [
+      "retro-futurist",
+      "minimal",
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "oversized-type"
+    ],
+    "heroPrompt": "Create a full-bleed abstract hero visual of concentric, topographic contour bands flowing diagonally across the frame, like a soft 3D relief or warped field. Begin with pale gray and charcoal ridges in the center, transitioning toward translucent pastel cyan, coral pink, lavender, yellow, and mint near the upper edges. Use smooth blurred gradients, subtle depth, generous negative space in the lower left, and a refined experimental technology-art direction. No text, logos, people, or recognizable objects."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

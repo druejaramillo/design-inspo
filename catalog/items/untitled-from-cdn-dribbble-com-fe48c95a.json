@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-fe48c95a",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Dark Orange Motion Studio",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/48503113/file/7db2e7f4a08e797ba04b9f36b5c67fcf.png?resize=752x&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/48503113/file/7db2e7f4a08e797ba04b9f36b5c67fcf.png?resize=752x&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:47:22.345Z",
-  "updatedAt": "2026-07-27T04:47:22.345Z",
+  "updatedAt": "2026-07-27T14:44:58.541Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-fe48c95a.webp",
     "width": 752,
@@ -17,6 +17,79 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:44:58.539Z",
+    "title": "Dark Orange Motion Studio",
+    "palette": [
+      {
+        "hex": "#080909",
+        "role": "background"
+      },
+      {
+        "hex": "#F45A1A",
+        "role": "accent"
+      },
+      {
+        "hex": "#F5F3EC",
+        "role": "text"
+      },
+      {
+        "hex": "#6B5143",
+        "role": "image shadow"
+      },
+      {
+        "hex": "#242323",
+        "role": "surface"
+      }
+    ],
+    "style": [
+      "cinematic",
+      "editorial",
+      "high-contrast",
+      "immersive",
+      "contemporary"
+    ],
+    "tone": [
+      "energetic",
+      "bold",
+      "dramatic",
+      "warm"
+    ],
+    "layout": [
+      "asymmetric",
+      "modular sections",
+      "split-screen hero",
+      "long scrolling page",
+      "strong footer grid"
+    ],
+    "typography": [
+      "oversized grotesk",
+      "vertical display type",
+      "condensed labels",
+      "high-contrast hierarchy"
+    ],
+    "uiMotifs": [
+      "orange glow accents",
+      "rounded outline buttons",
+      "testimonial cards",
+      "accordion FAQ rows",
+      "large project statistics"
+    ],
+    "notes": "A near-black portfolio layout uses fiery orange imagery and restrained off-white typography to create a cinematic, motion-focused direction. Oversized vertical lettering, asymmetrical content blocks, and repeated card modules give the long page a confident editorial rhythm.",
+    "suggestedTagIds": [
+      "warm",
+      "energetic",
+      "dark-mode",
+      "high-contrast",
+      "hero-led",
+      "asymmetric",
+      "grid-system",
+      "oversized-type"
+    ],
+    "heroPrompt": "Cinematic abstract motion-design hero image for a creative studio website: a close-up camera lens or sculptural optical object emerging from deep black shadows, illuminated by large soft orange and amber practical lights, subtle smoky atmosphere, dramatic shallow depth of field, glossy highlights, rich contrast, centered subject with generous dark negative space for overlay text, premium editorial art direction, tactile film grain, widescreen composition, no text, no logos, no people."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

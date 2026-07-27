@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-83738663",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Soft SaaS Scheduler Landing Page",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/48504258/file/b8f70d60b38ee3bd1fa439ec3d7d66e8.png?resize=752x&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/48504258/file/b8f70d60b38ee3bd1fa439ec3d7d66e8.png?resize=752x&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:46:58.259Z",
-  "updatedAt": "2026-07-27T04:46:58.259Z",
+  "updatedAt": "2026-07-27T14:37:20.177Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-83738663.webp",
     "width": 752,
@@ -17,6 +17,79 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:37:20.176Z",
+    "title": "Soft SaaS Scheduler Landing Page",
+    "palette": [
+      {
+        "hex": "#F8F8F5",
+        "role": "background"
+      },
+      {
+        "hex": "#191918",
+        "role": "primary text"
+      },
+      {
+        "hex": "#E86F45",
+        "role": "accent"
+      },
+      {
+        "hex": "#D9D5EE",
+        "role": "lavender field"
+      },
+      {
+        "hex": "#E9CEC3",
+        "role": "peach field"
+      },
+      {
+        "hex": "#F3CF70",
+        "role": "highlight"
+      }
+    ],
+    "style": [
+      "minimal",
+      "editorial",
+      "soft geometric",
+      "polished SaaS"
+    ],
+    "tone": [
+      "calm",
+      "approachable",
+      "efficient",
+      "trustworthy"
+    ],
+    "layout": [
+      "asymmetric showcase",
+      "modular grid",
+      "stacked product sections",
+      "generous whitespace"
+    ],
+    "typography": [
+      "grotesk",
+      "large centered headlines",
+      "high-contrast sizing",
+      "compact navigation labels"
+    ],
+    "uiMotifs": [
+      "floating dashboard mockups",
+      "rounded cards",
+      "soft pastel panels",
+      "calendar interface previews",
+      "social-proof logo rows"
+    ],
+    "notes": "A clean productivity landing page combines oversized black headlines with restrained orange emphasis and floating interface previews. Pale lavender and peach framing panels add warmth while maintaining a spacious, highly structured presentation.",
+    "suggestedTagIds": [
+      "minimal",
+      "warm",
+      "quiet",
+      "grid-system",
+      "grotesk",
+      "landing-love"
+    ],
+    "heroPrompt": null
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

@@ -1,13 +1,13 @@
 {
   "id": "your-bana-e096f6ac",
-  "title": "Your Bana",
+  "title": "Kinetic Red Orange Editorial Poster",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/your-bana",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/e90ae326-8873-477b-85c9-37af91cce50c/yourbana.com_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T05:00:25.495Z",
-  "updatedAt": "2026-07-27T05:00:25.495Z",
+  "updatedAt": "2026-07-27T14:26:53.810Z",
   "media": {
     "path": "catalog/media/your-bana-e096f6ac.webp",
     "width": 2200,
@@ -17,6 +17,82 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:26:53.806Z",
+    "title": "Kinetic Red Orange Editorial Poster",
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#F0001B",
+        "role": "primary accent"
+      },
+      {
+        "hex": "#FF6200",
+        "role": "secondary accent"
+      },
+      {
+        "hex": "#D98C6D",
+        "role": "photographic warmth"
+      },
+      {
+        "hex": "#F2EFE8",
+        "role": "light text"
+      },
+      {
+        "hex": "#30343A",
+        "role": "dark interface detail"
+      }
+    ],
+    "style": [
+      "Brutalist editorial",
+      "High contrast",
+      "Kinetic photography",
+      "Minimal structure"
+    ],
+    "tone": [
+      "Energetic",
+      "Urban",
+      "Experimental",
+      "Bold"
+    ],
+    "layout": [
+      "Asymmetric split screen",
+      "Oversized headline block",
+      "Full-height hero image",
+      "Strong vertical divider"
+    ],
+    "typography": [
+      "Oversized display type",
+      "Geometric condensed letterforms",
+      "Expressive type",
+      "Small supporting sans-serif"
+    ],
+    "uiMotifs": [
+      "Hamburger menu icon",
+      "Outlined navigation controls",
+      "Thin divider rules",
+      "Monochrome utility marks"
+    ],
+    "notes": "The composition contrasts a rigid black poster field and sharply cropped red-orange typography with a blurred, motion-filled photographic panel. Sparse interface details and strong alignment create a contemporary editorial landing-page feel despite the intentionally raw, graphic treatment.",
+    "suggestedTagIds": [
+      "editorial",
+      "brutalist",
+      "energetic",
+      "asymmetric",
+      "oversized-type",
+      "high-contrast",
+      "display-type",
+      "hero-led",
+      "primary-pop",
+      "dark-mode"
+    ],
+    "heroPrompt": "A vertical editorial photograph of a city scene seen through rapid motion, featuring a softly blurred human face and architectural reflections, warm coral and terracotta skin tones, cream highlights, charcoal shadows, and hints of cool blue-green. Use long-exposure streaks, shallow focus, smeared horizontal movement, subtle film grain, and an imperfect analog texture. Compose the subject off-center with large areas of blurred negative space, cinematic side lighting, and a raw urban atmosphere. No readable text, logos, or identifiable brands."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

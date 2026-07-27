@@ -1,13 +1,13 @@
 {
   "id": "pin-on-daedd8f0",
-  "title": "Pin on 디자인",
+  "title": "Dark Classical Philosophy Editorial",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/1266706141228081/",
   "sourceImageUrl": "https://i.pinimg.com/736x/ac/7a/62/ac7a628b7e492f74b35c4c8c6a0e7c19.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:53:35.383Z",
-  "updatedAt": "2026-07-27T04:53:35.383Z",
+  "updatedAt": "2026-07-27T14:41:04.844Z",
   "media": {
     "path": "catalog/media/pin-on-daedd8f0.webp",
     "width": 600,
@@ -17,6 +17,77 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:41:04.842Z",
+    "title": "Dark Classical Philosophy Editorial",
+    "palette": [
+      {
+        "hex": "#07101E",
+        "role": "background"
+      },
+      {
+        "hex": "#132033",
+        "role": "panel shading"
+      },
+      {
+        "hex": "#D7D9DF",
+        "role": "marble and type"
+      },
+      {
+        "hex": "#B47724",
+        "role": "gold accent"
+      },
+      {
+        "hex": "#687384",
+        "role": "secondary text"
+      }
+    ],
+    "style": [
+      "editorial",
+      "classical",
+      "cinematic",
+      "luxurious",
+      "immersive"
+    ],
+    "tone": [
+      "contemplative",
+      "scholarly",
+      "dramatic",
+      "refined"
+    ],
+    "layout": [
+      "long-form vertical scroll",
+      "asymmetric grid",
+      "hero-led composition",
+      "sectional storytelling",
+      "thin structural rules"
+    ],
+    "typography": [
+      "oversized serif display type",
+      "refined serif body copy",
+      "high-contrast lettering",
+      "hierarchical editorial scale"
+    ],
+    "uiMotifs": [
+      "minimal pill buttons",
+      "circular arrow controls",
+      "fine divider lines",
+      "philosopher profile cards",
+      "small utility navigation"
+    ],
+    "notes": "A deep navy editorial interface combines monumental marble sculptures with oversized serif headlines, restrained white typography, and selective metallic-gold highlights. Thin vertical and curved rules organize the long page into immersive sections while maintaining a museum-like, scholarly atmosphere.",
+    "suggestedTagIds": [
+      "editorial",
+      "hero-led",
+      "grid-system",
+      "oversized-type",
+      "dark-mode",
+      "serif"
+    ],
+    "heroPrompt": "A monumental grayscale marble philosopher bust centered against a deep midnight-blue background, dramatic studio lighting, sculptural folds and weathered stone texture, with a small glowing amber-gold geometric ember embedded near the chest. High-contrast museum editorial art direction, subtle grain, cool shadows, refined negative space, elegant composition, no readable text, no logos, no recognizable historical figure."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

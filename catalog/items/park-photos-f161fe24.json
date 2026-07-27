@@ -1,13 +1,13 @@
 {
   "id": "park-photos-f161fe24",
-  "title": "Park Photos",
+  "title": "Misty Coastal Park Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/park-photos",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/0864ae71-515a-4796-9285-620577831d3c/www.park.photo-_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:58:40.272Z",
-  "updatedAt": "2026-07-27T04:58:40.272Z",
+  "updatedAt": "2026-07-27T14:29:46.567Z",
   "media": {
     "path": "catalog/media/park-photos-f161fe24.webp",
     "width": 2200,
@@ -17,6 +17,77 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:29:46.565Z",
+    "title": "Misty Coastal Park Landing Page",
+    "palette": [
+      {
+        "hex": "#171713",
+        "role": "foreground foliage"
+      },
+      {
+        "hex": "#37484A",
+        "role": "ocean"
+      },
+      {
+        "hex": "#77766A",
+        "role": "hazy sky"
+      },
+      {
+        "hex": "#A37745",
+        "role": "warm highlights"
+      },
+      {
+        "hex": "#F3F1E8",
+        "role": "typography and controls"
+      }
+    ],
+    "style": [
+      "editorial",
+      "minimal",
+      "organic",
+      "cinematic"
+    ],
+    "tone": [
+      "quiet",
+      "earthy",
+      "curious",
+      "immersive"
+    ],
+    "layout": [
+      "hero-led",
+      "centered composition",
+      "full-bleed image",
+      "layered foreground framing"
+    ],
+    "typography": [
+      "serif",
+      "display-type",
+      "oversized-type"
+    ],
+    "uiMotifs": [
+      "pill-shaped call-to-action",
+      "small peripheral metadata",
+      "minimal navigation indicators"
+    ],
+    "notes": "A full-screen coastal landscape is framed by softly blurred, dark evergreen branches, creating depth around centered white editorial typography. Muted natural colors, generous negative space, restrained controls, and subtle metadata create a calm exploratory atmosphere.",
+    "suggestedTagIds": [
+      "editorial",
+      "minimal",
+      "organic",
+      "quiet",
+      "earthy",
+      "hero-led",
+      "layered",
+      "immersive",
+      "serif",
+      "display-type",
+      "oversized-type"
+    ],
+    "heroPrompt": "A cinematic full-bleed photograph of a rugged coastal inlet viewed through softly blurred sculptural evergreen branches in the foreground, with calm deep blue-green water, distant hazy cliffs, and a pale overcast sky. Use subdued olive, charcoal, slate, and warm ochre tones, gentle film grain, low contrast, atmospheric haze, and shallow depth of field. Keep the central horizon and middle of the image relatively open and uncluttered for overlay placement, while asymmetrical foliage frames the left and right edges. Quiet, contemplative, premium editorial art direction; no text, logos, signs, or identifiable branding."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

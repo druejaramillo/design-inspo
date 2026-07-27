@@ -1,12 +1,12 @@
 {
   "id": "videoframe-0-99d24646",
-  "title": "videoframe_0",
+  "title": "Dark Maximalist Finance Dashboard Landing Page",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T04:42:47.799Z",
-  "updatedAt": "2026-07-27T04:42:47.799Z",
+  "updatedAt": "2026-07-27T14:38:59.020Z",
   "media": {
     "path": "catalog/media/videoframe-0-99d24646.webp",
     "width": 1600,
@@ -14,6 +14,81 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:38:59.018Z",
+    "title": "Dark Maximalist Finance Dashboard Landing Page",
+    "palette": [
+      {
+        "hex": "#1D1D1D",
+        "role": "background"
+      },
+      {
+        "hex": "#F7F7F5",
+        "role": "primary text"
+      },
+      {
+        "hex": "#FFD21F",
+        "role": "accent"
+      },
+      {
+        "hex": "#6A5364",
+        "role": "secondary accent"
+      },
+      {
+        "hex": "#5B4AAD",
+        "role": "tertiary accent"
+      },
+      {
+        "hex": "#4A744A",
+        "role": "category accent"
+      }
+    ],
+    "style": [
+      "maximalist",
+      "editorial",
+      "layered",
+      "high-contrast",
+      "hero-led"
+    ],
+    "tone": [
+      "energetic",
+      "playful",
+      "confident",
+      "technical"
+    ],
+    "layout": [
+      "asymmetric composition",
+      "oversized central interface",
+      "floating peripheral cards",
+      "deep visual layering",
+      "strong focal hierarchy"
+    ],
+    "typography": [
+      "oversized display type",
+      "bold grotesk",
+      "uppercase headlines",
+      "high-contrast sizing"
+    ],
+    "uiMotifs": [
+      "dark-mode dashboard",
+      "translucent glass panels",
+      "rounded data cards",
+      "floating utility icons",
+      "bright accent buttons"
+    ],
+    "notes": "A dark landing page centers a tilted, translucent finance dashboard surrounded by floating cards, QR-like graphics, portraits, and decorative symbols. Oversized white typography and vivid yellow accents create a playful, high-energy contrast against the dense layered composition.",
+    "suggestedTagIds": [
+      "maximalist",
+      "dark-mode",
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "oversized-type"
+    ],
+    "heroPrompt": "A cinematic hero visual for a modern finance and lifestyle app: a large translucent glass dashboard window floats at a slight angle in the center, showing abstract charts, transaction rows, colorful category cards, and soft interface glow without readable text. Surround it with scattered rounded utility cards, a tilted black-and-white square code graphic, small circular icons, cropped portrait circles, and a jagged yellow starburst. Use a nearly black textured background, subtle reflections, soft shadows, smoky glass effects, white and yellow highlights, and a dense asymmetric editorial collage. High contrast, premium 3D interface mockup, energetic art direction."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

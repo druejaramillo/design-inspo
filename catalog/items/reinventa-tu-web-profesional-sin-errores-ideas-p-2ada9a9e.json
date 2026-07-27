@@ -1,13 +1,13 @@
 {
   "id": "reinventa-tu-web-profesional-sin-errores-ideas-p-2ada9a9e",
-  "title": "Reinventa tu web profesional sin errores | Ideas para paginas web, Diseño web moderno, Diseño de interfaz de usuario",
+  "title": "Deep Ocean Immersive Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/6966574421808303/",
   "sourceImageUrl": "https://i.pinimg.com/736x/b0/0f/9e/b00f9e61ce937e8b7eaa4e468df5c074.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:54:09.785Z",
-  "updatedAt": "2026-07-27T04:54:09.785Z",
+  "updatedAt": "2026-07-27T14:39:58.639Z",
   "media": {
     "path": "catalog/media/reinventa-tu-web-profesional-sin-errores-ideas-p-2ada9a9e.webp",
     "width": 736,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:39:58.636Z",
+    "title": "Deep Ocean Immersive Landing Page",
+    "palette": [
+      {
+        "hex": "#020914",
+        "role": "background"
+      },
+      {
+        "hex": "#06284A",
+        "role": "deep-water surface"
+      },
+      {
+        "hex": "#0878C9",
+        "role": "luminous blue accent"
+      },
+      {
+        "hex": "#6BCDF2",
+        "role": "underwater glow"
+      },
+      {
+        "hex": "#F4F8FA",
+        "role": "typography and contrast"
+      }
+    ],
+    "style": [
+      "immersive",
+      "maximalist",
+      "organic",
+      "hero-led"
+    ],
+    "tone": [
+      "mysterious",
+      "curious",
+      "energetic",
+      "cinematic"
+    ],
+    "layout": [
+      "long-form vertical scroll",
+      "centered hero composition",
+      "stacked content sections",
+      "card-based navigation"
+    ],
+    "typography": [
+      "oversized display type",
+      "clean grotesk",
+      "high-contrast white type",
+      "compact micro-labels"
+    ],
+    "uiMotifs": [
+      "glowing circular scroll control",
+      "glassmorphic rounded panels",
+      "layered image cards",
+      "soft luminous borders"
+    ],
+    "notes": "A dark underwater landing page uses vivid blue photography, beams of light, marine life, and coral textures to create a cinematic sense of depth. Oversized white headlines, translucent rounded cards, and centered sections organize the dense visual atmosphere into a polished editorial narrative.",
+    "suggestedTagIds": [
+      "hero-led",
+      "immersive",
+      "dark-mode",
+      "oversized-type",
+      "layered",
+      "organic"
+    ],
+    "heroPrompt": "Create a cinematic underwater hero image for a vertical editorial website: deep navy ocean darkness, brilliant cobalt-blue shafts of light descending from the surface, a translucent jellyfish drifting on the right, distant schools of fish, textured coral reef and a small starfish emerging from the lower foreground. Use rich volumetric lighting, suspended particles, subtle cyan highlights, strong central negative space for oversized typography, and a premium photographic art direction. No text, logos, interface elements, or recognizable brands."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

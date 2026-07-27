@@ -1,13 +1,13 @@
 {
   "id": "pin-on-web-ui-e7b2046a",
-  "title": "Pin on web/ui",
+  "title": "Red Jellyfish AI Studio Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/31525266137895345/",
   "sourceImageUrl": "https://i.pinimg.com/736x/24/26/63/2426636c9966b15683856b8da6cc550c.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:53:03.078Z",
-  "updatedAt": "2026-07-27T04:53:03.078Z",
+  "updatedAt": "2026-07-27T14:42:43.986Z",
   "media": {
     "path": "catalog/media/pin-on-web-ui-e7b2046a.webp",
     "width": 736,
@@ -17,6 +17,76 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:42:43.982Z",
+    "title": "Red Jellyfish AI Studio Landing Page",
+    "palette": [
+      {
+        "hex": "#050505",
+        "role": "background"
+      },
+      {
+        "hex": "#E51B23",
+        "role": "accent"
+      },
+      {
+        "hex": "#1C1C1E",
+        "role": "surface"
+      },
+      {
+        "hex": "#F2F2F2",
+        "role": "primary text"
+      },
+      {
+        "hex": "#77777B",
+        "role": "secondary text"
+      }
+    ],
+    "style": [
+      "dark futuristic",
+      "high-contrast",
+      "immersive",
+      "editorial",
+      "layered"
+    ],
+    "tone": [
+      "energetic",
+      "technical",
+      "confident",
+      "dramatic"
+    ],
+    "layout": [
+      "asymmetric hero composition",
+      "modular card grid",
+      "long-form landing page",
+      "strong vertical rhythm"
+    ],
+    "typography": [
+      "oversized grotesk headlines",
+      "compact sans-serif labels",
+      "high-contrast text hierarchy",
+      "minimal typographic ornament"
+    ],
+    "uiMotifs": [
+      "rounded glass-like cards",
+      "red glow accents",
+      "floating metric panels",
+      "pill-shaped navigation",
+      "thin luminous borders"
+    ],
+    "notes": "A near-black landing page uses a vivid translucent red jellyfish as the central visual anchor, with white oversized type and compact red highlights creating strong contrast. Rounded metric cards, floating panels, thin borders, and stacked content sections create a polished, immersive AI-studio presentation.",
+    "suggestedTagIds": [
+      "hero-led",
+      "dark-mode",
+      "high-contrast",
+      "energetic",
+      "technical",
+      "layered"
+    ],
+    "heroPrompt": "A highly detailed translucent jellyfish floating in deep black water, illuminated from within by intense crimson and scarlet bioluminescence. Long delicate tentacles trail downward with wispy motion, while the bell glows with soft volumetric light, subtle reflections, and atmospheric red particles. Center the subject slightly right of frame, leaving generous dark negative space on the left for headline placement. Premium futuristic art direction, cinematic contrast, glossy organic textures, near-black background, restrained red color palette, photorealistic macro composition, no text, logos, interface elements, or watermark."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

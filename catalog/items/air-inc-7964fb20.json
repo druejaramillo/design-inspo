@@ -1,13 +1,13 @@
 {
   "id": "air-inc-7964fb20",
-  "title": "Air Inc",
+  "title": "Translucent Tubes Against Blue Sky",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/air-inc",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/1f3473bb-a9ef-4543-bb3f-ad77c41c6953/air.inc_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T05:01:49.326Z",
-  "updatedAt": "2026-07-27T05:01:49.326Z",
+  "updatedAt": "2026-07-27T14:24:40.977Z",
   "media": {
     "path": "catalog/media/air-inc-7964fb20.webp",
     "width": 2200,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:24:40.975Z",
+    "title": "Translucent Tubes Against Blue Sky",
+    "palette": [
+      {
+        "hex": "#1686F2",
+        "role": "sky background"
+      },
+      {
+        "hex": "#B9DFFF",
+        "role": "soft atmospheric blue"
+      },
+      {
+        "hex": "#F4FAFF",
+        "role": "cloud highlights"
+      },
+      {
+        "hex": "#9ED8FF",
+        "role": "glass translucency"
+      },
+      {
+        "hex": "#0874C9",
+        "role": "interface accent"
+      }
+    ],
+    "style": [
+      "dreamlike 3D",
+      "translucent",
+      "soft-focus",
+      "playful"
+    ],
+    "tone": [
+      "airy",
+      "optimistic",
+      "curious",
+      "energetic"
+    ],
+    "layout": [
+      "full-bleed hero",
+      "centered navigation",
+      "foreground framing",
+      "fixed bottom banner"
+    ],
+    "typography": [
+      "clean sans-serif",
+      "light weight",
+      "small navigation labels",
+      "underlined call to action"
+    ],
+    "uiMotifs": [
+      "outlined pill button",
+      "solid rounded button",
+      "floating theme toggle",
+      "bright announcement bar"
+    ],
+    "notes": "A saturated blue sky and soft clouds form an immersive backdrop for large translucent tubular forms that loop through the foreground. Minimal white navigation and bright blue utility elements preserve clarity while contrasting with the highly dimensional hero art.",
+    "suggestedTagIds": [
+      "hero-led",
+      "immersive",
+      "layered",
+      "playful",
+      "pastel",
+      "grid-system"
+    ],
+    "heroPrompt": "Create a wide cinematic website hero image with a vivid cobalt-to-sky-blue atmosphere filled with luminous white cumulus clouds. Place oversized translucent glass tubes and looping ribbon-like forms in the foreground, with smooth rounded bends, subtle cyan edge glow, internal refraction, soft reflections, and convincing depth. Use an airy surreal 3D render, gentle bloom, slightly hazy focus, and ample open sky near the top for interface navigation. Composition should feel optimistic, futuristic, playful, and immersive, with no text, logos, people, or recognizable branded objects."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

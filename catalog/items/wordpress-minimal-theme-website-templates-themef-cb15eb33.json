@@ -1,13 +1,13 @@
 {
   "id": "wordpress-minimal-theme-website-templates-themef-cb15eb33",
-  "title": "WordPress Minimal Theme Website Templates | ThemeForest | Plans de conception web, Webshop design, Webdesign inspiration",
+  "title": "Seasonal Double-Exposure Portrait Slider",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/1618549864576586/",
   "sourceImageUrl": "https://i.pinimg.com/736x/41/d0/49/41d0493fa282c0026ff3419061635b3f.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:50:20.740Z",
-  "updatedAt": "2026-07-27T04:50:20.740Z",
+  "updatedAt": "2026-07-27T14:39:44.325Z",
   "media": {
     "path": "catalog/media/wordpress-minimal-theme-website-templates-themef-cb15eb33.webp",
     "width": 736,
@@ -17,6 +17,81 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:39:44.324Z",
+    "title": "Seasonal Double-Exposure Portrait Slider",
+    "palette": [
+      {
+        "hex": "#F3F2EE",
+        "role": "background"
+      },
+      {
+        "hex": "#171719",
+        "role": "text"
+      },
+      {
+        "hex": "#71858A",
+        "role": "cool landscape tones"
+      },
+      {
+        "hex": "#B38B5C",
+        "role": "warm landscape tones"
+      },
+      {
+        "hex": "#C9C5BA",
+        "role": "muted neutral accents"
+      }
+    ],
+    "style": [
+      "Editorial",
+      "Minimal",
+      "Layered",
+      "Organic",
+      "Hero-led"
+    ],
+    "tone": [
+      "Quiet",
+      "Curious",
+      "Atmospheric",
+      "Reflective"
+    ],
+    "layout": [
+      "Asymmetric split composition",
+      "Portrait-led hero imagery",
+      "Right-aligned content block",
+      "Thin top navigation",
+      "Stacked seasonal variations"
+    ],
+    "typography": [
+      "Oversized uppercase display type",
+      "Delicate script accent",
+      "Small uppercase navigation",
+      "Light grotesk body copy"
+    ],
+    "uiMotifs": [
+      "Full-bleed slider treatment",
+      "Minimal arrow controls",
+      "Fine divider rules",
+      "Sparse pagination indicator",
+      "Double-exposure imagery"
+    ],
+    "notes": "Each seasonal composition pairs a large profile portrait with a softly blended landscape, leaving generous pale negative space for content. The restrained navigation, oversized seasonal heading, and subtle controls create an editorial portfolio-slider feel.",
+    "suggestedTagIds": [
+      "editorial",
+      "minimal",
+      "organic",
+      "quiet",
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "oversized-type",
+      "display-type",
+      "grid-system"
+    ],
+    "heroPrompt": "Create an elegant editorial hero image on a warm off-white background: a large side-profile portrait positioned left of center, seamlessly double-exposed with a serene natural landscape of mountains, water, grasses, and translucent trees. Use soft photographic blending, faint grain, washed pastel neutrals, muted slate blue, dusty green, and warm ochre accents. Preserve generous empty space on the right for headline placement, with a calm asymmetric composition, refined art direction, subtle atmospheric haze, and no text, logos, interface elements, or watermarks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

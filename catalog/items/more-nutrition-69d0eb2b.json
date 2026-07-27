@@ -1,13 +1,13 @@
 {
   "id": "more-nutrition-69d0eb2b",
-  "title": "More Nutrition",
+  "title": "Soft Green Protein Matcha Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/more-nutrition",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/e4a9dff2-5dc5-4571-bdc3-f7ea9c861f33/more-nutrition.webflow.io_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:57:00.138Z",
-  "updatedAt": "2026-07-27T04:57:00.138Z",
+  "updatedAt": "2026-07-27T14:32:51.008Z",
   "media": {
     "path": "catalog/media/more-nutrition-69d0eb2b.webp",
     "width": 2200,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:32:51.004Z",
+    "title": "Soft Green Protein Matcha Landing Page",
+    "palette": [
+      {
+        "hex": "#ABC69B",
+        "role": "background"
+      },
+      {
+        "hex": "#07571C",
+        "role": "primary text"
+      },
+      {
+        "hex": "#F5F7ED",
+        "role": "contrast text and buttons"
+      },
+      {
+        "hex": "#9AB78B",
+        "role": "secondary controls"
+      },
+      {
+        "hex": "#7D8550",
+        "role": "product accent"
+      }
+    ],
+    "style": [
+      "bold editorial",
+      "organic wellness",
+      "high-impact branding",
+      "playful contemporary"
+    ],
+    "tone": [
+      "fresh",
+      "confident",
+      "natural",
+      "energetic"
+    ],
+    "layout": [
+      "hero-led composition",
+      "oversized central logotype",
+      "asymmetric product placement",
+      "layered circular framing"
+    ],
+    "typography": [
+      "oversized grotesk display type",
+      "heavy condensed headlines",
+      "handwritten annotation",
+      "high-contrast scale hierarchy"
+    ],
+    "uiMotifs": [
+      "pill-shaped navigation",
+      "circular statistic badges",
+      "arrow-in-circle buttons",
+      "soft monochromatic palette"
+    ],
+    "notes": "A pale botanical-green field supports oversized dark-green lettering, compact pill navigation, and a large angled product cup framed by a white arc. Handwritten callouts, stacked benefit badges, and tightly packed headline blocks combine editorial polish with approachable wellness packaging.",
+    "suggestedTagIds": [
+      "editorial",
+      "organic",
+      "energetic",
+      "hero-led",
+      "asymmetric",
+      "oversized-type"
+    ],
+    "heroPrompt": "Create a polished wellness landing-page hero visual on a pale sage-green background: a chilled olive-green matcha protein drink in a tall paper cup with a white lid, angled slightly and cropped near the lower center. Add a bold white circular arc behind the cup, soft studio lighting, subtle condensation, and clean product-render realism. Use dark forest-green geometric accents and generous negative space, with no readable text, logos, brand marks, or people."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

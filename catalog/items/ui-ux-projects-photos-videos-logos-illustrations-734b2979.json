@@ -1,13 +1,13 @@
 {
   "id": "ui-ux-projects-photos-videos-logos-illustrations-734b2979",
-  "title": "Ui Ux Projects: Photos, Videos, Logos, Illustrations and Branding | Web design ideas website, Landing page design website, Website design purple",
+  "title": "Surreal Indigo Mountain Adventure Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/347410558777811809/",
   "sourceImageUrl": "https://i.pinimg.com/736x/cc/ae/4a/ccae4ae06bb8caec4cc8550820899c6a.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:54:43.812Z",
-  "updatedAt": "2026-07-27T04:54:43.812Z",
+  "updatedAt": "2026-07-27T14:34:46.345Z",
   "media": {
     "path": "catalog/media/ui-ux-projects-photos-videos-logos-illustrations-734b2979.webp",
     "width": 533,
@@ -17,6 +17,76 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:34:46.343Z",
+    "title": "Surreal Indigo Mountain Adventure Landing Page",
+    "palette": [
+      {
+        "hex": "#0B0B4F",
+        "role": "background"
+      },
+      {
+        "hex": "#F46B21",
+        "role": "illustration highlights"
+      },
+      {
+        "hex": "#5A4CC5",
+        "role": "cards and panels"
+      },
+      {
+        "hex": "#F2F0E8",
+        "role": "primary text"
+      },
+      {
+        "hex": "#B8334A",
+        "role": "accent"
+      }
+    ],
+    "style": [
+      "illustrated editorial",
+      "surreal landscape",
+      "high-contrast",
+      "layered",
+      "immersive"
+    ],
+    "tone": [
+      "adventurous",
+      "curious",
+      "dramatic",
+      "energetic"
+    ],
+    "layout": [
+      "hero-led",
+      "stacked sections",
+      "three-card grid",
+      "asymmetric gallery"
+    ],
+    "typography": [
+      "oversized display type",
+      "geometric sans-serif",
+      "uppercase headline",
+      "compact editorial labels"
+    ],
+    "uiMotifs": [
+      "thin navigation rules",
+      "numbered activity cards",
+      "bright CTA buttons",
+      "image-and-detail gallery panel",
+      "small progress indicators"
+    ],
+    "notes": "A dark indigo travel interface uses vivid orange-purple landscape artwork as its dominant visual language, with wildlife silhouettes and atmospheric depth creating an immersive hero. Repeated horizontal rules, numbered cards, compact metadata, and offset gallery panels give the long page a structured editorial rhythm.",
+    "suggestedTagIds": [
+      "hero-led",
+      "immersive",
+      "layered",
+      "grid-system",
+      "oversized-type",
+      "dark-mode"
+    ],
+    "heroPrompt": "Create a wide cinematic digital illustration for an adventure travel landing page: towering orange-red mountain peaks beneath dense lavender storm clouds, a reflective alpine lake, dark pine silhouettes, and two small bear silhouettes on rocky foreground terrain. Use bold flat-shaded forms, painterly texture, dramatic atmospheric perspective, deep indigo shadows, saturated coral highlights, and a centered composition with generous dark negative space for large white typography. No text, logos, or branding."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

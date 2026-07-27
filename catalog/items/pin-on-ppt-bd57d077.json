@@ -1,13 +1,13 @@
 {
   "id": "pin-on-ppt-bd57d077",
-  "title": "Pin on ppt",
+  "title": "Warm Coffee Editorial Landing Page",
   "notes": "",
   "sourceUrl": "https://www.pinterest.com/pin/6966574421808261/",
   "sourceImageUrl": "https://i.pinimg.com/736x/61/2f/2d/612f2d4905131ace9ff6609f47d5543e.jpg",
   "sourceDomain": "pinterest.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:51:38.039Z",
-  "updatedAt": "2026-07-27T04:51:38.039Z",
+  "updatedAt": "2026-07-27T14:44:42.678Z",
   "media": {
     "path": "catalog/media/pin-on-ppt-bd57d077.webp",
     "width": 736,
@@ -17,6 +17,77 @@
   "manualTagIds": [
     "pinterest"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:44:42.674Z",
+    "title": "Warm Coffee Editorial Landing Page",
+    "palette": [
+      {
+        "hex": "#3B211B",
+        "role": "espresso background"
+      },
+      {
+        "hex": "#5A3427",
+        "role": "layered brown surfaces"
+      },
+      {
+        "hex": "#E6D3A5",
+        "role": "cream typography and cups"
+      },
+      {
+        "hex": "#79C5B8",
+        "role": "mint action accents"
+      },
+      {
+        "hex": "#B96D32",
+        "role": "coffee and splash highlights"
+      }
+    ],
+    "style": [
+      "warm editorial",
+      "immersive product-led",
+      "layered",
+      "photorealistic",
+      "earthy"
+    ],
+    "tone": [
+      "inviting",
+      "indulgent",
+      "crafted",
+      "comforting"
+    ],
+    "layout": [
+      "long-form landing page",
+      "asymmetric hero split",
+      "card-based product grid",
+      "centered product feature",
+      "stacked content sections"
+    ],
+    "typography": [
+      "bold rounded display type",
+      "large headline hierarchy",
+      "soft sans-serif body copy",
+      "high-contrast cream text"
+    ],
+    "uiMotifs": [
+      "translucent rounded navigation",
+      "mint pill buttons",
+      "floating product cards",
+      "small rating badges",
+      "oversized photographic cutouts"
+    ],
+    "notes": "A dark coffee-brown page uses dramatic cup photography, floating beans, and creamy typography to create a rich, tactile café atmosphere. Rounded translucent panels, mint controls, and repeated product cards soften the editorial composition and add a contemporary ecommerce layer.",
+    "suggestedTagIds": [
+      "warm",
+      "organic",
+      "hero-led",
+      "layered",
+      "earthy",
+      "landing-love"
+    ],
+    "heroPrompt": "Create a photorealistic editorial hero image for a premium coffee landing page: two takeaway coffee cups in the foreground, one dark and one creamy, with a dramatic arc of rich coffee splashing behind them and suspended coffee droplets. Use warm espresso-brown shadows, caramel highlights, cream paper textures, and subtle mint accents. Compose the cups on the right side with generous dark negative space on the left for headline placement. Soft studio lighting, tactile condensation and cup texture, cinematic depth of field, polished commercial food photography, no text, logos, or branding."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

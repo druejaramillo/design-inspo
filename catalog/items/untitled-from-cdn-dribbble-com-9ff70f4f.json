@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-9ff70f4f",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Warm Editorial Appliance Shop",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/48502596/file/c923267f17633d0def6bf633cedf80d7.png?resize=752x&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/48502596/file/c923267f17633d0def6bf633cedf80d7.png?resize=752x&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:47:43.150Z",
-  "updatedAt": "2026-07-27T04:47:43.150Z",
+  "updatedAt": "2026-07-27T14:43:26.906Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-9ff70f4f.webp",
     "width": 752,
@@ -17,6 +17,75 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:43:26.904Z",
+    "title": "Warm Editorial Appliance Shop",
+    "palette": [
+      {
+        "hex": "#F5F1E9",
+        "role": "warm background"
+      },
+      {
+        "hex": "#171717",
+        "role": "primary text"
+      },
+      {
+        "hex": "#8EDB6A",
+        "role": "accent green"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "card surface"
+      },
+      {
+        "hex": "#C8C3B8",
+        "role": "secondary neutral"
+      }
+    ],
+    "style": [
+      "minimal",
+      "editorial",
+      "product-focused",
+      "grid-system"
+    ],
+    "tone": [
+      "warm",
+      "quiet",
+      "trustworthy",
+      "modern"
+    ],
+    "layout": [
+      "hero-led",
+      "structured grid",
+      "split content sections",
+      "layered product cards"
+    ],
+    "typography": [
+      "grotesk",
+      "bold headline hierarchy",
+      "compact navigation labels",
+      "high-contrast sizing"
+    ],
+    "uiMotifs": [
+      "rounded image containers",
+      "pill-shaped buttons",
+      "category chips",
+      "thin dividers",
+      "airy whitespace"
+    ],
+    "notes": "A warm off-white appliance storefront pairs a large lifestyle hero image with dense but orderly product grids and recommendation cards. Black grotesk typography, restrained borders, rounded corners, and a small green accent create a polished editorial-commerce direction.",
+    "suggestedTagIds": [
+      "minimal",
+      "warm",
+      "quiet",
+      "hero-led",
+      "grid-system",
+      "grotesk"
+    ],
+    "heroPrompt": "Wide editorial e-commerce hero image for a premium home-appliance collection: a sunlit contemporary kitchen or utility room with matte black refrigerators, front-loading washers, a compact espresso machine, countertop appliances, and a slim vacuum arranged cleanly along a warm stone counter. Soft morning light enters from the side, casting architectural shadows across beige walls and natural wood details. Photorealistic product styling, restrained neutral palette, generous negative space, subtle luxury, no people, no visible text, no logos, no brand marks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

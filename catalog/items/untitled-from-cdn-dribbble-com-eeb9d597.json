@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-eeb9d597",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Soft Gradient Interface Mockup",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/17757067/file/original-43959027edd3b53310a27fa4a052a6db.png?resize=752x&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/17757067/file/original-43959027edd3b53310a27fa4a052a6db.png?resize=752x&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:42:24.755Z",
-  "updatedAt": "2026-07-27T04:42:24.755Z",
+  "updatedAt": "2026-07-27T14:39:28.679Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-eeb9d597.webp",
     "width": 752,
@@ -17,6 +17,75 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:39:28.678Z",
+    "title": "Soft Gradient Interface Mockup",
+    "palette": [
+      {
+        "hex": "#F2F2F2",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "panels"
+      },
+      {
+        "hex": "#D9D9D9",
+        "role": "shadows and borders"
+      },
+      {
+        "hex": "#477FE8",
+        "role": "accent"
+      },
+      {
+        "hex": "#F29A91",
+        "role": "gradient highlight"
+      }
+    ],
+    "style": [
+      "minimal",
+      "soft skeuomorphic",
+      "rounded",
+      "dimensional"
+    ],
+    "tone": [
+      "quiet",
+      "curious",
+      "friendly",
+      "polished"
+    ],
+    "layout": [
+      "layered cards",
+      "centered composition",
+      "floating panels",
+      "subtle depth"
+    ],
+    "typography": [
+      "small grotesk",
+      "compact labels",
+      "bold interface headings"
+    ],
+    "uiMotifs": [
+      "search bar",
+      "sparkle action button",
+      "checklist card",
+      "soft gradient thumbnails"
+    ],
+    "notes": "A pale, low-contrast interface composition uses rounded white cards, diffuse shadows, and subtle blue-coral gradients to create depth. The centered stack of overlapping panels feels like a polished product landing-page preview with gentle dimensionality.",
+    "suggestedTagIds": [
+      "minimal",
+      "skeuomorphic",
+      "quiet",
+      "curious",
+      "layered",
+      "pastel",
+      "grid-system",
+      "landing-love"
+    ],
+    "heroPrompt": null
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

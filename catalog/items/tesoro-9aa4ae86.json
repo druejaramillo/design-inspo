@@ -1,13 +1,13 @@
 {
   "id": "tesoro-9aa4ae86",
-  "title": "Tesoro",
+  "title": "Playful Mustard Reward Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/tesoro",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/0e9de114-4c4e-4177-be6c-a5c7594bcb54/www.tesoroxp.com_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:57:19.543Z",
-  "updatedAt": "2026-07-27T04:57:19.543Z",
+  "updatedAt": "2026-07-27T14:31:45.405Z",
   "media": {
     "path": "catalog/media/tesoro-9aa4ae86.webp",
     "width": 2200,
@@ -17,6 +17,79 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:31:45.403Z",
+    "title": "Playful Mustard Reward Landing Page",
+    "palette": [
+      {
+        "hex": "#ECAF16",
+        "role": "dominant background"
+      },
+      {
+        "hex": "#202020",
+        "role": "contrast panel"
+      },
+      {
+        "hex": "#FFF8F0",
+        "role": "headline and body text"
+      },
+      {
+        "hex": "#E98700",
+        "role": "accent detail"
+      },
+      {
+        "hex": "#A8A8A8",
+        "role": "metallic button detail"
+      }
+    ],
+    "style": [
+      "playful",
+      "3D illustration",
+      "high contrast",
+      "bold editorial",
+      "landing-page focused"
+    ],
+    "tone": [
+      "energetic",
+      "optimistic",
+      "friendly",
+      "confident"
+    ],
+    "layout": [
+      "asymmetric composition",
+      "hero-led",
+      "oversized type",
+      "diagonal color field"
+    ],
+    "typography": [
+      "heavy grotesk",
+      "display-scale lettering",
+      "tight line spacing",
+      "high-impact headline"
+    ],
+    "uiMotifs": [
+      "pill-shaped navigation buttons",
+      "warm translucent controls",
+      "rounded corners",
+      "minimal utility navigation"
+    ],
+    "notes": "A saturated mustard field dominates the composition, interrupted by a dark diagonal wedge and a floating 3D thumbs-up hand with an orange cuff. Oversized cream typography anchors the lower edge while compact pill navigation creates a polished, energetic landing-page hierarchy.",
+    "suggestedTagIds": [
+      "playful",
+      "warm",
+      "energetic",
+      "hero-led",
+      "asymmetric",
+      "oversized-type",
+      "high-contrast",
+      "primary-pop",
+      "grotesk",
+      "landing-love"
+    ],
+    "heroPrompt": "Create a polished 3D hero illustration of a stylized thumbs-up hand floating diagonally across a saturated mustard-yellow field. Give the hand a soft ivory sculpted form, rounded fingers, subtle ambient occlusion, and a vivid orange cuff with a small metallic button. Use smooth toy-like materials, soft directional lighting, gentle shadows, and a clean premium startup-art direction. Compose the hand in the upper-right area with generous negative space on the left and a dark charcoal geometric wedge entering from the lower-left. No text, logos, watermarks, or interface elements."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

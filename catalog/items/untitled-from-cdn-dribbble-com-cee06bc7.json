@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-cee06bc7",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Playful Pet Joy Landing Page",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/48503167/file/3c2c25e07dc4c2ad2b0d65c26fa15b78.jpg?resize=752x&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/48503167/file/3c2c25e07dc4c2ad2b0d65c26fa15b78.jpg?resize=752x&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:48:01.500Z",
-  "updatedAt": "2026-07-27T04:48:01.500Z",
+  "updatedAt": "2026-07-27T14:42:59.778Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-cee06bc7.webp",
     "width": 752,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T14:42:59.774Z",
+    "title": "Playful Pet Joy Landing Page",
+    "palette": [
+      {
+        "hex": "#1D0803",
+        "role": "espresso background"
+      },
+      {
+        "hex": "#F29AD8",
+        "role": "playful accent"
+      },
+      {
+        "hex": "#E8FF21",
+        "role": "action highlight"
+      },
+      {
+        "hex": "#F8F6F0",
+        "role": "soft contrast"
+      },
+      {
+        "hex": "#258ED0",
+        "role": "sky-blue framing"
+      }
+    ],
+    "style": [
+      "playful",
+      "high-contrast",
+      "editorial",
+      "layered"
+    ],
+    "tone": [
+      "joyful",
+      "warm",
+      "energetic",
+      "curious"
+    ],
+    "layout": [
+      "centered landing page",
+      "oversized headline",
+      "tilted image card",
+      "scalloped lower edge"
+    ],
+    "typography": [
+      "bold condensed display type",
+      "oversized uppercase",
+      "high-contrast color emphasis",
+      "compact navigation text"
+    ],
+    "uiMotifs": [
+      "lime call-to-action button",
+      "dark rounded navigation bar",
+      "hand-drawn arrow accents",
+      "pet-themed collage details"
+    ],
+    "notes": "A dark espresso landing page uses oversized white and pink typography, playful pet illustrations, and a bright lime action button to create an energetic focal point. A tilted pink photo card with a person and small dog anchors the lower section against rounded cream shapes and a sky-blue photographic backdrop.",
+    "suggestedTagIds": [
+      "playful",
+      "warm",
+      "energetic",
+      "hero-led",
+      "oversized-type",
+      "layered"
+    ],
+    "heroPrompt": "Create an original editorial-style hero image for a joyful pet-care landing page: a smiling young woman in a mustard knit sweater and pale lavender beanie cuddling a small fluffy dog, framed as a slightly tilted portrait card with a vivid pink background. Use warm natural lighting, crisp cutout-like edges, tactile collage energy, expressive poses, and a clean composition that leaves room for oversized headline text above. No logos, brand names, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }
