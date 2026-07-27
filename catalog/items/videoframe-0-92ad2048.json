@@ -1,0 +1,19 @@
+{
+  "id": "videoframe-0-92ad2048",
+  "title": "videoframe_0",
+  "notes": "",
+  "sourceUrl": null,
+  "sourceDomain": null,
+  "captureMethod": "upload",
+  "importedAt": "2026-07-27T04:34:44.935Z",
+  "updatedAt": "2026-07-27T04:34:44.935Z",
+  "media": {
+    "path": "catalog/media/videoframe-0-92ad2048.webp",
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  "manualTagIds": [],
+  "analysis": null,
+  "analysisStatus": "pending"
+}

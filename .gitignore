@@ -5,3 +5,6 @@ dist/
 *.tsbuildinfo
 coverage/
 public/catalog/
+.opencode/
+.agents/
+.claude/

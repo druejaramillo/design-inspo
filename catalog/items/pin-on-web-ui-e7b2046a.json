@@ -1,0 +1,22 @@
+{
+  "id": "pin-on-web-ui-e7b2046a",
+  "title": "Pin on web/ui",
+  "notes": "",
+  "sourceUrl": "https://www.pinterest.com/pin/31525266137895345/",
+  "sourceImageUrl": "https://i.pinimg.com/736x/24/26/63/2426636c9966b15683856b8da6cc550c.jpg",
+  "sourceDomain": "pinterest.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T04:53:03.078Z",
+  "updatedAt": "2026-07-27T04:53:03.078Z",
+  "media": {
+    "path": "catalog/media/pin-on-web-ui-e7b2046a.webp",
+    "width": 736,
+    "height": 1407,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "pinterest"
+  ],
+  "analysis": null,
+  "analysisStatus": "pending"
+}

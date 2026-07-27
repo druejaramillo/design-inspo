@@ -1,0 +1,22 @@
+{
+  "id": "untitled-from-cdn-dribbble-com-22daa547",
+  "title": "Untitled from cdn.dribbble.com",
+  "notes": "",
+  "sourceUrl": "https://cdn.dribbble.com/userupload/33278478/file/original-bd9cc77ab4c107526c413b642fb8a2b3.png?resize=752x&vertical=center",
+  "sourceImageUrl": "https://cdn.dribbble.com/userupload/33278478/file/original-bd9cc77ab4c107526c413b642fb8a2b3.png?resize=752x&vertical=center",
+  "sourceDomain": "cdn.dribbble.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T04:44:02.755Z",
+  "updatedAt": "2026-07-27T04:44:02.755Z",
+  "media": {
+    "path": "catalog/media/untitled-from-cdn-dribbble-com-22daa547.webp",
+    "width": 752,
+    "height": 564,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "dribbble"
+  ],
+  "analysis": null,
+  "analysisStatus": "pending"
+}

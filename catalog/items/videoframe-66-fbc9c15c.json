@@ -1,0 +1,19 @@
+{
+  "id": "videoframe-66-fbc9c15c",
+  "title": "videoframe_66",
+  "notes": "",
+  "sourceUrl": null,
+  "sourceDomain": null,
+  "captureMethod": "upload",
+  "importedAt": "2026-07-27T04:43:51.629Z",
+  "updatedAt": "2026-07-27T04:43:51.629Z",
+  "media": {
+    "path": "catalog/media/videoframe-66-fbc9c15c.webp",
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  "manualTagIds": [],
+  "analysis": null,
+  "analysisStatus": "pending"
+}
