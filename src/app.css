@@ -22,7 +22,7 @@ a { color: inherit; }
 .add-button span { font-size: 20px; line-height: 12px; font-weight: 400; }
 .add-button:hover, .submit-import:hover { transform: translateY(-2px); background: #4d472c; }
 
-.message { position: fixed; z-index: 40; top: 92px; right: 24px; max-width: 450px; display: flex; gap: 18px; align-items: flex-start; padding: 13px 16px; background: #d5edb4; border: 1px solid #6d8133; box-shadow: 5px 5px 0 #6d8133; font-size: 13px; }
+.message { position: fixed; z-index: 60; top: 92px; right: 24px; max-width: 450px; display: flex; gap: 18px; align-items: flex-start; padding: 13px 16px; background: #d5edb4; border: 1px solid #6d8133; box-shadow: 5px 5px 0 #6d8133; font-size: 13px; }
 .error-message { background: #ffd7ca; border-color: #a63623; box-shadow: 5px 5px 0 #a63623; }
 .message button, .close-button { border: 0; background: transparent; font-weight: 700; padding: 0; }
 
@@ -130,6 +130,9 @@ a { color: inherit; }
 .detail-section textarea { width: 100%; min-height: 75px; margin-top: 13px; resize: vertical; border: 1px solid #c7c0b4; padding: 10px; color: #34352f; background: #fcf9f2; font-family: Georgia, serif; font-size: 14px; line-height: 1.35; outline-color: #9c4a36; }
 .analysis-section { background: #e5f0cb; margin-left: -16px; margin-right: -16px; padding: 21px 16px; border-bottom: 1px solid #bbc59e; }
 .analysis-empty { margin: 15px 0 0; color: #556049; font-family: Georgia, serif; font-size: 14px; line-height: 1.35; }
+.analysis-feedback { margin: 14px 0 0; border-left: 2px solid #a43828; padding: 8px 10px; color: #702d22; background: #ffe4db; font-family: Georgia, serif; font-size: 13px; line-height: 1.35; }
+.analysis-progress { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 14px; border: 1px solid #8b9c69; padding: 8px 9px; color: #45533a; background: #f5f8e9; font-size: 11px; font-weight: 700; }
+.analysis-progress button { border: 0; padding: 0; color: #7d352a; background: transparent; font-size: 11px; text-decoration: underline; }
 .analysis-actions { display: flex; align-items: center; gap: 14px; margin-top: 17px; }
 .analysis-button { border: 1px solid #344027; padding: 9px 11px; color: #f8f5e9; background: #344027; font-size: 11px; font-weight: 700; }
 .analysis-results { margin-top: 13px; }

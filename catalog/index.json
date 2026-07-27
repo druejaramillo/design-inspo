@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T05:07:49.229Z",
+  "generatedAt": "2026-07-27T07:12:10.150Z",
   "items": [
     {
       "id": "seiste-657e8385",
@@ -15,7 +15,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "planetono-01-18f9511b",
@@ -31,7 +32,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "drinksom-79e5d096",
@@ -47,7 +49,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "buckssauce-720accf9",
@@ -63,7 +66,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "6a44cacb868e92e4b3d9a6f7-take-2026-07-01t090606--a9c14f55",
@@ -79,7 +83,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "6a44cac5d00fe7fbfba9a489-take-2026-07-01t090556--df735a4f",
@@ -95,7 +100,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "6a4e5e5aa1d927258a1abfb3-take-2026-07-08t152550--f768eeb2",
@@ -111,7 +117,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "6a5e5d0727fbc53377248682-take-2026-07-20t170040--67878a90",
@@ -127,7 +134,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "6a5e5d0f18fef907b7cdc7e7-take-2026-07-20t170019--0314548c",
@@ -143,7 +151,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "poly-0036ea6c",
@@ -161,7 +170,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "air-inc-7964fb20",
@@ -179,7 +189,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "structured-money-f469473c",
@@ -197,7 +208,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "stripe-a57d1491",
@@ -215,7 +227,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "topology-09ed7818",
@@ -233,7 +246,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "new-layer-capital-981e5ec1",
@@ -251,7 +265,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "your-bana-e096f6ac",
@@ -269,7 +284,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "supercommon-systems-c0e0f39e",
@@ -287,7 +303,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "oryzo-2528b06e",
@@ -305,7 +322,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "walrus-56e648fc",
@@ -323,7 +341,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "meter-7297969e",
@@ -341,7 +360,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "day-dream-player-9cdc879b",
@@ -359,7 +379,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "helio-cloud-3413f7ce",
@@ -377,7 +398,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "integrated-biosciences-df12ecc7",
@@ -395,7 +417,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "park-photos-f161fe24",
@@ -413,7 +436,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "defined-9a484af6",
@@ -431,7 +455,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "consensys-7317dde1",
@@ -449,7 +474,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "interfere-d4bc06e4",
@@ -467,7 +493,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "novu-f299dce0",
@@ -485,7 +512,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "mindmarket-c6c1cffc",
@@ -503,7 +531,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "tesoro-9aa4ae86",
@@ -521,7 +550,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "general-intelligence-company-2c4e783c",
@@ -539,7 +569,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "more-nutrition-69d0eb2b",
@@ -557,7 +588,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "primora-af2afddf",
@@ -575,7 +607,8 @@
         "craftwork"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "dota2-on-behance-kreatives-webdesign-ideen-f-r-p-5198c1a7",
@@ -593,7 +626,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-design-ef028071",
@@ -611,7 +645,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-web-design-c051735b",
@@ -629,7 +664,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-9c7dbf03",
@@ -647,7 +683,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "ui-ux-projects-photos-videos-logos-illustrations-734b2979",
@@ -665,7 +702,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-beauty-websites-i-love-f38337cf",
@@ -683,7 +721,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "behance-portfolio-cv-graphic-design-digital-mark-eff46df4",
@@ -701,7 +740,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "reinventa-tu-web-profesional-sin-errores-ideas-p-2ada9a9e",
@@ -719,7 +759,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-matt-ui-1b0f2b55",
@@ -737,7 +778,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-daedd8f0",
@@ -755,7 +797,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-software-styles-acc3b3f9",
@@ -773,7 +816,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "super-hello-colorful-one-page-website-design-web-52c890e2",
@@ -791,7 +835,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-web-ui-e7b2046a",
@@ -809,7 +854,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "dise-a-una-landing-page-optimizada-para-tus-obje-29b8c9d9",
@@ -827,7 +873,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "romantische-idee-n-webdesign-inspiratie-47d7c6ba",
@@ -845,7 +892,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "p-gina-de-aterrizaje-efectiva-modern-website-bac-1a7f123c",
@@ -863,7 +911,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-ppt-bd57d077",
@@ -881,7 +930,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-identidade-lumin-ria-1c16946f",
@@ -899,7 +949,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-design-73c97e4a",
@@ -917,7 +968,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "wordpress-minimal-theme-website-templates-themef-cb15eb33",
@@ -935,7 +987,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "visual-design-website-web-design-ideas-creative--ada7ac3e",
@@ -953,7 +1006,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-things-i-like-to-look-at-design-ideas-ac421313",
@@ -971,7 +1025,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "website-development-services-by-freelance-web-de-f9de83a3",
@@ -989,7 +1044,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-plantillas-y-dise-o-web-rms-36d7050c",
@@ -1007,7 +1063,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "pin-on-70cd06ce",
@@ -1025,7 +1082,8 @@
         "pinterest"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-cee06bc7",
@@ -1043,7 +1101,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-9ff70f4f",
@@ -1061,7 +1120,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-9730b9b5",
@@ -1079,7 +1139,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-fe521aa6",
@@ -1097,7 +1158,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-fe48c95a",
@@ -1115,7 +1177,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "videoframe-0-163bea29",
@@ -1131,7 +1194,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-83738663",
@@ -1149,7 +1213,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-cadae4a7",
@@ -1167,7 +1232,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-9812547e",
@@ -1185,7 +1251,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "videoframe-0-be51e0fe",
@@ -1201,7 +1268,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-22daa547",
@@ -1219,7 +1287,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "videoframe-66-fbc9c15c",
@@ -1235,7 +1304,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "videoframe-0-465e8465",
@@ -1251,7 +1321,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "videoframe-0-99d24646",
@@ -1267,7 +1338,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-eeb9d597",
@@ -1285,7 +1357,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-4ce425a1",
@@ -1303,7 +1376,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-34f1f320",
@@ -1321,7 +1395,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "videoframe-0-571eaab3",
@@ -1337,7 +1412,8 @@
       },
       "manualTagIds": [],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-443d6916",
@@ -1355,7 +1431,8 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-ee46526f",
@@ -1373,11 +1450,12 @@
         "dribbble"
       ],
       "analysis": null,
-      "analysisStatus": "pending"
+      "analysisStatus": "pending",
+      "analysisError": null
     },
     {
       "id": "untitled-from-cdn-dribbble-com-2eca4014",
-      "title": "Untitled from cdn.dribbble.com",
+      "title": "Neon Banking Interface Collage",
       "sourceUrl": "https://cdn.dribbble.com/userupload/11703540/file/original-9cfc0f25a37d68687c7c9283804b8f5b.png?resize=752x&vertical=center",
       "sourceDomain": "cdn.dribbble.com",
       "importedAt": "2026-07-27T04:35:39.332Z",
@@ -1390,12 +1468,81 @@
       "manualTagIds": [
         "dribbble"
       ],
-      "analysis": null,
-      "analysisStatus": "pending"
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T07:09:14.066Z",
+        "title": "Neon Banking Interface Collage",
+        "palette": [
+          {
+            "hex": "#F0EEF5",
+            "role": "lavender background"
+          },
+          {
+            "hex": "#FFFFFF",
+            "role": "content panels"
+          },
+          {
+            "hex": "#0A0A0B",
+            "role": "dark interface elements"
+          },
+          {
+            "hex": "#B8FF00",
+            "role": "neon accent"
+          },
+          {
+            "hex": "#9B5CFF",
+            "role": "purple accent"
+          }
+        ],
+        "style": [
+          "minimal",
+          "technical",
+          "geometric",
+          "layered"
+        ],
+        "tone": [
+          "futuristic",
+          "confident",
+          "playful",
+          "energetic"
+        ],
+        "layout": [
+          "overlapping panels",
+          "structured grid",
+          "asymmetric composition",
+          "card-based sections"
+        ],
+        "typography": [
+          "bold grotesk",
+          "oversized headlines",
+          "compact labels",
+          "high-contrast hierarchy"
+        ],
+        "uiMotifs": [
+          "floating payment card",
+          "pixel fragments",
+          "radial diagrams",
+          "neon pill buttons",
+          "thin-line banking illustrations"
+        ],
+        "notes": "A pale lavender banking landing page uses oversized black typography, white modular panels, and a floating dark card surrounded by purple and lime pixel fragments. Repeated diagrams, rounded cards, and precise line illustrations balance the playful color accents with a technical, polished interface system.",
+        "suggestedTagIds": [
+          "minimal",
+          "technical",
+          "hero-led",
+          "grid-system",
+          "layered",
+          "primary-pop"
+        ],
+        "heroPrompt": "A floating matte-black payment card angled slightly in three-quarter view, surrounded by suspended square pixels and small geometric fragments in electric lime, violet, and white. Place it over a soft pale-lavender background with subtle depth, crisp studio lighting, clean modern fintech art direction, sharp edges, restrained shadows, and a precise editorial composition. No logos, brand marks, numbers, or readable text."
+      },
+      "analysisStatus": "ready",
+      "analysisError": null
     },
     {
       "id": "videoframe-0-92ad2048",
-      "title": "videoframe_0",
+      "title": "Neon Green Financial Landing Page",
       "sourceUrl": null,
       "sourceDomain": null,
       "importedAt": "2026-07-27T04:34:44.935Z",
@@ -1406,8 +1553,79 @@
         "format": "webp"
       },
       "manualTagIds": [],
-      "analysis": null,
-      "analysisStatus": "pending"
+      "analysis": {
+        "version": 1,
+        "provider": "opencode",
+        "analyzedAt": "2026-07-27T07:12:10.149Z",
+        "title": "Neon Green Financial Landing Page",
+        "palette": [
+          {
+            "hex": "#090B0A",
+            "role": "background"
+          },
+          {
+            "hex": "#171A18",
+            "role": "surface"
+          },
+          {
+            "hex": "#173522",
+            "role": "ambient green"
+          },
+          {
+            "hex": "#9DFFB0",
+            "role": "accent"
+          },
+          {
+            "hex": "#F2F5EF",
+            "role": "primary text"
+          }
+        ],
+        "style": [
+          "dark-mode",
+          "immersive",
+          "high-contrast",
+          "grotesk",
+          "layered"
+        ],
+        "tone": [
+          "confident",
+          "technical",
+          "energetic",
+          "futuristic"
+        ],
+        "layout": [
+          "centered hero",
+          "wide navigation bar",
+          "oversized headline",
+          "floating background elements",
+          "bottom cookie overlay"
+        ],
+        "typography": [
+          "oversized sans-serif",
+          "thin geometric forms",
+          "high-contrast sizing",
+          "compact utility labels"
+        ],
+        "uiMotifs": [
+          "pill-shaped buttons",
+          "neon arrow accents",
+          "soft glow effects",
+          "translucent panels",
+          "floating mathematical symbols"
+        ],
+        "notes": "A dark landing page uses a centered, oversized headline with luminous mint-green emphasis against a hazy mathematical background. Rounded controls, translucent navigation, and a persistent cookie panel soften the technical art direction while preserving strong contrast.",
+        "suggestedTagIds": [
+          "dark-mode",
+          "high-contrast",
+          "immersive",
+          "technical",
+          "oversized-type",
+          "grotesk"
+        ],
+        "heroPrompt": "Create an immersive abstract hero background for a dark financial technology landing page: near-black space with subtle forest-green haze, scattered glowing particles, faint floating mathematical equations and outlined geometric symbols, soft mint-green bloom concentrated behind the center, restrained cinematic depth, atmospheric grain, and ample negative space for white headline text. Use a premium editorial-tech composition, low contrast at the edges, crisp luminous accents, no logos, no brand marks, no readable words, no people, and no interface elements."
+      },
+      "analysisStatus": "ready",
+      "analysisError": null
     }
   ]
 }

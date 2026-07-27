@@ -14,6 +14,7 @@ const item = (id: string, tags: string[], palette = ["#112233", "#eeddcc"]): Cat
   media: null,
   manualTagIds: tags,
   analysisStatus: "ready",
+  analysisError: null,
   analysis: {
     version: 1,
     provider: "opencode",

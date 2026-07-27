@@ -1,12 +1,12 @@
 {
   "id": "videoframe-0-92ad2048",
-  "title": "videoframe_0",
+  "title": "Neon Green Financial Landing Page",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T04:34:44.935Z",
-  "updatedAt": "2026-07-27T04:34:44.935Z",
+  "updatedAt": "2026-07-27T07:12:10.150Z",
   "media": {
     "path": "catalog/media/videoframe-0-92ad2048.webp",
     "width": 1600,
@@ -14,6 +14,77 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:12:10.149Z",
+    "title": "Neon Green Financial Landing Page",
+    "palette": [
+      {
+        "hex": "#090B0A",
+        "role": "background"
+      },
+      {
+        "hex": "#171A18",
+        "role": "surface"
+      },
+      {
+        "hex": "#173522",
+        "role": "ambient green"
+      },
+      {
+        "hex": "#9DFFB0",
+        "role": "accent"
+      },
+      {
+        "hex": "#F2F5EF",
+        "role": "primary text"
+      }
+    ],
+    "style": [
+      "dark-mode",
+      "immersive",
+      "high-contrast",
+      "grotesk",
+      "layered"
+    ],
+    "tone": [
+      "confident",
+      "technical",
+      "energetic",
+      "futuristic"
+    ],
+    "layout": [
+      "centered hero",
+      "wide navigation bar",
+      "oversized headline",
+      "floating background elements",
+      "bottom cookie overlay"
+    ],
+    "typography": [
+      "oversized sans-serif",
+      "thin geometric forms",
+      "high-contrast sizing",
+      "compact utility labels"
+    ],
+    "uiMotifs": [
+      "pill-shaped buttons",
+      "neon arrow accents",
+      "soft glow effects",
+      "translucent panels",
+      "floating mathematical symbols"
+    ],
+    "notes": "A dark landing page uses a centered, oversized headline with luminous mint-green emphasis against a hazy mathematical background. Rounded controls, translucent navigation, and a persistent cookie panel soften the technical art direction while preserving strong contrast.",
+    "suggestedTagIds": [
+      "dark-mode",
+      "high-contrast",
+      "immersive",
+      "technical",
+      "oversized-type",
+      "grotesk"
+    ],
+    "heroPrompt": "Create an immersive abstract hero background for a dark financial technology landing page: near-black space with subtle forest-green haze, scattered glowing particles, faint floating mathematical equations and outlined geometric symbols, soft mint-green bloom concentrated behind the center, restrained cinematic depth, atmospheric grain, and ample negative space for white headline text. Use a premium editorial-tech composition, low contrast at the edges, crisp luminous accents, no logos, no brand marks, no readable words, no people, and no interface elements."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

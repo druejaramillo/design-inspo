@@ -3,7 +3,8 @@ import { join } from "node:path";
 import express from "express";
 import multer from "multer";
 import { ZodError } from "zod";
-import { analyzeItem, type AnalysisProvider } from "./analysis.js";
+import { analysisDiagnostic, analysisErrorMessage, analysisErrorStatus, OPENCODE_VISION_MODEL, type AnalysisProvider } from "./analysis.js";
+import { runCatalogAnalysis } from "./catalog-analysis.js";
 import {
   createItem,
   deleteItem,
@@ -15,13 +16,13 @@ import {
   paths,
   rebuildIndex,
   updateItem,
-  writeItem,
 } from "./catalog.js";
 import { buildContext, type FilterMode } from "./context.js";
 
 const app = express();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 12 * 1024 * 1024 } });
 const port = Number(process.env.PORT ?? 8787);
+const activeAnalyses = new Map<string, AbortController>();
 
 app.use(express.json({ limit: "1mb" }));
 app.use("/media", express.static(paths.media, { fallthrough: false, maxAge: "7d" }));
@@ -114,32 +115,53 @@ app.post("/api/context", async (request, response, next) => {
 });
 
 app.post("/api/items/:id/analyze", async (request, response, next) => {
+  const id = request.params.id;
+  const provider: AnalysisProvider = request.body?.provider === "openai" ? "openai" : "opencode";
+  const startedAt = Date.now();
+  if (activeAnalyses.has(id)) {
+    response.status(409).json({ error: "Analysis is already running for this item." });
+    return;
+  }
+  const controller = new AbortController();
+  const cancelIfDisconnected = () => {
+    if (!response.writableEnded) controller.abort();
+  };
+  request.once("aborted", cancelIfDisconnected);
+  response.once("close", cancelIfDisconnected);
+  activeAnalyses.set(id, controller);
   try {
-    const item = await getItem(request.params.id);
+    const item = await getItem(id);
     if (!item.media) {
       response.status(400).json({ error: "Add an image before analysis." });
       return;
     }
-    const provider: AnalysisProvider = request.body?.provider === "openai" ? "openai" : "opencode";
-    try {
-      const analysis = await analyzeItem(item, join(paths.root, item.media.path), await getTaxonomy(), provider);
-      const updated = await writeItem({
-        ...item,
-        title: analysis.title,
-        analysis,
-        analysisStatus: "ready",
-        updatedAt: new Date().toISOString(),
-      });
-      await rebuildIndex();
-      response.json(updated);
-    } catch (error) {
-      await writeItem({ ...item, analysisStatus: "failed", updatedAt: new Date().toISOString() });
-      await rebuildIndex();
-      throw error;
-    }
+    response.json(await runCatalogAnalysis(id, provider, controller.signal));
   } catch (error) {
+    if (analysisErrorStatus(error)) {
+      console.error("Catalog analysis failed", {
+        itemId: id,
+        provider: provider === "opencode" ? OPENCODE_VISION_MODEL : "openai",
+        durationMs: Date.now() - startedAt,
+        message: analysisErrorMessage(error),
+        diagnostic: analysisDiagnostic(error),
+      });
+    }
     next(error);
+  } finally {
+    activeAnalyses.delete(id);
+    request.off("aborted", cancelIfDisconnected);
+    response.off("close", cancelIfDisconnected);
   }
+});
+
+app.delete("/api/items/:id/analyze", (request, response) => {
+  const controller = activeAnalyses.get(request.params.id);
+  if (!controller) {
+    response.status(404).json({ error: "There is no active analysis for this item." });
+    return;
+  }
+  controller.abort();
+  response.status(202).json({ message: "Cancel requested." });
 });
 
 if (existsSync(paths.dist)) {
@@ -148,8 +170,9 @@ if (existsSync(paths.dist)) {
 }
 
 app.use((error: unknown, _request: express.Request, response: express.Response, _next: express.NextFunction) => {
-  const status = error instanceof ZodError ? 422 : 400;
-  const message = error instanceof Error ? error.message : "Unexpected server error.";
+  const analysisStatus = analysisErrorStatus(error);
+  const status = analysisStatus ?? (error instanceof ZodError ? 422 : 400);
+  const message = analysisStatus ? analysisErrorMessage(error) : error instanceof Error ? error.message : "Unexpected server error.";
   response.status(status).json({ error: message });
 });
 

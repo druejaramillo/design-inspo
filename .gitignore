@@ -6,6 +6,8 @@ bin/
 *.tsbuildinfo
 coverage/
 public/catalog/
-.opencode/
+.opencode/*
+!.opencode/agents/
+!.opencode/agents/catalog-vision.md
 .agents/
 .claude/

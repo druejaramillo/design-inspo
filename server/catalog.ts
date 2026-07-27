@@ -123,6 +123,7 @@ function summaryFor(item: CatalogItem): CatalogSummary {
     manualTagIds: item.manualTagIds,
     analysis: item.analysis,
     analysisStatus: item.analysisStatus,
+    analysisError: item.analysisError,
   };
 }
 
@@ -186,6 +187,7 @@ export async function createItem(input: CreateItemInput) {
     manualTagIds: platformTag ? [platformTag] : [],
     analysis: null,
     analysisStatus: input.buffer ? "pending" : "not-requested",
+    analysisError: null,
   };
   await writeItem(item);
   await rebuildIndex();

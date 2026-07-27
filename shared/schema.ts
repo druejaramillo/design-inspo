@@ -41,7 +41,8 @@ export const itemSchema = z.object({
     .nullable(),
   manualTagIds: z.array(z.string()).default([]),
   analysis: analysisSchema.nullable().default(null),
-  analysisStatus: z.enum(["pending", "ready", "failed", "not-requested"]),
+  analysisStatus: z.enum(["pending", "ready", "failed", "canceled", "not-requested"]),
+  analysisError: z.string().min(1).max(500).nullable().default(null),
 });
 
 export const tagSchema = z.object({
@@ -74,6 +75,7 @@ export type CatalogSummary = Pick<
   | "manualTagIds"
   | "analysis"
   | "analysisStatus"
+  | "analysisError"
 >;
 
 export type CatalogIndex = {

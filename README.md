@@ -34,7 +34,7 @@ The importer reads ordinary public page metadata (`og:image`, `og:title`, and si
 
 ## AI analysis
 
-`Analyze with OpenCode` attaches the saved image to `opencode run` and requests a schema-validated analysis. Configure a vision-capable model in OpenCode before using it. Analysis runs in a disposable temporary working directory and cannot replace valid saved analysis until its output validates.
+`Analyze with OpenCode` attaches the saved image to the project-local `catalog-vision` OpenCode agent, which has no repository or shell tool permissions. It runs `openai/gpt-5.6-luna --variant minimal` and requests a schema-validated analysis. Authenticate OpenCode's OpenAI provider before using it. Each run times out after four minutes and can be canceled from the item panel. Failed or canceled runs preserve any prior valid analysis and show a retryable diagnostic in that panel.
 
 The optional `Use OpenAI` button uses a server-side environment variable:
 
@@ -66,6 +66,8 @@ inspo validate
 ```
 
 Override the catalog root with `INSPO_ROOT` if needed. In-repo `npm run inspo -- …` still works.
+
+`inspo analyze` reports the provider/model, final status, and generated title. OpenCode runs always use `openai/gpt-5.6-luna`; pass `--provider openai` to use the direct API adapter instead.
 
 ## Use from OpenCode
 

@@ -1,13 +1,13 @@
 {
   "id": "untitled-from-cdn-dribbble-com-2eca4014",
-  "title": "Untitled from cdn.dribbble.com",
+  "title": "Neon Banking Interface Collage",
   "notes": "",
   "sourceUrl": "https://cdn.dribbble.com/userupload/11703540/file/original-9cfc0f25a37d68687c7c9283804b8f5b.png?resize=752x&vertical=center",
   "sourceImageUrl": "https://cdn.dribbble.com/userupload/11703540/file/original-9cfc0f25a37d68687c7c9283804b8f5b.png?resize=752x&vertical=center",
   "sourceDomain": "cdn.dribbble.com",
   "captureMethod": "url",
   "importedAt": "2026-07-27T04:35:39.332Z",
-  "updatedAt": "2026-07-27T04:35:39.332Z",
+  "updatedAt": "2026-07-27T07:09:14.067Z",
   "media": {
     "path": "catalog/media/untitled-from-cdn-dribbble-com-2eca4014.webp",
     "width": 752,
@@ -17,6 +17,75 @@
   "manualTagIds": [
     "dribbble"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:09:14.066Z",
+    "title": "Neon Banking Interface Collage",
+    "palette": [
+      {
+        "hex": "#F0EEF5",
+        "role": "lavender background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "content panels"
+      },
+      {
+        "hex": "#0A0A0B",
+        "role": "dark interface elements"
+      },
+      {
+        "hex": "#B8FF00",
+        "role": "neon accent"
+      },
+      {
+        "hex": "#9B5CFF",
+        "role": "purple accent"
+      }
+    ],
+    "style": [
+      "minimal",
+      "technical",
+      "geometric",
+      "layered"
+    ],
+    "tone": [
+      "futuristic",
+      "confident",
+      "playful",
+      "energetic"
+    ],
+    "layout": [
+      "overlapping panels",
+      "structured grid",
+      "asymmetric composition",
+      "card-based sections"
+    ],
+    "typography": [
+      "bold grotesk",
+      "oversized headlines",
+      "compact labels",
+      "high-contrast hierarchy"
+    ],
+    "uiMotifs": [
+      "floating payment card",
+      "pixel fragments",
+      "radial diagrams",
+      "neon pill buttons",
+      "thin-line banking illustrations"
+    ],
+    "notes": "A pale lavender banking landing page uses oversized black typography, white modular panels, and a floating dark card surrounded by purple and lime pixel fragments. Repeated diagrams, rounded cards, and precise line illustrations balance the playful color accents with a technical, polished interface system.",
+    "suggestedTagIds": [
+      "minimal",
+      "technical",
+      "hero-led",
+      "grid-system",
+      "layered",
+      "primary-pop"
+    ],
+    "heroPrompt": "A floating matte-black payment card angled slightly in three-quarter view, surrounded by suspended square pixels and small geometric fragments in electric lime, violet, and white. Place it over a soft pale-lavender background with subtle depth, crisp studio lighting, clean modern fintech art direction, sharp edges, restrained shadows, and a precise editorial composition. No logos, brand marks, numbers, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

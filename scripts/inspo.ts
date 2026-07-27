@@ -1,7 +1,8 @@
 import { existsSync } from "node:fs";
 import { join } from "node:path";
-import { analyzeItem, type AnalysisProvider } from "../server/analysis.js";
-import { createItem, getAllItems, getItem, getTaxonomy, importFromUrl, paths, rebuildIndex, writeItem } from "../server/catalog.js";
+import { type AnalysisProvider } from "../server/analysis.js";
+import { runCatalogAnalysis } from "../server/catalog-analysis.js";
+import { createItem, getAllItems, getTaxonomy, importFromUrl, paths, rebuildIndex } from "../server/catalog.js";
 import { buildContext, matchesTags, type FilterMode } from "../server/context.js";
 
 function argumentsFor(flag: string) {
@@ -97,13 +98,14 @@ async function main() {
   if (command === "analyze") {
     const id = process.argv[3];
     if (!id) throw new Error("Provide an item ID to analyze.");
-    const item = await getItem(id);
-    if (!item.media) throw new Error("This item needs an image before analysis.");
     const provider: AnalysisProvider = argumentsFor("--provider") === "openai" ? "openai" : "opencode";
-    const analysis = await analyzeItem(item, join(paths.root, item.media.path), await getTaxonomy(), provider);
-    const updated = await writeItem({ ...item, title: analysis.title, analysis, analysisStatus: "ready", updatedAt: new Date().toISOString() });
-    await rebuildIndex();
-    print(updated);
+    const updated = await runCatalogAnalysis(id, provider);
+    print({
+      item: updated,
+      provider: provider === "opencode" ? "openai/gpt-5.6-luna via OpenCode" : "OpenAI Vision",
+      status: updated.analysisStatus,
+      generatedTitle: updated.title,
+    });
     return;
   }
 

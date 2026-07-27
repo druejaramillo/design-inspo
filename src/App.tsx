@@ -46,6 +46,7 @@ function displayStatus(status: CatalogSummary["analysisStatus"]) {
     pending: "Needs analysis",
     ready: "Analyzed",
     failed: "Analysis failed",
+    canceled: "Analysis canceled",
     "not-requested": "Needs image",
   }[status];
 }
@@ -93,6 +94,9 @@ export default function App() {
   const [url, setUrl] = useState("");
   const [title, setTitle] = useState("");
   const [busy, setBusy] = useState<string | null>(null);
+  const [analysisStartedAt, setAnalysisStartedAt] = useState<number | null>(null);
+  const [analysisElapsed, setAnalysisElapsed] = useState(0);
+  const [cancelingAnalysis, setCancelingAnalysis] = useState(false);
   const [notice, setNotice] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -132,6 +136,17 @@ export default function App() {
       .catch((nextError: Error) => setError(nextError.message));
   }, [activeTags, filterMode, catalog.generatedAt, staticMode]);
 
+  useEffect(() => {
+    if (!analysisStartedAt) {
+      setAnalysisElapsed(0);
+      return;
+    }
+    const updateElapsed = () => setAnalysisElapsed(Math.floor((Date.now() - analysisStartedAt) / 1000));
+    updateElapsed();
+    const timer = window.setInterval(updateElapsed, 1_000);
+    return () => window.clearInterval(timer);
+  }, [analysisStartedAt]);
+
   const tagLabels = Object.fromEntries(taxonomy.groups.flatMap((group) => group.tags.map((tag) => [tag.id, tag.label])));
   const filteredItems = catalog.items.filter((item) => {
     const itemTags = allItemTags(item);
@@ -160,6 +175,13 @@ export default function App() {
     } finally {
       setBusy(null);
     }
+  }
+
+  async function refreshSelected(id: string) {
+    const item = await api<CatalogItem>(`/api/items/${id}`);
+    setSelected(item);
+    await refresh();
+    return item;
   }
 
   function pullUrl(event: DragEvent<HTMLElement>) {
@@ -238,10 +260,13 @@ export default function App() {
 
   async function analyze(provider: "opencode" | "openai") {
     if (!selected) return;
+    const id = selected.id;
     try {
       setBusy(`analyze-${provider}`);
+      setAnalysisStartedAt(Date.now());
+      setCancelingAnalysis(false);
       setError(null);
-      const updated = await api<CatalogItem>(`/api/items/${selected.id}/analyze`, {
+      const updated = await api<CatalogItem>(`/api/items/${id}/analyze`, {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ provider }),
@@ -250,9 +275,28 @@ export default function App() {
       await refresh();
       setNotice(`Analysis completed with ${provider === "opencode" ? "OpenCode" : "OpenAI"}.`);
     } catch (nextError) {
-      setError(nextError instanceof Error ? nextError.message : "Analysis failed.");
+      try {
+        const updated = await refreshSelected(id);
+        if (!updated.analysisError) setError(nextError instanceof Error ? nextError.message : "Analysis failed.");
+      } catch {
+        setError(nextError instanceof Error ? nextError.message : "Analysis failed.");
+      }
     } finally {
       setBusy(null);
+      setAnalysisStartedAt(null);
+      setCancelingAnalysis(false);
+    }
+  }
+
+  async function cancelAnalysis() {
+    if (!selected) return;
+    try {
+      setCancelingAnalysis(true);
+      await api<{ message: string }>(`/api/items/${selected.id}/analyze`, { method: "DELETE" });
+      setNotice("Cancel requested. Saving the final status...");
+    } catch (nextError) {
+      setError(nextError instanceof Error ? nextError.message : "Could not cancel analysis.");
+      setCancelingAnalysis(false);
     }
   }
 
@@ -471,9 +515,14 @@ export default function App() {
               </section>
               <section className="analysis-section">
                 <div className="section-heading"><h3>Visual reading</h3><span>{displayStatus(selected.analysisStatus)}</span></div>
+                {selected.analysisError && <p className="analysis-feedback" role="alert">{selected.analysisError}</p>}
+                {analysisStartedAt && <div className="analysis-progress" role="status">
+                  <span>Reading with {busy === "analyze-opencode" ? "OpenCode / gpt-5.6-luna" : "OpenAI"}... {analysisElapsed}s</span>
+                  <button type="button" onClick={cancelAnalysis} disabled={cancelingAnalysis}>{cancelingAnalysis ? "Canceling..." : "Cancel"}</button>
+                </div>}
                 {selected.analysis ? <AnalysisDisplay analysis={selected.analysis} tagLabels={tagLabels} /> : <p className="analysis-empty">Run a vision pass to pull out palette, typography, layout, tone, and an original hero-image prompt.</p>}
                 {selected.media && !staticMode && <div className="analysis-actions">
-                  <button type="button" className="analysis-button" onClick={() => analyze("opencode")} disabled={busy?.startsWith("analyze")}>{busy === "analyze-opencode" ? "Reading image..." : selected.analysis ? "Reanalyze with OpenCode" : "Analyze with OpenCode"}</button>
+                  <button type="button" className="analysis-button" onClick={() => analyze("opencode")} disabled={busy?.startsWith("analyze")}>{busy === "analyze-opencode" ? "Reading image..." : selected.analysis ? "Reanalyze with OpenCode" : selected.analysisStatus === "failed" || selected.analysisStatus === "canceled" ? "Retry with OpenCode" : "Analyze with OpenCode"}</button>
                   <button type="button" className="text-button" onClick={() => analyze("openai")} disabled={busy?.startsWith("analyze")}>{busy === "analyze-openai" ? "Reading image..." : "Use OpenAI"}</button>
                 </div>}
               </section>
