@@ -56,6 +56,7 @@ npm link
 Useful commands (work from any directory; catalog stays in this repo):
 
 ```sh
+inspo overview
 inspo search --tags "editorial,warm"
 inspo context --tags "editorial,warm,serif"
 inspo context --tags "playful,primary-pop" --mode or
@@ -72,6 +73,8 @@ Override the catalog root with `INSPO_ROOT` if needed. In-repo `npm run inspo --
 ## Use from OpenCode
 
 The project skill at `.opencode/skills/inspiration-catalog/SKILL.md` tells OpenCode how to draw from the catalog. Restart OpenCode after pulling this project/configuration change so it discovers the new skill.
+
+`overview` lists the taxonomy tags currently represented in the catalog, their item counts, and a compact recent-reference sample. Use it to choose terms for `search` or `context`.
 
 `context` returns a compact prompt fragment plus bounded reference paths and source URLs. An agent can inspect those local files when the task needs more than the summary.
 

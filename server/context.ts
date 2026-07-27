@@ -1,4 +1,4 @@
-import type { CatalogItem } from "../shared/schema.js";
+import type { CatalogItem, Taxonomy } from "../shared/schema.js";
 
 export type FilterMode = "and" | "or";
 
@@ -15,6 +15,27 @@ export type ContextOutput = {
   }>;
 };
 
+export type CatalogOverviewOutput = {
+  itemCount: number;
+  analyzedItemCount: number;
+  tagGroups: Array<{
+    id: string;
+    label: string;
+    tags: Array<{
+      id: string;
+      label: string;
+      count: number;
+    }>;
+  }>;
+  recentReferences: Array<{
+    id: string;
+    title: string;
+    tags: string[];
+    sourceUrl: string | null;
+    imagePath: string | null;
+  }>;
+};
+
 export function itemTagIds(item: Pick<CatalogItem, "manualTagIds" | "analysis">) {
   return [...new Set([...item.manualTagIds, ...(item.analysis?.suggestedTagIds ?? [])])];
 }
@@ -23,6 +44,35 @@ export function matchesTags(item: Pick<CatalogItem, "manualTagIds" | "analysis">
   if (!tagIds.length) return true;
   const tags = new Set(itemTagIds(item));
   return mode === "and" ? tagIds.every((tag) => tags.has(tag)) : tagIds.some((tag) => tags.has(tag));
+}
+
+export function buildCatalogOverview(items: CatalogItem[], taxonomy: Taxonomy, limit = 8): CatalogOverviewOutput {
+  const counts = new Map<string, number>();
+  for (const item of items) {
+    for (const tag of itemTagIds(item)) counts.set(tag, (counts.get(tag) ?? 0) + 1);
+  }
+
+  return {
+    itemCount: items.length,
+    analyzedItemCount: items.filter((item) => item.analysis).length,
+    tagGroups: taxonomy.groups
+      .map((group) => ({
+        id: group.id,
+        label: group.label,
+        tags: group.tags
+          .map((tag) => ({ ...tag, count: counts.get(tag.id) ?? 0 }))
+          .filter((tag) => tag.count > 0)
+          .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label)),
+      }))
+      .filter((group) => group.tags.length > 0),
+    recentReferences: items.slice(0, limit).map((item) => ({
+      id: item.id,
+      title: item.title,
+      tags: itemTagIds(item),
+      sourceUrl: item.sourceUrl,
+      imagePath: item.media?.path ?? null,
+    })),
+  };
 }
 
 export function buildContext(items: CatalogItem[], tags: string[], mode: FilterMode, limit = 6): ContextOutput {

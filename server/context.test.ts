@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { buildContext, matchesTags } from "./context.js";
-import type { CatalogItem } from "../shared/schema.js";
+import { buildCatalogOverview, buildContext, matchesTags } from "./context.js";
+import type { CatalogItem, Taxonomy } from "../shared/schema.js";
 
 const item = (id: string, tags: string[], palette = ["#112233", "#eeddcc"]): CatalogItem => ({
   id,
@@ -46,5 +46,38 @@ describe("catalog context", () => {
     expect(result.references).toHaveLength(1);
     expect(result.prompt).toContain("Visual language: editorial.");
     expect(result.prompt).toContain("#112233");
+  });
+
+  it("summarizes available tags and recent references for discovery", () => {
+    const taxonomy: Taxonomy = {
+      groups: [
+        {
+          id: "style",
+          label: "Visual style",
+          tags: [
+            { id: "editorial", label: "Editorial" },
+            { id: "brutalist", label: "Brutalist" },
+          ],
+        },
+        {
+          id: "tone",
+          label: "Tone",
+          tags: [{ id: "warm", label: "Warm" }],
+        },
+      ],
+    };
+    const first = item("one", ["editorial"]);
+    first.analysis!.suggestedTagIds = ["warm"];
+    const result = buildCatalogOverview([first, item("two", ["editorial"])], taxonomy, 1);
+
+    expect(result.itemCount).toBe(2);
+    expect(result.analyzedItemCount).toBe(2);
+    expect(result.tagGroups).toEqual([
+      { id: "style", label: "Visual style", tags: [{ id: "editorial", label: "Editorial", count: 2 }] },
+      { id: "tone", label: "Tone", tags: [{ id: "warm", label: "Warm", count: 1 }] },
+    ]);
+    expect(result.recentReferences).toEqual([
+      expect.objectContaining({ id: "one", tags: ["editorial", "warm"] }),
+    ]);
   });
 });

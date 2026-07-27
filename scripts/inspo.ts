@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { type AnalysisProvider } from "../server/analysis.js";
 import { runCatalogAnalysis } from "../server/catalog-analysis.js";
 import { createItem, getAllItems, getTaxonomy, importFromUrl, paths, rebuildIndex } from "../server/catalog.js";
-import { buildContext, matchesTags, type FilterMode } from "../server/context.js";
+import { buildCatalogOverview, buildContext, matchesTags, type FilterMode } from "../server/context.js";
 
 function argumentsFor(flag: string) {
   const index = process.argv.indexOf(flag);
@@ -23,6 +23,7 @@ function print(value: unknown) {
 
 function usage() {
   console.log(`Usage:
+  inspo overview
   inspo search --tags "editorial,warm" [--mode and|or]
   inspo context --tags "editorial,warm" [--mode and|or]
   inspo import <image-file-or-url> [--title "..."]
@@ -64,6 +65,12 @@ async function main() {
   const command = process.argv[2];
   if (!command || command === "help" || command === "--help") return usage();
   const mode: FilterMode = argumentsFor("--mode") === "or" ? "or" : "and";
+
+  if (command === "overview") {
+    const [items, taxonomy] = await Promise.all([getAllItems(), getTaxonomy()]);
+    print(buildCatalogOverview(items, taxonomy));
+    return;
+  }
 
   if (command === "search") {
     const tags = tagsFromArguments();
