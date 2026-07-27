@@ -1,12 +1,12 @@
 {
   "id": "6a44cac5d00fe7fbfba9a489-take-2026-07-01t090556--df735a4f",
-  "title": "6a44cac5d00fe7fbfba9a489_take---2026-07-01T090556.831",
+  "title": "Cinematic Alpine Quality Dashboard",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T05:03:52.651Z",
-  "updatedAt": "2026-07-27T05:03:52.651Z",
+  "updatedAt": "2026-07-27T07:24:28.297Z",
   "media": {
     "path": "catalog/media/6a44cac5d00fe7fbfba9a489-take-2026-07-01t090556--df735a4f.webp",
     "width": 1440,
@@ -14,6 +14,76 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:24:28.294Z",
+    "title": "Cinematic Alpine Quality Dashboard",
+    "palette": [
+      {
+        "hex": "#0D1B2A",
+        "role": "background"
+      },
+      {
+        "hex": "#405568",
+        "role": "secondary background"
+      },
+      {
+        "hex": "#F3F1E7",
+        "role": "surface"
+      },
+      {
+        "hex": "#D9F500",
+        "role": "accent"
+      },
+      {
+        "hex": "#8A5038",
+        "role": "earthy highlight"
+      }
+    ],
+    "style": [
+      "editorial",
+      "hero-led",
+      "layered",
+      "immersive",
+      "luxurious"
+    ],
+    "tone": [
+      "confident",
+      "calm",
+      "precise",
+      "cinematic"
+    ],
+    "layout": [
+      "asymmetric split composition",
+      "full-bleed visual background",
+      "floating dashboard overlay",
+      "generous whitespace"
+    ],
+    "typography": [
+      "high-contrast serif display",
+      "restrained sans-serif UI text",
+      "oversized headline",
+      "clear typographic hierarchy"
+    ],
+    "uiMotifs": [
+      "rounded analytics card",
+      "thin translucent borders",
+      "lime action accents",
+      "quality-score pills",
+      "logo strip"
+    ],
+    "notes": "A dusk mountain landscape creates an immersive, premium backdrop while a large white analytics panel is layered over the right side. Refined serif headlines, muted navy tones, and a vivid lime accent balance institutional credibility with contemporary SaaS energy.",
+    "suggestedTagIds": [
+      "editorial",
+      "luxurious",
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "serif"
+    ],
+    "heroPrompt": "Create a cinematic wide alpine mountain landscape at dusk, viewed from an elevated ridge with layered peaks receding into mist. Use deep navy shadows, slate-blue atmospheric distance, muted rust and amber terrain, and a narrow warm horizon beneath a darkening sky. Add a single vivid lime contour line flowing organically across the foreground ridge, suggesting data movement without any text or symbols. Photorealistic terrain, subtle grain, dramatic low light, premium technology-brand art direction, ample dark negative space in the upper left, and composition suitable as a website hero background."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

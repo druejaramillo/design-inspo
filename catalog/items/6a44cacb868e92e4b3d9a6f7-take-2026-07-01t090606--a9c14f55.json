@@ -1,12 +1,12 @@
 {
   "id": "6a44cacb868e92e4b3d9a6f7-take-2026-07-01t090606--a9c14f55",
-  "title": "6a44cacb868e92e4b3d9a6f7_take---2026-07-01T090606.062",
+  "title": "Technical Organic Finance Landing Page",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T05:03:59.575Z",
-  "updatedAt": "2026-07-27T05:03:59.575Z",
+  "updatedAt": "2026-07-27T07:22:58.915Z",
   "media": {
     "path": "catalog/media/6a44cacb868e92e4b3d9a6f7-take-2026-07-01t090606--a9c14f55.webp",
     "width": 1440,
@@ -14,6 +14,76 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:22:58.912Z",
+    "title": "Technical Organic Finance Landing Page",
+    "palette": [
+      {
+        "hex": "#F8FAF1",
+        "role": "background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#0A0D08",
+        "role": "primary text"
+      },
+      {
+        "hex": "#12320F",
+        "role": "accent"
+      },
+      {
+        "hex": "#DDE4D7",
+        "role": "illustration lines"
+      }
+    ],
+    "style": [
+      "minimal",
+      "technical",
+      "organic",
+      "editorial",
+      "layered"
+    ],
+    "tone": [
+      "quiet",
+      "curious",
+      "precise",
+      "trustworthy"
+    ],
+    "layout": [
+      "centered hero",
+      "oversized headline",
+      "floating data cards",
+      "structured logo grid",
+      "generous whitespace"
+    ],
+    "typography": [
+      "bold grotesk",
+      "display scale",
+      "tight line spacing",
+      "monospaced microcopy"
+    ],
+    "uiMotifs": [
+      "outlined data panels",
+      "transaction metadata",
+      "dark green CTA",
+      "contour-line illustration",
+      "notched section edges"
+    ],
+    "notes": "A pale, spacious landing page combines oversized black typography with a finely lined organic central illustration and floating transaction details. Restrained green accents, clipped corners, and aligned partner marks create a precise yet approachable fintech aesthetic.",
+    "suggestedTagIds": [
+      "minimal",
+      "technical",
+      "organic",
+      "hero-led",
+      "oversized-type"
+    ],
+    "heroPrompt": "Create an original editorial hero illustration for a modern data platform: a centered abstract globe or folded landform built from many thin contour lines, rendered in dark forest green on a warm near-white background. Add two or three floating white data cards with tiny geometric markers and unreadable microtext, arranged asymmetrically around the form. Use crisp vector linework, subtle paper texture, generous negative space, restrained contrast, and a sophisticated early-web meets scientific-cartography art direction. No logos, brand names, recognizable interfaces, or legible text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

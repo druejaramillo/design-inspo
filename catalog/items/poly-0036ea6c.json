@@ -1,13 +1,13 @@
 {
   "id": "poly-0036ea6c",
-  "title": "Poly",
+  "title": "Warm Cinematic Workspace Landing Page",
   "notes": "",
   "sourceUrl": "https://craftwork.design/curated/website/poly",
   "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/83c1e473-57a4-42b2-8c17-81111799f992/poly.app_.png",
   "sourceDomain": "craftwork.design",
   "captureMethod": "url",
   "importedAt": "2026-07-27T05:01:57.163Z",
-  "updatedAt": "2026-07-27T05:01:57.163Z",
+  "updatedAt": "2026-07-27T07:25:42.254Z",
   "media": {
     "path": "catalog/media/poly-0036ea6c.webp",
     "width": 2200,
@@ -17,6 +17,74 @@
   "manualTagIds": [
     "craftwork"
   ],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:25:42.252Z",
+    "title": "Warm Cinematic Workspace Landing Page",
+    "palette": [
+      {
+        "hex": "#2B211D",
+        "role": "dark background"
+      },
+      {
+        "hex": "#F1E5D7",
+        "role": "warm text"
+      },
+      {
+        "hex": "#E8472E",
+        "role": "accent"
+      },
+      {
+        "hex": "#6D4E36",
+        "role": "wood and neutral surfaces"
+      },
+      {
+        "hex": "#1D2025",
+        "role": "interface panels"
+      }
+    ],
+    "style": [
+      "cinematic product photography",
+      "warm editorial",
+      "tech-forward",
+      "layered"
+    ],
+    "tone": [
+      "inviting",
+      "curious",
+      "focused",
+      "premium"
+    ],
+    "layout": [
+      "centered hero headline",
+      "full-bleed photographic background",
+      "foreground product anchor",
+      "top navigation and CTA"
+    ],
+    "typography": [
+      "oversized display serif",
+      "high-contrast white type",
+      "compact sans-serif UI labels",
+      "hand-drawn underline accent"
+    ],
+    "uiMotifs": [
+      "rounded CTA buttons",
+      "dark floating file-browser panel",
+      "soft image overlay",
+      "scroll cue"
+    ],
+    "notes": "A warm, dimly lit creative workspace frames a laptop as the dominant product focal point, with plants, stationery, wall notes, and desk objects adding tactile depth. Large centered typography and bright controls contrast against the photographic background while layered interface imagery reinforces the file-management concept.",
+    "suggestedTagIds": [
+      "warm",
+      "hero-led",
+      "layered",
+      "immersive",
+      "display-type",
+      "technical"
+    ],
+    "heroPrompt": "Create a cinematic wide hero image for a modern creative software landing page: a laptop centered on a warmly lit wooden desk, displaying a dark file-browser interface with thumbnail grids, surrounded by leafy plants, headphones, pencils, sticky notes, a ceramic cup, and a compact camera. Use shallow depth of field, soft afternoon window light, rich brown and cream tones, vivid coral-red accents, subtle film grain, and a dark translucent vignette that leaves clear negative space in the upper center for headline text. Photorealistic editorial art direction, premium but lived-in, no readable text, no logos, no brand marks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

@@ -1,12 +1,12 @@
 {
   "id": "seiste-657e8385",
-  "title": "seiste",
+  "title": "Dark Chocolate Editorial Showcase",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T05:07:49.229Z",
-  "updatedAt": "2026-07-27T05:07:49.229Z",
+  "updatedAt": "2026-07-27T07:21:51.654Z",
   "media": {
     "path": "catalog/media/seiste-657e8385.webp",
     "width": 2200,
@@ -14,6 +14,76 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:21:51.651Z",
+    "title": "Dark Chocolate Editorial Showcase",
+    "palette": [
+      {
+        "hex": "#080808",
+        "role": "background"
+      },
+      {
+        "hex": "#F1EFEB",
+        "role": "primary type"
+      },
+      {
+        "hex": "#2B160F",
+        "role": "cocoa shadows"
+      },
+      {
+        "hex": "#5A4035",
+        "role": "warm surfaces"
+      },
+      {
+        "hex": "#9A6240",
+        "role": "muted highlights"
+      }
+    ],
+    "style": [
+      "dark editorial",
+      "tactile",
+      "cinematic",
+      "organic",
+      "high-contrast"
+    ],
+    "tone": [
+      "luxurious",
+      "mysterious",
+      "quiet",
+      "sensual"
+    ],
+    "layout": [
+      "asymmetric collage",
+      "centered hero composition",
+      "floating navigation",
+      "oversized type",
+      "staggered image tiles"
+    ],
+    "typography": [
+      "high-contrast serif display",
+      "uppercase headline",
+      "dramatic scale contrast",
+      "small sans-serif UI labels"
+    ],
+    "uiMotifs": [
+      "translucent pill navigation",
+      "rounded dark buttons",
+      "fine-line organic emblem",
+      "sparse peripheral labels"
+    ],
+    "notes": "A near-black canvas organizes warm, tactile macro imagery around an oversized ivory serif headline. The composition balances refined editorial typography with soft glassy controls, organic curves, and generous negative space.",
+    "suggestedTagIds": [
+      "editorial",
+      "luxurious",
+      "asymmetric",
+      "oversized-type",
+      "layered",
+      "dark-mode"
+    ],
+    "heroPrompt": "Create a cinematic macro still life of a sculptural dark chocolate form on a nearly black background, with subtle flowing grooves and organic contours catching faint warm highlights. Use deep cocoa brown, burnt amber, and soft ivory reflections, with dramatic low-key lighting, shallow depth of field, tactile surface detail, and large areas of negative space. Compose it as a refined editorial website hero image: asymmetrical framing, mysterious atmosphere, restrained luxury, no text, no logos, no packaging, no recognizable brand elements."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

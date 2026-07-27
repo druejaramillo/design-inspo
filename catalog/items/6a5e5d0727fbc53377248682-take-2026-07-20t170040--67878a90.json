@@ -1,12 +1,12 @@
 {
   "id": "6a5e5d0727fbc53377248682-take-2026-07-20t170040--67878a90",
-  "title": "6a5e5d0727fbc53377248682_take---2026-07-20T170040.062",
+  "title": "Playful Desktop Collage Landing Page",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T05:03:22.051Z",
-  "updatedAt": "2026-07-27T05:03:22.051Z",
+  "updatedAt": "2026-07-27T07:25:05.183Z",
   "media": {
     "path": "catalog/media/6a5e5d0727fbc53377248682-take-2026-07-20t170040--67878a90.webp",
     "width": 1440,
@@ -14,6 +14,74 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:25:05.180Z",
+    "title": "Playful Desktop Collage Landing Page",
+    "palette": [
+      {
+        "hex": "#F5F5F3",
+        "role": "background"
+      },
+      {
+        "hex": "#111111",
+        "role": "primary text"
+      },
+      {
+        "hex": "#3E8BE8",
+        "role": "accent blue"
+      },
+      {
+        "hex": "#F2B77D",
+        "role": "accent peach"
+      },
+      {
+        "hex": "#78A47B",
+        "role": "muted green"
+      }
+    ],
+    "style": [
+      "playful",
+      "maximalist",
+      "layered",
+      "retro-futurist"
+    ],
+    "tone": [
+      "curious",
+      "energetic",
+      "friendly",
+      "whimsical"
+    ],
+    "layout": [
+      "asymmetric composition",
+      "hero-led hierarchy",
+      "scattered media windows",
+      "airy canvas"
+    ],
+    "typography": [
+      "oversized grotesk display type",
+      "lowercase lettering",
+      "compact utility labels",
+      "rounded sans-serif controls"
+    ],
+    "uiMotifs": [
+      "retro desktop window chrome",
+      "soft rounded buttons",
+      "dotted spatial background",
+      "floating video thumbnails"
+    ],
+    "notes": "A bright landing page uses a spacious off-white canvas as a desktop-like stage for overlapping media windows, playful doodles, and a large central headline. Blue and peach controls, nostalgic image treatments, and varied window scales create an approachable collage with strong visual motion.",
+    "suggestedTagIds": [
+      "playful",
+      "maximalist",
+      "retro-futurist",
+      "hero-led",
+      "layered",
+      "oversized-type"
+    ],
+    "heroPrompt": "Wide landing-page hero visual showing a cheerful person standing in a brightly stocked convenience-store aisle, framed symmetrically between colorful shelves. Use a slightly soft vintage camcorder look, subtle motion blur, muted saturated colors, natural fluorescent lighting, and a centered figure with generous negative space around the image. Present it as a large rounded-corner media panel with a translucent pill-shaped play control overlaid near the lower center; no logos, readable signage, or branded products."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

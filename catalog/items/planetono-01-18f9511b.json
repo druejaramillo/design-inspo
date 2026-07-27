@@ -1,12 +1,12 @@
 {
   "id": "planetono-01-18f9511b",
-  "title": "planetono-01",
+  "title": "Playful Cosmic Food Landing Page",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T05:07:33.037Z",
-  "updatedAt": "2026-07-27T05:07:33.037Z",
+  "updatedAt": "2026-07-27T07:22:09.592Z",
   "media": {
     "path": "catalog/media/planetono-01-18f9511b.webp",
     "width": 2200,
@@ -14,6 +14,80 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:22:09.591Z",
+    "title": "Playful Cosmic Food Landing Page",
+    "palette": [
+      {
+        "hex": "#FFB82E",
+        "role": "background"
+      },
+      {
+        "hex": "#5B12B8",
+        "role": "hero backdrop"
+      },
+      {
+        "hex": "#FF2426",
+        "role": "accent"
+      },
+      {
+        "hex": "#FFFDF5",
+        "role": "illustration highlights"
+      },
+      {
+        "hex": "#111111",
+        "role": "outlines and type"
+      }
+    ],
+    "style": [
+      "playful",
+      "retro-futurist",
+      "illustrated",
+      "maximalist"
+    ],
+    "tone": [
+      "energetic",
+      "curious",
+      "whimsical",
+      "warm"
+    ],
+    "layout": [
+      "asymmetric split composition",
+      "hero-led center illustration",
+      "oversized headline blocks",
+      "layered depth"
+    ],
+    "typography": [
+      "bold condensed display type",
+      "oversized uppercase lettering",
+      "heavy black outlines",
+      "expressive mixed-language accents"
+    ],
+    "uiMotifs": [
+      "comic speech burst",
+      "outlined arrow controls",
+      "sound toggle",
+      "decorative stars"
+    ],
+    "notes": "A saturated yellow landing page pairs oversized black and red typography with a hand-drawn cosmic food illustration framed by purple geometric forms. Thick ink-like outlines, comic bursts, playful navigation controls, and scattered star shapes create a lively editorial-art-direction system.",
+    "suggestedTagIds": [
+      "playful",
+      "retro-futurist",
+      "energetic",
+      "hero-led",
+      "asymmetric",
+      "oversized-type",
+      "display-type",
+      "expressive-type",
+      "primary-pop",
+      "layered",
+      "high-contrast",
+      "landing-love"
+    ],
+    "heroPrompt": "Create an original hand-drawn editorial hero illustration for a playful cosmic street-food landing page: a bright yellow background, a tilted purple futuristic serving platform, a large purple oval portal, and whimsical food objects including a hot dog, fries, and soft-serve cone. Add a tiny abstract space traveler with no recognizable character traits, surrounded by small four-point stars and comic-style bursts. Use saturated red, orange, purple, cream, and black, with thick irregular ink outlines, flat vector fills, slight overlaps, and energetic asymmetric composition. Leave generous negative space on the right for headline typography. No logos, brand names, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

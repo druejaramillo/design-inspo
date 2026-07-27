@@ -1,12 +1,12 @@
 {
   "id": "6a5e5d0f18fef907b7cdc7e7-take-2026-07-20t170019--0314548c",
-  "title": "6a5e5d0f18fef907b7cdc7e7_take---2026-07-20T170019.363",
+  "title": "Playful Editorial Image-Card Landing Page",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T05:03:17.545Z",
-  "updatedAt": "2026-07-27T05:03:17.545Z",
+  "updatedAt": "2026-07-27T07:25:23.638Z",
   "media": {
     "path": "catalog/media/6a5e5d0f18fef907b7cdc7e7-take-2026-07-20t170019--0314548c.webp",
     "width": 1440,
@@ -14,6 +14,77 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:25:23.636Z",
+    "title": "Playful Editorial Image-Card Landing Page",
+    "palette": [
+      {
+        "hex": "#EEEEEE",
+        "role": "background"
+      },
+      {
+        "hex": "#171717",
+        "role": "text and controls"
+      },
+      {
+        "hex": "#142338",
+        "role": "deep accent"
+      },
+      {
+        "hex": "#B8E33B",
+        "role": "organic accent"
+      },
+      {
+        "hex": "#EE5535",
+        "role": "warm accent"
+      }
+    ],
+    "style": [
+      "editorial",
+      "collage-driven",
+      "playful",
+      "high-contrast",
+      "layered"
+    ],
+    "tone": [
+      "curious",
+      "energetic",
+      "creative",
+      "optimistic"
+    ],
+    "layout": [
+      "centered hero",
+      "asymmetric image rail",
+      "floating cards",
+      "generous whitespace",
+      "sectional scroll"
+    ],
+    "typography": [
+      "serif display type",
+      "oversized headline",
+      "high-contrast editorial contrast",
+      "compact sans-serif UI text"
+    ],
+    "uiMotifs": [
+      "rounded dark prompt bar",
+      "pill-shaped buttons",
+      "thumbnail carousel",
+      "soft card shadows",
+      "minimal navigation"
+    ],
+    "notes": "A pale, lightly textured landing page centers an oversized serif statement while a horizontal procession of colorful image cards creates motion and depth. The lower section shifts into a warm botanical photograph with a dark creative-tool interface overlay, blending editorial art direction with product storytelling.",
+    "suggestedTagIds": [
+      "editorial",
+      "playful",
+      "hero-led",
+      "layered",
+      "oversized-type",
+      "serif"
+    ],
+    "heroPrompt": "Wide editorial landing-page hero for a creative software platform, pale warm-gray background with subtle paper texture, a centered oversized black serif headline area, and a flowing horizontal gallery of suspended rectangular artwork cards crossing the composition. Mix botanical photography, abstract liquid gradients, sculptural forms, vivid lime, coral, cobalt, lavender, and deep navy; use slight perspective tilts, soft shadows, and generous whitespace. Below, transition into a warm greenhouse photograph with lush foliage and a fashion editorial subject, partially covered by a sleek dark creative workflow panel. Premium, playful, art-directed, high-resolution web design composition."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

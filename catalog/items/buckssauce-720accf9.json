@@ -1,12 +1,12 @@
 {
   "id": "buckssauce-720accf9",
-  "title": "buckssauce",
+  "title": "Bold Dark Hot-Sauce Landing Page",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T05:06:33.614Z",
-  "updatedAt": "2026-07-27T05:06:33.614Z",
+  "updatedAt": "2026-07-27T07:22:42.685Z",
   "media": {
     "path": "catalog/media/buckssauce-720accf9.webp",
     "width": 2200,
@@ -14,6 +14,82 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:22:42.683Z",
+    "title": "Bold Dark Hot-Sauce Landing Page",
+    "palette": [
+      {
+        "hex": "#0D0C09",
+        "role": "background"
+      },
+      {
+        "hex": "#F4E4BF",
+        "role": "primary type"
+      },
+      {
+        "hex": "#B77A27",
+        "role": "accent shape"
+      },
+      {
+        "hex": "#1A1511",
+        "role": "product shadow"
+      },
+      {
+        "hex": "#F0A915",
+        "role": "ingredient accent"
+      }
+    ],
+    "style": [
+      "editorial",
+      "bold",
+      "craftwork",
+      "high-contrast",
+      "expressive"
+    ],
+    "tone": [
+      "confident",
+      "energetic",
+      "warm",
+      "playful"
+    ],
+    "layout": [
+      "hero-led",
+      "asymmetric",
+      "oversized-type",
+      "layered",
+      "grid-system"
+    ],
+    "typography": [
+      "condensed display type",
+      "outlined headline treatment",
+      "heavy uppercase lettering",
+      "small utility labels"
+    ],
+    "uiMotifs": [
+      "circular arrow controls",
+      "dotted horizontal rules",
+      "product numbering",
+      "minimal navigation"
+    ],
+    "notes": "A near-black canvas pairs oversized cream typography with a centered product composition, warm gold geometry, and floating pineapple pieces. The editorial grid is deliberately interrupted by the bottle and ingredients, creating a tactile, irreverent food-brand presentation.",
+    "suggestedTagIds": [
+      "editorial",
+      "playful",
+      "warm",
+      "energetic",
+      "hero-led",
+      "asymmetric",
+      "oversized-type",
+      "layered",
+      "high-contrast",
+      "dark-mode",
+      "display-type",
+      "expressive-type"
+    ],
+    "heroPrompt": "Create a high-end product hero image on a nearly black background: a dark glass sauce bottle with a glossy black cap, centered slightly low in frame, surrounded by chunky golden pineapple pieces and a muted ochre circular shape behind it. Use dramatic studio lighting, strong specular reflections, deep shadows, tactile food texture, and a handcrafted premium packaging mood. Compose it for a bold editorial landing page with generous negative space above, no readable text, no logos, and no brand identifiers."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }

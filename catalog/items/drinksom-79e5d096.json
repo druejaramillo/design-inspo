@@ -1,12 +1,12 @@
 {
   "id": "drinksom-79e5d096",
-  "title": "drinksom",
+  "title": "Orange Ritual Product Portrait",
   "notes": "",
   "sourceUrl": null,
   "sourceDomain": null,
   "captureMethod": "upload",
   "importedAt": "2026-07-27T05:06:53.585Z",
-  "updatedAt": "2026-07-27T05:06:53.585Z",
+  "updatedAt": "2026-07-27T07:22:26.674Z",
   "media": {
     "path": "catalog/media/drinksom-79e5d096.webp",
     "width": 2200,
@@ -14,6 +14,79 @@
     "format": "webp"
   },
   "manualTagIds": [],
-  "analysis": null,
-  "analysisStatus": "pending"
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T07:22:26.672Z",
+    "title": "Orange Ritual Product Portrait",
+    "palette": [
+      {
+        "hex": "#F4511E",
+        "role": "outer background"
+      },
+      {
+        "hex": "#FF8A00",
+        "role": "central glow"
+      },
+      {
+        "hex": "#FFB52E",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6E1515",
+        "role": "cast shadow"
+      },
+      {
+        "hex": "#F5F2E8",
+        "role": "product and type"
+      }
+    ],
+    "style": [
+      "editorial",
+      "minimal",
+      "hero-led",
+      "high-contrast",
+      "technical"
+    ],
+    "tone": [
+      "warm",
+      "energetic",
+      "focused",
+      "confident"
+    ],
+    "layout": [
+      "centered product hero",
+      "asymmetric text placement",
+      "full-bleed composition",
+      "layered shadow silhouette"
+    ],
+    "typography": [
+      "uppercase monospace",
+      "small editorial captions",
+      "high tracking",
+      "restrained sans-serif"
+    ],
+    "uiMotifs": [
+      "persistent corner navigation",
+      "minimal utility button",
+      "thin top rule pattern",
+      "floating microcopy"
+    ],
+    "notes": "A white cylindrical product floats over a saturated orange-to-red field, with an oversized dark human-like shadow creating depth and visual drama. Sparse white microcopy and edge navigation frame the hero while preserving a strong, immersive focal point.",
+    "suggestedTagIds": [
+      "editorial",
+      "minimal",
+      "warm",
+      "energetic",
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "immersive",
+      "high-contrast",
+      "technical"
+    ],
+    "heroPrompt": "Create a full-bleed editorial wellness landing-page hero: a small matte white cylindrical bottle suspended vertically at center over a glowing orange and vermilion gradient background. Cast an oversized, soft-edged burgundy shadow behind and below it, suggesting a human silhouette without showing a face. Add sparse, tiny uppercase off-white monospace annotations placed asymmetrically around the object, thin decorative tick marks along the top edge, and a restrained white utility button in the upper corner. High contrast, tactile film grain, dramatic studio lighting, modern art direction, no logos or brand names."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
 }
