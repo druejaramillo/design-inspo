@@ -1,0 +1,88 @@
+{
+  "id": "6a0375b4832de97836789777-take-2026-05-12t194344--069f9dc6",
+  "title": "Pixel Art Startup Landing Page",
+  "notes": "",
+  "sourceUrl": null,
+  "sourceDomain": null,
+  "captureMethod": "upload",
+  "importedAt": "2026-07-27T21:02:45.497Z",
+  "updatedAt": "2026-07-27T21:03:04.195Z",
+  "media": {
+    "path": "catalog/media/6a0375b4832de97836789777-take-2026-05-12t194344--069f9dc6.webp",
+    "width": 1425,
+    "height": 1600,
+    "format": "webp"
+  },
+  "manualTagIds": [],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T21:03:04.195Z",
+    "title": "Pixel Art Startup Landing Page",
+    "palette": [
+      {
+        "hex": "#2499DD",
+        "role": "sky background"
+      },
+      {
+        "hex": "#2B514B",
+        "role": "deep foliage"
+      },
+      {
+        "hex": "#8BCB45",
+        "role": "grass accent"
+      },
+      {
+        "hex": "#F5F5F1",
+        "role": "content background"
+      },
+      {
+        "hex": "#3A3B38",
+        "role": "pixel shadows"
+      }
+    ],
+    "style": [
+      "pixel-art",
+      "nostalgic",
+      "hero-led",
+      "layered",
+      "playful"
+    ],
+    "tone": [
+      "optimistic",
+      "curious",
+      "energetic",
+      "approachable"
+    ],
+    "layout": [
+      "full-bleed hero",
+      "text overlay",
+      "strong vertical transition",
+      "centered follow-up section"
+    ],
+    "typography": [
+      "clean sans-serif",
+      "oversized headline",
+      "high legibility",
+      "light weight"
+    ],
+    "uiMotifs": [
+      "rounded translucent navigation",
+      "pill-shaped buttons",
+      "pixel landscape illustration",
+      "product mockup continuation"
+    ],
+    "notes": "A vivid pixel-art meadow, tree, skyline, laptop, and notebook create a nostalgic but contemporary hero scene, with white interface text layered over the blue sky. The page transitions into a quiet off-white section with centered messaging and a faint product interface preview.",
+    "suggestedTagIds": [
+      "playful",
+      "retro-futurist",
+      "hero-led",
+      "layered",
+      "organic",
+      "primary-pop"
+    ],
+    "heroPrompt": "Create a wide, polished pixel-art website hero illustration in a nostalgic 16-bit game aesthetic: a bright blue sky with large soft clouds, a lush green meadow, distant modern city skyline, and a giant tree framing the right edge. Place an open silver laptop and a worn sketchbook in the foreground grass, with small flowers and a red ladybug nearby. Use crisp blocky pixels, rich layered foliage, atmospheric depth, strong blue-green contrast, and a hopeful entrepreneurial mood. Leave the upper-left sky relatively open for overlaid interface copy. No logos, brand names, characters, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

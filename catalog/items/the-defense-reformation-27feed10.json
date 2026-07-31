@@ -1,0 +1,89 @@
+{
+  "id": "the-defense-reformation-27feed10",
+  "title": "Black Editorial Defense Report Cover",
+  "notes": "",
+  "sourceUrl": "https://craftwork.design/curated/website/the-defense-reformation",
+  "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/820987ee-952f-4849-b3b8-4d1f217b9172-The%20Defense%20Reformation%20Cover.png",
+  "sourceDomain": "craftwork.design",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:12:28.344Z",
+  "updatedAt": "2026-07-27T20:12:39.209Z",
+  "media": {
+    "path": "catalog/media/the-defense-reformation-27feed10.webp",
+    "width": 1000,
+    "height": 563,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "craftwork"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:12:39.209Z",
+    "title": "Black Editorial Defense Report Cover",
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#F1F3E8",
+        "role": "primary text"
+      },
+      {
+        "hex": "#7B9567",
+        "role": "accent graphic"
+      },
+      {
+        "hex": "#555750",
+        "role": "divider lines"
+      }
+    ],
+    "style": [
+      "editorial",
+      "minimal",
+      "technical",
+      "high-contrast"
+    ],
+    "tone": [
+      "serious",
+      "institutional",
+      "quiet"
+    ],
+    "layout": [
+      "asymmetric",
+      "grid-system",
+      "oversized-type",
+      "wide negative space"
+    ],
+    "typography": [
+      "grotesk",
+      "display-type",
+      "oversized type",
+      "monoline text labels"
+    ],
+    "uiMotifs": [
+      "hairline rules",
+      "outlined utility buttons",
+      "metadata columns",
+      "download and share controls"
+    ],
+    "notes": "A near-black report landing page uses oversized pale typography, a muted olive flag-like graphic, and sparse metadata aligned along the bottom. Thin dividers and compact utility controls create a restrained editorial interface with strong contrast and generous negative space.",
+    "suggestedTagIds": [
+      "editorial",
+      "minimal",
+      "technical",
+      "asymmetric",
+      "grid-system",
+      "oversized-type",
+      "dark-mode",
+      "grotesk",
+      "display-type",
+      "high-contrast"
+    ],
+    "heroPrompt": null
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

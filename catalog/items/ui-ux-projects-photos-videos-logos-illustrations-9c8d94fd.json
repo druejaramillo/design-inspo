@@ -1,0 +1,97 @@
+{
+  "id": "ui-ux-projects-photos-videos-logos-illustrations-9c8d94fd",
+  "title": "Surreal Alpine Adventure Editorial",
+  "notes": "",
+  "sourceUrl": "https://www.pinterest.com/pin/314900198967539781/",
+  "sourceImageUrl": "https://i.pinimg.com/736x/8d/aa/13/8daa13976583e745739b57d005295e49.jpg",
+  "sourceDomain": "pinterest.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:06:32.312Z",
+  "updatedAt": "2026-07-27T20:06:48.472Z",
+  "media": {
+    "path": "catalog/media/ui-ux-projects-photos-videos-logos-illustrations-9c8d94fd.webp",
+    "width": 736,
+    "height": 1658,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "pinterest"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:06:48.471Z",
+    "title": "Surreal Alpine Adventure Editorial",
+    "palette": [
+      {
+        "hex": "#0B1051",
+        "role": "background"
+      },
+      {
+        "hex": "#25216E",
+        "role": "deep indigo"
+      },
+      {
+        "hex": "#FF7622",
+        "role": "mountain highlight"
+      },
+      {
+        "hex": "#F2A038",
+        "role": "sunlit accent"
+      },
+      {
+        "hex": "#493DB3",
+        "role": "card surface"
+      },
+      {
+        "hex": "#AAA2D2",
+        "role": "cloud highlight"
+      }
+    ],
+    "style": [
+      "illustrative",
+      "surreal",
+      "maximalist",
+      "cinematic",
+      "editorial"
+    ],
+    "tone": [
+      "adventurous",
+      "energetic",
+      "mysterious",
+      "playful"
+    ],
+    "layout": [
+      "hero-led",
+      "vertical storytelling",
+      "modular cards",
+      "layered sections",
+      "structured grid"
+    ],
+    "typography": [
+      "oversized grotesk",
+      "display type",
+      "high-contrast scale",
+      "compact microcopy"
+    ],
+    "uiMotifs": [
+      "thin navigation rules",
+      "outlined login button",
+      "bright coral CTAs",
+      "numbered activity cards",
+      "image-and-detail gallery panel"
+    ],
+    "notes": "A dark indigo editorial landing page uses vivid orange mountain artwork, textured clouds, reflective water, and silhouetted wildlife as its visual anchor. Repeated navigation bars, oversized headings, numbered cards, and alternating image-detail modules create a polished long-scroll adventure narrative.",
+    "suggestedTagIds": [
+      "hero-led",
+      "layered",
+      "immersive",
+      "oversized-type",
+      "high-contrast",
+      "dark-mode"
+    ],
+    "heroPrompt": "Create a wide, cinematic editorial hero illustration of a surreal alpine wilderness at dusk: towering angular orange and gold mountains beneath dense lavender-blue textured clouds, a calm reflective lake in the foreground, dark conifer silhouettes, and two bears standing on rocky ground near the water. Use a rich indigo and violet base with luminous coral-orange highlights, painterly grain, crisp geometric shapes, dramatic depth, and a premium travel-magazine art direction. Leave generous dark negative space on the left for oversized white headline typography. No text, logos, or branded elements."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

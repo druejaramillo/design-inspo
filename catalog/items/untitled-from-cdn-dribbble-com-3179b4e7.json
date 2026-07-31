@@ -1,0 +1,90 @@
+{
+  "id": "untitled-from-cdn-dribbble-com-3179b4e7",
+  "title": "Warm Architectural Home Landing Page",
+  "notes": "",
+  "sourceUrl": "https://cdn.dribbble.com/userupload/14588080/file/original-1840e2de901619557990728c3e74a094.png?resize=752x&vertical=center",
+  "sourceImageUrl": "https://cdn.dribbble.com/userupload/14588080/file/original-1840e2de901619557990728c3e74a094.png?resize=752x&vertical=center",
+  "sourceDomain": "cdn.dribbble.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T19:59:45.416Z",
+  "updatedAt": "2026-07-27T20:00:03.514Z",
+  "media": {
+    "path": "catalog/media/untitled-from-cdn-dribbble-com-3179b4e7.webp",
+    "width": 752,
+    "height": 564,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "dribbble"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:00:03.513Z",
+    "title": "Warm Architectural Home Landing Page",
+    "palette": [
+      {
+        "hex": "#E7E3E2",
+        "role": "background"
+      },
+      {
+        "hex": "#3B2B26",
+        "role": "primary text"
+      },
+      {
+        "hex": "#B29685",
+        "role": "accent"
+      },
+      {
+        "hex": "#C9B8B1",
+        "role": "soft highlight"
+      },
+      {
+        "hex": "#687176",
+        "role": "environment"
+      }
+    ],
+    "style": [
+      "editorial",
+      "architectural",
+      "premium",
+      "layered"
+    ],
+    "tone": [
+      "warm",
+      "quiet",
+      "luxurious",
+      "organic"
+    ],
+    "layout": [
+      "asymmetric",
+      "hero-led",
+      "split composition",
+      "card overlay"
+    ],
+    "typography": [
+      "serif display type",
+      "oversized headline",
+      "restrained grotesk navigation",
+      "high contrast"
+    ],
+    "uiMotifs": [
+      "rounded floating information card",
+      "pill category tabs",
+      "circular play button",
+      "architectural material detail panel"
+    ],
+    "notes": "A large residential architecture image anchors the composition, while oversized serif typography and a floating rounded card create an editorial landing-page hierarchy. Muted earth tones, atmospheric mountains, restrained navigation, and layered statistics reinforce a calm premium direction.",
+    "suggestedTagIds": [
+      "editorial",
+      "hero-led",
+      "asymmetric",
+      "serif",
+      "display-type",
+      "warm"
+    ],
+    "heroPrompt": "Wide cinematic architectural visualization of a distinctive contemporary hillside home with a gently curved roofline, vertical timber cladding, broad glass windows, and warm interior lighting, set in a misty mountain landscape at dawn. Use a muted palette of taupe, blush, charcoal, soft gray, and weathered brown; combine photorealistic rendering with subtle atmospheric haze, elegant negative space, and a low eye-level perspective. No logos, branding, readable text, or interface elements."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

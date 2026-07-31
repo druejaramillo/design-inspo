@@ -1,0 +1,99 @@
+{
+  "id": "pin-on-web-ui-6d40a34e",
+  "title": "Crimson Jellyfish AI Landing Page",
+  "notes": "",
+  "sourceUrl": "https://www.pinterest.com/pin/31525266137895345/",
+  "sourceImageUrl": "https://i.pinimg.com/736x/24/26/63/2426636c9966b15683856b8da6cc550c.jpg",
+  "sourceDomain": "pinterest.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:05:46.387Z",
+  "updatedAt": "2026-07-27T20:06:04.640Z",
+  "media": {
+    "path": "catalog/media/pin-on-web-ui-6d40a34e.webp",
+    "width": 736,
+    "height": 1407,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "pinterest"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:06:04.640Z",
+    "title": "Crimson Jellyfish AI Landing Page",
+    "palette": [
+      {
+        "hex": "#050303",
+        "role": "background"
+      },
+      {
+        "hex": "#F21F26",
+        "role": "primary accent"
+      },
+      {
+        "hex": "#FF5749",
+        "role": "glow highlight"
+      },
+      {
+        "hex": "#F2F0ED",
+        "role": "text"
+      },
+      {
+        "hex": "#242427",
+        "role": "card surface"
+      }
+    ],
+    "style": [
+      "futuristic",
+      "hero-led",
+      "high-contrast",
+      "layered",
+      "immersive"
+    ],
+    "tone": [
+      "energetic",
+      "technical",
+      "bold",
+      "premium"
+    ],
+    "layout": [
+      "long-scroll landing page",
+      "asymmetric composition",
+      "modular card grid",
+      "oversized hero visual",
+      "split content sections"
+    ],
+    "typography": [
+      "oversized grotesk sans",
+      "high-impact display scale",
+      "left-aligned hierarchy",
+      "compact micro-labels"
+    ],
+    "uiMotifs": [
+      "rounded dark metric cards",
+      "red glow gradients",
+      "pill navigation and buttons",
+      "glass-like panels",
+      "floating social controls"
+    ],
+    "notes": "A near-black agency landing page uses a glowing crimson jellyfish as the dominant visual anchor, balanced by oversized white and red typography. Rounded metric cards, dark panels, thin borders, and vivid red illumination create a polished futuristic interface with strong editorial pacing.",
+    "suggestedTagIds": [
+      "energetic",
+      "technical",
+      "hero-led",
+      "asymmetric",
+      "oversized-type",
+      "layered",
+      "immersive",
+      "high-contrast",
+      "dark-mode",
+      "grotesk",
+      "display-type",
+      "landing-love"
+    ],
+    "heroPrompt": "A luminous crimson jellyfish floating against a deep black background, viewed slightly from the side with its translucent bell glowing from within and long delicate tentacles dissolving into smoky darkness. Use intense red volumetric light, wet organic translucency, fine bioluminescent detail, subtle motion blur, and high contrast. Compose the jellyfish large and slightly right of center, leaving negative space on the left for layout, with faint red atmospheric haze and restrained cinematic grain. No text, logos, interface elements, or recognizable branding."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

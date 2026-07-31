@@ -1,0 +1,91 @@
+{
+  "id": "data-security-company-landing-page-by-levi-wilso-c73bbaf8",
+  "title": "Neon Organic Security Landing Page",
+  "notes": "",
+  "sourceUrl": "https://www.pinterest.com/pin/590253094940589076/",
+  "sourceImageUrl": "https://i.pinimg.com/736x/b6/96/f6/b696f67fd753adce35170477240b5111.jpg",
+  "sourceDomain": "pinterest.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:06:58.691Z",
+  "updatedAt": "2026-07-27T20:07:28.776Z",
+  "media": {
+    "path": "catalog/media/data-security-company-landing-page-by-levi-wilso-c73bbaf8.webp",
+    "width": 736,
+    "height": 1620,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "pinterest"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:07:28.776Z",
+    "title": "Neon Organic Security Landing Page",
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "primary text"
+      },
+      {
+        "hex": "#FF6A2A",
+        "role": "warm glow"
+      },
+      {
+        "hex": "#5C63FF",
+        "role": "cool glow"
+      },
+      {
+        "hex": "#6AD8D0",
+        "role": "accent glow"
+      }
+    ],
+    "style": [
+      "dark-mode",
+      "organic",
+      "immersive",
+      "high-contrast",
+      "hero-led"
+    ],
+    "tone": [
+      "technical",
+      "futuristic",
+      "confident",
+      "energetic"
+    ],
+    "layout": [
+      "asymmetric",
+      "long-scroll",
+      "layered",
+      "modular cards"
+    ],
+    "typography": [
+      "oversized-type",
+      "grotesk",
+      "display-type",
+      "minimal supporting text"
+    ],
+    "uiMotifs": [
+      "pill navigation",
+      "glowing gradient buttons",
+      "floating metric callouts",
+      "soft-edged benefit cards"
+    ],
+    "notes": "A black, spacious landing page uses oversized white typography over translucent, biomorphic forms with vivid orange, blue, and teal edge lighting. The composition combines an asymmetric hero, floating statistics, restrained navigation, logo-style partner marks, and a lower three-card benefits grid.",
+    "suggestedTagIds": [
+      "dark-mode",
+      "organic",
+      "hero-led",
+      "asymmetric",
+      "oversized-type",
+      "layered"
+    ],
+    "heroPrompt": "Abstract hero artwork for a premium cybersecurity landing page: several translucent, fluid biomorphic membranes overlap in a black void, with smooth glass-like surfaces and glowing edge gradients shifting between electric blue, violet, teal, orange, and warm white. Use dramatic soft bloom, subtle refraction, deep negative space, and an asymmetric vertical composition with one dominant central form and smaller floating forms around it. No text, logos, interface elements, or recognizable symbols; polished digital art, high contrast, cinematic lighting, elegant and futuristic."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

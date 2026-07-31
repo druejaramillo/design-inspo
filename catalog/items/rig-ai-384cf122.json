@@ -1,0 +1,92 @@
+{
+  "id": "rig-ai-384cf122",
+  "title": "Signal Red Brutalist Product Landing Page",
+  "notes": "",
+  "sourceUrl": "https://craftwork.design/curated/website/httpsrigai",
+  "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/6bde52a5-4eb7-4834-827d-4cbf2a604ac8/rig.ai_.png",
+  "sourceDomain": "craftwork.design",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:11:05.429Z",
+  "updatedAt": "2026-07-27T20:11:20.878Z",
+  "media": {
+    "path": "catalog/media/rig-ai-384cf122.webp",
+    "width": 2200,
+    "height": 1238,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "craftwork"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:11:20.877Z",
+    "title": "Signal Red Brutalist Product Landing Page",
+    "palette": [
+      {
+        "hex": "#F2483B",
+        "role": "primary background"
+      },
+      {
+        "hex": "#111111",
+        "role": "dark section background"
+      },
+      {
+        "hex": "#F4F1EA",
+        "role": "headline text"
+      },
+      {
+        "hex": "#C83A31",
+        "role": "accent shading"
+      }
+    ],
+    "style": [
+      "Brutalist",
+      "Retro-futurist",
+      "Technical",
+      "Editorial"
+    ],
+    "tone": [
+      "Energetic",
+      "Assertive",
+      "Provocative",
+      "Industrial"
+    ],
+    "layout": [
+      "Asymmetric split sections",
+      "Structured grid system",
+      "Full-width color bands",
+      "Layered panel composition"
+    ],
+    "typography": [
+      "Oversized grotesk headlines",
+      "Condensed monospace labels",
+      "High-contrast scale",
+      "Tight typographic rhythm"
+    ],
+    "uiMotifs": [
+      "Angular clipped buttons",
+      "Thin technical rules",
+      "Ticker-like feature strip",
+      "Subtle scanline texture"
+    ],
+    "notes": "A vivid red-orange hero dominates the page, contrasted by a near-black lower section and oversized cream typography. Faint geometric forms, scanlines, grid lines, clipped controls, and compact technical labels create a bold offline-computing aesthetic.",
+    "suggestedTagIds": [
+      "brutalist",
+      "retro-futurist",
+      "energetic",
+      "technical",
+      "hero-led",
+      "grid-system",
+      "oversized-type",
+      "layered",
+      "high-contrast",
+      "display-type",
+      "grotesk",
+      "dark-mode"
+    ],
+    "heroPrompt": null
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

@@ -1,0 +1,94 @@
+{
+  "id": "untitled-from-cdn-dribbble-com-9f56178a",
+  "title": "Playful Bakery Ordering Landing Page",
+  "notes": "",
+  "sourceUrl": "https://cdn.dribbble.com/userupload/17364216/file/original-2db1110d65c32ea409152cfe50c03404.png?resize=752x&vertical=center",
+  "sourceImageUrl": "https://cdn.dribbble.com/userupload/17364216/file/original-2db1110d65c32ea409152cfe50c03404.png?resize=752x&vertical=center",
+  "sourceDomain": "cdn.dribbble.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:00:07.980Z",
+  "updatedAt": "2026-07-27T20:00:21.257Z",
+  "media": {
+    "path": "catalog/media/untitled-from-cdn-dribbble-com-9f56178a.webp",
+    "width": 752,
+    "height": 564,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "dribbble"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:00:21.257Z",
+    "title": "Playful Bakery Ordering Landing Page",
+    "palette": [
+      {
+        "hex": "#F6BD61",
+        "role": "hero background"
+      },
+      {
+        "hex": "#8CC1DD",
+        "role": "secondary panel"
+      },
+      {
+        "hex": "#F29A5B",
+        "role": "accent panel"
+      },
+      {
+        "hex": "#EEF1E8",
+        "role": "page background"
+      },
+      {
+        "hex": "#0B1719",
+        "role": "text and outlines"
+      }
+    ],
+    "style": [
+      "playful",
+      "editorial",
+      "illustrative",
+      "hero-led"
+    ],
+    "tone": [
+      "warm",
+      "energetic",
+      "friendly",
+      "curious"
+    ],
+    "layout": [
+      "asymmetric grid",
+      "stacked promotional panels",
+      "card-based sections",
+      "strong visual hierarchy"
+    ],
+    "typography": [
+      "oversized display type",
+      "expressive rounded lettering",
+      "bold sans-serif navigation",
+      "high-contrast type scale"
+    ],
+    "uiMotifs": [
+      "pill-shaped buttons",
+      "rounded cards",
+      "circular price badges",
+      "product thumbnail rows"
+    ],
+    "notes": "A bakery-themed landing page combines oversized hand-drawn lettering with photorealistic food imagery and brightly colored rounded panels. The asymmetric composition balances a dominant cookie hero with compact educational, promotional, and product-listing cards.",
+    "suggestedTagIds": [
+      "playful",
+      "warm",
+      "energetic",
+      "hero-led",
+      "asymmetric",
+      "grid-system",
+      "oversized-type",
+      "expressive-type",
+      "primary-pop",
+      "landing-love"
+    ],
+    "heroPrompt": "A photorealistic stacked sandwich cookie with two golden, craggy biscuits and a thick chocolate filling, floating slightly above a warm buttery yellow background. Add soft studio shadows, subtle dimensional highlights, and a small dark teal oval price badge overlapping the cookie. Compose it centrally with generous negative space around the product, leaving room for oversized rounded white display lettering behind it. Bright food advertising art direction, tactile crumb detail, cheerful color blocking, clean cutout edges, premium editorial product photography."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

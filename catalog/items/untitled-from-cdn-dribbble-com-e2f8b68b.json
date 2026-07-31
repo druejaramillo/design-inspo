@@ -1,0 +1,90 @@
+{
+  "id": "untitled-from-cdn-dribbble-com-e2f8b68b",
+  "title": "Orbital Marketing Talent Landing Page",
+  "notes": "",
+  "sourceUrl": "https://cdn.dribbble.com/userupload/25286810/file/original-25a987b5055b056376f5d1a10fad76c2.png?resize=752x&vertical=center",
+  "sourceImageUrl": "https://cdn.dribbble.com/userupload/25286810/file/original-25a987b5055b056376f5d1a10fad76c2.png?resize=752x&vertical=center",
+  "sourceDomain": "cdn.dribbble.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T19:58:22.262Z",
+  "updatedAt": "2026-07-27T19:58:35.448Z",
+  "media": {
+    "path": "catalog/media/untitled-from-cdn-dribbble-com-e2f8b68b.webp",
+    "width": 752,
+    "height": 564,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "dribbble"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T19:58:35.448Z",
+    "title": "Orbital Marketing Talent Landing Page",
+    "palette": [
+      {
+        "hex": "#171A3B",
+        "role": "deep navy background"
+      },
+      {
+        "hex": "#5C35B4",
+        "role": "violet gradient"
+      },
+      {
+        "hex": "#B49AE8",
+        "role": "lavender glow"
+      },
+      {
+        "hex": "#F4D79B",
+        "role": "warm peach highlight"
+      },
+      {
+        "hex": "#F5F4FF",
+        "role": "primary text"
+      }
+    ],
+    "style": [
+      "polished SaaS",
+      "futuristic",
+      "gradient-rich",
+      "dark interface"
+    ],
+    "tone": [
+      "confident",
+      "energetic",
+      "premium",
+      "approachable"
+    ],
+    "layout": [
+      "asymmetric hero split",
+      "left-aligned oversized headline",
+      "orbital focal composition",
+      "spacious navigation"
+    ],
+    "typography": [
+      "bold grotesk",
+      "oversized display type",
+      "tight line spacing",
+      "high-contrast white and black text"
+    ],
+    "uiMotifs": [
+      "concentric orbit lines",
+      "floating avatar nodes",
+      "pill-shaped buttons",
+      "soft ambient glow"
+    ],
+    "notes": "A dark rounded hero panel sits within a lavender-to-peach atmospheric background, pairing a large multiline headline with an orbital network of avatars and floating tiles. The visual direction combines premium SaaS polish with playful spatial depth, luminous gradients, and restrained monochrome navigation details.",
+    "suggestedTagIds": [
+      "hero-led",
+      "dark-mode",
+      "gradient-rich",
+      "oversized-type",
+      "layered",
+      "technical"
+    ],
+    "heroPrompt": "Create an abstract futuristic network visualization on a deep indigo-to-violet background: several concentric elliptical orbit lines surround a central glowing metric point, with diverse circular profile portraits and small floating rounded-square interface tiles positioned along the paths. Add subtle neon violet highlights, soft bloom, gentle depth, and a premium SaaS art direction. Keep the composition weighted to the right with generous negative space on the left for headline text. No logos, brand names, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

@@ -1,0 +1,94 @@
+{
+  "id": "69d60ed1e7d8ae51d1f45f47-take-2026-04-08t091455--c0ef9b84",
+  "title": "Pixelated Mountain Landing Page",
+  "notes": "",
+  "sourceUrl": null,
+  "sourceDomain": null,
+  "captureMethod": "upload",
+  "importedAt": "2026-07-27T21:03:06.776Z",
+  "updatedAt": "2026-07-27T21:03:23.231Z",
+  "media": {
+    "path": "catalog/media/69d60ed1e7d8ae51d1f45f47-take-2026-04-08t091455--c0ef9b84.webp",
+    "width": 1440,
+    "height": 1600,
+    "format": "webp"
+  },
+  "manualTagIds": [],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T21:03:23.231Z",
+    "title": "Pixelated Mountain Landing Page",
+    "palette": [
+      {
+        "hex": "#F7F7F5",
+        "role": "background"
+      },
+      {
+        "hex": "#C7D9E8",
+        "role": "sky"
+      },
+      {
+        "hex": "#FF4B19",
+        "role": "accent"
+      },
+      {
+        "hex": "#111111",
+        "role": "text"
+      },
+      {
+        "hex": "#F2B72B",
+        "role": "highlight"
+      },
+      {
+        "hex": "#D8E3A1",
+        "role": "secondary accent"
+      }
+    ],
+    "style": [
+      "retro-digital",
+      "pixelated",
+      "editorial",
+      "hero-led",
+      "playful"
+    ],
+    "tone": [
+      "energetic",
+      "curious",
+      "technical",
+      "optimistic"
+    ],
+    "layout": [
+      "centered hero",
+      "full-width visual",
+      "structured logo grid",
+      "generous whitespace",
+      "stacked sections"
+    ],
+    "typography": [
+      "bold grotesk",
+      "oversized display type",
+      "high-contrast text blocks",
+      "monospaced labels"
+    ],
+    "uiMotifs": [
+      "orange text highlights",
+      "rounded black buttons",
+      "pixel-art landscape",
+      "logo tiles",
+      "thin grid dividers"
+    ],
+    "notes": "A clean landing page combines oversized black typography and orange highlight blocks with a highly textured pixel-art mountain landscape. The restrained white sections, modular logo grid, and thin dividers create structure beneath the expressive hero treatment.",
+    "suggestedTagIds": [
+      "playful",
+      "retro-futurist",
+      "hero-led",
+      "grid-system",
+      "oversized-type",
+      "primary-pop"
+    ],
+    "heroPrompt": "Create a wide pixel-art mountain landscape for a technology landing page hero. Use a pale blue sky, chunky jagged mountain silhouettes, dense dithered pixels, limited colors of orange, golden yellow, black, muted lime, cream, and blue, with playful high-contrast noise and a handmade screen-print texture. Compose the peaks across the lower half, leaving generous calm sky above for headline placement. Include small cream cloud shapes near the edges. No text, logos, icons, people, or recognizable landmarks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

@@ -1,0 +1,90 @@
+{
+  "id": "pin-on-website-design-2ae9df3c",
+  "title": "Vivid Gradient Productivity Landing Page",
+  "notes": "",
+  "sourceUrl": "https://www.pinterest.com/pin/21040323255663810/",
+  "sourceImageUrl": "https://i.pinimg.com/736x/f1/49/92/f14992104f17be85d1d286001fb9cc72.jpg",
+  "sourceDomain": "pinterest.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:07:59.211Z",
+  "updatedAt": "2026-07-27T20:08:16.156Z",
+  "media": {
+    "path": "catalog/media/pin-on-website-design-2ae9df3c.webp",
+    "width": 736,
+    "height": 1308,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "pinterest"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:08:16.156Z",
+    "title": "Vivid Gradient Productivity Landing Page",
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#111111",
+        "role": "text"
+      },
+      {
+        "hex": "#F22991",
+        "role": "accent gradient"
+      },
+      {
+        "hex": "#FF9A22",
+        "role": "accent gradient"
+      },
+      {
+        "hex": "#5B0A91",
+        "role": "accent gradient"
+      }
+    ],
+    "style": [
+      "minimal",
+      "editorial",
+      "gradient-led",
+      "hero-focused"
+    ],
+    "tone": [
+      "energetic",
+      "optimistic",
+      "focused",
+      "modern"
+    ],
+    "layout": [
+      "centered hero",
+      "vertical landing-page flow",
+      "two-column content section",
+      "full-width image band"
+    ],
+    "typography": [
+      "oversized grotesk",
+      "italic serif accent",
+      "strong typographic hierarchy",
+      "compact sans-serif navigation"
+    ],
+    "uiMotifs": [
+      "outlined pill buttons",
+      "minimal top navigation",
+      "floating smartphone mockup",
+      "soft atmospheric color wash"
+    ],
+    "notes": "A clean white productivity landing page uses oversized black typography and a centered phone hero framed by vivid pink, orange, and purple gradients. Lower sections introduce editorial two-column messaging, compact feature columns, and a saturated photographic image band.",
+    "suggestedTagIds": [
+      "minimal",
+      "hero-led",
+      "grid-system",
+      "oversized-type",
+      "energetic",
+      "serif"
+    ],
+    "heroPrompt": "Create a photorealistic editorial hero image of a hand holding a modern smartphone upright at a slight angle, centered against a white background. The phone screen shows an abstract luminous gradient of cobalt blue, magenta, coral, orange, and soft white, with realistic glass reflections and subtle depth. Surround the subject with a wide, softly feathered horizontal aura blending pink, purple, and warm orange, fading cleanly into white. Use high-key studio lighting, refined product photography, crisp edges, and generous negative space; no text, logos, or recognizable branding."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

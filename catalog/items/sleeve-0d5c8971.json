@@ -1,0 +1,95 @@
+{
+  "id": "sleeve-0d5c8971",
+  "title": "Vibrant Music Player Landing Page",
+  "notes": "",
+  "sourceUrl": "https://craftwork.design/curated/website/sleeve",
+  "sourceImageUrl": "https://craftwork-products.b-cdn.net/curated/cover/63f646642bac6a8a8b66fb5a_63e25c8703cfebe2087eb9a8_Image_01.png",
+  "sourceDomain": "craftwork.design",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:14:21.595Z",
+  "updatedAt": "2026-07-27T20:14:38.357Z",
+  "media": {
+    "path": "catalog/media/sleeve-0d5c8971.webp",
+    "width": 1600,
+    "height": 900,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "craftwork"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:14:38.356Z",
+    "title": "Vibrant Music Player Landing Page",
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#20B5E8",
+        "role": "primary panel"
+      },
+      {
+        "hex": "#09D8C6",
+        "role": "wave accent"
+      },
+      {
+        "hex": "#EC198C",
+        "role": "color accent"
+      },
+      {
+        "hex": "#8D5CE8",
+        "role": "secondary accent"
+      },
+      {
+        "hex": "#0A3F45",
+        "role": "dark control surface"
+      }
+    ],
+    "style": [
+      "playful",
+      "layered",
+      "minimal",
+      "energetic"
+    ],
+    "tone": [
+      "bright",
+      "optimistic",
+      "curious",
+      "youthful"
+    ],
+    "layout": [
+      "centered hero",
+      "layered product mockups",
+      "soft asymmetry",
+      "cropped oversized headline"
+    ],
+    "typography": [
+      "bold sans-serif display type",
+      "compact interface labels",
+      "high-contrast headline",
+      "clean navigation text"
+    ],
+    "uiMotifs": [
+      "floating media player",
+      "rounded cards",
+      "wave-shaped color fields",
+      "album-art tile",
+      "soft shadows"
+    ],
+    "notes": "A white landing-page canvas centers a large cyan music-player interface, backed by faint utility graphics and overlapping colorful app surfaces. Rounded corners, aqua wave bands, saturated accent colors, and a partially cropped black headline create a polished but playful product-presentation aesthetic.",
+    "suggestedTagIds": [
+      "playful",
+      "layered",
+      "energetic",
+      "hero-led",
+      "primary-pop",
+      "display-type"
+    ],
+    "heroPrompt": "Create a polished landing-page hero for a futuristic music player: a large rounded cyan-blue application window centered on a clean white canvas, with vivid turquoise wave shapes flowing across its lower section, a small abstract iridescent album-art tile near the top center, and a dark teal rounded playback control floating in front. Add subtle pale interface glyphs and colorful rounded panels behind it, soft shadows, generous whitespace, crisp sans-serif micro-labels, and a partially cropped oversized black headline at the bottom. No logos, brand names, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

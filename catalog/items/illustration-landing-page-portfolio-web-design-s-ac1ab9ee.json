@@ -1,0 +1,90 @@
+{
+  "id": "illustration-landing-page-portfolio-web-design-s-ac1ab9ee",
+  "title": "Celestial Wealth Journey",
+  "notes": "",
+  "sourceUrl": "https://www.pinterest.com/pin/46232333734037961/",
+  "sourceImageUrl": "https://i.pinimg.com/736x/6d/ff/51/6dff51d2fe25f62dcb5d39948880a2d3.jpg",
+  "sourceDomain": "pinterest.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:05:26.073Z",
+  "updatedAt": "2026-07-27T20:05:41.909Z",
+  "media": {
+    "path": "catalog/media/illustration-landing-page-portfolio-web-design-s-ac1ab9ee.webp",
+    "width": 736,
+    "height": 1227,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "pinterest"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:05:41.909Z",
+    "title": "Celestial Wealth Journey",
+    "palette": [
+      {
+        "hex": "#050D25",
+        "role": "deep background"
+      },
+      {
+        "hex": "#142B73",
+        "role": "night-sky blue"
+      },
+      {
+        "hex": "#654FBE",
+        "role": "violet gradient"
+      },
+      {
+        "hex": "#35A9E8",
+        "role": "accent blue"
+      },
+      {
+        "hex": "#F7F1C5",
+        "role": "star and moon highlight"
+      }
+    ],
+    "style": [
+      "cinematic illustrated",
+      "atmospheric vector art",
+      "celestial landscape",
+      "layered editorial"
+    ],
+    "tone": [
+      "aspirational",
+      "contemplative",
+      "mysterious",
+      "optimistic"
+    ],
+    "layout": [
+      "full-width hero",
+      "stacked content sections",
+      "left-aligned copy",
+      "illustration-led focal points"
+    ],
+    "typography": [
+      "rounded sans-serif",
+      "light-weight text",
+      "sentence-case headlines",
+      "small uppercase labels"
+    ],
+    "uiMotifs": [
+      "pill-shaped CTA",
+      "sparse top navigation",
+      "outlined feature icons",
+      "constellation connector lines"
+    ],
+    "notes": "A deep blue and violet landing page uses a stylized night landscape, silhouetted vegetation, stars, and human figures to create a cinematic narrative about future possibility. Content is organized into broad horizontal bands with restrained white typography, blue accents, and generous negative space around the illustrations.",
+    "suggestedTagIds": [
+      "hero-led",
+      "layered",
+      "immersive",
+      "dark-mode",
+      "high-contrast",
+      "landing-love"
+    ],
+    "heroPrompt": "Create a wide cinematic vector illustration for a sophisticated financial-services landing page: a tranquil indigo night sky filled with scattered stars, a thin crescent moon, distant rounded hills, and tall silhouetted grasses in the foreground. Place a stylized human figure on the right, viewed in profile, raising a telescope toward a glowing constellation connected by fine luminous lines. Use layered navy, cobalt, violet, and electric blue gradients with small warm ivory highlights, crisp geometric shapes, subtle atmospheric glow, and ample open space on the left for headline text. No logos, brands, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

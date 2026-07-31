@@ -1,0 +1,93 @@
+{
+  "id": "pin-on-web-designs-4ffe3848",
+  "title": "Alpine Ease Landing Page",
+  "notes": "",
+  "sourceUrl": "https://www.pinterest.com/pin/2111131073891008/",
+  "sourceImageUrl": "https://i.pinimg.com/736x/ce/8e/1f/ce8e1f60a97cab3f9137677e66edb679.jpg",
+  "sourceDomain": "pinterest.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:08:21.299Z",
+  "updatedAt": "2026-07-27T20:08:41.500Z",
+  "media": {
+    "path": "catalog/media/pin-on-web-designs-4ffe3848.webp",
+    "width": 735,
+    "height": 544,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "pinterest"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:08:41.500Z",
+    "title": "Alpine Ease Landing Page",
+    "palette": [
+      {
+        "hex": "#C9D4D5",
+        "role": "background"
+      },
+      {
+        "hex": "#F0DCCB",
+        "role": "sky highlight"
+      },
+      {
+        "hex": "#3F684C",
+        "role": "deep landscape green"
+      },
+      {
+        "hex": "#D99A45",
+        "role": "sunlit meadow"
+      },
+      {
+        "hex": "#171925",
+        "role": "primary text"
+      }
+    ],
+    "style": [
+      "organic",
+      "hero-led",
+      "editorial",
+      "immersive",
+      "soft-focus"
+    ],
+    "tone": [
+      "calm",
+      "optimistic",
+      "restorative",
+      "warm"
+    ],
+    "layout": [
+      "full-bleed hero",
+      "centered content",
+      "floating navigation",
+      "layered depth",
+      "strong vertical hierarchy"
+    ],
+    "typography": [
+      "oversized grotesk headline",
+      "clean sans-serif navigation",
+      "high legibility",
+      "centered alignment"
+    ],
+    "uiMotifs": [
+      "rounded pill navigation",
+      "soft white CTA buttons",
+      "floating status badge",
+      "subtle shadowing",
+      "scroll cue"
+    ],
+    "notes": "A centered landing-page interface overlays a luminous alpine valley with painterly mountains, wildflowers, and atmospheric depth. Soft rounded controls and restrained dark typography create a calm, approachable contrast against the expansive natural hero image.",
+    "suggestedTagIds": [
+      "organic",
+      "warm",
+      "quiet",
+      "hero-led",
+      "immersive",
+      "grotesk"
+    ],
+    "heroPrompt": "Create a full-bleed cinematic alpine valley at golden hour, viewed from a low meadow filled with colorful wildflowers in the foreground. Layer rolling green hills, a small rustic cabin, towering sculptural mountain faces, and distant peaks beneath a pale blue-to-peach sky. Use soft atmospheric haze, painterly realism, gentle bloom, warm sunlight on the grass, and slightly blurred foreground flowers to create depth and tranquility. Compose the scene with generous open space near the upper center for interface overlay, while keeping the landscape richly detailed around the edges. No text, logos, people, or recognizable brands."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

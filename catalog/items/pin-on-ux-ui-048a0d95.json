@@ -1,0 +1,92 @@
+{
+  "id": "pin-on-ux-ui-048a0d95",
+  "title": "Red and Black Editorial Portfolio",
+  "notes": "",
+  "sourceUrl": "https://www.pinterest.com/pin/52846995624334668/",
+  "sourceImageUrl": "https://i.pinimg.com/736x/e7/36/e8/e736e82dab59f100fc1ddb9801a473dd.jpg",
+  "sourceDomain": "pinterest.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:06:09.318Z",
+  "updatedAt": "2026-07-27T20:06:28.624Z",
+  "media": {
+    "path": "catalog/media/pin-on-ux-ui-048a0d95.webp",
+    "width": 736,
+    "height": 1307,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "pinterest"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:06:28.624Z",
+    "title": "Red and Black Editorial Portfolio",
+    "palette": [
+      {
+        "hex": "#050505",
+        "role": "background"
+      },
+      {
+        "hex": "#B5121B",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "secondary background"
+      },
+      {
+        "hex": "#F2F0ED",
+        "role": "primary text"
+      },
+      {
+        "hex": "#777777",
+        "role": "muted text"
+      }
+    ],
+    "style": [
+      "editorial",
+      "brutalist",
+      "hero-led",
+      "high-contrast",
+      "layered"
+    ],
+    "tone": [
+      "confident",
+      "dramatic",
+      "technical",
+      "modern"
+    ],
+    "layout": [
+      "modular grid",
+      "oversized background type",
+      "portrait-centered hero",
+      "segmented information panels"
+    ],
+    "typography": [
+      "oversized condensed display type",
+      "bold grotesk headings",
+      "small uppercase labels",
+      "handwritten script accent"
+    ],
+    "uiMotifs": [
+      "thin red dividers",
+      "outlined circular icons",
+      "numbered process steps",
+      "project thumbnail cards",
+      "arrow navigation cues"
+    ],
+    "notes": "A dark portfolio composition uses a large portrait layered over oversized red typography, with restrained white text and red rules creating strong hierarchy. Dense project, skills, process, and contact sections are organized into a precise editorial grid with repeated numbering and outlined iconography.",
+    "suggestedTagIds": [
+      "editorial",
+      "brutalist",
+      "hero-led",
+      "grid-system",
+      "oversized-type",
+      "dark-mode"
+    ],
+    "heroPrompt": "Create a high-contrast editorial portfolio hero image: a young Southeast Asian male creative professional in a black jacket, shown in a confident three-quarter portrait against a nearly black studio background. Place oversized abstract condensed red letterforms behind him, partially obscured by the figure, with sharp directional lighting, deep shadows, subtle red rim light, and a refined fashion-magazine art direction. Use a vertical poster composition, restrained off-white micro-details, thin red graphic rules, and generous negative space. No logos, brand names, or readable text."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

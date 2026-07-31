@@ -1,0 +1,94 @@
+{
+  "id": "amazon-ng-189cbf35",
+  "title": "Starry Mountain Expedition Landing Page",
+  "notes": "",
+  "sourceUrl": "https://craftwork.design/curated/website/amazon-ng",
+  "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/4827db58-f86e-44d6-bb18-e71437b498da/www.nationalgeographic.com_into-the-amazon_-1.jpg",
+  "sourceDomain": "craftwork.design",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:12:53.609Z",
+  "updatedAt": "2026-07-27T20:13:10.551Z",
+  "media": {
+    "path": "catalog/media/amazon-ng-189cbf35.webp",
+    "width": 2200,
+    "height": 1238,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "craftwork"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:13:10.550Z",
+    "title": "Starry Mountain Expedition Landing Page",
+    "palette": [
+      {
+        "hex": "#081A2D",
+        "role": "background"
+      },
+      {
+        "hex": "#0E4567",
+        "role": "secondary background"
+      },
+      {
+        "hex": "#B7C9E2",
+        "role": "mountain highlights"
+      },
+      {
+        "hex": "#F0F3F2",
+        "role": "headline"
+      },
+      {
+        "hex": "#273C53",
+        "role": "shadow detail"
+      }
+    ],
+    "style": [
+      "cinematic",
+      "editorial",
+      "immersive",
+      "hero-led"
+    ],
+    "tone": [
+      "adventurous",
+      "quiet",
+      "mysterious",
+      "expansive"
+    ],
+    "layout": [
+      "full-bleed hero",
+      "centered composition",
+      "oversized headline",
+      "edge navigation"
+    ],
+    "typography": [
+      "high-contrast serif",
+      "condensed uppercase sans",
+      "oversized display type",
+      "generous tracking"
+    ],
+    "uiMotifs": [
+      "floating map pill",
+      "vertical utility rail",
+      "minimal line icons",
+      "subtle navigation controls"
+    ],
+    "notes": "A snow-covered mountain rises from the lower frame beneath a deep, star-filled blue sky, creating a cinematic sense of scale. Large pale serif lettering dominates the center while restrained utility controls sit at the edges.",
+    "suggestedTagIds": [
+      "editorial",
+      "hero-led",
+      "immersive",
+      "oversized-type",
+      "serif",
+      "display-type",
+      "dark-mode",
+      "quiet",
+      "curious",
+      "landing-love"
+    ],
+    "heroPrompt": "A cinematic full-bleed night landscape featuring a sharply ridged snow-covered mountain emerging from the lower frame, viewed at close range beneath a vast deep navy sky scattered with fine stars and faint atmospheric clouds. Use cool blue lighting, subtle cyan haze near the horizon, crisp icy highlights, and dramatic negative space above the peak. Premium editorial travel-art direction, realistic photographic texture, restrained contrast, wide desktop hero composition, no people, no logos, no readable text, no interface elements."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

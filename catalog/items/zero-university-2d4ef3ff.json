@@ -1,0 +1,103 @@
+{
+  "id": "zero-university-2d4ef3ff",
+  "title": "Tactile Desk Editorial Hero",
+  "notes": "",
+  "sourceUrl": "https://craftwork.design/curated/website/zero-university",
+  "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/e5ecf197-d774-4057-8941-0893f1417190/www.zero.university_.png",
+  "sourceDomain": "craftwork.design",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:09:42.929Z",
+  "updatedAt": "2026-07-27T20:10:03.288Z",
+  "media": {
+    "path": "catalog/media/zero-university-2d4ef3ff.webp",
+    "width": 2200,
+    "height": 1238,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "craftwork"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:10:03.287Z",
+    "title": "Tactile Desk Editorial Hero",
+    "palette": [
+      {
+        "hex": "#F3F0ED",
+        "role": "paper background"
+      },
+      {
+        "hex": "#12352D",
+        "role": "headline and deep green"
+      },
+      {
+        "hex": "#2FA653",
+        "role": "accent green"
+      },
+      {
+        "hex": "#12604D",
+        "role": "cutting mat"
+      },
+      {
+        "hex": "#C99B62",
+        "role": "wood surface"
+      },
+      {
+        "hex": "#292525",
+        "role": "interface elements"
+      }
+    ],
+    "style": [
+      "Editorial",
+      "Skeuomorphic",
+      "Organic",
+      "Craftwork",
+      "Layered"
+    ],
+    "tone": [
+      "Warm",
+      "Curious",
+      "Grounded",
+      "Energetic"
+    ],
+    "layout": [
+      "Hero-led",
+      "Asymmetric",
+      "Overhead composition",
+      "Layered foreground objects",
+      "Sticky bottom navigation"
+    ],
+    "typography": [
+      "Oversized type",
+      "Serif display",
+      "Expressive script accent",
+      "High contrast"
+    ],
+    "uiMotifs": [
+      "Pill-shaped CTA",
+      "Floating bottom dock",
+      "Circular menu button",
+      "Soft translucent shadows"
+    ],
+    "notes": "An overhead still-life hero combines a paper message, cutting mat, stationery, plant leaves, computer mouse, and financial documents into a tactile editorial composition. Large dark-green serif typography is centered on the paper, while bright green script creates a memorable visual accent against the warm wood and deep green surroundings.",
+    "suggestedTagIds": [
+      "editorial",
+      "skeuomorphic",
+      "organic",
+      "warm",
+      "curious",
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "oversized-type",
+      "craftwork",
+      "serif",
+      "display-type",
+      "landing-love"
+    ],
+    "heroPrompt": "Create an overhead editorial web hero scene on a warm wooden desk, centered around a slightly off-white sheet of paper on a deep green gridded cutting mat. Surround it with translucent green pens, a white computer mouse, clipped paper documents, scattered paper clips, a small leafy houseplant, and soft natural shadows from foliage. Use tactile photography, imperfect object placement, subtle paper wrinkles, rich forest greens, warm amber wood, and an off-white focal area. Leave generous clear space on the central paper for large elegant serif headline typography and a small vivid green handwritten accent. Add a restrained dark pill-shaped navigation bar along the bottom edge."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

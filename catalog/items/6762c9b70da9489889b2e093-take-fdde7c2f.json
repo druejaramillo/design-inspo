@@ -1,0 +1,90 @@
+{
+  "id": "6762c9b70da9489889b2e093-take-fdde7c2f",
+  "title": "Airy Flight Tracking Landing Page",
+  "notes": "",
+  "sourceUrl": null,
+  "sourceDomain": null,
+  "captureMethod": "upload",
+  "importedAt": "2026-07-27T21:04:30.356Z",
+  "updatedAt": "2026-07-27T21:04:44.305Z",
+  "media": {
+    "path": "catalog/media/6762c9b70da9489889b2e093-take-fdde7c2f.webp",
+    "width": 1440,
+    "height": 1600,
+    "format": "webp"
+  },
+  "manualTagIds": [],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T21:04:44.305Z",
+    "title": "Airy Flight Tracking Landing Page",
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#111111",
+        "role": "primary text"
+      },
+      {
+        "hex": "#F5B900",
+        "role": "accent"
+      },
+      {
+        "hex": "#2DBE70",
+        "role": "status accent"
+      },
+      {
+        "hex": "#35B8E8",
+        "role": "map highlight"
+      }
+    ],
+    "style": [
+      "minimal",
+      "editorial",
+      "hero-led",
+      "technical"
+    ],
+    "tone": [
+      "reassuring",
+      "clear",
+      "optimistic",
+      "energetic"
+    ],
+    "layout": [
+      "centered composition",
+      "oversized headline",
+      "layered hero imagery",
+      "floating notification cards"
+    ],
+    "typography": [
+      "bold grotesk",
+      "oversized display type",
+      "high legibility",
+      "compact navigation labels"
+    ],
+    "uiMotifs": [
+      "flight status cards",
+      "map interface",
+      "pill-shaped navigation",
+      "award badges",
+      "status color coding"
+    ],
+    "notes": "A spacious white landing page centers a bold headline and concise supporting copy above a large smartphone flight-tracking visual. Layered translucent alerts, vivid map colors, and yellow, green, and red status accents add depth while preserving a clean product-marketing presentation.",
+    "suggestedTagIds": [
+      "minimal",
+      "hero-led",
+      "grid-system",
+      "oversized-type",
+      "grotesk",
+      "layered",
+      "technical",
+      "landing-love"
+    ],
+    "heroPrompt": "A polished product-marketing hero image on a clean white background: a realistic hand holding a modern smartphone vertically, displaying a bright blue-and-green flight map with route lines and a simple flight list panel. Surround the phone with softly faded floating notification cards showing generic travel status symbols and abstract interface lines, keeping all text illegible. Use crisp studio lighting, subtle shadows, generous whitespace, premium editorial composition, and vivid but controlled cyan, green, yellow, and coral accents. No logos, brand names, or recognizable app icons."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

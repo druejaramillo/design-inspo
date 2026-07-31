@@ -1,0 +1,93 @@
+{
+  "id": "untitled-from-cdn-dribbble-com-736587a8",
+  "title": "Playful Purple Children’s Learning Landing Page",
+  "notes": "",
+  "sourceUrl": "https://cdn.dribbble.com/userupload/11780963/file/original-e1137588dcd9baee25727a6a7f2d7ca7.png?resize=752x&vertical=center",
+  "sourceImageUrl": "https://cdn.dribbble.com/userupload/11780963/file/original-e1137588dcd9baee25727a6a7f2d7ca7.png?resize=752x&vertical=center",
+  "sourceDomain": "cdn.dribbble.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T19:57:42.220Z",
+  "updatedAt": "2026-07-27T19:58:15.956Z",
+  "media": {
+    "path": "catalog/media/untitled-from-cdn-dribbble-com-736587a8.webp",
+    "width": 752,
+    "height": 564,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "dribbble"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T19:58:15.955Z",
+    "title": "Playful Purple Children’s Learning Landing Page",
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#6C43E8",
+        "role": "primary accent"
+      },
+      {
+        "hex": "#F7C846",
+        "role": "secondary accent"
+      },
+      {
+        "hex": "#D9C9F5",
+        "role": "soft panel"
+      },
+      {
+        "hex": "#F3A9C7",
+        "role": "playful highlight"
+      }
+    ],
+    "style": [
+      "playful",
+      "colorful",
+      "rounded",
+      "editorial-collage",
+      "friendly"
+    ],
+    "tone": [
+      "joyful",
+      "curious",
+      "encouraging",
+      "energetic"
+    ],
+    "layout": [
+      "angled overlapping panels",
+      "split hero composition",
+      "rounded card grid",
+      "generous whitespace",
+      "asymmetric flow"
+    ],
+    "typography": [
+      "oversized rounded sans serif",
+      "handwritten script accents",
+      "mixed typographic weights",
+      "high-legibility black text"
+    ],
+    "uiMotifs": [
+      "pill-shaped buttons",
+      "organic blob shapes",
+      "cutout child photography",
+      "rounded feature cards",
+      "doodle line accents"
+    ],
+    "notes": "A bright children’s learning landing page combines vivid purple and yellow blocks with soft lavender panels, cutout photography, and playful organic shapes. Oversized rounded typography and script emphasis create a friendly, energetic art direction while tilted panels add depth and movement.",
+    "suggestedTagIds": [
+      "playful",
+      "energetic",
+      "curious",
+      "primary-pop",
+      "asymmetric",
+      "expressive-type"
+    ],
+    "heroPrompt": "A cheerful child learning at a colorful creative activity table, isolated as a playful cutout against a clean white background, surrounded by subtle lavender and yellow organic shapes, soft studio lighting, joyful candid expression, crisp editorial website photography, simple composition with generous negative space, no text, no logos, no watermark."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

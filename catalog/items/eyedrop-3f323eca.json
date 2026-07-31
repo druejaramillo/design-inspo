@@ -1,0 +1,94 @@
+{
+  "id": "eyedrop-3f323eca",
+  "title": "Purple Orb Emerging From Paper",
+  "notes": "",
+  "sourceUrl": "https://craftwork.design/curated/website/eyedrop",
+  "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/cbdfafa5-f118-424b-b808-16fe90aa73b3/eyedrop.ai_.png",
+  "sourceDomain": "craftwork.design",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:13:24.405Z",
+  "updatedAt": "2026-07-27T20:13:40.376Z",
+  "media": {
+    "path": "catalog/media/eyedrop-3f323eca.webp",
+    "width": 2200,
+    "height": 1238,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "craftwork"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:13:40.375Z",
+    "title": "Purple Orb Emerging From Paper",
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#F4F4F5",
+        "role": "surface"
+      },
+      {
+        "hex": "#171B4D",
+        "role": "deep navy"
+      },
+      {
+        "hex": "#7B2BD9",
+        "role": "primary purple"
+      },
+      {
+        "hex": "#D354DE",
+        "role": "accent pink"
+      },
+      {
+        "hex": "#080D22",
+        "role": "orb shadow"
+      }
+    ],
+    "style": [
+      "minimal",
+      "layered",
+      "playful",
+      "high-contrast"
+    ],
+    "tone": [
+      "curious",
+      "energetic",
+      "polished",
+      "futuristic"
+    ],
+    "layout": [
+      "centered composition",
+      "hero-led",
+      "soft curved divider",
+      "generous whitespace"
+    ],
+    "typography": [
+      "bold display type",
+      "wide letter spacing",
+      "geometric sans-serif",
+      "small refined supporting text"
+    ],
+    "uiMotifs": [
+      "pill-shaped buttons",
+      "two-tone call-to-action hierarchy",
+      "abstract spherical hero object",
+      "soft paper-like texture"
+    ],
+    "notes": "A large glossy purple-and-navy orb rises behind a sweeping white foreground shape, creating depth through concealment and overlap. The restrained centered layout pairs oversized spaced lettering with compact supporting copy and contrasting rounded buttons.",
+    "suggestedTagIds": [
+      "minimal",
+      "playful",
+      "hero-led",
+      "layered",
+      "high-contrast",
+      "display-type"
+    ],
+    "heroPrompt": "Create a centered abstract hero visual for a minimalist software landing page: a glossy deep navy sphere partially emerging from behind a broad, softly curved white paper-like foreground layer. Surround the sphere with concentric rings and arcs in saturated violet, electric purple, and pink, plus a small white specular highlight. Use clean vector geometry, subtle grain, gentle shadows, generous white space, and a polished futuristic editorial feel. No text, logos, icons, or recognizable branding."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

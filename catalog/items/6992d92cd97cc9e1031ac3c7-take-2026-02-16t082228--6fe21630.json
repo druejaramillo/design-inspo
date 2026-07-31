@@ -1,0 +1,94 @@
+{
+  "id": "6992d92cd97cc9e1031ac3c7-take-2026-02-16t082228--6fe21630",
+  "title": "Gradient Document Processing Landing Page",
+  "notes": "",
+  "sourceUrl": null,
+  "sourceDomain": null,
+  "captureMethod": "upload",
+  "importedAt": "2026-07-27T21:03:29.006Z",
+  "updatedAt": "2026-07-27T21:03:44.835Z",
+  "media": {
+    "path": "catalog/media/6992d92cd97cc9e1031ac3c7-take-2026-02-16t082228--6fe21630.webp",
+    "width": 1440,
+    "height": 1600,
+    "format": "webp"
+  },
+  "manualTagIds": [],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T21:03:44.835Z",
+    "title": "Gradient Document Processing Landing Page",
+    "palette": [
+      {
+        "hex": "#FFFFFF",
+        "role": "background"
+      },
+      {
+        "hex": "#0A0A0A",
+        "role": "text"
+      },
+      {
+        "hex": "#20D4F2",
+        "role": "cyan gradient"
+      },
+      {
+        "hex": "#8E8CF3",
+        "role": "periwinkle gradient"
+      },
+      {
+        "hex": "#F28FD4",
+        "role": "pink gradient"
+      },
+      {
+        "hex": "#FFAA4D",
+        "role": "orange gradient"
+      }
+    ],
+    "style": [
+      "minimal",
+      "technical",
+      "futuristic",
+      "layered",
+      "hero-led"
+    ],
+    "tone": [
+      "energetic",
+      "confident",
+      "precise",
+      "innovative"
+    ],
+    "layout": [
+      "asymmetric split hero",
+      "oversized headline",
+      "centered 3D focal object",
+      "full-width gradient field",
+      "modular content blocks"
+    ],
+    "typography": [
+      "grotesk",
+      "oversized type",
+      "high-contrast",
+      "compact navigation labels"
+    ],
+    "uiMotifs": [
+      "thin outlined navigation cells",
+      "black rectangular CTA buttons",
+      "monochrome utility icons",
+      "logo strip",
+      "soft gradient backdrop"
+    ],
+    "notes": "A restrained black-and-white SaaS layout is energized by a cyan-to-orange gradient and a central stack of glowing, extruded geometric slabs. The hero uses a large left-aligned headline, compact right-side supporting copy, and a lower white promotional card to create strong vertical rhythm.",
+    "suggestedTagIds": [
+      "minimal",
+      "technical",
+      "energetic",
+      "hero-led",
+      "asymmetric",
+      "grid-system"
+    ],
+    "heroPrompt": "Create an abstract 3D hero visual for a technical software landing page: several thick, beveled rectangular slabs arranged in a precise horizontal procession, with dark graphite forms on the left and vivid magenta, violet, coral, and warm yellow forms on the right. Add a luminous white-orange core between the layers, subtle extrusion, soft ambient shadows, and crisp studio lighting. Place the object centrally over a smooth full-width gradient transitioning from cyan through periwinkle and pink to orange. Clean, premium, geometric, no text, no logos, no symbols."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

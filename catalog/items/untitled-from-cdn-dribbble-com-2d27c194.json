@@ -1,0 +1,89 @@
+{
+  "id": "untitled-from-cdn-dribbble-com-2d27c194",
+  "title": "Tactile Productivity Landing Page",
+  "notes": "",
+  "sourceUrl": "https://cdn.dribbble.com/userupload/16994810/file/original-c6a72b1649c9ba7b49f8b363761c669f.jpg?resize=752x&vertical=center",
+  "sourceImageUrl": "https://cdn.dribbble.com/userupload/16994810/file/original-c6a72b1649c9ba7b49f8b363761c669f.jpg?resize=752x&vertical=center",
+  "sourceDomain": "cdn.dribbble.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T19:58:52.455Z",
+  "updatedAt": "2026-07-27T19:59:05.952Z",
+  "media": {
+    "path": "catalog/media/untitled-from-cdn-dribbble-com-2d27c194.webp",
+    "width": 752,
+    "height": 564,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "dribbble"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T19:59:05.952Z",
+    "title": "Tactile Productivity Landing Page",
+    "palette": [
+      {
+        "hex": "#F7F7F5",
+        "role": "textured background"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "surface"
+      },
+      {
+        "hex": "#111111",
+        "role": "primary text"
+      },
+      {
+        "hex": "#2F86F6",
+        "role": "action blue"
+      },
+      {
+        "hex": "#F4E98A",
+        "role": "accent yellow"
+      }
+    ],
+    "style": [
+      "minimal",
+      "playful",
+      "layered",
+      "skeuomorphic"
+    ],
+    "tone": [
+      "friendly",
+      "focused",
+      "energetic",
+      "approachable"
+    ],
+    "layout": [
+      "centered hero",
+      "oversized headline",
+      "floating peripheral cards",
+      "structured navigation"
+    ],
+    "typography": [
+      "grotesk",
+      "oversized type",
+      "high contrast"
+    ],
+    "uiMotifs": [
+      "paper-like task cards",
+      "soft shadows",
+      "sticker accents",
+      "rounded productivity widgets"
+    ],
+    "notes": "A centered SaaS landing page pairs a large two-line headline with a blue call-to-action on a lightly dotted white canvas. Floating task panels, notes, app icons, and subtle shadows create a tactile collage around the spacious hero area.",
+    "suggestedTagIds": [
+      "minimal",
+      "playful",
+      "skeuomorphic",
+      "grid-system",
+      "oversized-type",
+      "primary-pop"
+    ],
+    "heroPrompt": null
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

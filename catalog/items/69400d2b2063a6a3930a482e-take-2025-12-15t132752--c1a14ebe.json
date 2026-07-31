@@ -1,0 +1,92 @@
+{
+  "id": "69400d2b2063a6a3930a482e-take-2025-12-15t132752--c1a14ebe",
+  "title": "Floating Interface Learning Landscape",
+  "notes": "",
+  "sourceUrl": null,
+  "sourceDomain": null,
+  "captureMethod": "upload",
+  "importedAt": "2026-07-27T21:05:37.305Z",
+  "updatedAt": "2026-07-27T21:05:53.881Z",
+  "media": {
+    "path": "catalog/media/69400d2b2063a6a3930a482e-take-2025-12-15t132752--c1a14ebe.webp",
+    "width": 1440,
+    "height": 1600,
+    "format": "webp"
+  },
+  "manualTagIds": [],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T21:05:53.880Z",
+    "title": "Floating Interface Learning Landscape",
+    "palette": [
+      {
+        "hex": "#000000",
+        "role": "background"
+      },
+      {
+        "hex": "#F5F4F7",
+        "role": "primary text"
+      },
+      {
+        "hex": "#202126",
+        "role": "interface cards"
+      },
+      {
+        "hex": "#1768D4",
+        "role": "electric blue accent"
+      },
+      {
+        "hex": "#19C9B0",
+        "role": "teal accent"
+      },
+      {
+        "hex": "#F07C45",
+        "role": "warm image accent"
+      }
+    ],
+    "style": [
+      "minimal",
+      "layered",
+      "immersive",
+      "luxurious"
+    ],
+    "tone": [
+      "confident",
+      "futuristic",
+      "polished",
+      "energetic"
+    ],
+    "layout": [
+      "asymmetric",
+      "hero-led",
+      "deep perspective",
+      "floating composition"
+    ],
+    "typography": [
+      "serif",
+      "display-type",
+      "oversized-type",
+      "grotesk"
+    ],
+    "uiMotifs": [
+      "rounded dashboard cards",
+      "soft 3D elevation",
+      "tilted interface panels",
+      "image-rich content tiles",
+      "dark-mode controls"
+    ],
+    "notes": "A black, spacious landing page pairs an oversized high-contrast serif headline with a dramatic field of floating interface panels in varied perspective. Rounded dark cards, saturated blue and teal accents, soft shadows, and a restrained logo row create a premium enterprise-product feel.",
+    "suggestedTagIds": [
+      "minimal",
+      "luxurious",
+      "dark-mode",
+      "serif",
+      "display-type",
+      "layered"
+    ],
+    "heroPrompt": "Create a premium landing-page hero visual on a pure black background: a large, asymmetric cluster of floating rounded interface panels arranged in dramatic perspective, like a spatial product dashboard. Mix dark charcoal cards with abstract landscape imagery, blue and teal gradients, small status indicators, thumbnails, charts, and subtle controls. Use realistic glassy surfaces, soft ambient shadows, gentle edge highlights, and generous negative space around the composition. Keep all interface text tiny, abstract, and unreadable; include no logos, brand names, or recognizable symbols. High-end editorial art direction, cinematic lighting, crisp product rendering, wide composition."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

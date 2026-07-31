@@ -1,0 +1,95 @@
+{
+  "id": "the-monolith-project-17ad3da2",
+  "title": "Playful Cosmic Origins Poster",
+  "notes": "",
+  "sourceUrl": "https://craftwork.design/curated/website/the-monolith-project",
+  "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/0ad2e3b0-b64f-44c3-baed-3cd37dab2783/themonolithproject.net_.png",
+  "sourceDomain": "craftwork.design",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:15:30.746Z",
+  "updatedAt": "2026-07-27T20:15:46.955Z",
+  "media": {
+    "path": "catalog/media/the-monolith-project-17ad3da2.webp",
+    "width": 2200,
+    "height": 1238,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "craftwork"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:15:46.955Z",
+    "title": "Playful Cosmic Origins Poster",
+    "palette": [
+      {
+        "hex": "#AEBFBE",
+        "role": "muted space background"
+      },
+      {
+        "hex": "#F8E7B8",
+        "role": "headline and interface text"
+      },
+      {
+        "hex": "#F47770",
+        "role": "coral planet"
+      },
+      {
+        "hex": "#9953C5",
+        "role": "purple planet"
+      },
+      {
+        "hex": "#2C28C8",
+        "role": "electric blue accents"
+      }
+    ],
+    "style": [
+      "playful",
+      "retro-futurist",
+      "illustrative",
+      "maximalist"
+    ],
+    "tone": [
+      "curious",
+      "energetic",
+      "whimsical",
+      "experimental"
+    ],
+    "layout": [
+      "centered composition",
+      "oversized stacked headline",
+      "layered orbital lines",
+      "scattered decorative field"
+    ],
+    "typography": [
+      "oversized display type",
+      "heavy rounded grotesk",
+      "cream lettering",
+      "widely tracked micro-labels"
+    ],
+    "uiMotifs": [
+      "orbit trails",
+      "small navigation labels",
+      "dotted space texture",
+      "corner utility icon",
+      "editorial pagination"
+    ],
+    "notes": "A muted sage background supports an oversized cream headline, colorful planets, orbital curves, and scattered blue particles. Small navigation details and outlined lettering create an exploratory editorial interface with a playful cosmic mood.",
+    "suggestedTagIds": [
+      "playful",
+      "retro-futurist",
+      "maximalist",
+      "curious",
+      "hero-led",
+      "oversized-type",
+      "layered",
+      "pastel",
+      "display-type",
+      "expressive-type"
+    ],
+    "heroPrompt": "Create a wide editorial landing-page hero in a playful retro-futurist illustration style: a muted sage-gray space background filled with sparse electric-blue specks, sweeping thin orbital paths, and floating glossy abstract planets in coral, violet, cyan, and pink. Place a huge centered two-line cream headline in a heavy rounded grotesk, with tiny widely spaced chapter text above and small navigation labels along the bottom. Add subtle grain, hand-drawn imperfections, thin dark outlines, and generous negative space around the central type. No logos, no recognizable characters, and no extra readable words beyond minimal abstract interface marks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

@@ -1,0 +1,91 @@
+{
+  "id": "untitled-from-cdn-dribbble-com-ba2550a9",
+  "title": "Misty Dark Interface Landing Page",
+  "notes": "",
+  "sourceUrl": "https://cdn.dribbble.com/userupload/14912902/file/original-12c002c69215970cd2eaf4824b287a4f.png?resize=752x&vertical=center",
+  "sourceImageUrl": "https://cdn.dribbble.com/userupload/14912902/file/original-12c002c69215970cd2eaf4824b287a4f.png?resize=752x&vertical=center",
+  "sourceDomain": "cdn.dribbble.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T19:56:57.230Z",
+  "updatedAt": "2026-07-27T19:57:13.690Z",
+  "media": {
+    "path": "catalog/media/untitled-from-cdn-dribbble-com-ba2550a9.webp",
+    "width": 752,
+    "height": 564,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "dribbble"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T19:57:13.689Z",
+    "title": "Misty Dark Interface Landing Page",
+    "palette": [
+      {
+        "hex": "#050707",
+        "role": "background"
+      },
+      {
+        "hex": "#111313",
+        "role": "surface"
+      },
+      {
+        "hex": "#C6D4CB",
+        "role": "ambient glow"
+      },
+      {
+        "hex": "#7A8B86",
+        "role": "secondary text"
+      },
+      {
+        "hex": "#F2F5F1",
+        "role": "primary text"
+      }
+    ],
+    "style": [
+      "dark luxury",
+      "futuristic",
+      "minimal",
+      "atmospheric"
+    ],
+    "tone": [
+      "confident",
+      "technical",
+      "quiet",
+      "immersive"
+    ],
+    "layout": [
+      "centered hero",
+      "layered background",
+      "floating navigation",
+      "symmetrical composition"
+    ],
+    "typography": [
+      "grotesk sans-serif",
+      "oversized headline",
+      "high-contrast scale",
+      "compact labels"
+    ],
+    "uiMotifs": [
+      "pill navigation",
+      "soft glow fields",
+      "thin connector lines",
+      "rounded media panel",
+      "monochrome partner row"
+    ],
+    "notes": "A black landing page uses a large rounded hero panel, oversized white sans-serif headline, and diffuse sage-gray light blooms to create depth. Small nodes, connector lines, pills, and sparse metadata add a technical network aesthetic without disrupting the calm composition.",
+    "suggestedTagIds": [
+      "minimal",
+      "luxurious",
+      "technical",
+      "hero-led",
+      "dark-mode",
+      "grotesk"
+    ],
+    "heroPrompt": "A wide cinematic abstract interface backdrop for a premium dark technology landing page: deep black space with a large rounded composition, soft pale sage and cool gray volumetric light blooming from the upper right and lower left, subtle haze, faint constellation-like points, thin geometric connector lines, restrained depth, polished high-end art direction, ample dark negative space for overlay text, no logos, no readable text, no icons, no brand marks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

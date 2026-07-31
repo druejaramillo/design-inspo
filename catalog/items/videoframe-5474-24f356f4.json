@@ -1,0 +1,88 @@
+{
+  "id": "videoframe-5474-24f356f4",
+  "title": "Glowing Autonomous Freight at Dusk",
+  "notes": "",
+  "sourceUrl": null,
+  "sourceDomain": null,
+  "captureMethod": "upload",
+  "importedAt": "2026-07-27T20:04:17.009Z",
+  "updatedAt": "2026-07-27T20:04:32.226Z",
+  "media": {
+    "path": "catalog/media/videoframe-5474-24f356f4.webp",
+    "width": 2200,
+    "height": 1650,
+    "format": "webp"
+  },
+  "manualTagIds": [],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:04:32.225Z",
+    "title": "Glowing Autonomous Freight at Dusk",
+    "palette": [
+      {
+        "hex": "#171725",
+        "role": "deep navy background"
+      },
+      {
+        "hex": "#3B3447",
+        "role": "dusky plum atmosphere"
+      },
+      {
+        "hex": "#E86B43",
+        "role": "warm cargo glow"
+      },
+      {
+        "hex": "#39C8DF",
+        "role": "cyan interface accent"
+      },
+      {
+        "hex": "#F2F0EB",
+        "role": "light typography and frame"
+      }
+    ],
+    "style": [
+      "cinematic futurism",
+      "dark immersive interface",
+      "high-tech editorial",
+      "layered data visualization"
+    ],
+    "tone": [
+      "confident",
+      "technical",
+      "forward-looking",
+      "energetic"
+    ],
+    "layout": [
+      "hero-led composition",
+      "asymmetric overlay placement",
+      "large left-aligned headline",
+      "floating metric panels"
+    ],
+    "typography": [
+      "oversized grotesk headline",
+      "clean geometric sans-serif",
+      "high-contrast scale hierarchy",
+      "compact numeric labels"
+    ],
+    "uiMotifs": [
+      "translucent glass cards",
+      "cyan progress bars",
+      "circular data nodes",
+      "thin connector lines",
+      "softly glowing controls"
+    ],
+    "notes": "A cinematic dusk photograph of an electric freight truck is layered with orange holographic cargo geometry and cyan interface graphics. The composition balances oversized white typography on the left with floating telemetry panels, bottom metrics, and a framed presentation.",
+    "suggestedTagIds": [
+      "retro-futurist",
+      "technical",
+      "hero-led",
+      "asymmetric",
+      "oversized-type",
+      "dark-mode"
+    ],
+    "heroPrompt": "Cinematic wide-angle photograph of a sleek futuristic electric freight truck traveling across a dark open landscape at dusk, with a long trailer rendered through glowing amber-orange wireframe cargo modules and subtle light trails. Deep navy and plum sky, dramatic low light, reflective metal surfaces, cyan atmospheric accents, premium technology campaign art direction, realistic photography blended with restrained holographic data overlays, generous dark negative space on the left for typography, no logos, no readable text, no watermark."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

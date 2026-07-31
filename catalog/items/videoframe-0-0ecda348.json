@@ -1,0 +1,88 @@
+{
+  "id": "videoframe-0-0ecda348",
+  "title": "Pastel 3D Storefront Landing Page",
+  "notes": "",
+  "sourceUrl": null,
+  "sourceDomain": null,
+  "captureMethod": "upload",
+  "importedAt": "2026-07-27T19:59:25.087Z",
+  "updatedAt": "2026-07-27T19:59:41.875Z",
+  "media": {
+    "path": "catalog/media/videoframe-0-0ecda348.webp",
+    "width": 1600,
+    "height": 1200,
+    "format": "webp"
+  },
+  "manualTagIds": [],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T19:59:41.875Z",
+    "title": "Pastel 3D Storefront Landing Page",
+    "palette": [
+      {
+        "hex": "#11165C",
+        "role": "headline"
+      },
+      {
+        "hex": "#E8E6EB",
+        "role": "background"
+      },
+      {
+        "hex": "#F8F5ED",
+        "role": "hero object"
+      },
+      {
+        "hex": "#D62C9A",
+        "role": "accent"
+      },
+      {
+        "hex": "#C85D3D",
+        "role": "secondary accent"
+      }
+    ],
+    "style": [
+      "playful",
+      "minimal",
+      "3D-rendered",
+      "soft-sculptural",
+      "polished"
+    ],
+    "tone": [
+      "warm",
+      "optimistic",
+      "welcoming",
+      "energetic"
+    ],
+    "layout": [
+      "hero-led",
+      "asymmetric",
+      "layered",
+      "left-aligned content"
+    ],
+    "typography": [
+      "oversized-type",
+      "grotesk",
+      "bold display",
+      "high-contrast scale"
+    ],
+    "uiMotifs": [
+      "floating pill navigation",
+      "rounded input control",
+      "compact circular action button",
+      "miniature storefront scene"
+    ],
+    "notes": "A soft-lit 3D storefront scene dominates the composition while oversized navy typography anchors the left side. Rounded white controls, pastel surfaces, and vivid magenta details create a friendly, contemporary commerce aesthetic.",
+    "suggestedTagIds": [
+      "playful",
+      "minimal",
+      "warm",
+      "hero-led",
+      "asymmetric",
+      "oversized-type"
+    ],
+    "heroPrompt": "Create a polished 3D product-render hero scene for a modern online storefront platform: a small rounded white kiosk with a glowing magenta arched window, tiny striped awning, and miniature bench, arranged on a pale geometric tiled surface with a few neutral cardboard parcels. Use soft late-afternoon lighting, subtle shadows, creamy whites, lavender-gray reflections, and vivid pink and coral accents. Compose the object large on the right with generous negative space on the left for headline placement. Add a floating rounded white navigation bar and a pill-shaped form beneath the left-side copy area, but include no readable text, logos, or brand marks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

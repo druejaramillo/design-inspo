@@ -1,0 +1,99 @@
+{
+  "id": "innovative-web3-agency-landing-page-concept-web--8ba1933f",
+  "title": "Colorful Sculptural Web3 Landing Page",
+  "notes": "",
+  "sourceUrl": "https://www.pinterest.com/pin/15129348745262548/",
+  "sourceImageUrl": "https://i.pinimg.com/736x/3f/46/18/3f461882e7913bee82642e7c02f881f1.jpg",
+  "sourceDomain": "pinterest.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:08:46.111Z",
+  "updatedAt": "2026-07-27T20:09:00.755Z",
+  "media": {
+    "path": "catalog/media/innovative-web3-agency-landing-page-concept-web--8ba1933f.webp",
+    "width": 375,
+    "height": 750,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "pinterest"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:09:00.754Z",
+    "title": "Colorful Sculptural Web3 Landing Page",
+    "palette": [
+      {
+        "hex": "#1B1B1B",
+        "role": "background"
+      },
+      {
+        "hex": "#E94F87",
+        "role": "accent"
+      },
+      {
+        "hex": "#F27B46",
+        "role": "accent"
+      },
+      {
+        "hex": "#DADADA",
+        "role": "primary text"
+      },
+      {
+        "hex": "#8C4D78",
+        "role": "glow"
+      }
+    ],
+    "style": [
+      "maximalist",
+      "playful",
+      "dark-mode",
+      "layered",
+      "high-contrast"
+    ],
+    "tone": [
+      "energetic",
+      "curious",
+      "futuristic",
+      "expressive"
+    ],
+    "layout": [
+      "hero-led",
+      "oversized-type",
+      "centered hero",
+      "stacked sections",
+      "horizontal ticker"
+    ],
+    "typography": [
+      "grotesk",
+      "display-type",
+      "oversized headlines",
+      "bold geometric forms"
+    ],
+    "uiMotifs": [
+      "neon gradient accents",
+      "floating metric cards",
+      "glowing dashboard illustrations",
+      "marquee navigation strip",
+      "rounded pill buttons"
+    ],
+    "notes": "A dark single-page agency layout pairs oversized white and pink headlines with a vivid sculptural head assembled from colorful abstract objects. The composition uses centered hero imagery, compact metric cards, glowing interface illustrations, and strong section dividers to create a polished, high-energy presentation.",
+    "suggestedTagIds": [
+      "playful",
+      "maximalist",
+      "energetic",
+      "curious",
+      "hero-led",
+      "dark-mode",
+      "display-type",
+      "grotesk",
+      "high-contrast",
+      "layered",
+      "landing-love",
+      "dribbble"
+    ],
+    "heroPrompt": "A surreal 3D sculptural human head centered against a nearly black background, assembled from vivid abstract objects, translucent plastic forms, flowers, toy-like shapes, glossy geometric fragments, and saturated pink, orange, yellow, cyan, and green details. Soft magenta and amber rim lighting, subtle atmospheric glow, highly detailed mixed-material surface, editorial technology campaign aesthetic, isolated composition with generous negative space, no text, no logos, no recognizable characters."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

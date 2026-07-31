@@ -1,0 +1,98 @@
+{
+  "id": "pin-on-branding-ideas-ed6dc0cf",
+  "title": "Neon Immersive VR Landing Page",
+  "notes": "",
+  "sourceUrl": "https://www.pinterest.com/pin/302233825015764361/",
+  "sourceImageUrl": "https://i.pinimg.com/736x/b1/b4/67/b1b46712638f4116cfb51227692ddb74.jpg",
+  "sourceDomain": "pinterest.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:07:34.887Z",
+  "updatedAt": "2026-07-27T20:07:52.704Z",
+  "media": {
+    "path": "catalog/media/pin-on-branding-ideas-ed6dc0cf.webp",
+    "width": 736,
+    "height": 1472,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "pinterest"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:07:52.703Z",
+    "title": "Neon Immersive VR Landing Page",
+    "palette": [
+      {
+        "hex": "#080F1D",
+        "role": "background"
+      },
+      {
+        "hex": "#F2F3F5",
+        "role": "headline text"
+      },
+      {
+        "hex": "#08D9F4",
+        "role": "primary accent"
+      },
+      {
+        "hex": "#7A2BC7",
+        "role": "secondary glow"
+      },
+      {
+        "hex": "#123A58",
+        "role": "card atmosphere"
+      }
+    ],
+    "style": [
+      "futuristic 3D",
+      "neon cybernetic",
+      "immersive",
+      "premium technology"
+    ],
+    "tone": [
+      "energetic",
+      "curious",
+      "cinematic",
+      "confident"
+    ],
+    "layout": [
+      "vertical landing page",
+      "oversized hero type",
+      "centered hero composition",
+      "three-column card grid",
+      "sectioned scroll narrative"
+    ],
+    "typography": [
+      "oversized grotesk",
+      "high-contrast scale",
+      "minimal sans-serif",
+      "compact navigation labels"
+    ],
+    "uiMotifs": [
+      "cyan pill buttons",
+      "glowing card borders",
+      "dark glass panels",
+      "cyan-magenta gradients",
+      "rounded image cards"
+    ],
+    "notes": "A dark, high-contrast landing page pairs oversized white lettering with a luminous cyan humanoid VR hero and saturated atmospheric glows. Repeated rounded cards, compact navigation, bright call-to-action pills, and spacious section breaks create a polished immersive-tech presentation.",
+    "suggestedTagIds": [
+      "retro-futurist",
+      "energetic",
+      "hero-led",
+      "oversized-type",
+      "dark-mode",
+      "high-contrast",
+      "immersive",
+      "grid-system",
+      "display-type",
+      "grotesk",
+      "landing-love",
+      "pinterest"
+    ],
+    "heroPrompt": "Create a cinematic 3D hero visual for a futuristic immersive-technology website: a sleek humanoid synthetic figure wearing a streamlined black and cyan virtual-reality visor, shown from the chest up and facing slightly sideways. Use dramatic rim lighting, glossy reflective surfaces, subtle mechanical detailing, electric cyan highlights, deep navy shadows, and faint magenta atmospheric bloom. Place the figure centrally against a nearly black background with generous negative space, crisp editorial composition, premium product-render quality, and no text, logos, interface labels, or recognizable characters."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

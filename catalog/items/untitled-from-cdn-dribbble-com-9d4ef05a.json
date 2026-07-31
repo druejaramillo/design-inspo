@@ -1,0 +1,102 @@
+{
+  "id": "untitled-from-cdn-dribbble-com-9d4ef05a",
+  "title": "Electric Editorial Fashion Collage",
+  "notes": "",
+  "sourceUrl": "https://cdn.dribbble.com/userupload/48510743/file/30fe6ea7b741f94cc0ae23bb7ee643ef.jpg?resize=752x&vertical=center",
+  "sourceImageUrl": "https://cdn.dribbble.com/userupload/48510743/file/30fe6ea7b741f94cc0ae23bb7ee643ef.jpg?resize=752x&vertical=center",
+  "sourceDomain": "cdn.dribbble.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:02:52.956Z",
+  "updatedAt": "2026-07-27T20:03:06.237Z",
+  "media": {
+    "path": "catalog/media/untitled-from-cdn-dribbble-com-9d4ef05a.webp",
+    "width": 752,
+    "height": 564,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "dribbble"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:03:06.237Z",
+    "title": "Electric Editorial Fashion Collage",
+    "palette": [
+      {
+        "hex": "#0869C9",
+        "role": "primary background"
+      },
+      {
+        "hex": "#F2295B",
+        "role": "accent border"
+      },
+      {
+        "hex": "#12B9D0",
+        "role": "secondary accent"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "type and negative space"
+      },
+      {
+        "hex": "#F4B329",
+        "role": "warm highlight"
+      },
+      {
+        "hex": "#111111",
+        "role": "dark contrast"
+      }
+    ],
+    "style": [
+      "editorial collage",
+      "high-energy fashion art direction",
+      "maximalist",
+      "contemporary streetwear"
+    ],
+    "tone": [
+      "energetic",
+      "playful",
+      "confident",
+      "youthful"
+    ],
+    "layout": [
+      "asymmetric modular grid",
+      "central hero-led composition",
+      "overlapping image panels",
+      "strong visual cropping"
+    ],
+    "typography": [
+      "oversized grotesk display type",
+      "high-contrast white lettering",
+      "compact sans-serif navigation",
+      "bold editorial hierarchy"
+    ],
+    "uiMotifs": [
+      "pill-shaped navigation controls",
+      "rounded order button",
+      "floating stat card",
+      "circular arrow control",
+      "bright framed panels"
+    ],
+    "notes": "A saturated blue, pink, cyan, and orange palette frames a modular fashion collage centered on a dynamic skateboard jump. Oversized white display lettering, cropped photography, floating cards, and thin hot-pink dividers create a lively editorial landing-page system.",
+    "suggestedTagIds": [
+      "editorial",
+      "playful",
+      "maximalist",
+      "energetic",
+      "hero-led",
+      "asymmetric",
+      "grid-system",
+      "oversized-type",
+      "layered",
+      "primary-pop",
+      "display-type",
+      "grotesk",
+      "landing-love"
+    ],
+    "heroPrompt": "Editorial fashion campaign image of a young woman in an oversized white technical outfit captured midair above a red skateboard, dynamic foreshortening and visible sneaker sole, windblown dark hair, vivid cobalt-blue studio background fading softly toward white, crisp commercial lighting, subtle motion energy, bold cutout composition, clean high-fashion streetwear styling, no logos, no readable text, no watermark."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

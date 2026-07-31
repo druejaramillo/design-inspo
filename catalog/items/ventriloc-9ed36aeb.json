@@ -1,0 +1,90 @@
+{
+  "id": "ventriloc-9ed36aeb",
+  "title": "Warm Editorial Data Dashboard",
+  "notes": "",
+  "sourceUrl": "https://craftwork.design/curated/website/ventriloc",
+  "sourceImageUrl": "https://craftwork-products.b-cdn.net/curated/cover/63f64668c4d112365cedb8d1_63e27ad331e23e6b90c1f2b0_Image_01.png",
+  "sourceDomain": "craftwork.design",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:14:42.245Z",
+  "updatedAt": "2026-07-27T20:14:54.323Z",
+  "media": {
+    "path": "catalog/media/ventriloc-9ed36aeb.webp",
+    "width": 1600,
+    "height": 900,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "craftwork"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:14:54.323Z",
+    "title": "Warm Editorial Data Dashboard",
+    "palette": [
+      {
+        "hex": "#431E1B",
+        "role": "background"
+      },
+      {
+        "hex": "#FF6729",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8D9D8",
+        "role": "headline text"
+      },
+      {
+        "hex": "#8C4637",
+        "role": "ornamental lines"
+      },
+      {
+        "hex": "#9D5148",
+        "role": "button fill"
+      }
+    ],
+    "style": [
+      "editorial",
+      "minimal",
+      "layered",
+      "high-contrast"
+    ],
+    "tone": [
+      "warm",
+      "confident",
+      "technical",
+      "refined"
+    ],
+    "layout": [
+      "centered hero",
+      "asymmetric supporting copy",
+      "oversized headline",
+      "framed dashboard panel"
+    ],
+    "typography": [
+      "serif display type",
+      "grotesk navigation",
+      "oversized type",
+      "expressive color contrast"
+    ],
+    "uiMotifs": [
+      "pill-shaped buttons",
+      "thin orbital line graphics",
+      "rounded data-card frame",
+      "minimal navigation"
+    ],
+    "notes": "A deep brown canvas pairs vivid orange accents with pale serif typography for a warm, editorial interpretation of a data-services landing page. Sweeping hairline curves create motion behind a restrained dashboard card, while the left-aligned supporting copy adds asymmetrical balance.",
+    "suggestedTagIds": [
+      "editorial",
+      "minimal",
+      "warm",
+      "technical",
+      "oversized-type",
+      "layered"
+    ],
+    "heroPrompt": null
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

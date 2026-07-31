@@ -1,0 +1,93 @@
+{
+  "id": "untitled-from-cdn-dribbble-com-5a60002f",
+  "title": "Soft Editorial Yoga Landing Page",
+  "notes": "",
+  "sourceUrl": "https://cdn.dribbble.com/userupload/15023900/file/original-ccf7358e67c02f6c2b8b2aae66554e49.png?resize=752x&vertical=center",
+  "sourceImageUrl": "https://cdn.dribbble.com/userupload/15023900/file/original-ccf7358e67c02f6c2b8b2aae66554e49.png?resize=752x&vertical=center",
+  "sourceDomain": "cdn.dribbble.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T19:57:24.632Z",
+  "updatedAt": "2026-07-27T19:57:39.190Z",
+  "media": {
+    "path": "catalog/media/untitled-from-cdn-dribbble-com-5a60002f.webp",
+    "width": 752,
+    "height": 564,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "dribbble"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T19:57:39.190Z",
+    "title": "Soft Editorial Yoga Landing Page",
+    "palette": [
+      {
+        "hex": "#F7F4F2",
+        "role": "background"
+      },
+      {
+        "hex": "#E7DDF7",
+        "role": "lavender accent"
+      },
+      {
+        "hex": "#111213",
+        "role": "text and dark panels"
+      },
+      {
+        "hex": "#F2A58D",
+        "role": "peach accent"
+      },
+      {
+        "hex": "#A9B9A5",
+        "role": "muted green accent"
+      }
+    ],
+    "style": [
+      "editorial",
+      "organic",
+      "pastel",
+      "contemporary",
+      "image-led"
+    ],
+    "tone": [
+      "calm",
+      "welcoming",
+      "uplifting",
+      "wellness-focused"
+    ],
+    "layout": [
+      "asymmetric collage",
+      "modular card grid",
+      "layered sections",
+      "rounded containers",
+      "strong vertical flow"
+    ],
+    "typography": [
+      "grotesk",
+      "oversized headlines",
+      "high-contrast hierarchy",
+      "compact navigation labels"
+    ],
+    "uiMotifs": [
+      "rounded image cards",
+      "pill-shaped labels",
+      "circular testimonial portraits",
+      "soft color blocking",
+      "floating action buttons"
+    ],
+    "notes": "A polished yoga and wellness landing-page system combines oversized photography, lavender and peach accents, rounded cards, and offset content panels. The composition balances airy editorial whitespace with dense modular sections for classes, events, testimonials, and frequently asked questions.",
+    "suggestedTagIds": [
+      "organic",
+      "pastel",
+      "hero-led",
+      "asymmetric",
+      "grid-system",
+      "layered"
+    ],
+    "heroPrompt": "A wide editorial wellness photograph of an adult woman practicing an elegant yoga pose on a pale lavender studio surface, viewed from a slightly elevated angle with one leg extended diagonally across the frame. Use soft natural light, gentle shadows, muted neutral clothing, and a calm pastel palette. Compose the figure to leave generous negative space for headline placement, with subtle paper-like texture and refined lifestyle photography styling. No text, logos, badges, or interface elements."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

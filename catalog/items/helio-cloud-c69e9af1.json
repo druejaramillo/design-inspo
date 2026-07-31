@@ -1,0 +1,94 @@
+{
+  "id": "helio-cloud-c69e9af1",
+  "title": "Soft Cloud Computing Landing Page",
+  "notes": "",
+  "sourceUrl": "https://craftwork.design/curated/website/helio-cloud",
+  "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/feae5f8c-ded1-4cb0-8598-32ffea4c60b7/helio.cloud_.png",
+  "sourceDomain": "craftwork.design",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:11:40.986Z",
+  "updatedAt": "2026-07-27T20:11:54.979Z",
+  "media": {
+    "path": "catalog/media/helio-cloud-c69e9af1.webp",
+    "width": 2200,
+    "height": 1238,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "craftwork"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:11:54.979Z",
+    "title": "Soft Cloud Computing Landing Page",
+    "palette": [
+      {
+        "hex": "#78B4D1",
+        "role": "sky background"
+      },
+      {
+        "hex": "#DDEBF0",
+        "role": "atmospheric gradient"
+      },
+      {
+        "hex": "#F4E9D3",
+        "role": "warm horizon"
+      },
+      {
+        "hex": "#F8F8F2",
+        "role": "cloud forms"
+      },
+      {
+        "hex": "#0B2947",
+        "role": "headline text"
+      },
+      {
+        "hex": "#FF861B",
+        "role": "accent buttons"
+      }
+    ],
+    "style": [
+      "minimal",
+      "organic",
+      "editorial",
+      "illustrative"
+    ],
+    "tone": [
+      "calm",
+      "optimistic",
+      "approachable",
+      "technical"
+    ],
+    "layout": [
+      "centered hero",
+      "symmetrical composition",
+      "layered foreground",
+      "spacious vertical rhythm"
+    ],
+    "typography": [
+      "oversized type",
+      "grotesk",
+      "bold headline",
+      "compact navigation"
+    ],
+    "uiMotifs": [
+      "pill-shaped buttons",
+      "soft cloud silhouettes",
+      "subtle glow",
+      "investor-logo strip"
+    ],
+    "notes": "A centered, spacious landing page uses a pale blue-to-cream sky gradient, oversized dark sans-serif headline, and warm orange calls to action. Layered white cloud forms create depth along the lower edge while restrained navigation and sponsorship marks keep the composition polished and approachable.",
+    "suggestedTagIds": [
+      "minimal",
+      "organic",
+      "warm",
+      "quiet",
+      "hero-led",
+      "oversized-type"
+    ],
+    "heroPrompt": "A serene editorial cloudscape for a technology landing page: pale blue sky fading into a warm cream horizon, a subtle luminous vertical glow centered behind the composition, tiny sparse atmospheric specks, and layered rounded white cloud silhouettes rising from the bottom edge. Keep the center mostly open for headline placement, use soft translucent edges and gentle depth through overlapping shapes, with a clean modern art direction, calm optimism, generous negative space, and no text, logos, symbols, or recognizable branding."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

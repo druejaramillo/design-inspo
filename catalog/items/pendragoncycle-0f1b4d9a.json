@@ -1,0 +1,87 @@
+{
+  "id": "pendragoncycle-0f1b4d9a",
+  "title": "Mystical Sword and Celestial Wheel",
+  "notes": "",
+  "sourceUrl": null,
+  "sourceDomain": null,
+  "captureMethod": "upload",
+  "importedAt": "2026-07-27T20:16:54.347Z",
+  "updatedAt": "2026-07-27T20:17:14.699Z",
+  "media": {
+    "path": "catalog/media/pendragoncycle-0f1b4d9a.webp",
+    "width": 2200,
+    "height": 1238,
+    "format": "webp"
+  },
+  "manualTagIds": [],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:17:14.698Z",
+    "title": "Mystical Sword and Celestial Wheel",
+    "palette": [
+      {
+        "hex": "#111923",
+        "role": "deep navy background"
+      },
+      {
+        "hex": "#536270",
+        "role": "slate atmospheric midtone"
+      },
+      {
+        "hex": "#B5C0C4",
+        "role": "misty illumination"
+      },
+      {
+        "hex": "#E9E7DC",
+        "role": "ivory symbols and type"
+      },
+      {
+        "hex": "#08090B",
+        "role": "black foreground shadows"
+      }
+    ],
+    "style": [
+      "cinematic fantasy",
+      "atmospheric collage",
+      "textured",
+      "mystical"
+    ],
+    "tone": [
+      "ominous",
+      "dramatic",
+      "contemplative",
+      "otherworldly"
+    ],
+    "layout": [
+      "full-bleed hero",
+      "centered focal object",
+      "radial diagram",
+      "anchored footer navigation"
+    ],
+    "typography": [
+      "ornate serif display",
+      "small serif utility text",
+      "high-contrast light-on-dark",
+      "centered title lockup"
+    ],
+    "uiMotifs": [
+      "thin hairline rules",
+      "arrow glyphs",
+      "circular icon wheel",
+      "minimal menu control"
+    ],
+    "notes": "A dark, mist-filled composition centers an engraved sword rising from a rough stone pedestal, surrounded by luminous circular symbols. Sparse navigation and restrained ivory typography frame the cinematic artwork without competing with its focal point.",
+    "suggestedTagIds": [
+      "hero-led",
+      "immersive",
+      "monochrome",
+      "dark-mode",
+      "serif",
+      "landing-love"
+    ],
+    "heroPrompt": "Create a cinematic fantasy hero image in a nearly monochromatic palette: a dark intricately engraved sword planted upright in a weathered stone pedestal, centered against a deep blue-black misty sky. Surround it with a thin luminous circular diagram containing abstract arcane symbols and radial lines, softly glowing through drifting fog and scattered dust. Use dramatic backlighting, cool silver-blue highlights, heavy atmospheric depth, tactile stone and metal textures, subtle film grain, and strong contrast. Leave calm negative space near the edges for interface overlays. No text, logos, recognizable characters, or branded symbols."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

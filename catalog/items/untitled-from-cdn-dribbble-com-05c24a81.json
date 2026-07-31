@@ -1,0 +1,91 @@
+{
+  "id": "untitled-from-cdn-dribbble-com-05c24a81",
+  "title": "Dark Gradient Portfolio Collage",
+  "notes": "",
+  "sourceUrl": "https://cdn.dribbble.com/userupload/29611471/file/original-23ecfe2b57768e161a1d3461e73cc3f0.png?resize=752x&vertical=center",
+  "sourceImageUrl": "https://cdn.dribbble.com/userupload/29611471/file/original-23ecfe2b57768e161a1d3461e73cc3f0.png?resize=752x&vertical=center",
+  "sourceDomain": "cdn.dribbble.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:01:18.296Z",
+  "updatedAt": "2026-07-27T20:01:33.799Z",
+  "media": {
+    "path": "catalog/media/untitled-from-cdn-dribbble-com-05c24a81.webp",
+    "width": 752,
+    "height": 564,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "dribbble"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:01:33.799Z",
+    "title": "Dark Gradient Portfolio Collage",
+    "palette": [
+      {
+        "hex": "#09090B",
+        "role": "background"
+      },
+      {
+        "hex": "#3B16B8",
+        "role": "accent gradient"
+      },
+      {
+        "hex": "#F4F4F1",
+        "role": "surface"
+      },
+      {
+        "hex": "#A7A5B0",
+        "role": "secondary text"
+      },
+      {
+        "hex": "#274B67",
+        "role": "image accent"
+      }
+    ],
+    "style": [
+      "editorial",
+      "minimal",
+      "luxurious",
+      "immersive",
+      "high-contrast"
+    ],
+    "tone": [
+      "confident",
+      "experimental",
+      "polished",
+      "futuristic"
+    ],
+    "layout": [
+      "asymmetric",
+      "grid-system",
+      "hero-led",
+      "layered"
+    ],
+    "typography": [
+      "grotesk",
+      "oversized-type",
+      "display-type",
+      "expressive-type"
+    ],
+    "uiMotifs": [
+      "thumbnail navigation",
+      "dark-to-light gradient field",
+      "modular image grid",
+      "minimal circular controls"
+    ],
+    "notes": "A portfolio-style interface combines oversized stacked typography with a dramatic violet glow fading into a bright content field. A secondary vertical layout uses framed imagery, compact project rows, and a glossy futuristic object to create a curated art-direction collage.",
+    "suggestedTagIds": [
+      "editorial",
+      "minimal",
+      "luxurious",
+      "hero-led",
+      "asymmetric",
+      "grid-system"
+    ],
+    "heroPrompt": "A cinematic studio photograph of a sleek futuristic visor-like device floating against a deep indigo and violet atmospheric background, glossy black shell, thin magenta light strip, subtle reflections, soft volumetric haze, centered three-quarter view, generous negative space, premium technology art direction, dramatic low-key lighting, refined product photography, no text, no logos, no people."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

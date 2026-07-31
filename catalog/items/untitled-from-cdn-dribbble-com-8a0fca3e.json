@@ -1,0 +1,86 @@
+{
+  "id": "untitled-from-cdn-dribbble-com-8a0fca3e",
+  "title": "Isometric Logistics Landing Page",
+  "notes": "",
+  "sourceUrl": "https://cdn.dribbble.com/userupload/48510946/file/ece4c7e4a104b16cd02616c3eec2e226.png?resize=752x&vertical=center",
+  "sourceImageUrl": "https://cdn.dribbble.com/userupload/48510946/file/ece4c7e4a104b16cd02616c3eec2e226.png?resize=752x&vertical=center",
+  "sourceDomain": "cdn.dribbble.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:02:37.891Z",
+  "updatedAt": "2026-07-27T20:02:50.131Z",
+  "media": {
+    "path": "catalog/media/untitled-from-cdn-dribbble-com-8a0fca3e.webp",
+    "width": 752,
+    "height": 564,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "dribbble"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:02:50.130Z",
+    "title": "Isometric Logistics Landing Page",
+    "palette": [
+      {
+        "hex": "#F7F7F5",
+        "role": "background"
+      },
+      {
+        "hex": "#D9D9D6",
+        "role": "secondary surfaces"
+      },
+      {
+        "hex": "#B21F1F",
+        "role": "accent"
+      },
+      {
+        "hex": "#171717",
+        "role": "text"
+      }
+    ],
+    "style": [
+      "minimal",
+      "technical",
+      "isometric",
+      "editorial"
+    ],
+    "tone": [
+      "quiet",
+      "precise",
+      "confident",
+      "efficient"
+    ],
+    "layout": [
+      "grid-system",
+      "layered",
+      "hero-led",
+      "asymmetric"
+    ],
+    "typography": [
+      "grotesk",
+      "display-type",
+      "oversized-type",
+      "high-contrast"
+    ],
+    "uiMotifs": [
+      "3D warehouse illustration",
+      "tracking status cards",
+      "thin red dividers",
+      "metric panels"
+    ],
+    "notes": "A clean logistics landing-page composition pairs a large isometric warehouse-and-truck scene with oversized black typography and restrained red accents. Repeated cards, metrics, navigation, and cropped neighboring panels create a dense editorial presentation around a modular grid.",
+    "suggestedTagIds": [
+      "minimal",
+      "technical",
+      "hero-led",
+      "grid-system",
+      "oversized-type",
+      "grotesk"
+    ],
+    "heroPrompt": "Create a refined isometric 3D logistics scene for a modern website hero: a white delivery truck with a deep red cargo container moving through a pale warehouse and distribution center, with tiny loading bays, stacked crates, shelving, roads, and subtle tracking markers. Use soft white and light-gray materials, crisp geometric forms, gentle ambient shadows, a clean near-white background, and one strong dark-red accent. Leave generous negative space for oversized black headline text; no readable text, logos, labels, or brand marks."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

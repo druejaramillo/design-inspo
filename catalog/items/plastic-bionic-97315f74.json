@@ -1,0 +1,92 @@
+{
+  "id": "plastic-bionic-97315f74",
+  "title": "Blue Lens Product Hero",
+  "notes": "",
+  "sourceUrl": "https://craftwork.design/curated/website/plastic-bionic",
+  "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/6bc5f53a-7d87-4b9a-ba8f-41abac7dca07/pla-ticbionic.com_.png",
+  "sourceDomain": "craftwork.design",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:10:21.680Z",
+  "updatedAt": "2026-07-27T20:10:39.183Z",
+  "media": {
+    "path": "catalog/media/plastic-bionic-97315f74.webp",
+    "width": 2200,
+    "height": 1238,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "craftwork"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:10:39.182Z",
+    "title": "Blue Lens Product Hero",
+    "palette": [
+      {
+        "hex": "#4A4A4A",
+        "role": "background"
+      },
+      {
+        "hex": "#F3F6F7",
+        "role": "product body"
+      },
+      {
+        "hex": "#1D5BC2",
+        "role": "accent blue"
+      },
+      {
+        "hex": "#03080D",
+        "role": "lens panel"
+      },
+      {
+        "hex": "#BFC7CF",
+        "role": "metallic detail"
+      }
+    ],
+    "style": [
+      "minimal",
+      "technical",
+      "high-contrast",
+      "retro-futurist"
+    ],
+    "tone": [
+      "precise",
+      "confident",
+      "futuristic",
+      "curious"
+    ],
+    "layout": [
+      "hero-led",
+      "asymmetric",
+      "oversized focal object",
+      "sparse navigation"
+    ],
+    "typography": [
+      "oversized grotesk",
+      "light weight",
+      "high legibility",
+      "centered overlay"
+    ],
+    "uiMotifs": [
+      "thin horizontal rules",
+      "minimal text navigation",
+      "plus icon control",
+      "dark interface chrome"
+    ],
+    "notes": "A tightly cropped white device dominates the composition, with a vivid blue circular element and black dual-lens panel creating a strong visual target. Sparse gray navigation and oversized white sans-serif lettering frame the product with a polished, editorial-tech direction.",
+    "suggestedTagIds": [
+      "minimal",
+      "technical",
+      "hero-led",
+      "asymmetric",
+      "oversized-type",
+      "high-contrast",
+      "retro-futurist",
+      "grid-system"
+    ],
+    "heroPrompt": "Create a high-end editorial product hero image featuring a tightly cropped futuristic white handheld device with angular edges, a large vivid cobalt-blue circular face, chrome trim, and a black horizontal panel containing two circular camera-like lenses. Place it against a charcoal-gray interface-inspired background with sparse hairline rules and small neutral navigation marks, but no readable text, logos, or brand identifiers. Use frontal macro perspective, soft studio reflections, precise industrial surfaces, deep shadows, and a bold asymmetrical crop. Add one large abstract white sans-serif typographic block partially overlapping the device."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

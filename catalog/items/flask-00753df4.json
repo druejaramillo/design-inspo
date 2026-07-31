@@ -1,0 +1,92 @@
+{
+  "id": "flask-00753df4",
+  "title": "Dark Gradient Video Collaboration Landing Page",
+  "notes": "",
+  "sourceUrl": "https://craftwork.design/curated/website/flask",
+  "sourceImageUrl": "https://marketstorage.b-cdn.net/previews/306a4c5d-6f42-49d5-a1ac-9acdcca42e27/fla-k.do_.png",
+  "sourceDomain": "craftwork.design",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:15:03.707Z",
+  "updatedAt": "2026-07-27T20:15:19.384Z",
+  "media": {
+    "path": "catalog/media/flask-00753df4.webp",
+    "width": 2200,
+    "height": 1238,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "craftwork"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:15:19.384Z",
+    "title": "Dark Gradient Video Collaboration Landing Page",
+    "palette": [
+      {
+        "hex": "#17191A",
+        "role": "background"
+      },
+      {
+        "hex": "#536A9B",
+        "role": "hero-sky"
+      },
+      {
+        "hex": "#F4F7FA",
+        "role": "primary text"
+      },
+      {
+        "hex": "#E99B83",
+        "role": "warm accent"
+      },
+      {
+        "hex": "#C55BD8",
+        "role": "gradient accent"
+      }
+    ],
+    "style": [
+      "dark-mode",
+      "hero-led",
+      "layered",
+      "immersive",
+      "playful"
+    ],
+    "tone": [
+      "confident",
+      "creative",
+      "energetic",
+      "curious"
+    ],
+    "layout": [
+      "centered composition",
+      "floating media card",
+      "strong vertical hierarchy",
+      "generous negative space"
+    ],
+    "typography": [
+      "grotesk",
+      "oversized type",
+      "expressive gradient text",
+      "high-contrast weights"
+    ],
+    "uiMotifs": [
+      "rounded video player",
+      "circular speaker inset",
+      "gradient timeline markers",
+      "soft pill-shaped CTA",
+      "subtle radial texture"
+    ],
+    "notes": "A dark, atmospheric landing page centers a large video card above an oversized gradient headline, with floating controls and a circular talking-head overlay adding depth. Soft glows, rounded surfaces, and a restrained neon palette balance polished SaaS clarity with playful art direction.",
+    "suggestedTagIds": [
+      "dark-mode",
+      "hero-led",
+      "layered",
+      "immersive",
+      "oversized-type",
+      "grotesk"
+    ],
+    "heroPrompt": "A cinematic editorial video still of a sculptural miniature tree with a twisted trunk and sparse pink blossoms growing from a weathered stone block, isolated against a smooth blue-to-lavender sky gradient. Soft studio lighting, subtle atmospheric haze, refined 3D realism, centered composition, gentle shadows, and ample negative space around the subject. The image should feel like a premium creative collaboration product showcase, with no text, logos, interface elements, or recognizable people."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}

@@ -1,0 +1,94 @@
+{
+  "id": "untitled-from-cdn-dribbble-com-5cec8588",
+  "title": "Botanical Agricultural Intelligence Landing Page",
+  "notes": "",
+  "sourceUrl": "https://cdn.dribbble.com/userupload/48515075/file/2cbdca1f5df98f51415aaf1062840106.png?resize=752x&vertical=center",
+  "sourceImageUrl": "https://cdn.dribbble.com/userupload/48515075/file/2cbdca1f5df98f51415aaf1062840106.png?resize=752x&vertical=center",
+  "sourceDomain": "cdn.dribbble.com",
+  "captureMethod": "url",
+  "importedAt": "2026-07-27T20:01:51.984Z",
+  "updatedAt": "2026-07-27T20:02:14.653Z",
+  "media": {
+    "path": "catalog/media/untitled-from-cdn-dribbble-com-5cec8588.webp",
+    "width": 752,
+    "height": 564,
+    "format": "webp"
+  },
+  "manualTagIds": [
+    "dribbble"
+  ],
+  "analysis": {
+    "version": 1,
+    "provider": "opencode",
+    "analyzedAt": "2026-07-27T20:02:14.653Z",
+    "title": "Botanical Agricultural Intelligence Landing Page",
+    "palette": [
+      {
+        "hex": "#123918",
+        "role": "deep forest background"
+      },
+      {
+        "hex": "#4B6B1E",
+        "role": "olive foliage"
+      },
+      {
+        "hex": "#A8E85F",
+        "role": "lime accent"
+      },
+      {
+        "hex": "#D8EFB2",
+        "role": "pale green panels"
+      },
+      {
+        "hex": "#F7F6E8",
+        "role": "warm text"
+      },
+      {
+        "hex": "#F5B51B",
+        "role": "citrus highlight"
+      }
+    ],
+    "style": [
+      "organic",
+      "editorial",
+      "immersive",
+      "hero-led"
+    ],
+    "tone": [
+      "calm",
+      "intelligent",
+      "natural",
+      "premium"
+    ],
+    "layout": [
+      "asymmetric grid",
+      "full-bleed hero image",
+      "layered information cards",
+      "strong vertical alignment"
+    ],
+    "typography": [
+      "oversized serif display type",
+      "high-contrast letterforms",
+      "compact sans-serif navigation",
+      "editorial hierarchy"
+    ],
+    "uiMotifs": [
+      "dotted grid guides",
+      "circular metric badge",
+      "minimal line chart",
+      "pale green data panels"
+    ],
+    "notes": "A deep green agricultural landing page combines a softly blurred botanical photograph with oversized cream serif typography and lime data accents. Thin guide lines, modular cards, and restrained analytics graphics create a polished editorial interface with a technical undertone.",
+    "suggestedTagIds": [
+      "organic",
+      "editorial",
+      "hero-led",
+      "grid-system",
+      "oversized-type",
+      "serif"
+    ],
+    "heroPrompt": "Photorealistic close-up of a slender leafy citrus branch with several ripe yellow lemons, suspended against a lush deep-green agricultural landscape with a soft creamy bokeh background. Use diffused natural daylight, rich botanical texture, subtle cinematic contrast, and an elegant premium editorial art direction. Compose the branch diagonally from the upper right toward the lower center, leaving generous dark green negative space on the left for typography. No text, logos, interface elements, or branding."
+  },
+  "analysisStatus": "ready",
+  "analysisError": null
+}
