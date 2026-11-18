@@ -17,7 +17,7 @@ const item = (id: string, tags: string[], palette = ["#112233", "#eeddcc"]): Cat
   analysisError: null,
   analysis: {
     version: 1,
-    provider: "opencode",
+    provider: "pi",
     analyzedAt: "2026-01-01T00:00:00.000Z",
     title: `Reference ${id}`,
     palette: palette.map((hex, index) => ({ hex, role: index ? "accent" : "background" })),

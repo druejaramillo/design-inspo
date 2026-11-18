@@ -5,9 +5,13 @@ export const paletteColorSchema = z.object({
   role: z.string().min(1).max(80),
 });
 
+/** Selects a current analysis engine; legacy providers are accepted only in saved results. */
+export const analysisProviderSchema = z.enum(["pi", "openai"]);
+export type AnalysisProvider = z.infer<typeof analysisProviderSchema>;
+
 export const analysisSchema = z.object({
   version: z.literal(1),
-  provider: z.enum(["opencode", "openai"]),
+  provider: z.enum(["pi", "openai", "opencode"]),
   analyzedAt: z.string().datetime(),
   title: z.string().min(1).max(160),
   palette: z.array(paletteColorSchema).min(2).max(8),

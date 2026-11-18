@@ -3,7 +3,8 @@ import { join } from "node:path";
 import express from "express";
 import multer from "multer";
 import { ZodError } from "zod";
-import { analysisDiagnostic, analysisErrorMessage, analysisErrorStatus, OPENCODE_VISION_MODEL, type AnalysisProvider } from "./analysis.js";
+import { analysisProviderSchema } from "../shared/schema.js";
+import { analysisDiagnostic, analysisErrorMessage, analysisErrorStatus, piVisionModel } from "./analysis.js";
 import { runCatalogAnalysis } from "./catalog-analysis.js";
 import {
   createItem,
@@ -116,7 +117,7 @@ app.post("/api/context", async (request, response, next) => {
 
 app.post("/api/items/:id/analyze", async (request, response, next) => {
   const id = request.params.id;
-  const provider: AnalysisProvider = request.body?.provider === "openai" ? "openai" : "opencode";
+  const provider = analysisProviderSchema.parse(request.body?.provider ?? "pi");
   const startedAt = Date.now();
   if (activeAnalyses.has(id)) {
     response.status(409).json({ error: "Analysis is already running for this item." });
@@ -140,7 +141,8 @@ app.post("/api/items/:id/analyze", async (request, response, next) => {
     if (analysisErrorStatus(error)) {
       console.error("Catalog analysis failed", {
         itemId: id,
-        provider: provider === "opencode" ? OPENCODE_VISION_MODEL : "openai",
+        provider,
+        model: provider === "pi" ? piVisionModel() : process.env.OPENAI_VISION_MODEL ?? "gpt-5.6-luna",
         durationMs: Date.now() - startedAt,
         message: analysisErrorMessage(error),
         diagnostic: analysisDiagnostic(error),

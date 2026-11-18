@@ -1,5 +1,5 @@
 import { useDeferredValue, useEffect, useState, type DragEvent, type FormEvent } from "react";
-import type { CatalogIndex, CatalogItem, CatalogSummary, Taxonomy } from "../shared/schema";
+import type { AnalysisProvider, CatalogIndex, CatalogItem, CatalogSummary, Taxonomy } from "../shared/schema";
 
 type ContextOutput = {
   selectedTags: string[];
@@ -258,7 +258,7 @@ export default function App() {
     }
   }
 
-  async function analyze(provider: "opencode" | "openai") {
+  async function analyze(provider: AnalysisProvider) {
     if (!selected) return;
     const id = selected.id;
     try {
@@ -273,7 +273,7 @@ export default function App() {
       });
       setSelected(updated);
       await refresh();
-      setNotice(`Analysis completed with ${provider === "opencode" ? "OpenCode" : "OpenAI"}.`);
+      setNotice(`Analysis completed with ${provider === "pi" ? "Pi" : "OpenAI"}.`);
     } catch (nextError) {
       try {
         const updated = await refreshSelected(id);
@@ -318,7 +318,7 @@ export default function App() {
   async function copyContext() {
     if (!context?.prompt) return;
     await navigator.clipboard.writeText(context.prompt);
-    setNotice("Direction copied. Paste it into OpenCode with the relevant task.");
+    setNotice("Direction copied. Paste it into Pi with the relevant task.");
   }
 
   return (
@@ -517,12 +517,12 @@ export default function App() {
                 <div className="section-heading"><h3>Visual reading</h3><span>{displayStatus(selected.analysisStatus)}</span></div>
                 {selected.analysisError && <p className="analysis-feedback" role="alert">{selected.analysisError}</p>}
                 {analysisStartedAt && <div className="analysis-progress" role="status">
-                  <span>Reading with {busy === "analyze-opencode" ? "OpenCode / gpt-5.6-luna" : "OpenAI"}... {analysisElapsed}s</span>
+                  <span>Reading with {busy === "analyze-pi" ? "Pi" : "OpenAI"}... {analysisElapsed}s</span>
                   <button type="button" onClick={cancelAnalysis} disabled={cancelingAnalysis}>{cancelingAnalysis ? "Canceling..." : "Cancel"}</button>
                 </div>}
                 {selected.analysis ? <AnalysisDisplay analysis={selected.analysis} tagLabels={tagLabels} /> : <p className="analysis-empty">Run a vision pass to pull out palette, typography, layout, tone, and an original hero-image prompt.</p>}
                 {selected.media && !staticMode && <div className="analysis-actions">
-                  <button type="button" className="analysis-button" onClick={() => analyze("opencode")} disabled={busy?.startsWith("analyze")}>{busy === "analyze-opencode" ? "Reading image..." : selected.analysis ? "Reanalyze with OpenCode" : selected.analysisStatus === "failed" || selected.analysisStatus === "canceled" ? "Retry with OpenCode" : "Analyze with OpenCode"}</button>
+                  <button type="button" className="analysis-button" onClick={() => analyze("pi")} disabled={busy?.startsWith("analyze")}>{busy === "analyze-pi" ? "Reading image..." : selected.analysis ? "Reanalyze with Pi" : selected.analysisStatus === "failed" || selected.analysisStatus === "canceled" ? "Retry with Pi" : "Analyze with Pi"}</button>
                   <button type="button" className="text-button" onClick={() => analyze("openai")} disabled={busy?.startsWith("analyze")}>{busy === "analyze-openai" ? "Reading image..." : "Use OpenAI"}</button>
                 </div>}
               </section>

@@ -1,9 +1,9 @@
 import { join } from "node:path";
+import type { AnalysisProvider } from "../shared/schema.js";
 import {
   analysisErrorMessage,
   analysisStatusAfterError,
   analyzeItem,
-  type AnalysisProvider,
 } from "./analysis.js";
 import { getItem, getTaxonomy, paths, rebuildIndex, writeItem } from "./catalog.js";
 
