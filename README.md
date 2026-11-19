@@ -13,20 +13,19 @@ npm run dev
 
 Open `http://localhost:5173`. The local catalog service runs on port `8787`; Vite proxies browser API requests to it.
 
-For a production-like local server:
+To preview the published, read-only site in a local Worker:
 
 ```sh
-npm run build
-npm run serve
+npm run dev:published
 ```
 
-Then open `http://localhost:8787`.
+Open `http://127.0.0.1:8788`. This preview does not enable catalog management or deploy to Cloudflare.
 
 ## Everyday workflow
 
 1. Drag a screenshot/image into the page, or paste a public source URL.
 2. The app stores one JSON record in `catalog/items/` and a normalized WebP in `catalog/media/`.
-3. Add a few deliberate tags and private notes in the item panel.
+3. Add deliberate tags and local notes in the item panel. Notes stay out of published assets, but remain in Git if you commit them.
 4. Run visual analysis with Pi. It gives the reference a concise descriptive title and generates palette, visual-reading, and hero-image recreation guidance.
 5. Filter the shelf and copy its direction into an AI coding task, or ask Pi to use a tag combination.
 
@@ -60,64 +59,36 @@ OPENAI_API_KEY=... npm run dev:server
 
 You can also put `OPENAI_API_KEY` and an optional `OPENAI_VISION_MODEL` in an uncommitted `.env` file. Browser code never receives this key.
 
-## CLI
+## Connect an agent
 
-Install the `inspo` command on your PATH (from this repo, after `npm install`):
+After deployment, add `https://design.druejaramillo.com/mcp` as a Streamable HTTP MCP server in your agent app. No repository checkout, local server process, API key, or CLI is required.
 
-```sh
-npm link
-# remove later: npm unlink -g design-inspiration
-```
+The server exposes four read-only tools:
 
-Start the catalog from any directory:
+- `inspo_overview` discovers represented taxonomy tags and counts.
+- `inspo_search` finds references by tags, with AND or OR matching and pagination.
+- `inspo_context` returns compact art direction and at most six references.
+- `inspo_get_reference` returns public details and can include a saved image up to 2 MiB.
 
-```sh
-inspo gui
-```
+The JSON API supports the same reads for agents without MCP. See the [API reference](docs/catalog-api.md) for parameters and the [publishing guide](docs/publishing.md) for Cloudflare setup.
 
-This runs the repository's development server from the project root. Open `http://localhost:5173` in your browser.
+The optional skill at `skills/design-inspo/SKILL.md` describes the remote workflow and HTTP fallback. Install or load that skill in your agent app. It does not depend on local catalog files. The former `inspo` CLI has been removed. If you previously installed it with `npm link`, remove that old link with `npm unlink -g design-inspiration`.
 
-Useful commands (work from any directory; catalog stays in this repo):
+## Storage and publication
 
-```sh
-inspo overview
-inspo search --tags "editorial,warm"
-inspo context --tags "editorial,warm,serif"
-inspo context --tags "playful,primary-pop" --mode or
-inspo import /path/to/screenshot.png --title "Idea for the archive"
-inspo import https://example.com/reference
-inspo analyze item-id --provider pi
-inspo validate
-```
+The repository remains the source of truth. Commit `catalog/items/`, `catalog/media/`, `catalog/taxonomy.json`, and `catalog/index.json` together. Set `INSPO_ROOT` only to use a different local catalog root.
 
-Override the catalog root with `INSPO_ROOT` if needed. In-repo `npm run inspo -- …` still works.
+`npm run build` creates `dist/catalog/catalog.json` from an allowlist of public fields and copies only referenced media. It does not publish raw item records, local notes, or analysis errors. Visual analysis descriptions and hero prompts are public. A public Git repository still exposes any notes committed to Git.
 
-`inspo analyze` defaults to Pi and reports the selected model, Fast mode, high thinking, final status, and generated title. Pass `--provider openai` to use the direct API adapter instead. The retired `--provider opencode` is no longer accepted.
+Production builds always use the read-only snapshot. Development mode always uses the local management API and does not silently fall back to an older export. Local edits reach the website and remote tools only after a new deployment.
 
-## Use from Pi
-
-The skill at `skills/design-inspo/SKILL.md` tells Pi how to draw from the catalog. Load it from the repository root:
-
-```sh
-pi --skill ./skills/design-inspo
-```
-
-Use `/skill:design-inspo` in that Pi session, or ask Pi for a tag-based direction. The skill only reads the catalog. It does not import or analyze references.
-
-`overview` lists the taxonomy tags currently represented in the catalog, their item counts, and a compact recent-reference sample. Use it to choose terms for `search` or `context`.
-
-`context` returns a compact prompt fragment plus bounded reference paths and source URLs. An agent can inspect those local files when the task needs more than the summary.
-
-## Storage and publishing
-
-The repository is the source of truth. Commit `catalog/items/`, `catalog/media/`, `catalog/taxonomy.json`, and `catalog/index.json` together. Plain Git is practical for a modest personal collection; migrate media to R2 or Git LFS once clone size becomes inconvenient.
-
-`npm run build` copies the catalog into the static output. Deploy `dist/` to Cloudflare Pages for read-only remote browsing. The static UI automatically falls back to that published catalog when its local API is unavailable. Keep imports and AI enrichment local until there is a real need for authenticated hosted editing; then move media to R2 and add Worker/D1 endpoints without changing item IDs or the CLI contract.
+Deploy the Worker and `dist/` together. Static-only hosting provides the browser but not MCP or the query API. No hosted editor, database, or AI credentials are required.
 
 ## Verification
 
 ```sh
-npm test
+npm test -- --maxWorkers=2 --no-file-parallelism
 npm run validate
-npm run build
+npm run check:worker
+npm run verify:published
 ```

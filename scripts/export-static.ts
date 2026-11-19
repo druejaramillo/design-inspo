@@ -1,10 +1,8 @@
-import { cp, mkdir, rm } from "node:fs/promises";
-import { join } from "node:path";
-import { paths, rebuildIndex } from "../server/catalog.js";
+import { fileURLToPath } from "node:url";
+import { getAllItems, getTaxonomy, paths } from "../server/catalog.js";
+import { writePublishedCatalog } from "../server/catalog-publishing.js";
+import { buildPublishedCatalog } from "../shared/published-catalog.js";
 
-// Vite copies public/ verbatim, making the committed catalog browseable on static hosting.
-await rebuildIndex();
-const destination = join(paths.root, "public", "catalog");
-await mkdir(join(paths.root, "public"), { recursive: true });
-await rm(destination, { recursive: true, force: true });
-await cp(paths.catalog, destination, { recursive: true });
+const [items, taxonomy] = await Promise.all([getAllItems(), getTaxonomy()]);
+const destination = fileURLToPath(new URL("../public/catalog", import.meta.url));
+await writePublishedCatalog(buildPublishedCatalog(items, taxonomy), paths.root, destination);

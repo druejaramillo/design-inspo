@@ -1,15 +1,10 @@
 import { useDeferredValue, useEffect, useState, type DragEvent, type FormEvent } from "react";
 import type { AnalysisProvider, CatalogIndex, CatalogItem, CatalogSummary, Taxonomy } from "../shared/schema";
+import { publishedCatalogSchema, type PublishedCatalog, type PublishedCatalogItem } from "../shared/published-catalog";
+import { buildCatalogContext, catalogItemTagIds, matchesCatalogTags } from "../shared/catalog-query";
 
-type ContextOutput = {
-  selectedTags: string[];
-  mode: "and" | "or";
-  count: number;
-  prompt: string;
-  references: Array<{ id: string; title: string; sourceUrl: string | null; imagePath: string | null }>;
-};
-
-const EMPTY_INDEX: CatalogIndex = { generatedAt: null, items: [] };
+const staticMode = import.meta.env.PROD;
+const EMPTY_INDEX: Pick<PublishedCatalog, "generatedAt" | "items"> = { generatedAt: null, items: [] };
 const EMPTY_TAXONOMY: Taxonomy = { groups: [] };
 
 async function api<T>(url: string, options?: RequestInit) {
@@ -18,18 +13,14 @@ async function api<T>(url: string, options?: RequestInit) {
     const data = (await response.json().catch(() => ({}))) as { error?: string };
     throw new Error(data.error || "Something went wrong.");
   }
-  return (await response.json()) as T;
+  return (response.status === 204 ? undefined : await response.json()) as T;
 }
 
 function mediaUrl(item: Pick<CatalogSummary, "media">, staticMode = false) {
   return item.media ? `${staticMode ? "/catalog/media" : "/media"}/${item.media.path.split("/").pop()}` : null;
 }
 
-function allItemTags(item: Pick<CatalogSummary, "manualTagIds" | "analysis">) {
-  return [...new Set([...item.manualTagIds, ...(item.analysis?.suggestedTagIds ?? [])])];
-}
-
-function fallbackGradient(item: CatalogSummary) {
+function fallbackGradient(item: PublishedCatalogItem) {
   const colors = item.analysis?.palette.map((color) => color.hex) ?? [];
   if (colors.length >= 2) return `linear-gradient(142deg, ${colors[0]}, ${colors[1]} 55%, ${colors[2] ?? colors[0]})`;
   const seed = item.id.charCodeAt(0) % 4;
@@ -51,43 +42,14 @@ function displayStatus(status: CatalogSummary["analysisStatus"]) {
   }[status];
 }
 
-function staticContext(items: CatalogSummary[], tags: string[], mode: "and" | "or"): ContextOutput {
-  const matches = items.filter((item) => {
-    const itemTags = allItemTags(item);
-    return !tags.length || (mode === "and" ? tags.every((tag) => itemTags.includes(tag)) : tags.some((tag) => itemTags.includes(tag)));
-  });
-  const analyses = matches.map((item) => item.analysis).filter((analysis): analysis is NonNullable<CatalogSummary["analysis"]> => Boolean(analysis));
-  const unique = (values: string[], limit: number) => [...new Set(values)].slice(0, limit);
-  const style = unique(analyses.flatMap((analysis) => analysis.style), 5);
-  const tone = unique(analyses.flatMap((analysis) => analysis.tone), 4);
-  const layout = unique(analyses.flatMap((analysis) => analysis.layout), 4);
-  const palette = unique(analyses.flatMap((analysis) => analysis.palette.map((color) => color.hex)), 5);
-  const prompt = [
-    style.length ? `Visual language: ${style.join(", ")}.` : "Use the selected visual references as the primary direction.",
-    tone.length ? `Tone: ${tone.join(", ")}.` : null,
-    layout.length ? `Composition: ${layout.join(", ")}.` : null,
-    palette.length ? `Palette cues: ${palette.join(", ")}.` : null,
-    "Use the references for hierarchy, texture, rhythm, and art direction rather than copying brands, logos, or exact layouts.",
-  ].filter(Boolean).join(" ");
-  return {
-    selectedTags: tags,
-    mode,
-    count: matches.length,
-    prompt,
-    references: matches.slice(0, 6).map((item) => ({ id: item.id, title: item.title, sourceUrl: item.sourceUrl, imagePath: item.media?.path ?? null })),
-  };
-}
-
 export default function App() {
-  const [catalog, setCatalog] = useState<CatalogIndex>(EMPTY_INDEX);
+  const [catalog, setCatalog] = useState(EMPTY_INDEX);
   const [taxonomy, setTaxonomy] = useState<Taxonomy>(EMPTY_TAXONOMY);
-  const [staticMode, setStaticMode] = useState(false);
   const [activeTags, setActiveTags] = useState<string[]>([]);
   const [filterMode, setFilterMode] = useState<"and" | "or">("and");
   const [search, setSearch] = useState("");
   const deferredSearch = useDeferredValue(search);
-  const [selected, setSelected] = useState<CatalogItem | null>(null);
-  const [context, setContext] = useState<ContextOutput | null>(null);
+  const [selected, setSelected] = useState<CatalogItem | PublishedCatalogItem | null>(null);
   const [importOpen, setImportOpen] = useState(false);
   const [dropActive, setDropActive] = useState(false);
   const [file, setFile] = useState<File | null>(null);
@@ -101,40 +63,20 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
 
   async function refresh() {
-    try {
-      const [nextCatalog, nextTaxonomy] = await Promise.all([api<CatalogIndex>("/api/catalog"), api<Taxonomy>("/api/taxonomy")]);
-      setCatalog(nextCatalog);
-      setTaxonomy(nextTaxonomy);
-      setStaticMode(false);
-    } catch {
-      const [nextCatalog, nextTaxonomy] = await Promise.all([
-        fetch("/catalog/index.json").then((response) => response.json() as Promise<CatalogIndex>),
-        fetch("/catalog/taxonomy.json").then((response) => response.json() as Promise<Taxonomy>),
-      ]);
-      setCatalog(nextCatalog);
-      setTaxonomy(nextTaxonomy);
-      setStaticMode(true);
+    if (staticMode) {
+      const snapshot = publishedCatalogSchema.parse(await api<unknown>("/catalog/catalog.json"));
+      setCatalog(snapshot);
+      setTaxonomy(snapshot.taxonomy);
+      return;
     }
+    const [nextCatalog, nextTaxonomy] = await Promise.all([api<CatalogIndex>("/api/catalog"), api<Taxonomy>("/api/taxonomy")]);
+    setCatalog(nextCatalog);
+    setTaxonomy(nextTaxonomy);
   }
 
   useEffect(() => {
     refresh().catch((nextError: Error) => setError(nextError.message));
   }, []);
-
-  useEffect(() => {
-    if (!catalog.generatedAt) return;
-    if (staticMode) {
-      setContext(staticContext(catalog.items, activeTags, filterMode));
-      return;
-    }
-    api<ContextOutput>("/api/context", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ tags: activeTags, mode: filterMode }),
-    })
-      .then(setContext)
-      .catch((nextError: Error) => setError(nextError.message));
-  }, [activeTags, filterMode, catalog.generatedAt, staticMode]);
 
   useEffect(() => {
     if (!analysisStartedAt) {
@@ -147,10 +89,11 @@ export default function App() {
     return () => window.clearInterval(timer);
   }, [analysisStartedAt]);
 
+  const context = buildCatalogContext(catalog.items, activeTags, filterMode, window.location.origin);
   const tagLabels = Object.fromEntries(taxonomy.groups.flatMap((group) => group.tags.map((tag) => [tag.id, tag.label])));
   const filteredItems = catalog.items.filter((item) => {
-    const itemTags = allItemTags(item);
-    const tagMatches = !activeTags.length || (filterMode === "and" ? activeTags.every((tag) => itemTags.includes(tag)) : activeTags.some((tag) => itemTags.includes(tag)));
+    const itemTags = catalogItemTagIds(item);
+    const tagMatches = matchesCatalogTags(item, activeTags, filterMode);
     const term = deferredSearch.trim().toLowerCase();
     const searchMatches = !term || [item.title, item.sourceDomain, ...itemTags.map((tag) => tagLabels[tag] ?? tag)].filter(Boolean).join(" ").toLowerCase().includes(term);
     return tagMatches && searchMatches;
@@ -163,12 +106,8 @@ export default function App() {
   async function openItem(id: string) {
     try {
       setBusy(`open-${id}`);
-      const item = staticMode
-        ? await fetch(`/catalog/items/${id}.json`).then((response) => {
-          if (!response.ok) throw new Error("Could not open this static catalog item.");
-          return response.json() as Promise<CatalogItem>;
-        })
-        : await api<CatalogItem>(`/api/items/${id}`);
+      const item = staticMode ? catalog.items.find((candidate) => candidate.id === id) : await api<CatalogItem>(`/api/items/${id}`);
+      if (!item) throw new Error("Could not find this published catalog item.");
       setSelected(item);
     } catch (nextError) {
       setError(nextError instanceof Error ? nextError.message : "Could not open this inspiration.");
@@ -191,10 +130,7 @@ export default function App() {
   function onDrop(event: DragEvent<HTMLElement>) {
     event.preventDefault();
     setDropActive(false);
-    if (staticMode) {
-      setError("This published shelf is read-only. Add references from the local catalog app.");
-      return;
-    }
+    if (staticMode) return;
     const [droppedFile] = Array.from(event.dataTransfer.files);
     const droppedUrl = pullUrl(event);
     if (droppedFile) {
@@ -213,6 +149,7 @@ export default function App() {
 
   async function submitImport(event: FormEvent) {
     event.preventDefault();
+    if (staticMode) return;
     if (!file && !url.trim()) {
       setError("Choose an image or enter a public URL.");
       return;
@@ -240,7 +177,7 @@ export default function App() {
   }
 
   async function saveSelected(patch: Partial<Pick<CatalogItem, "title" | "notes" | "manualTagIds" | "sourceUrl">>) {
-    if (!selected) return;
+    if (!selected || staticMode) return;
     try {
       setBusy("save-item");
       const updated = await api<CatalogItem>(`/api/items/${selected.id}`, {
@@ -259,7 +196,7 @@ export default function App() {
   }
 
   async function analyze(provider: AnalysisProvider) {
-    if (!selected) return;
+    if (!selected || staticMode) return;
     const id = selected.id;
     try {
       setBusy(`analyze-${provider}`);
@@ -289,7 +226,7 @@ export default function App() {
   }
 
   async function cancelAnalysis() {
-    if (!selected) return;
+    if (!selected || staticMode) return;
     try {
       setCancelingAnalysis(true);
       await api<{ message: string }>(`/api/items/${selected.id}/analyze`, { method: "DELETE" });
@@ -301,10 +238,10 @@ export default function App() {
   }
 
   async function removeSelected() {
-    if (!selected || !window.confirm(`Delete '${selected.title}' from this local catalog?`)) return;
+    if (!selected || staticMode || !window.confirm(`Delete '${selected.title}' from this local catalog?`)) return;
     try {
       setBusy("delete-item");
-      await fetch(`/api/items/${selected.id}`, { method: "DELETE" });
+      await api<void>(`/api/items/${selected.id}`, { method: "DELETE" });
       setSelected(null);
       await refresh();
       setNotice("Inspiration deleted.");
@@ -316,7 +253,7 @@ export default function App() {
   }
 
   async function copyContext() {
-    if (!context?.prompt) return;
+    if (!context.count) return;
     await navigator.clipboard.writeText(context.prompt);
     setNotice("Direction copied. Paste it into Pi with the relevant task.");
   }
@@ -326,7 +263,7 @@ export default function App() {
       className={dropActive ? "app is-dropping" : "app"}
       onDragEnter={(event) => {
         event.preventDefault();
-        setDropActive(true);
+        if (!staticMode) setDropActive(true);
       }}
       onDragOver={(event) => event.preventDefault()}
       onDragLeave={(event) => {
@@ -340,9 +277,9 @@ export default function App() {
           <span>NOTES</span>
         </a>
         <div className="topbar-center">A personal reference shelf for things worth looking at twice.</div>
-        <button className="add-button" type="button" onClick={() => setImportOpen(true)} disabled={staticMode} title={staticMode ? "Imports are available in the local catalog app." : undefined}>
+        {staticMode ? <p className="catalog-mode">Read-only catalog</p> : <button className="add-button" type="button" onClick={() => setImportOpen(true)}>
           <span>+</span> Add reference
-        </button>
+        </button>}
       </header>
 
       {(notice || error) && (
@@ -358,8 +295,8 @@ export default function App() {
       <section className="intro">
         <p className="eyebrow">PERSONAL DESIGN ARCHIVE / {catalog.items.length.toString().padStart(3, "0")} REFERENCES</p>
         <h1>Collect the odd,<br />useful, and <em>alive.</em></h1>
-        <p className="intro-copy">Drag a design in, label its visual DNA, then pull a direction when the next blank canvas arrives.</p>
-        <button className="drop-hint" type="button" onClick={() => setImportOpen(true)} disabled={staticMode}>Drop an image or link anywhere</button>
+        <p className="intro-copy">{staticMode ? "Explore saved references, filter by visual language, and pull a direction for your next design." : "Drag a design in, label its visual DNA, then pull a direction when the next blank canvas arrives."}</p>
+        {!staticMode && <button className="drop-hint" type="button" onClick={() => setImportOpen(true)}>Drop an image or link anywhere</button>}
       </section>
 
       <section className="workbench" aria-label="Catalog browser">
@@ -415,7 +352,7 @@ export default function App() {
                     <button className="open-button" type="button" onClick={() => openItem(item.id)} disabled={busy === `open-${item.id}`}>View</button>
                   </div>
                   <div className="card-tags">
-                    {allItemTags(item).slice(0, 4).map((tag) => <span key={tag}>{tagLabels[tag] ?? tag}</span>)}
+                    {catalogItemTagIds(item).slice(0, 4).map((tag) => <span key={tag}>{tagLabels[tag] ?? tag}</span>)}
                   </div>
                 </article>
               ))}
@@ -423,9 +360,9 @@ export default function App() {
           ) : (
             <div className="empty-shelf">
               <p className="eyebrow">THE SHELF IS OPEN</p>
-              <h2>{catalog.items.length ? "No references meet this direction." : "Start with something that catches."}</h2>
-              <p>{catalog.items.length ? "Try removing a tag, switching to Any of, or searching less specifically." : "Drag in a screenshot, image file, or a public page link. Every reference remains local and easy to commit."}</p>
-              <button className="add-button" type="button" onClick={() => setImportOpen(true)} disabled={staticMode}><span>+</span> Add the first one</button>
+              <h2>{catalog.items.length ? "No references meet this direction." : staticMode ? "No references have been published yet." : "Start with something that catches."}</h2>
+              <p>{catalog.items.length ? "Try removing a tag, switching to Any of, or searching less specifically." : staticMode ? "References appear here after the local catalog is published." : "Drag in a screenshot, image file, or a public page link. Every reference remains local and easy to commit."}</p>
+              {!staticMode && <button className="add-button" type="button" onClick={() => setImportOpen(true)}><span>+</span> Add the first one</button>}
             </div>
           )}
         </div>
@@ -446,13 +383,13 @@ export default function App() {
               </button>
             ))}
           </div>
-          <p className="cli-hint"><code>npm run inspo -- context --tags "{activeTags.join(",") || "editorial,warm"}"</code></p>
+          <p className="connection-hint">{staticMode ? <>Connect an agent at <code>/mcp</code>, or <a href="/api/overview">browse the read-only API</a>.</> : "Changes stay in this repository until you commit, push, and publish."}</p>
         </aside>
       </section>
 
-      {dropActive && <div className="drop-overlay"><div><span>+</span><p>Release to add this reference</p><small>Images and public links are both welcome.</small></div></div>}
+      {!staticMode && dropActive && <div className="drop-overlay"><div><span>+</span><p>Release to add this reference</p><small>Images and public links are both welcome.</small></div></div>}
 
-      {importOpen && (
+      {!staticMode && importOpen && (
         <div className="modal-backdrop" role="presentation" onMouseDown={() => setImportOpen(false)}>
           <section className="import-modal" role="dialog" aria-modal="true" aria-labelledby="import-heading" onMouseDown={(event) => event.stopPropagation()}>
             <button className="close-button" type="button" onClick={() => setImportOpen(false)} aria-label="Close import">x</button>
@@ -498,29 +435,29 @@ export default function App() {
             </div>
             <div className="detail-content">
               <p className="eyebrow">{selected.sourceDomain || "LOCAL REFERENCE"}</p>
-              <input className="detail-title" value={selected.title} readOnly={staticMode} onChange={(event) => setSelected({ ...selected, title: event.target.value })} onBlur={() => saveSelected({ title: selected.title })} />
+              {staticMode ? <h2 className="detail-title">{selected.title}</h2> : <input aria-label="Reference title" className="detail-title" value={selected.title} onChange={(event) => setSelected({ ...selected, title: event.target.value })} onBlur={() => saveSelected({ title: selected.title })} />}
               {selected.sourceUrl && <a className="source-link" href={selected.sourceUrl} target="_blank" rel="noreferrer">Open original source</a>}
               <section className="detail-section">
-                <div className="section-heading"><h3>Tags</h3><span>Curated by you</span></div>
+                <div className="section-heading"><h3>Tags</h3><span>{staticMode ? "From the catalog" : "Curated by you"}</span></div>
                 <div className="tag-list editable-tags">
-                  {taxonomy.groups.flatMap((group) => group.tags).map((tag) => {
+                  {staticMode ? catalogItemTagIds(selected).map((tag) => <span className="tag active" key={tag}>{tagLabels[tag] ?? tag}</span>) : taxonomy.groups.flatMap((group) => group.tags).map((tag) => {
                     const active = selected.manualTagIds.includes(tag.id);
                     return <button className={active ? "tag active" : "tag"} type="button" key={tag.id} disabled={staticMode} onClick={() => saveSelected({ manualTagIds: active ? selected.manualTagIds.filter((id) => id !== tag.id) : [...selected.manualTagIds, tag.id] })}>{tag.label}</button>;
                   })}
                 </div>
               </section>
-              <section className="detail-section">
-                <div className="section-heading"><h3>Notes</h3><span>Private</span></div>
-                <textarea value={selected.notes} readOnly={staticMode} placeholder="Why did this one make the cut?" onChange={(event) => setSelected({ ...selected, notes: event.target.value })} onBlur={() => saveSelected({ notes: selected.notes })} />
-              </section>
+              {!staticMode && "notes" in selected && <section className="detail-section">
+                <div className="section-heading"><h3>Notes</h3><span>Local only</span></div>
+                <textarea aria-label="Local notes" value={selected.notes} placeholder="Why did this one make the cut?" onChange={(event) => setSelected({ ...selected, notes: event.target.value })} onBlur={() => saveSelected({ notes: selected.notes })} />
+              </section>}
               <section className="analysis-section">
                 <div className="section-heading"><h3>Visual reading</h3><span>{displayStatus(selected.analysisStatus)}</span></div>
-                {selected.analysisError && <p className="analysis-feedback" role="alert">{selected.analysisError}</p>}
+                {!staticMode && "analysisError" in selected && selected.analysisError && <p className="analysis-feedback" role="alert">{selected.analysisError}</p>}
                 {analysisStartedAt && <div className="analysis-progress" role="status">
                   <span>Reading with {busy === "analyze-pi" ? "Pi" : "OpenAI"}... {analysisElapsed}s</span>
                   <button type="button" onClick={cancelAnalysis} disabled={cancelingAnalysis}>{cancelingAnalysis ? "Canceling..." : "Cancel"}</button>
                 </div>}
-                {selected.analysis ? <AnalysisDisplay analysis={selected.analysis} tagLabels={tagLabels} /> : <p className="analysis-empty">Run a vision pass to pull out palette, typography, layout, tone, and an original hero-image prompt.</p>}
+                {selected.analysis ? <AnalysisDisplay analysis={selected.analysis} tagLabels={tagLabels} /> : <p className="analysis-empty">{staticMode ? "No visual reading has been saved for this reference." : "Run a vision pass to pull out palette, typography, layout, tone, and an original hero-image prompt."}</p>}
                 {selected.media && !staticMode && <div className="analysis-actions">
                   <button type="button" className="analysis-button" onClick={() => analyze("pi")} disabled={busy?.startsWith("analyze")}>{busy === "analyze-pi" ? "Reading image..." : selected.analysis ? "Reanalyze with Pi" : selected.analysisStatus === "failed" || selected.analysisStatus === "canceled" ? "Retry with Pi" : "Analyze with Pi"}</button>
                   <button type="button" className="text-button" onClick={() => analyze("openai")} disabled={busy?.startsWith("analyze")}>{busy === "analyze-openai" ? "Reading image..." : "Use OpenAI"}</button>

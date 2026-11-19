@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "design-inspo",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-19",
+  "compatibility_flags": ["nodejs_compat"],
+  "minify": true,
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api", "/api/*", "/mcp", "/mcp/*"]
+  },
+  "routes": [
+    { "pattern": "design.druejaramillo.com", "custom_domain": true }
+  ]
+}

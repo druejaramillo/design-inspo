@@ -9,7 +9,6 @@ import { runCatalogAnalysis } from "./catalog-analysis.js";
 import {
   createItem,
   deleteItem,
-  getAllItems,
   getIndex,
   getItem,
   getTaxonomy,
@@ -18,7 +17,6 @@ import {
   rebuildIndex,
   updateItem,
 } from "./catalog.js";
-import { buildContext, type FilterMode } from "./context.js";
 
 const app = express();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 12 * 1024 * 1024 } });
@@ -100,16 +98,6 @@ app.delete("/api/items/:id", async (request, response, next) => {
   try {
     await deleteItem(request.params.id);
     response.status(204).end();
-  } catch (error) {
-    next(error);
-  }
-});
-
-app.post("/api/context", async (request, response, next) => {
-  try {
-    const tags = Array.isArray(request.body.tags) ? request.body.tags.filter((tag: unknown): tag is string => typeof tag === "string") : [];
-    const mode: FilterMode = request.body.mode === "or" ? "or" : "and";
-    response.json(buildContext(await getAllItems(), tags, mode));
   } catch (error) {
     next(error);
   }

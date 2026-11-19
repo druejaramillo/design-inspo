@@ -19,6 +19,7 @@ a { color: inherit; }
 .topbar-center { justify-self: center; max-width: 420px; color: #66645d; text-align: center; font-family: Georgia, serif; font-size: 13px; font-style: italic; }
 .add-button, .submit-import { display: inline-flex; justify-content: center; align-items: center; gap: 9px; border: 1px solid #1d201d; color: #f6f2eb; background: #1d201d; padding: 12px 15px; font-size: 12px; font-weight: 700; letter-spacing: .03em; transition: transform 160ms ease, background 160ms ease; }
 .add-button { justify-self: end; }
+.catalog-mode { justify-self: end; margin: 0; color: #5d623e; font-size: 11px; }
 .add-button span { font-size: 20px; line-height: 12px; font-weight: 400; }
 .add-button:hover, .submit-import:hover { transform: translateY(-2px); background: #4d472c; }
 
@@ -86,8 +87,8 @@ a { color: inherit; }
 .direction-references { margin-top: 22px; border-top: 1px solid #9eaa80; }
 .direction-references button { width: 100%; display: flex; justify-content: space-between; gap: 10px; border: 0; border-bottom: 1px solid #9eaa80; padding: 10px 0; color: #2e3828; background: transparent; font-family: Georgia, serif; text-align: left; font-size: 13px; }
 .direction-references small { color: #687157; font-family: Arial, sans-serif; font-size: 9px; text-transform: uppercase; letter-spacing: .07em; }
-.cli-hint { margin: 28px 0 0; color: #58604c; font-size: 10px; line-height: 1.5; overflow-wrap: anywhere; }
-.cli-hint code { font-family: "Courier New", monospace; }
+.connection-hint { margin: 28px 0 0; color: #58604c; font-size: 11px; line-height: 1.5; overflow-wrap: anywhere; }
+.connection-hint code { font-family: "Courier New", monospace; }
 
 .drop-overlay { position: fixed; z-index: 30; inset: 0; display: grid; place-items: center; padding: 30px; background: rgba(29, 32, 29, .72); pointer-events: none; }
 .drop-overlay > div { width: min(420px, 100%); padding: 50px; border: 1px dashed #f7f4e9; color: #f7f4e9; text-align: center; background: rgba(55, 64, 45, .92); }
@@ -120,7 +121,7 @@ a { color: inherit; }
 .detail-image > span { display: grid; height: 100%; min-height: 540px; place-items: center; color: white; font-family: Georgia, serif; }
 .detail-content { padding: 44px 38px 32px; }
 .detail-content > .eyebrow { padding-right: 30px; }
-.detail-title { width: 100%; border: 0; padding: 0; color: #20221e; background: transparent; outline: none; font-family: Georgia, serif; font-size: 37px; font-weight: 400; letter-spacing: -.055em; line-height: .95; }
+.detail-title { width: 100%; border: 0; margin: 0; padding: 0; color: #20221e; background: transparent; outline: none; font-family: Georgia, serif; font-size: 37px; font-weight: 400; letter-spacing: -.055em; line-height: .95; }
 .detail-title:focus { border-bottom: 1px solid #b74a2e; }
 .source-link { display: inline-block; margin-top: 12px; color: #4d5c38; font-size: 11px; font-weight: 700; }
 .detail-section, .analysis-section { padding: 24px 0; border-top: 1px solid #c8c2b6; margin-top: 24px; }
@@ -152,11 +153,11 @@ a { color: inherit; }
   .workbench { grid-template-columns: 214px minmax(0, 1fr); }
   .direction-panel { grid-column: 1 / -1; min-height: 0; border-top: 1px solid #bcb7ad; border-left: 0; display: grid; grid-template-columns: 1fr 1.5fr; column-gap: 30px; }
   .direction-panel .eyebrow, .direction-panel h2, .direction-panel .direction-count { grid-column: 1; }
-  .prompt-card, .copy-button, .direction-references, .cli-hint { grid-column: 2; }
+  .prompt-card, .copy-button, .direction-references, .connection-hint { grid-column: 2; }
   .prompt-card { grid-row: 1 / span 3; }
   .copy-button { margin-top: -101px; align-self: end; }
   .direction-references { display: none; }
-  .cli-hint { margin-top: 12px; }
+  .connection-hint { margin-top: 12px; }
 }
 
 @media (max-width: 760px) {
@@ -180,7 +181,7 @@ a { color: inherit; }
   .direction-panel { display: block; padding: 24px 20px; }
   .prompt-card { margin-top: 18px; }
   .copy-button { margin-top: 9px; }
-  .cli-hint { margin-top: 19px; }
+  .connection-hint { margin-top: 19px; }
   .import-modal { padding: 31px 22px; }
   .detail-modal { display: block; }
   .detail-image, .detail-image > span { min-height: 270px; max-height: 380px; }

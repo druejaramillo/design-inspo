@@ -3,31 +3,35 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "bin": {
-    "inspo": "./bin/inspo.mjs"
-  },
   "scripts": {
     "prebuild": "tsx scripts/export-static.ts",
     "dev": "concurrently -k \"npm:dev:server\" \"npm:dev:web\"",
     "dev:server": "tsx watch server/index.ts",
     "dev:web": "vite",
+    "dev:published": "npm run build && wrangler dev --local --ip 127.0.0.1 --port 8788",
     "build": "tsc -b && vite build",
+    "typecheck": "tsc -b",
+    "check:worker": "npm run build && wrangler deploy --dry-run --outdir .wrangler/deploy",
+    "verify:published": "npm run build && tsx scripts/verify-published.ts",
+    "deploy": "npm run build && wrangler deploy",
     "serve": "tsx server/index.ts",
-    "inspo": "tsx scripts/inspo.ts",
-    "validate": "tsx scripts/inspo.ts validate",
+    "validate": "tsx scripts/validate-catalog.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },
   "dependencies": {
+    "@modelcontextprotocol/server": "^2.4.0",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "multer": "^2.0.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "sharp": "^0.34.3",
-    "zod": "^4.1.5"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261119.1",
+    "@modelcontextprotocol/client": "^2.4.0",
     "@types/express": "^5.0.3",
     "@types/multer": "^2.0.0",
     "@types/node": "^24.3.0",
@@ -38,6 +42,7 @@
     "tsx": "^4.20.5",
     "typescript": "^5.9.2",
     "vite": "^7.1.4",
-    "vitest": "^3.2.4"
+    "vitest": "^3.2.4",
+    "wrangler": "^4.165.0"
   }
 }
